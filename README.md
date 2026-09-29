@@ -78,7 +78,7 @@ Unity 客户端 ──TCP 7756──> Go 服务端 ──┬── MySQL（账�
 ├── server/              # 早期 SQLite 参考实现（仅供协议与回归对照）
 ├── web/                 # GM 控制台前端（React + TypeScript + Vite）
 ├── tools/               # 逆向与补丁工具（Python / C#）
-├── client-patches/      # 客户端成品补丁（服务器地址等）
+├── client-patches/      # 客户端服务器地址补丁成品（用法见其 README）
 ├── 参考数据/            # protocol.proto、反汇编 dump、抓包归档
 ├── datatable_json/      # 原版数据表（76 张，逆向核对用）
 ├── datatable/           # 数据表中间产物
@@ -125,8 +125,33 @@ python test/<脚本>.py
 
 ## 客户端准备与服务器地址修改
 
-> 本仓库**不包含游戏客户端本体**（含原版美术、音频与代码，属版权资源）。
-> 请自备原版客户端，然后按下面的方式修改服务器地址。
+> 本仓库**不包含游戏客户端本体**（含美术、音频与代码，属他人版权资源）。
+
+### 在哪里获取客户端
+
+本项目的客户端由**该游戏当前的服务端作者**制作（他同时是现在运营中的服务器作者），
+**不是**原始官方发行版本。获取方式：
+
+| 渠道 | 方法 |
+|---|---|
+| **Bilibili** | 搜索「**奇妙之旅**」 |
+| **QQ** | 搜索「**奇妙之旅**」（群 / 频道） |
+
+客户端目录结构大致如下：
+
+```
+梦幻奇遇记/
+├── 梦幻奇遇记.exe
+├── UnityPlayer.dll
+└── 梦幻奇遇记_Data/
+    ├── Managed/                    # 程序集
+    ├── StreamingAssets/yoo/        # 资源 bundle
+    └── resources.assets            # ★ 服务器地址存在这里
+```
+
+> 客户端不是本项目作者的作品，本项目仅对其做协议兼容与地址改写，**不重新分发**。
+
+### 修改服务器地址
 
 客户端为 **Unity + Mono** 构建。服务器地址不是写死在代码里，而是存放在
 `梦幻奇遇记_Data/resources.assets` 内的一段文本资源 `GlobalProto` 中：
@@ -155,6 +180,7 @@ python tools/_patch_client_server.py --restore --asset "<客户端>/梦幻奇遇
 ```
 
 `client-patches/127.0.0.1/resources.assets` 是已经打好的成品示例（指向 `127.0.0.1:7756`）。
+**用法、校验与回滚的完整说明见 [`client-patches/README.md`](client-patches/README.md)。**
 
 其他客户端功能补丁（UI 行为、界面可见性、交易、商城数量等）见
 `文档/25-客户端补丁清单与回滚图.md`，安装脚本位于 `tools/`。

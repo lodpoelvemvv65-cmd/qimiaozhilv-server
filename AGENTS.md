@@ -241,7 +241,7 @@ RoleGrowth/EquipBase/GoodsBase 等）。当前 `server-mysql` 生产运行时不
 - `梦幻奇遇记_Data\resources.assets` 中 `Address`、`LocalAddress` 都是 `127.0.0.1:7756`，`isLocal=true`。
 - `Hotfix.dll` 与 `HotfixView.dll` 当前保持原版哈希，未安装本地功能 DLL 补丁。
 - 不得拿它测试本地服，也不得把它的 `resources.assets` 覆盖回 `client-test/`。
-- 地址补丁源文件保存在 `client-patches/127.0.0.1/resources.assets`。
+- 地址补丁成品保存在 `client-patches/127.0.0.1/resources.assets`，用法见 `client-patches/README.md`。
 
 ## _archive/ — 一次性/临时文件归档
 
