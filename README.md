@@ -34,14 +34,6 @@
 
 ### 客户端在哪里
 
-**推荐：直接下载打好全部补丁的客户端**（不用自己打补丁，省事且不会打错）：
-
-> **网盘下载**：<https://pan.baidu.com/s/12qZqQ-939XKrPGOpUMck1g?pwd=sfsb>
-> **提取码**：`sfsb`
-
-解压后默认连 `127.0.0.1:7756`，先按 [快速开始](#快速开始) 把服务端跑起来即可；
-或者用 `tools/_patch_client_server.py` 改成你自己的服务器地址
-（见 [`client-patches/README.md`](client-patches/README.md)）。
 
 ---
 
