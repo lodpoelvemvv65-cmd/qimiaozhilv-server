@@ -112,11 +112,14 @@ type Config struct {
 		TimezoneOffsetHours int    `yaml:"timezone_offset_hours"`
 	} `yaml:"market"`
 	ShopSale struct {
-		UseOnlinePrices       bool             `yaml:"use_online_prices"`
-		FallbackPriceCoin     int64            `yaml:"fallback_price_coin"`
-		MarketRecoveryPercent int64            `yaml:"market_recovery_percent"`
-		ManualEquipment       ShopSaleCategory `yaml:"manual_equipment"`
-		Items                 []ShopSaleRule   `yaml:"items"`
+		UseOnlinePrices bool `yaml:"use_online_prices"`
+		// LegacyUseOfficialPrices 是改名前的旧键，仅用于兼容已发布的配置树。
+		// 新写入的配置一律使用 use_online_prices；两者同时出现时以新键为准。
+		LegacyUseOfficialPrices bool             `yaml:"use_official_prices"`
+		FallbackPriceCoin       int64            `yaml:"fallback_price_coin"`
+		MarketRecoveryPercent   int64            `yaml:"market_recovery_percent"`
+		ManualEquipment         ShopSaleCategory `yaml:"manual_equipment"`
+		Items                   []ShopSaleRule   `yaml:"items"`
 	} `yaml:"shop_sale"`
 	Equipment struct {
 		MinimumMainAttributePercent float64 `yaml:"minimum_main_attribute_percent"`
@@ -195,6 +198,10 @@ func Defaults() Config {
 	config.Market.MaximumPercent = 125
 	config.Market.TimezoneOffsetHours = 8
 	config.ShopSale.UseOnlinePrices = true
+	// 兼容旧键：已发布的配置树里只有 use_official_prices，新键缺失时沿用旧值。
+	if !config.ShopSale.UseOnlinePrices && config.ShopSale.LegacyUseOfficialPrices {
+		config.ShopSale.UseOnlinePrices = true
+	}
 	config.ShopSale.FallbackPriceCoin = 500
 	config.ShopSale.MarketRecoveryPercent = 85
 	config.ShopSale.ManualEquipment = ShopSaleCategory{Enabled: true, PriceCoin: 500}

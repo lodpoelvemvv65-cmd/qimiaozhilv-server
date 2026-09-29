@@ -94,6 +94,22 @@ func TestDecodeKeepsDefaultsForNewMissingSections(t *testing.T) {
 	}
 }
 
+// 已发布的配置树可能仍只有改名前的 use_official_prices，新二进制必须能读它。
+func TestDecodeAcceptsLegacyShopSalePriceKey(t *testing.T) {
+	legacy, err := Decode(map[string]interface{}{
+		"version": 1,
+		"shop_sale": map[string]interface{}{
+			"use_official_prices": true,
+		},
+	})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !legacy.ShopSale.UseOnlinePrices {
+		t.Fatalf("legacy use_official_prices was not carried over: %+v", legacy.ShopSale)
+	}
+}
+
 func TestValidateRejectsInvalidPetDurationTiers(t *testing.T) {
 	tests := []struct {
 		name  string

@@ -359,7 +359,7 @@ assert weapon['equip'].get(1) == 120592, '详情 EquipId 应关联客户端 Equi
 assert weapon['equip'].get(3) == 1, '装备详情 specialKey 应为 1'
 assert weapon['equip'].get(7) == 5, '装备详情 Star 应为 5'
 assert weapon['equip'].get(8) == 4, '装备详情 Quality 应为 4'
-assert weapon['equip'].get(9) == 1, '新装备详情 Level 应为 1'
+assert weapon['equip'].get(9) in (None, 0), '新装备详情 Level 应为 +0 基线（0）'
 assert weapon['equip'].get(10) in (None, 0), '普通模板装备 specialId 应为 0'
 assert weapon['item'].get(4) == 1, '装备实例 Count 应为 1'
 assert weapon['attributes'], '装备详情应包含 mainAttribute 条目'
@@ -367,8 +367,9 @@ assert all(1 <= attr.get(1, 0) <= 31 for attr in weapon['attributes']), \
     'mainAttribute Key 必须使用 AttributeType(1..31): %s' % (weapon['attributes'],)
 assert {attr.get(1) for attr in weapon['attributes']} == {7, 8, 11, 12, 19}, \
     '120592 mainAttribute 键错误: %s' % (weapon['attributes'],)
-assert all(attr.get(2) == 0 for attr in weapon['attributes']), \
-    '模板基础属性 Value 必须为 0，避免客户端重复叠加: %s' % (weapon['attributes'],)
+assert all(-0.25 <= struct.unpack('<f', struct.pack('<I', attr.get(2, 0)))[0] <= 0.25
+           for attr in weapon['attributes']), \
+    'mainAttribute Value 必须是 -25%..+25% 的浮动增量（客户端按 base*(1+delta) 渲染）: %s' % (weapon['attributes'],)
 
 # 先双击错误职业装备，必须返回正常 20272 错误响应且连接不断开。
 wrong_weapon = next(it for it in items if it['item'].get(1) == 120590)
@@ -444,10 +445,11 @@ assert accept_npc_states.get(1012) == 2, \
 assert accept_npc_states.get(1013) == 2, \
     '接取后提交NPC 1013 应同步为 Running(2): %s' % accept_npc_states
 
-# 12) 开始主线战斗 1001（怪物 10001 x2）
+# 12) 开始主线战斗：沙滩场景的 Region 是本地点击槽位(0/1)，不是章节号；
+# 服务端按当前地图(1000601)解析出真实章节 1001（怪物 10001 x2）。
 r = next_rpc()
-op2, b, pushes = send_req(20048, vf(1, 1001) + vf(90, r), r)
-print('[12] StartMainStoryFight region=1001')
+op2, b, pushes = send_req(20048, vf(1, 0) + vf(90, r), r)
+print('[12] StartMainStoryFight slot=0 (沙滩章节 1001)')
 show('M2C_StartMainStoryFight', op2, b)
 msgi = [bb for o, bb in pushes if o == 20050]
 assert msgi, '应推送 MainStoryMonsterInfo(20050)'
@@ -472,11 +474,18 @@ r = next_rpc()
 op2, b, pushes = send_req(20071, vf(1, selected_monster) + vf(90, r), r)
 assert not fld(b, 91), '选择存活敌人应成功'
 
+# 12.5) 把普攻拖进快捷栏槽 0：客户端学技能不会自动进快捷栏，必须玩家拖。
+# 手动点击技能槽(20233)查的就是这个槽，空槽会被静默拒绝。
+r = next_rpc()
+op2, b, pushes = send_req(20229, vf(1, 0) + vf(2, 100001) + vf(90, r), r)
+assert op2 == 20230 and not fld(b, 91), '把普攻拖到快捷栏槽 0 失败'
+assert bytes_fld(b, 1), '拖拽技能后响应应带全量 MainUISlotList'
+
 # 13) 开启自动战斗，第一发必须自动使用普攻并进入服务端权威 5 秒 CD。
 r = next_rpc()
 op2, b, pushes = send_req(20069, vf(1, 1) + vf(90, r), r)
 assert op2 == 20070 and not fld(b, 91), '开启自动战斗失败'
-pushes.extend(collect_until({20075, 20237}, 2.0))
+pushes.extend(collect_until({20075, 20237}, 7.0))
 play = next(bb for o, bb in pushes if o == 20075)
 cdpush = next(bb for o, bb in pushes if o == 20237)
 assert [f for f, _, _ in decode(play)] == [1, 2], \
@@ -495,11 +504,14 @@ assert not fld(b, 91), 'CD 中重复普攻应以 Error=0 静默拒绝，避免�
 assert not any(o in (20075, 20077, 20078, 20237) for o, _ in pushes), \
     '被拒绝的普攻不能产生播放、命中、伤害或新 CD 推送'
 
-time.sleep(5.1)
+# 公开出手间隔是 5000ms（battle_speed.go: playerPublicActionInterval），
+# 留足余量再发第二发，否则会被 public cooldown 静默拒绝。
+time.sleep(6.0)
 r = next_rpc()
 op2, b, pushes = send_req(20233, vf(1, 0) + vf(90, r), r)
-# 胜利结算有 4.2s 延迟（battleVictoryDelay，匹配客户端胜利动画），等够后再 drain。
-time.sleep(4.5)
+# 胜利结算有 4.2s 延迟（battleVictoryDelay，匹配客户端胜利动画），
+# 而且本次普攻还要先走完 start→launch→impact 约 2s，等够后再 drain。
+time.sleep(7.0)
 pushes.extend(drain_following())
 victory = any(o == 20054 for o, _ in pushes)
 print('[13] 第二次合法普攻后 BattleVictory(20054) =', victory)
@@ -516,6 +528,11 @@ assert query_npc_states.get(1013) == 3, \
     '首战胜利后提交NPC 1013 应同步为 Completed(3): %s' % query_npc_states
 assert query_npc_states.get(1012) == 2, \
     '首战胜利后接取NPC 1012 应保持 Running(2): %s' % query_npc_states
+
+# 13.5) 提交前必须先与提交 NPC 1013 对话：validateTaskNPC 要求 lastNPCID == 1013。
+r = next_rpc()
+op2, b, pushes = send_req(20206, vf(1, 1013) + vf(90, r), r)
+assert op2 == 20207 and not fld(b, 91), '与提交NPC 1013 对话失败'
 
 # 14) 完成 10012（击杀计数验证）
 r = next_rpc()
