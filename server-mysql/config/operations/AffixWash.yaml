@@ -1,0 +1,58 @@
+# 梦幻奇遇记洗词缀运营热更参数（配置名：AffixWash）
+#
+# 本文件只负责“洗练词缀”(C2M_RefreshEquipAffix / opcode 20347) 的抽取策略，
+# 与 Gameplay.yaml 相互独立：只调洗词缀概率时不需要重发整棵 Gameplay 配置树。
+#
+# 发布到本地服：
+#   go run ./cmd/publish-config -name AffixWash -source ./config/operations/AffixWash.yaml \
+#     -publisher local-admin -note "update affix wash"
+#
+# 发布成功后工具会写入 MySQL game_config_nodes，并通过 Redis 频道 mhq:config:reload
+# 通知运行中的服务端；服务端先完整校验新配置，再原子切换，失败时继续用旧快照。
+#
+# 注意：洗练的扣费（1000 金币）硬编码在服务端代码里（equip_crafting.go 的
+# affixWashCostCoin），不写进本文件。该价格来自客户端面板本身：FGUI 组件
+# ui://Strength/RefreshEquipUI 的 m_txtPrice 设计期文案就是「花费：1000金」，
+# 且代码从不改写它，详见 文档/14 §7.3。
+
+version: 1
+
+affix:
+  # 本次洗练整体落空的概率（百分数，0-100）。命中时服务端下发空词缀列表，
+  # 客户端 RefreshEquipUI 的 ShowAffixAttribute 会显示“无词缀”。
+  # 落空仍然照常扣费，也不返还任何材料。
+  # 空词缀不是故障：登录修复只在词缀非空时补条数，空列表会原样保留。
+  empty_percent: 20
+
+  # 本次洗练直接产出“六维”词条的概率（百分数）。六维指力量/敏捷/精神/智慧/
+  # 体质/耐力相关的词条，单属性、双属性、三属性都算。
+  # 命中时本次只产出 1 条六维词条，不再叠加普通词条；它在 37 个词条里随机取一条。
+  # 原版洗练里六维占 43.2% 的词条，由本值单独控制，把它压回稀有。
+  six_dimension_percent: 5
+
+  # 本次洗练直接产出“满六维”的概率（百分数）。满六维固定取线上最高档、与装备
+  # 品质无关：就是四个三属性六维词条（family 34/35/36/37，即 3436000/3536000/
+  # 3636000/3736000）的 510 + 255 + 255。六维的档位阶梯里只有档5 出 510，而
+  # 六维路径（见下面的 six_dimension_tiers）最高只到档4，所以 510 只有这条路径产出。
+  # 它独立于 six_dimension_percent，不叠加计算，命中时不再判定后者。
+  # 期望花费 = 100000 / 本值 金币（单次收费 1000 金币）：0.1→100万、0.0333→300万、
+  # 0.03→333万。是期望不是保底：0.03 时中位数约 231 万，95% 的玩家在 999 万内出。
+  six_dimension_full_percent: 0.03
+
+  # 六维（含满六维）按装备品质色取哪一档。档位就是 EquipAffixConfig.AffixArr 的
+  # 下标+1，1..5。必须把 1..6 六种品质全部写出来，缺一个或重复都会发布失败。
+  # 默认整体上抬一档：白/绿取档2、蓝/紫取档3、橙/红取档4，避免白装六维只有个位数。
+  # 品质色：1白 2绿 3蓝 4紫 5橙 6红。
+  six_dimension_tiers:
+    - quality: 1
+      tier: 2
+    - quality: 2
+      tier: 2
+    - quality: 3
+      tier: 3
+    - quality: 4
+      tier: 3
+    - quality: 5
+      tier: 4
+    - quality: 6
+      tier: 4

@@ -1,0 +1,99 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Desc": "失败",
+   "IsForceCity": true
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Desc": "普通主线",
+   "IsOpenTranPoint": true,
+   "TransPos": [
+    14,
+    -1.5
+   ],
+   "IsKillMonsterGiveItem": true
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Desc": "主线boss",
+   "IsForceCity": true,
+   "IsAddMainStoryRecord": true,
+   "IsKillMonsterGiveItem": true
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Desc": "boss",
+   "IsKillMonsterGiveItem": true
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Desc": "家族boss",
+   "IsForceCity": true
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Desc": "试炼",
+   "IsForceNextLayer": true,
+   "IsKillMonsterGiveItem": true,
+   "IsUpdateTrialCopyRecord": true
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Desc": "pk"
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Desc": "竞技场胜利",
+   "IsAutoRecover": true
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Desc": "竞技场失败",
+   "IsAutoRecover": true
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Desc": "手工",
+   "IsKillMonsterGiveItem": true,
+   "IsUpdateManulEquipRecord": true
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Desc": "XXXX",
+   "IsKillMonsterGiveItem": true
+  }
+ ]
+]

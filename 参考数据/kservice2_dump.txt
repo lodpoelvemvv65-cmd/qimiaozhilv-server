@@ -1,0 +1,150 @@
+=== KService::get_TimeNow (RVA 0x10217) ===
+    0001: call ClientNow
+    0006: ldarg.0
+    0007: ldfld StartTime
+    000C: sub
+    000D: conv.u4
+    000E: ret
+=== KService::KcpOutput (RVA 0x1028C) ===
+    000C: ldsfld kChannels
+    0011: ldarg.3
+    0012: call System.IntPtr::op_Explicit
+    0017: callvirt get_Item
+    001C: ldarg.0
+    001D: ldarg.1
+    001E: callvirt Output
+    0023: leave.s 46
+    0025: call Error
+    002A: ldarg.1
+    002B: stloc.0
+    002C: leave.s 48
+    002E: ldarg.1
+    002F: ret
+    0030: ldloc.0
+    0031: ret
+=== KService::IsDispose (RVA 0x10542) ===
+    0001: ldarg.0
+    0002: ldfld socket
+    0007: ldnull
+    0008: ceq
+    000A: ret
+=== KService::CloneAddress (RVA 0x1059C) ===
+    000C: ldarg.0
+    000D: ldfld ipEndPoint
+    0012: castclass System.Net.IPEndPoint
+    0017: stloc.0
+    0018: ldloc.0
+    0019: callvirt System.Net.IPEndPoint::get_Address
+    001E: ldloc.0
+    001F: callvirt System.Net.IPEndPoint::get_Port
+    0024: newobj System.Net.IPEndPoint::.ctor
+    0029: ret
+=== KService::GetByLocalConn (RVA 0x10824) ===
+    000C: ldarg.0
+    000D: ldfld localConnChannels
+    0012: ldarg.1
+    0013: conv.u8
+    0014: ldloca.s local(0x0000)
+    0016: callvirt TryGetValue
+    001B: pop
+    001C: ldloc.0
+    001D: ret
+=== KService::Disconnect (RVA 0x1096C) ===
+    000C: ldarg.0
+    000D: ldfld socket
+    0012: brtrue.s 25
+    0014: leave 212
+    0019: ldarg.0
+    001A: ldfld cache
+    001F: stloc.0
+    0020: ldloc.0
+    0021: ldc.i4.0
+    0022: ldc.i4.3
+    0023: call WriteTo
+    0028: ldloc.0
+    0029: ldc.i4.1
+    002A: ldarg.1
+    002B: call WriteTo
+    0030: ldloc.0
+    0031: ldc.i4.5
+    0032: ldarg.2
+    0033: call WriteTo
+    0038: ldloc.0
+    0039: ldc.i4.s 9
+    003B: ldarg.3
+    003C: call WriteTo
+    0041: ldc.i4.0
+    0042: stloc.1
+    0043: br.s 92
+    0045: ldarg.0
+    0046: ldfld socket
+    004B: ldloc.0
+    004C: ldc.i4.0
+    004D: ldc.i4.s 13
+    004F: ldc.i4.0
+    0050: ldarg.s argument(0x0004)
+    0052: callvirt System.Net.Sockets.Socket::SendTo
+    0057: pop
+    0058: ldloc.1
+    0059: ldc.i4.1
+    005A: add
+    005B: stloc.1
+    005C: ldloc.1
+    005D: ldarg.s argument(0x0005)
+    005F: blt.s 69
+    0061: leave.s 159
+    0063: stloc.2
+    0064: ldstr 'Disconnect error {0} {1} {2} {3} {4}'
+    0069: ldc.i4.5
+    006A: newarr System.Object
+    006F: dup
+    0070: ldc.i4.0
+    0071: ldarg.1
+    0072: box System.UInt32
+    0077: stelem.ref
+    0078: dup
+    0079: ldc.i4.1
+    007A: ldarg.2
+    007B: box System.UInt32
+    0080: stelem.ref
+    0081: dup
+    0082: ldc.i4.2
+    0083: ldarg.3
+    0084: box System.Int32
+    0089: stelem.ref
+    008A: dup
+    008B: ldc.i4.3
+    008C: ldarg.s argument(0x0004)
+    008E: stelem.ref
+    008F: dup
+    0090: ldc.i4.4
+    0091: ldloc.2
+    0092: stelem.ref
+    0093: call System.String::Format
+    0098: call Error
+    009D: leave.s 159
+    009F: ldstr 'channel send fin: {0} {1} {2} {3}'
+    00A4: ldc.i4.4
+    00A5: newarr System.Object
+    00AA: dup
+    00AB: ldc.i4.0
+    00AC: ldarg.1
+    00AD: box System.UInt32
+    00B2: stelem.ref
+    00B3: dup
+    00B4: ldc.i4.1
+    00B5: ldarg.2
+    00B6: box System.UInt32
+    00BB: stelem.ref
+    00BC: dup
+    00BD: ldc.i4.2
+    00BE: ldarg.s argument(0x0004)
+    00C0: stelem.ref
+    00C1: dup
+    00C2: ldc.i4.3
+    00C3: ldarg.3
+    00C4: box System.Int32
+    00C9: stelem.ref
+    00CA: call System.String::Format
+    00CF: call Info
+    00D4: ret

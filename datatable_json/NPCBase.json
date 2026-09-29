@@ -1,0 +1,287 @@
+[
+ [
+  0,
+  {
+   "_id": 0,
+   "Name": "系统",
+   "Desc": "系统",
+   "DeawingName": "艹",
+   "PrefabId": 0,
+   "SceneId": 0,
+   "MapLayer": 0,
+   "PosX": 0,
+   "PosY": 0,
+   "Dialog": "欢迎来到奇妙之旅，从今天开始你就说这片大陆的一员！"
+  }
+ ],
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Name": "爱神",
+   "Desc": "爱神",
+   "DeawingName": "NPC_lihui_(1)",
+   "PrefabId": 101,
+   "SceneId": 10005,
+   "MapLayer": 1,
+   "PosX": -6.876,
+   "PosY": -1.35,
+   "Dialog": "吾名爱之女神，掌管婚姻！"
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Name": "奇妙炼金术士",
+   "Desc": "奇妙炼金术士",
+   "DeawingName": "NPC_lihui_(2)",
+   "PrefabId": 102,
+   "SceneId": 10005,
+   "MapLayer": 1,
+   "PosX": -0.234,
+   "PosY": -1.36,
+   "Dialog": "昨晚又不小心把药品弄爆炸了，你要来试试我的炼金术么！"
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Name": "奇妙大博士",
+   "Desc": "奇妙大博士",
+   "DeawingName": "NPC_lihui_(3)",
+   "PrefabId": 103,
+   "SceneId": 10005,
+   "MapLayer": 1,
+   "PosX": 8.5,
+   "PosY": -1.37,
+   "Dialog": "想在我这获得奖励？来，让我看看你是不是足够聪明！"
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Name": "万能管家",
+   "Desc": "万能管家",
+   "DeawingName": "NPC_lihui_(4)",
+   "PrefabId": 104,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": -12.294,
+   "PosY": -0.92,
+   "Dialog": "我是你最忠诚的管家，有需要随时可以来找我"
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Name": "练级任务官",
+   "Desc": "练级任务官",
+   "DeawingName": "NPC_lihui_(5)",
+   "PrefabId": 105,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": -9.378,
+   "PosY": -0.92,
+   "Dialog": "不管怎么样，升级是头等大事！"
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Name": "每日任务官",
+   "Desc": "每日任务官",
+   "DeawingName": "NPC_lihui_(6)",
+   "PrefabId": 106,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": -7.631999,
+   "PosY": -0.94,
+   "Dialog": "旁边哪两个难看的女人为什么要跟我站在一起，好难为情啊"
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Name": "冲级任务官",
+   "Desc": "冲级任务官",
+   "DeawingName": "NPC_lihui_(7)",
+   "PrefabId": 107,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": -5.724,
+   "PosY": -0.94,
+   "Dialog": "想在我这里获得奖励没有那么容易哦，除非，你能帮我把旁边两个女人带走的话"
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Name": "普通商店",
+   "Desc": "普通商店",
+   "DeawingName": "NPC_lihui_(8)",
+   "PrefabId": 108,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": -2.862,
+   "PosY": -0.94,
+   "Dialog": "来看看吧，说不定有你想要的呢"
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Name": "寄售商人",
+   "Desc": "寄售商人",
+   "DeawingName": "NPC_lihui_(9)",
+   "PrefabId": 109,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": 0.126,
+   "PosY": -0.94,
+   "Dialog": "来让我看看你的货物是不是硬货，说不定可以卖个好价钱"
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Name": "装备合成大师",
+   "Desc": "装备合成大师",
+   "DeawingName": "NPC_lihui_(10)",
+   "PrefabId": 110,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": 3.762,
+   "PosY": -0.94,
+   "Dialog": "左手青龙偃月刀，右手倚天屠龙记，就那么用锤子一敲就变成了......马桶塞？"
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Name": "炼化大师",
+   "Desc": "炼化大师",
+   "DeawingName": "NPC_lihui_(11)",
+   "PrefabId": 111,
+   "SceneId": 10004,
+   "MapLayer": 1,
+   "PosX": 8.298,
+   "PosY": -0.94,
+   "Dialog": "装备再好也要有我的宝石才更完美"
+  }
+ ],
+ [
+  1012,
+  {
+   "_id": 1012,
+   "Name": "苹果JJ",
+   "Desc": "苹果JJ",
+   "DeawingName": "NPC_lihui_(12)",
+   "PrefabId": 112,
+   "SceneId": 10006,
+   "MapLayer": 1,
+   "PosX": -1.8,
+   "PosY": -0.84,
+   "Dialog": "由于一些原因，此游戏于2012年7月2日下午12：00整停服，关闭服务器，距今已有8年零2个月，经过玩家的共同努力，重新归来！欢迎回家！等你们好久了"
+  }
+ ],
+ [
+  1013,
+  {
+   "_id": 1013,
+   "Name": "荔枝JJ",
+   "Desc": "荔枝JJ",
+   "DeawingName": "NPC_lihui_(13)",
+   "PrefabId": 112,
+   "SceneId": 10006,
+   "MapLayer": 2,
+   "PosX": -1.8,
+   "PosY": -0.84,
+   "Dialog": "由于一些原因，此游戏于2012年7月2日下午12：00整停服，关闭服务器，距今已有8年零2个月，经过玩家的共同努力，重新归来！欢迎回家！等你们好久了"
+  }
+ ],
+ [
+  1014,
+  {
+   "_id": 1014,
+   "Name": "草莓JJ",
+   "Desc": "草莓JJ",
+   "DeawingName": "NPC_lihui_(14)",
+   "PrefabId": 112,
+   "SceneId": 10006,
+   "MapLayer": 3,
+   "PosX": -1.8,
+   "PosY": -0.84,
+   "Dialog": "由于一些原因，此游戏于2012年7月2日下午12：00整停服，关闭服务器，距今已有8年零2个月，经过玩家的共同努力，重新归来！欢迎回家！等你们好久了"
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Name": "蜜桃JJ",
+   "Desc": "蜜桃JJ",
+   "DeawingName": "NPC_lihui_(15)",
+   "PrefabId": 112,
+   "SceneId": 10006,
+   "MapLayer": 4,
+   "PosX": -1.8,
+   "PosY": -0.84,
+   "Dialog": "由于一些原因，此游戏于2012年7月2日下午12：00整停服，关闭服务器，距今已有8年零2个月，经过玩家的共同努力，重新归来！欢迎回家！等你们好久了"
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Name": "创世女神",
+   "Desc": "创世女神",
+   "DeawingName": "NPC_lihui_(16)",
+   "PrefabId": 113,
+   "SceneId": 10007,
+   "MapLayer": 1,
+   "PosX": -6.876,
+   "PosY": -1.35,
+   "Dialog": "创造世界！"
+  }
+ ],
+ [
+  1017,
+  {
+   "_id": 1017,
+   "Name": "毁灭天使",
+   "Desc": "毁灭天使",
+   "DeawingName": "NPC_lihui_(17)",
+   "PrefabId": 114,
+   "SceneId": 10007,
+   "MapLayer": 2,
+   "PosX": 8.5,
+   "PosY": -1.37,
+   "Dialog": "毁灭世界！"
+  }
+ ],
+ [
+  1018,
+  {
+   "_id": 1018,
+   "Name": "时空旅人",
+   "Desc": "时空旅人",
+   "DeawingName": "NPC_lihui_(3)",
+   "PrefabId": 103,
+   "SceneId": 10005,
+   "MapLayer": 1,
+   "PosX": -2.876,
+   "PosY": -1.37,
+   "Dialog": "穿越时空"
+  }
+ ]
+]

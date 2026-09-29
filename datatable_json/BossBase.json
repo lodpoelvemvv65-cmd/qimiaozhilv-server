@@ -1,0 +1,227 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Name": "篮球行者（物）",
+   "MonsterId": 10255,
+   "RefreshInterval": 3600000
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Name": "足球行者（物）",
+   "MonsterId": 10256,
+   "RefreshInterval": 3600000
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Name": "夺命监视者（魔）",
+   "MonsterId": 10257,
+   "RefreshInterval": 3600000
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Name": "刻薄监视者（魔）",
+   "MonsterId": 10258,
+   "RefreshInterval": 3600000
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Name": "暴怒监视者（魔）",
+   "MonsterId": 10259,
+   "RefreshInterval": 3600000
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Name": "致命天使（魔）",
+   "MonsterId": 10260,
+   "RefreshInterval": 5400000
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Name": "红衣裁决者（物）",
+   "MonsterId": 10261,
+   "RefreshInterval": 5400000
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Name": "冷酷裁决者（物）",
+   "MonsterId": 10262,
+   "RefreshInterval": 5400000
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Name": "残暴判决者（物）",
+   "MonsterId": 10263,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Name": "蝙蝠判决者（物）",
+   "MonsterId": 10264,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Name": "幻影萝莉（魔）",
+   "MonsterId": 10265,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1012,
+  {
+   "_id": 1012,
+   "Name": "幻影里昂（魔）",
+   "MonsterId": 10266,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1013,
+  {
+   "_id": 1013,
+   "Name": "幻影隆（物）",
+   "MonsterId": 10267,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1014,
+  {
+   "_id": 1014,
+   "Name": "幻影月野兔（物）",
+   "MonsterId": 10268,
+   "RefreshInterval": 10800000
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Name": "星矢阴暗体（物）",
+   "MonsterId": 10269,
+   "RefreshInterval": 14400000
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Name": "春丽阴暗体（物）",
+   "MonsterId": 10270,
+   "RefreshInterval": 14400000
+  }
+ ],
+ [
+  1017,
+  {
+   "_id": 1017,
+   "Name": "美丽幻象（魔）",
+   "MonsterId": 10271,
+   "RefreshInterval": 14400000
+  }
+ ],
+ [
+  1018,
+  {
+   "_id": 1018,
+   "Name": "魅魔幻象（魔）",
+   "MonsterId": 10272,
+   "RefreshInterval": 14400000
+  }
+ ],
+ [
+  1019,
+  {
+   "_id": 1019,
+   "Name": "妮露阴暗体（物）",
+   "MonsterId": 10273,
+   "RefreshInterval": 21600000
+  }
+ ],
+ [
+  1020,
+  {
+   "_id": 1020,
+   "Name": "舞蹈天团（魔）",
+   "MonsterId": 10274,
+   "RefreshInterval": 21600000
+  }
+ ],
+ [
+  1021,
+  {
+   "_id": 1021,
+   "Name": "妮莉艾露·杜",
+   "MonsterId": 10275,
+   "RefreshInterval": 21600000
+  }
+ ],
+ [
+  1022,
+  {
+   "_id": 1022,
+   "Name": "十番队队长（冰冻）",
+   "MonsterId": 10276,
+   "RefreshInterval": 28800000
+  }
+ ],
+ [
+  1023,
+  {
+   "_id": 1023,
+   "Name": "暗",
+   "MonsterId": 10277,
+   "RefreshInterval": 43200000
+  }
+ ],
+ [
+  1024,
+  {
+   "_id": 1024,
+   "Name": "恶魔使",
+   "MonsterId": 10278,
+   "RefreshInterval": 43200000
+  }
+ ],
+ [
+  1025,
+  {
+   "_id": 1025,
+   "Name": "黑龙",
+   "MonsterId": 10279,
+   "RefreshInterval": 300000
+  }
+ ]
+]

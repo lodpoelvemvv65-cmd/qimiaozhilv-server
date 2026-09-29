@@ -1,0 +1,40 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Y": 2025,
+   "M": 1,
+   "D": 3,
+   "Version": 1,
+   "LevelLimit": 21500,
+   "PowerLimit": 0,
+   "RewardArr": [
+    {
+     "_t": "MaintainRewardConfig+Reward",
+     "_Id": 110203,
+     "Count": 150000000
+    }
+   ]
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Y": 2025,
+   "M": 1,
+   "D": 3,
+   "Version": 1,
+   "LevelLimit": 4000,
+   "PowerLimit": 0,
+   "RewardArr": [
+    {
+     "_t": "MaintainRewardConfig+Reward",
+     "_Id": 110204,
+     "Count": 5000
+    }
+   ]
+  }
+ ]
+]

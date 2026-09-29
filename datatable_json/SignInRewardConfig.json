@@ -1,0 +1,5826 @@
+[
+ [
+  2339,
+  {
+   "_id": 2339,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2340,
+  {
+   "_id": 2340,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2341,
+  {
+   "_id": 2341,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2342,
+  {
+   "_id": 2342,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2343,
+  {
+   "_id": 2343,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2344,
+  {
+   "_id": 2344,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2345,
+  {
+   "_id": 2345,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2346,
+  {
+   "_id": 2346,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2347,
+  {
+   "_id": 2347,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2348,
+  {
+   "_id": 2348,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2349,
+  {
+   "_id": 2349,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2350,
+  {
+   "_id": 2350,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2351,
+  {
+   "_id": 2351,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2352,
+  {
+   "_id": 2352,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2353,
+  {
+   "_id": 2353,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2354,
+  {
+   "_id": 2354,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2355,
+  {
+   "_id": 2355,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2356,
+  {
+   "_id": 2356,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2357,
+  {
+   "_id": 2357,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2358,
+  {
+   "_id": 2358,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2359,
+  {
+   "_id": 2359,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2360,
+  {
+   "_id": 2360,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2361,
+  {
+   "_id": 2361,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2362,
+  {
+   "_id": 2362,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2363,
+  {
+   "_id": 2363,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2364,
+  {
+   "_id": 2364,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2365,
+  {
+   "_id": 2365,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2366,
+  {
+   "_id": 2366,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2367,
+  {
+   "_id": 2367,
+   "Year": 2025,
+   "Month": 1,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2368,
+  {
+   "_id": 2368,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2369,
+  {
+   "_id": 2369,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2370,
+  {
+   "_id": 2370,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2371,
+  {
+   "_id": 2371,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2372,
+  {
+   "_id": 2372,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2373,
+  {
+   "_id": 2373,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2374,
+  {
+   "_id": 2374,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2375,
+  {
+   "_id": 2375,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2376,
+  {
+   "_id": 2376,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2377,
+  {
+   "_id": 2377,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2378,
+  {
+   "_id": 2378,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2379,
+  {
+   "_id": 2379,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2380,
+  {
+   "_id": 2380,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2381,
+  {
+   "_id": 2381,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2382,
+  {
+   "_id": 2382,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2383,
+  {
+   "_id": 2383,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2384,
+  {
+   "_id": 2384,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2385,
+  {
+   "_id": 2385,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2386,
+  {
+   "_id": 2386,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2387,
+  {
+   "_id": 2387,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2388,
+  {
+   "_id": 2388,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2389,
+  {
+   "_id": 2389,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2390,
+  {
+   "_id": 2390,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2391,
+  {
+   "_id": 2391,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2392,
+  {
+   "_id": 2392,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2393,
+  {
+   "_id": 2393,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2394,
+  {
+   "_id": 2394,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2395,
+  {
+   "_id": 2395,
+   "Year": 2025,
+   "Month": 2,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2396,
+  {
+   "_id": 2396,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 100
+    }
+   ]
+  }
+ ],
+ [
+  2397,
+  {
+   "_id": 2397,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2398,
+  {
+   "_id": 2398,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2399,
+  {
+   "_id": 2399,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2400,
+  {
+   "_id": 2400,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2401,
+  {
+   "_id": 2401,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2402,
+  {
+   "_id": 2402,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2403,
+  {
+   "_id": 2403,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2404,
+  {
+   "_id": 2404,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2405,
+  {
+   "_id": 2405,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2406,
+  {
+   "_id": 2406,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2407,
+  {
+   "_id": 2407,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2408,
+  {
+   "_id": 2408,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2409,
+  {
+   "_id": 2409,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2410,
+  {
+   "_id": 2410,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2411,
+  {
+   "_id": 2411,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2412,
+  {
+   "_id": 2412,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2413,
+  {
+   "_id": 2413,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2414,
+  {
+   "_id": 2414,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2415,
+  {
+   "_id": 2415,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2416,
+  {
+   "_id": 2416,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2417,
+  {
+   "_id": 2417,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2418,
+  {
+   "_id": 2418,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2419,
+  {
+   "_id": 2419,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2420,
+  {
+   "_id": 2420,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2421,
+  {
+   "_id": 2421,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2422,
+  {
+   "_id": 2422,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2423,
+  {
+   "_id": 2423,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2424,
+  {
+   "_id": 2424,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2425,
+  {
+   "_id": 2425,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2426,
+  {
+   "_id": 2426,
+   "Year": 2025,
+   "Month": 3,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2427,
+  {
+   "_id": 2427,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2428,
+  {
+   "_id": 2428,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2429,
+  {
+   "_id": 2429,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2430,
+  {
+   "_id": 2430,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2431,
+  {
+   "_id": 2431,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2432,
+  {
+   "_id": 2432,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2433,
+  {
+   "_id": 2433,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2434,
+  {
+   "_id": 2434,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2435,
+  {
+   "_id": 2435,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2436,
+  {
+   "_id": 2436,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2437,
+  {
+   "_id": 2437,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2438,
+  {
+   "_id": 2438,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2439,
+  {
+   "_id": 2439,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2440,
+  {
+   "_id": 2440,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2441,
+  {
+   "_id": 2441,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2442,
+  {
+   "_id": 2442,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2443,
+  {
+   "_id": 2443,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2444,
+  {
+   "_id": 2444,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2445,
+  {
+   "_id": 2445,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2446,
+  {
+   "_id": 2446,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2447,
+  {
+   "_id": 2447,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2448,
+  {
+   "_id": 2448,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2449,
+  {
+   "_id": 2449,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2450,
+  {
+   "_id": 2450,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2451,
+  {
+   "_id": 2451,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2452,
+  {
+   "_id": 2452,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2453,
+  {
+   "_id": 2453,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2454,
+  {
+   "_id": 2454,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2455,
+  {
+   "_id": 2455,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2456,
+  {
+   "_id": 2456,
+   "Year": 2025,
+   "Month": 4,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2457,
+  {
+   "_id": 2457,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2458,
+  {
+   "_id": 2458,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2459,
+  {
+   "_id": 2459,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2460,
+  {
+   "_id": 2460,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2461,
+  {
+   "_id": 2461,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2462,
+  {
+   "_id": 2462,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2463,
+  {
+   "_id": 2463,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2464,
+  {
+   "_id": 2464,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2465,
+  {
+   "_id": 2465,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2466,
+  {
+   "_id": 2466,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2467,
+  {
+   "_id": 2467,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2468,
+  {
+   "_id": 2468,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2469,
+  {
+   "_id": 2469,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2470,
+  {
+   "_id": 2470,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2471,
+  {
+   "_id": 2471,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2472,
+  {
+   "_id": 2472,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2473,
+  {
+   "_id": 2473,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2474,
+  {
+   "_id": 2474,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2475,
+  {
+   "_id": 2475,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2476,
+  {
+   "_id": 2476,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2477,
+  {
+   "_id": 2477,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2478,
+  {
+   "_id": 2478,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2479,
+  {
+   "_id": 2479,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2480,
+  {
+   "_id": 2480,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2481,
+  {
+   "_id": 2481,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2482,
+  {
+   "_id": 2482,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2483,
+  {
+   "_id": 2483,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2484,
+  {
+   "_id": 2484,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2485,
+  {
+   "_id": 2485,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2486,
+  {
+   "_id": 2486,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2487,
+  {
+   "_id": 2487,
+   "Year": 2025,
+   "Month": 5,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2488,
+  {
+   "_id": 2488,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2489,
+  {
+   "_id": 2489,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2490,
+  {
+   "_id": 2490,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2491,
+  {
+   "_id": 2491,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2492,
+  {
+   "_id": 2492,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2493,
+  {
+   "_id": 2493,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2494,
+  {
+   "_id": 2494,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2495,
+  {
+   "_id": 2495,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2496,
+  {
+   "_id": 2496,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2497,
+  {
+   "_id": 2497,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2498,
+  {
+   "_id": 2498,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2499,
+  {
+   "_id": 2499,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2500,
+  {
+   "_id": 2500,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2501,
+  {
+   "_id": 2501,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2502,
+  {
+   "_id": 2502,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2503,
+  {
+   "_id": 2503,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2504,
+  {
+   "_id": 2504,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2505,
+  {
+   "_id": 2505,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2506,
+  {
+   "_id": 2506,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2507,
+  {
+   "_id": 2507,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2508,
+  {
+   "_id": 2508,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2509,
+  {
+   "_id": 2509,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2510,
+  {
+   "_id": 2510,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2511,
+  {
+   "_id": 2511,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2512,
+  {
+   "_id": 2512,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2513,
+  {
+   "_id": 2513,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2514,
+  {
+   "_id": 2514,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2515,
+  {
+   "_id": 2515,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2516,
+  {
+   "_id": 2516,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2517,
+  {
+   "_id": 2517,
+   "Year": 2025,
+   "Month": 6,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2518,
+  {
+   "_id": 2518,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2519,
+  {
+   "_id": 2519,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2520,
+  {
+   "_id": 2520,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2521,
+  {
+   "_id": 2521,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2522,
+  {
+   "_id": 2522,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2523,
+  {
+   "_id": 2523,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2524,
+  {
+   "_id": 2524,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2525,
+  {
+   "_id": 2525,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2526,
+  {
+   "_id": 2526,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2527,
+  {
+   "_id": 2527,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2528,
+  {
+   "_id": 2528,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2529,
+  {
+   "_id": 2529,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2530,
+  {
+   "_id": 2530,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2531,
+  {
+   "_id": 2531,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2532,
+  {
+   "_id": 2532,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2533,
+  {
+   "_id": 2533,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2534,
+  {
+   "_id": 2534,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2535,
+  {
+   "_id": 2535,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2536,
+  {
+   "_id": 2536,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2537,
+  {
+   "_id": 2537,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2538,
+  {
+   "_id": 2538,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2539,
+  {
+   "_id": 2539,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2540,
+  {
+   "_id": 2540,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2541,
+  {
+   "_id": 2541,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2542,
+  {
+   "_id": 2542,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2543,
+  {
+   "_id": 2543,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2544,
+  {
+   "_id": 2544,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2545,
+  {
+   "_id": 2545,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2546,
+  {
+   "_id": 2546,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2547,
+  {
+   "_id": 2547,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2548,
+  {
+   "_id": 2548,
+   "Year": 2025,
+   "Month": 7,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2549,
+  {
+   "_id": 2549,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2550,
+  {
+   "_id": 2550,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2551,
+  {
+   "_id": 2551,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2552,
+  {
+   "_id": 2552,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2553,
+  {
+   "_id": 2553,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2554,
+  {
+   "_id": 2554,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2555,
+  {
+   "_id": 2555,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2556,
+  {
+   "_id": 2556,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2557,
+  {
+   "_id": 2557,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2558,
+  {
+   "_id": 2558,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2559,
+  {
+   "_id": 2559,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2560,
+  {
+   "_id": 2560,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2561,
+  {
+   "_id": 2561,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2562,
+  {
+   "_id": 2562,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2563,
+  {
+   "_id": 2563,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2564,
+  {
+   "_id": 2564,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2565,
+  {
+   "_id": 2565,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2566,
+  {
+   "_id": 2566,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2567,
+  {
+   "_id": 2567,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2568,
+  {
+   "_id": 2568,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2569,
+  {
+   "_id": 2569,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2570,
+  {
+   "_id": 2570,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2571,
+  {
+   "_id": 2571,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2572,
+  {
+   "_id": 2572,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2573,
+  {
+   "_id": 2573,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2574,
+  {
+   "_id": 2574,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2575,
+  {
+   "_id": 2575,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2576,
+  {
+   "_id": 2576,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2577,
+  {
+   "_id": 2577,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2578,
+  {
+   "_id": 2578,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2579,
+  {
+   "_id": 2579,
+   "Year": 2025,
+   "Month": 8,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2580,
+  {
+   "_id": 2580,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2581,
+  {
+   "_id": 2581,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2582,
+  {
+   "_id": 2582,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2583,
+  {
+   "_id": 2583,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2584,
+  {
+   "_id": 2584,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2585,
+  {
+   "_id": 2585,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2586,
+  {
+   "_id": 2586,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2587,
+  {
+   "_id": 2587,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2588,
+  {
+   "_id": 2588,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2589,
+  {
+   "_id": 2589,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2590,
+  {
+   "_id": 2590,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2591,
+  {
+   "_id": 2591,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2592,
+  {
+   "_id": 2592,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2593,
+  {
+   "_id": 2593,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2594,
+  {
+   "_id": 2594,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2595,
+  {
+   "_id": 2595,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2596,
+  {
+   "_id": 2596,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2597,
+  {
+   "_id": 2597,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2598,
+  {
+   "_id": 2598,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2599,
+  {
+   "_id": 2599,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2600,
+  {
+   "_id": 2600,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2601,
+  {
+   "_id": 2601,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2602,
+  {
+   "_id": 2602,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2603,
+  {
+   "_id": 2603,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2604,
+  {
+   "_id": 2604,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2605,
+  {
+   "_id": 2605,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2606,
+  {
+   "_id": 2606,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2607,
+  {
+   "_id": 2607,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2608,
+  {
+   "_id": 2608,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2609,
+  {
+   "_id": 2609,
+   "Year": 2025,
+   "Month": 9,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2610,
+  {
+   "_id": 2610,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2611,
+  {
+   "_id": 2611,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2612,
+  {
+   "_id": 2612,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2613,
+  {
+   "_id": 2613,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2614,
+  {
+   "_id": 2614,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2615,
+  {
+   "_id": 2615,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2616,
+  {
+   "_id": 2616,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2617,
+  {
+   "_id": 2617,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2618,
+  {
+   "_id": 2618,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2619,
+  {
+   "_id": 2619,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2620,
+  {
+   "_id": 2620,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2621,
+  {
+   "_id": 2621,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2622,
+  {
+   "_id": 2622,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2623,
+  {
+   "_id": 2623,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2624,
+  {
+   "_id": 2624,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2625,
+  {
+   "_id": 2625,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2626,
+  {
+   "_id": 2626,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2627,
+  {
+   "_id": 2627,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2628,
+  {
+   "_id": 2628,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2629,
+  {
+   "_id": 2629,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2630,
+  {
+   "_id": 2630,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2631,
+  {
+   "_id": 2631,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2632,
+  {
+   "_id": 2632,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2633,
+  {
+   "_id": 2633,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2634,
+  {
+   "_id": 2634,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2635,
+  {
+   "_id": 2635,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2636,
+  {
+   "_id": 2636,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2637,
+  {
+   "_id": 2637,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2638,
+  {
+   "_id": 2638,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2639,
+  {
+   "_id": 2639,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2640,
+  {
+   "_id": 2640,
+   "Year": 2025,
+   "Month": 10,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2641,
+  {
+   "_id": 2641,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2642,
+  {
+   "_id": 2642,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2643,
+  {
+   "_id": 2643,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2644,
+  {
+   "_id": 2644,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2645,
+  {
+   "_id": 2645,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2646,
+  {
+   "_id": 2646,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2647,
+  {
+   "_id": 2647,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2648,
+  {
+   "_id": 2648,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2649,
+  {
+   "_id": 2649,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2650,
+  {
+   "_id": 2650,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2651,
+  {
+   "_id": 2651,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2652,
+  {
+   "_id": 2652,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2653,
+  {
+   "_id": 2653,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2654,
+  {
+   "_id": 2654,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2655,
+  {
+   "_id": 2655,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2656,
+  {
+   "_id": 2656,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2657,
+  {
+   "_id": 2657,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2658,
+  {
+   "_id": 2658,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2659,
+  {
+   "_id": 2659,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2660,
+  {
+   "_id": 2660,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2661,
+  {
+   "_id": 2661,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2662,
+  {
+   "_id": 2662,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2663,
+  {
+   "_id": 2663,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2664,
+  {
+   "_id": 2664,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2665,
+  {
+   "_id": 2665,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2666,
+  {
+   "_id": 2666,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2667,
+  {
+   "_id": 2667,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2668,
+  {
+   "_id": 2668,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2669,
+  {
+   "_id": 2669,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2670,
+  {
+   "_id": 2670,
+   "Year": 2025,
+   "Month": 11,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2671,
+  {
+   "_id": 2671,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2672,
+  {
+   "_id": 2672,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 2,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2673,
+  {
+   "_id": 2673,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 3,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2674,
+  {
+   "_id": 2674,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 4,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2675,
+  {
+   "_id": 2675,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 5,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2676,
+  {
+   "_id": 2676,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 6,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2677,
+  {
+   "_id": 2677,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 7,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2678,
+  {
+   "_id": 2678,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 8,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2679,
+  {
+   "_id": 2679,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 9,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2680,
+  {
+   "_id": 2680,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 10,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2681,
+  {
+   "_id": 2681,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 11,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2682,
+  {
+   "_id": 2682,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 12,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2683,
+  {
+   "_id": 2683,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 13,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2684,
+  {
+   "_id": 2684,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 14,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2685,
+  {
+   "_id": 2685,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 15,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2686,
+  {
+   "_id": 2686,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 16,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2687,
+  {
+   "_id": 2687,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 17,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2688,
+  {
+   "_id": 2688,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 18,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2689,
+  {
+   "_id": 2689,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 19,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2690,
+  {
+   "_id": 2690,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 20,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2691,
+  {
+   "_id": 2691,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 21,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2692,
+  {
+   "_id": 2692,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 22,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2693,
+  {
+   "_id": 2693,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 23,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2694,
+  {
+   "_id": 2694,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 24,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2695,
+  {
+   "_id": 2695,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 25,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  2696,
+  {
+   "_id": 2696,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 26,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20441,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  2697,
+  {
+   "_id": 2697,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 27,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  2698,
+  {
+   "_id": 2698,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 28,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 25
+    }
+   ]
+  }
+ ],
+ [
+  2699,
+  {
+   "_id": 2699,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 29,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 30
+    }
+   ]
+  }
+ ],
+ [
+  2700,
+  {
+   "_id": 2700,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 30,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 35
+    }
+   ]
+  }
+ ],
+ [
+  2701,
+  {
+   "_id": 2701,
+   "Year": 2025,
+   "Month": 12,
+   "Day": 31,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 110204,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  2702,
+  {
+   "_id": 2702,
+   "Year": 2026,
+   "Month": 1,
+   "Day": 1,
+   "RewardsArr": [
+    {
+     "_t": "SignInRewardConfig+Rewards",
+     "_Id": 20440,
+     "Count": 3
+    }
+   ]
+  }
+ ]
+]

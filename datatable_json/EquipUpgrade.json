@@ -1,0 +1,114 @@
+[
+ [
+  0,
+  {
+   "_id": 0,
+   "CanUpgradeArr": [
+    7,
+    8
+   ]
+  }
+ ],
+ [
+  1,
+  {
+   "_id": 1,
+   "CanUpgradeArr": [
+    10
+   ]
+  }
+ ],
+ [
+  2,
+  {
+   "_id": 2,
+   "CanUpgradeArr": [
+    9
+   ]
+  }
+ ],
+ [
+  3,
+  {
+   "_id": 3,
+   "CanUpgradeArr": [
+    10
+   ]
+  }
+ ],
+ [
+  4,
+  {
+   "_id": 4,
+   "CanUpgradeArr": [
+    7,
+    8
+   ]
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "CanUpgradeArr": [
+    7,
+    8
+   ]
+  }
+ ],
+ [
+  6,
+  {
+   "_id": 6,
+   "CanUpgradeArr": [
+    9
+   ]
+  }
+ ],
+ [
+  7,
+  {
+   "_id": 7,
+   "CanUpgradeArr": [
+    7,
+    8
+   ]
+  }
+ ],
+ [
+  8,
+  {
+   "_id": 8,
+   "CanUpgradeArr": [
+    1
+   ]
+  }
+ ],
+ [
+  9,
+  {
+   "_id": 9,
+   "CanUpgradeArr": [
+    1
+   ]
+  }
+ ],
+ [
+  10,
+  {
+   "_id": 10,
+   "CanUpgradeArr": [
+    10
+   ]
+  }
+ ],
+ [
+  11,
+  {
+   "_id": 11,
+   "CanUpgradeArr": [
+    9
+   ]
+  }
+ ]
+]

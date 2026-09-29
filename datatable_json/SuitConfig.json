@@ -1,0 +1,951 @@
+[
+ [
+  400001,
+  {
+   "_id": 400001,
+   "Name": "YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 210
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.03
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.03
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.03
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.03
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120463,
+      120464,
+      120465,
+      120466
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120399,
+      120400,
+      120401,
+      120402
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120495,
+      120496,
+      120497,
+      120498
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120431,
+      120432,
+      120433,
+      120434
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400002,
+  {
+   "_id": 400002,
+   "Name": "改※YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 260
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.04
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.04
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.04
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.04
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120467,
+      120468,
+      120469,
+      120470
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120403,
+      120404,
+      120405,
+      120406
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120499,
+      120500,
+      120501,
+      120502
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120435,
+      120436,
+      120437,
+      120438
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400003,
+  {
+   "_id": 400003,
+   "Name": "极※YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 328
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.05
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.05
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.05
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.05
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120471,
+      120472,
+      120473,
+      120474
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120407,
+      120408,
+      120409,
+      120410
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120503,
+      120504,
+      120505,
+      120506
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120439,
+      120440,
+      120441,
+      120442
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400004,
+  {
+   "_id": 400004,
+   "Name": "尊※YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 410
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.06
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.06
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.06
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.06
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120475,
+      120476,
+      120477,
+      120478
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120411,
+      120412,
+      120413,
+      120414
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120507,
+      120508,
+      120509,
+      120510
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120443,
+      120444,
+      120445,
+      120446
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400005,
+  {
+   "_id": 400005,
+   "Name": "王※YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 512
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.07
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.07
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.07
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.07
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120479,
+      120480,
+      120481,
+      120482
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120415,
+      120416,
+      120417,
+      120418
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120511,
+      120512,
+      120513,
+      120514
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120447,
+      120448,
+      120449,
+      120450
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400006,
+  {
+   "_id": 400006,
+   "Name": "皇※YOYO",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 640
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.08
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.08
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.08
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.08
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120483,
+      120484,
+      120485,
+      120486
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120419,
+      120420,
+      120421,
+      120422
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120515,
+      120516,
+      120517,
+      120518
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120451,
+      120452,
+      120453,
+      120454
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400007,
+  {
+   "_id": 400007,
+   "Name": "生者必灭",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 800
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.09
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.09
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.09
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.09
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120487,
+      120488,
+      120489,
+      120490
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120423,
+      120424,
+      120425,
+      120426
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120519,
+      120520,
+      120521,
+      120522
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120455,
+      120456,
+      120457,
+      120458
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400008,
+  {
+   "_id": 400008,
+   "Name": "影※生者必灭",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 27,
+     "Value": 0.15
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 28,
+     "Value": 0.08
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 29,
+     "Value": 0.05
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.1
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      120491,
+      120492,
+      120493,
+      120494
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      120427,
+      120428,
+      120429,
+      120430
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      120523,
+      120524,
+      120525,
+      120526
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      120459,
+      120460,
+      120461,
+      120462
+     ]
+    }
+   ]
+  }
+ ],
+ [
+  400009,
+  {
+   "_id": 400009,
+   "Name": "转·影※生者必灭",
+   "SuitArr": [
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 3,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 4,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 5,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 6,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 17,
+     "Value": 0.2
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 18,
+     "Value": 0.2
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 20,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 21,
+     "Value": 1000
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 27,
+     "Value": 0.15
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 28,
+     "Value": 0.08
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 29,
+     "Value": 0.05
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 30,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 31,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 22,
+     "Value": 0.1
+    },
+    {
+     "_t": "SuitConfig+Suit",
+     "Key": 23,
+     "Value": 0.1
+    }
+   ],
+   "EquipArr": [
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 1,
+     "EquipIdArr": [
+      121152,
+      121153,
+      121154,
+      121155
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 2,
+     "EquipIdArr": [
+      121088,
+      121089,
+      121090,
+      121091
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 3,
+     "EquipIdArr": [
+      121184,
+      121185,
+      121186,
+      121187
+     ]
+    },
+    {
+     "_t": "SuitConfig+Equip",
+     "Job": 4,
+     "EquipIdArr": [
+      121120,
+      121121,
+      121122,
+      121123
+     ]
+    }
+   ]
+  }
+ ]
+]

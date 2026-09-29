@@ -1,0 +1,47 @@
+[
+ [
+  2101,
+  {
+   "_id": 2101,
+   "MaxLevel": 100,
+   "Exp": 100,
+   "ExpByLevel": 20
+  }
+ ],
+ [
+  2102,
+  {
+   "_id": 2102,
+   "MaxLevel": 150,
+   "Exp": 500,
+   "ExpByLevel": 25
+  }
+ ],
+ [
+  2103,
+  {
+   "_id": 2103,
+   "MaxLevel": 150,
+   "Exp": 500,
+   "ExpByLevel": 25
+  }
+ ],
+ [
+  2104,
+  {
+   "_id": 2104,
+   "MaxLevel": 200,
+   "Exp": 1000,
+   "ExpByLevel": 100
+  }
+ ],
+ [
+  2105,
+  {
+   "_id": 2105,
+   "MaxLevel": 200,
+   "Exp": 1000,
+   "ExpByLevel": 100
+  }
+ ]
+]

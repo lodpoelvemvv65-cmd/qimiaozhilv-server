@@ -1,0 +1,380 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Type": "cmd",
+   "CMD": "sys",
+   "Name": "全服公告",
+   "Example": "sys/aaa",
+   "ParamCount": 1,
+   "Param1Tip": "内容",
+   "Param2Tip": "无",
+   "Result": "发送全服公告:\n{1}"
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Type": "cmd",
+   "CMD": "updateDay",
+   "Name": "全服强制刷新每日一次",
+   "Example": "updateDay/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "全服强制刷新每日一次,刷新所有数据，谨慎操作"
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Type": "cmd",
+   "CMD": "clearPvpCount",
+   "Name": "清理竞技场战斗次数--",
+   "Example": "clearPvpCount/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Type": "cmd",
+   "CMD": "settlePvp",
+   "Name": "结算竞技场奖励",
+   "Example": "settlePvp/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "结算竞技场奖励"
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Type": "cmd",
+   "CMD": "resetPvp",
+   "Name": "重置竞技场--",
+   "Example": "resetPvp/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Type": "cmd",
+   "CMD": "requireStore",
+   "Name": "修复仓库--",
+   "Example": "requireStore/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Type": "cmd",
+   "CMD": "removeInvalidIdMail",
+   "Name": "移除所有玩家邮件中非法id的邮件",
+   "Example": "removeInvalidIdMail/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "移除所有玩家邮件中非法id的邮件"
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Type": "cmd",
+   "CMD": "requireBag",
+   "Name": "修复背包--",
+   "Example": "requireBag/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Type": "cmd",
+   "CMD": "addItem",
+   "Name": "增加物品",
+   "Example": "addItem/110201/100",
+   "ParamCount": 2,
+   "Param1Tip": "Id",
+   "Param2Tip": "数量",
+   "Result": "自己增加物品 {1} * {2}"
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Type": "cmd",
+   "CMD": "addLevel",
+   "Name": "增加等级",
+   "Example": "addLevel/12",
+   "ParamCount": 1,
+   "Param1Tip": "等级",
+   "Param2Tip": "无",
+   "Result": "自己增加等级 {1}"
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Type": "cmd",
+   "CMD": "addAllItem",
+   "Name": "全服发放物品",
+   "Example": "addAllItem/110201/123",
+   "ParamCount": 2,
+   "Param1Tip": "Id",
+   "Param2Tip": "数量",
+   "Result": "全服增加物品 {1} * {2}"
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Type": "cmd",
+   "CMD": "addAllAITime",
+   "Name": "全服增加跑图时间",
+   "Example": "addAllAITime/60",
+   "ParamCount": 1,
+   "Param1Tip": "时间（分钟）",
+   "Param2Tip": "无",
+   "Result": "全服增加跑图时间{1}分钟"
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Type": "cmd",
+   "CMD": "exportUser",
+   "Name": "导出玩家信息",
+   "Example": "copyUser/10001",
+   "ParamCount": 1,
+   "Param1Tip": "uid",
+   "Param2Tip": "无",
+   "Result": "导出玩家配置"
+  }
+ ],
+ [
+  1017,
+  {
+   "_id": 1017,
+   "Type": "cmd",
+   "CMD": "inportUser",
+   "Name": "导入玩家信息",
+   "Example": "inportUser/10001",
+   "ParamCount": 1,
+   "Param1Tip": "uid",
+   "Param2Tip": "uid",
+   "Result": "导入玩家配置"
+  }
+ ],
+ [
+  1018,
+  {
+   "_id": 1018,
+   "Type": "othercmd",
+   "CMD": "modifyPwd",
+   "Name": "修改密码",
+   "Example": "modifyPwd/旧密码/新密码",
+   "ParamCount": 2,
+   "Param1Tip": "旧密码",
+   "Param2Tip": "新密码",
+   "Result": "修改密码 旧密码：{1} 新密码：{2}"
+  }
+ ],
+ [
+  1019,
+  {
+   "_id": 1019,
+   "Type": "othercmd",
+   "CMD": "TransLevel",
+   "Name": "转生",
+   "Example": "TransLevel/昵称/0",
+   "ParamCount": 2,
+   "Param1Tip": "昵称",
+   "Param2Tip": "填0",
+   "Result": "转生 昵称为：{1}"
+  }
+ ],
+ [
+  1020,
+  {
+   "_id": 1020,
+   "Type": "othercmd",
+   "CMD": "winBattle",
+   "Name": "强制胜利",
+   "Example": "winBattle/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "强制胜利"
+  }
+ ],
+ [
+  1021,
+  {
+   "_id": 1021,
+   "Type": "othercmd",
+   "CMD": "addItem",
+   "Name": "增加物品",
+   "Example": "addItem/110201/100",
+   "ParamCount": 2,
+   "Param1Tip": "Id",
+   "Param2Tip": "数量",
+   "Result": "增加物品 {1} * {2}"
+  }
+ ],
+ [
+  1022,
+  {
+   "_id": 1022,
+   "Type": "othercmd",
+   "CMD": "passLevel",
+   "Name": "传送地图",
+   "Example": "passLevel/1000401",
+   "ParamCount": 1,
+   "Param1Tip": "地图Id=SceneId*100+layer",
+   "Param2Tip": "无",
+   "Result": "传送地图 {1} _ {2}层"
+  }
+ ],
+ [
+  1023,
+  {
+   "_id": 1023,
+   "Type": "othercmd",
+   "CMD": "transJob",
+   "Name": "免费转职",
+   "Example": "transJob/1",
+   "ParamCount": 1,
+   "Param1Tip": "职业 1/2/3/4",
+   "Param2Tip": "无",
+   "Result": "免费转职 目标职业为{1}"
+  }
+ ],
+ [
+  1024,
+  {
+   "_id": 1024,
+   "Type": "othercmd",
+   "CMD": "addLevel",
+   "Name": "增加等级",
+   "Example": "addLevel/33",
+   "ParamCount": 1,
+   "Param1Tip": "等级",
+   "Param2Tip": "无",
+   "Result": "增加等级 {1}"
+  }
+ ],
+ [
+  1025,
+  {
+   "_id": 1025,
+   "Type": "othercmd",
+   "CMD": "requireStore",
+   "Name": "修复仓库--",
+   "Example": "requireStore/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1026,
+  {
+   "_id": 1026,
+   "Type": "othercmd",
+   "CMD": "resetCharacter",
+   "Name": "重置玩家技能和属性",
+   "Example": "resetCharacter/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "重置玩家技能和属性"
+  }
+ ],
+ [
+  1027,
+  {
+   "_id": 1027,
+   "Type": "othercmd",
+   "CMD": "resetTeamState",
+   "Name": "重置战斗状态",
+   "Example": "resetTeamState/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "重置战斗状态"
+  }
+ ],
+ [
+  1028,
+  {
+   "_id": 1028,
+   "Type": "othercmd",
+   "CMD": "resetBag",
+   "Name": "重置背包--",
+   "Example": "resetBag/1",
+   "ParamCount": 1,
+   "Param1Tip": "1",
+   "Param2Tip": "无",
+   "Result": "别用"
+  }
+ ],
+ [
+  1029,
+  {
+   "_id": 1029,
+   "Type": "othercmd",
+   "CMD": "queryAccount",
+   "Name": "查询帐号",
+   "Example": "queryAccount/昵称",
+   "ParamCount": 1,
+   "Param1Tip": "昵称",
+   "Param2Tip": "无",
+   "Result": "查询帐号"
+  }
+ ],
+ [
+  1030,
+  {
+   "_id": 1030,
+   "Type": "othercmd",
+   "CMD": "changePetId",
+   "Name": "改宠物Id",
+   "Example": "changePetId/2101",
+   "ParamCount": 1,
+   "Param1Tip": "宠物Id",
+   "Param2Tip": "无",
+   "Result": "改变宠物Id"
+  }
+ ]
+]

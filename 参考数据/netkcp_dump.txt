@@ -1,0 +1,322 @@
+
+===== ET.NetworkHelper =====
+
+--- GetAddressIPs (RVA 0x826C) ---
+    000C: newobj MemberRef::.ctor
+    0011: stloc.0
+    0012: call System.Net.NetworkInformation.NetworkInterface::GetAllNetworkInterfaces
+    0017: stloc.1
+    0018: ldc.i4.0
+    0019: stloc.2
+    001A: br.s 115
+    001C: ldloc.1
+    001D: ldloc.2
+    001E: ldelem.ref
+    001F: stloc.3
+    0020: ldloc.3
+    0021: callvirt System.Net.NetworkInformation.NetworkInterface::get_NetworkInterfaceType
+    0026: ldc.i4.6
+    0027: bne.un.s 111
+    0029: ldloc.3
+    002A: callvirt System.Net.NetworkInformation.NetworkInterface::GetIPProperties
+    002F: callvirt System.Net.NetworkInformation.IPInterfaceProperties::get_UnicastAddresses
+    0034: callvirt System.Net.NetworkInformation.UnicastIPAddressInformationCollection::GetEnumerator
+    0039: stloc.s local(0x0004)
+    003B: br.s 88
+    003D: ldloc.s local(0x0004)
+    003F: callvirt MemberRef::get_Current
+    0044: stloc.s local(0x0005)
+    0046: ldloc.0
+    0047: ldloc.s local(0x0005)
+    0049: callvirt System.Net.NetworkInformation.IPAddressInformation::get_Address
+    004E: callvirt System.Object::ToString
+    0053: callvirt MemberRef::Add
+    0058: ldloc.s local(0x0004)
+    005A: callvirt System.Collections.IEnumerator::MoveNext
+    005F: brtrue.s 61
+    0061: leave.s 111
+    0063: ldloc.s local(0x0004)
+    0065: brfalse.s 110
+    0067: ldloc.s local(0x0004)
+    0069: callvirt System.IDisposable::Dispose
+    006E: endfinally
+    006F: ldloc.2
+    0070: ldc.i4.1
+    0071: add
+    0072: stloc.2
+    0073: ldloc.2
+    0074: ldloc.1
+    0075: ldlen
+    0076: conv.i4
+    0077: blt.s 28
+    0079: ldloc.0
+    007A: callvirt MemberRef::ToArray
+    007F: ret
+
+--- ToIPEndPoint (RVA 0x82FC) ---
+    0001: ldarg.0
+    0002: call System.Net.IPAddress::Parse
+    0007: ldarg.1
+    0008: newobj System.Net.IPEndPoint::.ctor
+    000D: ret
+
+--- ToIPEndPoint (RVA 0x830C) ---
+    000C: ldarg.0
+    000D: ldc.i4.s 58
+    000F: callvirt System.String::LastIndexOf
+    0014: stloc.0
+    0015: ldarg.0
+    0016: ldc.i4.0
+    0017: ldloc.0
+    0018: callvirt System.String::Substring
+    001D: ldarg.0
+    001E: ldloc.0
+    001F: ldc.i4.1
+    0020: add
+    0021: callvirt System.String::Substring
+    0026: call System.Int32::Parse
+    002B: stloc.1
+    002C: ldloc.1
+    002D: call MethodDef::ToIPEndPoint
+    0032: ret
+
+===== ET.NetKcpComponentAwakeSystem =====
+
+--- Awake (RVA 0xE17C) ---
+    000C: ldarg.1
+    000D: newobj MethodDef::.ctor
+    0012: callvirt MethodDef::set_MessageDispatcher
+    0017: ldarg.1
+    0018: ldsfld Field::Instance
+    001D: ldfld Field::ThreadSynchronizationContext
+    0022: ldc.i4.0
+    0023: newobj MethodDef::.ctor
+    0028: stfld Field::Service
+    002D: ldarg.1
+    002E: ldfld Field::Service
+    0033: dup
+    0034: ldfld Field::ErrorCallback
+    0039: ldarg.1
+    003A: ldftn MethodDef::OnError
+    0040: newobj MemberRef::.ctor
+    0045: call System.Delegate::Combine
+    004A: castclass TypeSpec::rid=264
+    004F: stfld Field::ErrorCallback
+    0054: ldarg.1
+    0055: ldfld Field::Service
+    005A: dup
+    005B: ldfld Field::ReadCallback
+    0060: ldarg.1
+    0061: ldftn MethodDef::OnRead
+    0067: newobj MemberRef::.ctor
+    006C: call System.Delegate::Combine
+    0071: castclass TypeSpec::rid=265
+    0076: stfld Field::ReadCallback
+    007B: ldsfld Field::Instance
+    0080: ldarg.1
+    0081: ldfld Field::Service
+    0086: call MethodDef::Add
+    008B: ret
+
+--- .ctor (RVA 0xE208) ---
+    0001: ldarg.0
+    0002: call MemberRef::.ctor
+    0007: ret
+
+===== ET.NetKcpComponentAwake1System =====
+
+--- Awake (RVA 0xE210) ---
+    000C: ldarg.1
+    000D: newobj MethodDef::.ctor
+    0012: callvirt MethodDef::set_MessageDispatcher
+    0017: ldarg.1
+    0018: ldsfld Field::Instance
+    001D: ldfld Field::ThreadSynchronizationContext
+    0022: ldarg.2
+    0023: ldc.i4.0
+    0024: newobj MethodDef::.ctor
+    0029: stfld Field::Service
+    002E: ldarg.1
+    002F: ldfld Field::Service
+    0034: dup
+    0035: ldfld Field::ErrorCallback
+    003A: ldarg.1
+    003B: ldftn MethodDef::OnError
+    0041: newobj MemberRef::.ctor
+    0046: call System.Delegate::Combine
+    004B: castclass TypeSpec::rid=264
+    0050: stfld Field::ErrorCallback
+    0055: ldarg.1
+    0056: ldfld Field::Service
+    005B: dup
+    005C: ldfld Field::ReadCallback
+    0061: ldarg.1
+    0062: ldftn MethodDef::OnRead
+    0068: newobj MemberRef::.ctor
+    006D: call System.Delegate::Combine
+    0072: castclass TypeSpec::rid=265
+    0077: stfld Field::ReadCallback
+    007C: ldarg.1
+    007D: ldfld Field::Service
+    0082: dup
+    0083: ldfld Field::AcceptCallback
+    0088: ldarg.1
+    0089: ldftn MethodDef::OnAccept
+    008F: newobj MemberRef::.ctor
+    0094: call System.Delegate::Combine
+    0099: castclass TypeSpec::rid=266
+    009E: stfld Field::AcceptCallback
+    00A3: ldsfld Field::Instance
+    00A8: ldarg.1
+    00A9: ldfld Field::Service
+    00AE: call MethodDef::Add
+    00B3: ret
+
+--- .ctor (RVA 0xE2C4) ---
+    0001: ldarg.0
+    0002: call MemberRef::.ctor
+    0007: ret
+
+===== ET.NetKcpComponentSystem =====
+
+--- OnRead (RVA 0xE308) ---
+    000C: ldarg.0
+    000D: ldarg.1
+    000E: callvirt MethodSpec::rid=83
+    0013: stloc.0
+    0014: ldloc.0
+    0015: brtrue.s 24
+    0017: ret
+    0018: ldloc.0
+    0019: call MethodDef::ClientNow
+    001E: callvirt MethodDef::set_LastRecvTime
+    0023: ldarg.0
+    0024: callvirt MethodDef::get_MessageDispatcher
+    0029: ldloc.0
+    002A: ldarg.2
+    002B: callvirt MethodDef::Dispatch
+    0030: ret
+
+--- OnError (RVA 0xE33C) ---
+    000C: ldarg.0
+    000D: ldarg.1
+    000E: callvirt MethodSpec::rid=83
+    0013: stloc.0
+    0014: ldloc.0
+    0015: brtrue.s 24
+    0017: ret
+    0018: ldloc.0
+    0019: ldarg.2
+    001A: callvirt MethodDef::set_Error
+    001F: ldloc.0
+    0020: callvirt MethodDef::Dispose
+    0025: ret
+
+--- OnAccept (RVA 0xE362) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: ldarg.0
+    0004: ldfld Field::Service
+    0009: ldc.i4.0
+    000A: call MethodSpec::rid=84
+    000F: dup
+    0010: ldarg.2
+    0011: callvirt MethodDef::set_RemoteAddress
+    0016: dup
+    0017: callvirt MethodSpec::rid=85
+    001C: pop
+    001D: ldc.i4 2000
+    0022: callvirt MethodSpec::rid=86
+    0027: pop
+    0028: ret
+
+--- Get (RVA 0xE38B) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: callvirt MethodSpec::rid=83
+    0008: ret
+
+--- Create (RVA 0xE394) ---
+    000C: call MethodDef::RandInt64
+    0011: stloc.0
+    0012: ldarg.0
+    0013: ldloc.0
+    0014: ldarg.0
+    0015: ldfld Field::Service
+    001A: ldc.i4.0
+    001B: call MethodSpec::rid=84
+    0020: stloc.1
+    0021: ldloc.1
+    0022: ldarg.1
+    0023: callvirt MethodDef::set_RemoteAddress
+    0028: ldloc.1
+    0029: ldc.i4 2000
+    002E: callvirt MethodSpec::rid=86
+    0033: pop
+    0034: ldarg.0
+    0035: ldfld Field::Service
+    003A: ldloc.1
+    003B: callvirt MethodDef::get_Id
+    0040: ldarg.1
+    0041: callvirt MethodDef::GetOrCreate
+    0046: ldloc.1
+    0047: ret
+
+===== ET.NetThreadComponentAwakeSystem =====
+
+--- Awake (RVA 0xE3DC) ---
+    0001: ldarg.1
+    0002: stsfld Field::Instance
+    0007: ldarg.1
+    0008: call MethodDef::get_Instance
+    000D: stfld Field::ThreadSynchronizationContext
+    0012: ret
+
+--- .ctor (RVA 0xE3EF) ---
+    0001: ldarg.0
+    0002: call MemberRef::.ctor
+    0007: ret
+
+===== ET.NetThreadComponentUpdateSystem =====
+
+--- LateUpdate (RVA 0xE3F8) ---
+    000C: ldarg.1
+    000D: ldfld Field::Services
+    0012: callvirt MemberRef::GetEnumerator
+    0017: stloc.0
+    0018: br.s 38
+    001A: ldloca.s local(0x0000)
+    001C: call MemberRef::get_Current
+    0021: callvirt MethodDef::Update
+    0026: ldloca.s local(0x0000)
+    0028: call MemberRef::MoveNext
+    002D: brtrue.s 26
+    002F: leave.s 63
+    0031: ldloca.s local(0x0000)
+    0033: constrained. TypeSpec::rid=268
+    0039: callvirt System.IDisposable::Dispose
+    003E: endfinally
+    003F: ret
+
+--- .ctor (RVA 0xE448) ---
+    0001: ldarg.0
+    0002: call MemberRef::.ctor
+    0007: ret
+
+===== ET.NetKcpComponent =====
+
+--- get_MessageDispatcher (RVA 0xE958) ---
+    0001: ldarg.0
+    0002: ldfld Field::<MessageDispatcher>k__BackingField
+    0007: ret
+
+--- set_MessageDispatcher (RVA 0xE960) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: stfld Field::<MessageDispatcher>k__BackingField
+    0008: ret
+
+--- .ctor (RVA 0xE969) ---
+    0001: ldarg.0
+    0002: call MethodDef::.ctor
+    0007: ret

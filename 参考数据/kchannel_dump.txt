@@ -1,0 +1,898 @@
+=== KChannel::get_LocalConn (RVA 0xF813) ===
+    0001: ldarg.0
+    0002: ldfld <LocalConn>k__BackingField
+    0007: ret
+=== KChannel::set_LocalConn (RVA 0xF81B) ===
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: stfld <LocalConn>k__BackingField
+    0008: ret
+=== KChannel::get_RemoteConn (RVA 0xF824) ===
+    0001: ldarg.0
+    0002: ldfld <RemoteConn>k__BackingField
+    0007: ret
+=== KChannel::set_RemoteConn (RVA 0xF82C) ===
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: stfld <RemoteConn>k__BackingField
+    0008: ret
+=== KChannel::get_IsConnected (RVA 0xF835) ===
+    0001: ldarg.0
+    0002: ldfld <IsConnected>k__BackingField
+    0007: ret
+=== KChannel::set_IsConnected (RVA 0xF83D) ===
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: stfld <IsConnected>k__BackingField
+    0008: ret
+=== KChannel::get_RealAddress (RVA 0xF846) ===
+    0001: ldarg.0
+    0002: ldfld <RealAddress>k__BackingField
+    0007: ret
+=== KChannel::set_RealAddress (RVA 0xF84E) ===
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: stfld <RealAddress>k__BackingField
+    0008: ret
+=== KChannel::InitKcp (RVA 0xF858) ===
+    000C: ldarg.0
+    000D: ldfld Service
+    0012: callvirt get_ServiceType
+    0017: stloc.0
+    0018: ldloc.0
+    0019: brfalse.s 104
+    001B: ldloc.0
+    001C: ldc.i4.1
+    001D: bne.un 173
+    0022: ldarg.0
+    0023: ldfld kcp
+    0028: ldc.i4.1
+    0029: ldc.i4.s 10
+    002B: ldc.i4.2
+    002C: ldc.i4.1
+    002D: call KcpNodelay
+    0032: pop
+    0033: ldarg.0
+    0034: ldfld kcp
+    0039: ldc.i4 102400
+    003E: ldc.i4 102400
+    0043: call KcpWndsize
+    0048: pop
+    0049: ldarg.0
+    004A: ldfld kcp
+    004F: ldc.i4 1400
+    0054: call KcpSetmtu
+    0059: pop
+    005A: ldarg.0
+    005B: ldfld kcp
+    0060: ldc.i4.s 10
+    0062: call KcpSetminrto
+    0067: ret
+    0068: ldarg.0
+    0069: ldfld kcp
+    006E: ldc.i4.1
+    006F: ldc.i4.s 10
+    0071: ldc.i4.2
+    0072: ldc.i4.1
+    0073: call KcpNodelay
+    0078: pop
+    0079: ldarg.0
+    007A: ldfld kcp
+    007F: ldc.i4 128
+    0084: ldc.i4 128
+    0089: call KcpWndsize
+    008E: pop
+    008F: ldarg.0
+    0090: ldfld kcp
+    0095: ldc.i4 470
+    009A: call KcpSetmtu
+    009F: pop
+    00A0: ldarg.0
+    00A1: ldfld kcp
+    00A6: ldc.i4.s 10
+    00A8: call KcpSetminrto
+    00AD: ret
+=== KChannel::.ctor (RVA 0xF908) ===
+    000C: ldarg.0
+    000D: newobj .ctor
+    0012: stfld sendBuffer
+    0017: ldarg.0
+    0018: ldc.i4 1048576
+    001D: newarr System.Byte
+    0022: stfld sendCache
+    0027: ldarg.0
+    0028: call .ctor
+    002D: ldarg.0
+    002E: ldarg.2
+    002F: call set_LocalConn
+    0034: ldsfld kChannels
+    0039: ldarg.0
+    003A: call get_LocalConn
+    003F: callvirt ContainsKey
+    0044: brfalse.s 110
+    0046: ldstr 'channel create error: {0} {1} {2}'
+    004B: ldarg.0
+    004C: call get_LocalConn
+    0051: box System.UInt32
+    0056: ldarg.s argument(0x0004)
+    0058: ldarg.0
+    0059: call get_ChannelType
+    005E: box ChannelType
+    0063: call System.String::Format
+    0068: newobj System.Exception::.ctor
+    006D: throw
+    006E: ldarg.0
+    006F: ldarg.1
+    0070: stfld Id
+    0075: ldarg.0
+    0076: ldc.i4.0
+    0077: call set_ChannelType
+    007C: ldstr 'channel create: {0} {1} {2} {3}'
+    0081: ldc.i4.4
+    0082: newarr System.Object
+    0087: dup
+    0088: ldc.i4.0
+    0089: ldarg.0
+    008A: ldfld Id
+    008F: box System.Int64
+    0094: stelem.ref
+    0095: dup
+    0096: ldc.i4.1
+    0097: ldarg.0
+    0098: call get_LocalConn
+    009D: box System.UInt32
+    00A2: stelem.ref
+    00A3: dup
+    00A4: ldc.i4.2
+    00A5: ldarg.s argument(0x0004)
+    00A7: stelem.ref
+    00A8: dup
+    00A9: ldc.i4.3
+    00AA: ldarg.0
+    00AB: call get_ChannelType
+    00B0: box ChannelType
+    00B5: stelem.ref
+    00B6: call System.String::Format
+    00BB: call Info
+    00C0: ldarg.0
+    00C1: ldarg.s argument(0x0005)
+    00C3: stfld Service
+    00C8: ldarg.0
+    00C9: ldarg.s argument(0x0004)
+    00CB: call set_RemoteAddress
+    00D0: ldarg.0
+    00D1: ldarg.3
+    00D2: stfld socket
+    00D7: ldarg.0
+    00D8: ldarg.0
+    00D9: call get_RemoteConn
+    00DE: ldarg.0
+    00DF: call get_LocalConn
+    00E4: conv.u8
+    00E5: call System.IntPtr::op_Explicit
+    00EA: call KcpCreate
+    00EF: stfld kcp
+    00F4: ldsfld kChannels
+    00F9: ldarg.0
+    00FA: call get_LocalConn
+    00FF: ldarg.0
+    0100: callvirt Add
+    0105: ldarg.0
+    0106: ldarg.s argument(0x0005)
+    0108: callvirt get_TimeNow
+    010D: stfld lastRecvTime
+    0112: ldarg.0
+    0113: ldarg.s argument(0x0005)
+    0115: callvirt get_TimeNow
+    011A: stfld CreateTime
+    011F: ldarg.0
+    0120: call Connect
+    0125: ret
+=== KChannel::.ctor (RVA 0xFA30) ===
+    000C: ldarg.0
+    000D: newobj .ctor
+    0012: stfld sendBuffer
+    0017: ldarg.0
+    0018: ldc.i4 1048576
+    001D: newarr System.Byte
+    0022: stfld sendCache
+    0027: ldarg.0
+    0028: call .ctor
+    002D: ldsfld kChannels
+    0032: ldarg.0
+    0033: call get_LocalConn
+    0038: callvirt ContainsKey
+    003D: brfalse.s 98
+    003F: ldstr 'channel create error: {0} {1} {2}'
+    0044: ldarg.2
+    0045: box System.UInt32
+    004A: ldarg.s argument(0x0005)
+    004C: ldarg.0
+    004D: call get_ChannelType
+    0052: box ChannelType
+    0057: call System.String::Format
+    005C: newobj System.Exception::.ctor
+    0061: throw
+    0062: ldarg.0
+    0063: ldarg.1
+    0064: stfld Id
+    0069: ldarg.0
+    006A: ldc.i4.1
+    006B: call set_ChannelType
+    0070: ldstr 'channel create: {0} {1} {2} {3} {4}'
+    0075: ldc.i4.5
+    0076: newarr System.Object
+    007B: dup
+    007C: ldc.i4.0
+    007D: ldarg.0
+    007E: ldfld Id
+    0083: box System.Int64
+    0088: stelem.ref
+    0089: dup
+    008A: ldc.i4.1
+    008B: ldarg.2
+    008C: box System.UInt32
+    0091: stelem.ref
+    0092: dup
+    0093: ldc.i4.2
+    0094: ldarg.3
+    0095: box System.UInt32
+    009A: stelem.ref
+    009B: dup
+    009C: ldc.i4.3
+    009D: ldarg.s argument(0x0005)
+    009F: stelem.ref
+    00A0: dup
+    00A1: ldc.i4.4
+    00A2: ldarg.0
+    00A3: call get_ChannelType
+    00A8: box ChannelType
+    00AD: stelem.ref
+    00AE: call System.String::Format
+    00B3: call Info
+    00B8: ldarg.0
+    00B9: ldarg.s argument(0x0006)
+    00BB: stfld Service
+    00C0: ldarg.0
+    00C1: ldarg.2
+    00C2: call set_LocalConn
+    00C7: ldarg.0
+    00C8: ldarg.3
+    00C9: call set_RemoteConn
+    00CE: ldarg.0
+    00CF: ldarg.s argument(0x0005)
+    00D1: call set_RemoteAddress
+    00D6: ldarg.0
+    00D7: ldarg.s argument(0x0004)
+    00D9: stfld socket
+    00DE: ldarg.0
+    00DF: ldarg.0
+    00E0: call get_RemoteConn
+    00E5: ldarg.2
+    00E6: conv.u8
+    00E7: call System.IntPtr::op_Explicit
+    00EC: call KcpCreate
+    00F1: stfld kcp
+    00F6: ldsfld kChannels
+    00FB: ldarg.0
+    00FC: call get_LocalConn
+    0101: ldarg.0
+    0102: callvirt Add
+    0107: ldarg.0
+    0108: ldarg.s argument(0x0006)
+    010A: callvirt get_TimeNow
+    010F: stfld lastRecvTime
+    0114: ldarg.0
+    0115: ldarg.s argument(0x0006)
+    0117: callvirt get_TimeNow
+    011C: stfld CreateTime
+    0121: ldarg.0
+    0122: call InitKcp
+    0127: ret
+=== KChannel::Dispose (RVA 0xFB58) ===
+    000C: ldarg.0
+    000D: call get_IsDisposed
+    0012: brfalse.s 21
+    0014: ret
+    0015: ldarg.0
+    0016: call get_LocalConn
+    001B: stloc.0
+    001C: ldarg.0
+    001D: call get_RemoteConn
+    0022: stloc.1
+    0023: ldstr 'channel dispose: {0} {1} {2}'
+    0028: ldarg.0
+    0029: ldfld Id
+    002E: box System.Int64
+    0033: ldloc.0
+    0034: box System.UInt32
+    0039: ldloc.1
+    003A: box System.UInt32
+    003F: call System.String::Format
+    0044: call Info
+    0049: ldsfld kChannels
+    004E: ldloc.0
+    004F: callvirt Remove
+    0054: pop
+    0055: ldsfld idLocalRemoteConn
+    005A: ldarg.0
+    005B: ldfld Id
+    0060: ldloca.s local(0x0003)
+    0062: callvirt TryRemove
+    0067: pop
+    0068: ldarg.0
+    0069: ldfld Id
+    006E: stloc.2
+    006F: ldarg.0
+    0070: ldc.i4.0
+    0071: conv.i8
+    0072: stfld Id
+    0077: ldarg.0
+    0078: ldfld Service
+    007D: ldloc.2
+    007E: callvirt Remove
+    0083: ldarg.0
+    0084: ldfld kcp
+    0089: ldsfld System.IntPtr::Zero
+    008E: call System.IntPtr::op_Inequality
+    0093: brfalse.s 171
+    0095: ldarg.0
+    0096: ldfld kcp
+    009B: call KcpRelease
+    00A0: ldarg.0
+    00A1: ldsfld System.IntPtr::Zero
+    00A6: stfld kcp
+    00AB: ldarg.0
+    00AC: ldnull
+    00AD: stfld socket
+    00B2: ret
+=== KChannel::HandleConnnect (RVA 0xFC0C) ===
+    000C: ldarg.0
+    000D: call get_IsConnected
+    0012: brfalse.s 21
+    0014: ret
+    0015: ldarg.0
+    0016: ldarg.0
+    0017: call get_RemoteConn
+    001C: ldarg.0
+    001D: call get_LocalConn
+    0022: conv.u8
+    0023: newobj System.IntPtr::.ctor
+    0028: call KcpCreate
+    002D: stfld kcp
+    0032: ldarg.0
+    0033: call InitKcp
+    0038: ldarg.0
+    0039: call get_RemoteConn
+    003E: conv.u8
+    003F: ldc.i4.s 32
+    0041: shl
+    0042: ldarg.0
+    0043: call get_LocalConn
+    0048: conv.u8
+    0049: or
+    004A: stloc.0
+    004B: ldsfld idLocalRemoteConn
+    0050: ldarg.0
+    0051: ldfld Id
+    0056: ldloc.0
+    0057: callvirt TryAdd
+    005C: pop
+    005D: ldstr 'channel connected: {0} {1} {2} {3}'
+    0062: ldc.i4.4
+    0063: newarr System.Object
+    0068: dup
+    0069: ldc.i4.0
+    006A: ldarg.0
+    006B: ldfld Id
+    0070: box System.Int64
+    0075: stelem.ref
+    0076: dup
+    0077: ldc.i4.1
+    0078: ldarg.0
+    0079: call get_LocalConn
+    007E: box System.UInt32
+    0083: stelem.ref
+    0084: dup
+    0085: ldc.i4.2
+    0086: ldarg.0
+    0087: call get_RemoteConn
+    008C: box System.UInt32
+    0091: stelem.ref
+    0092: dup
+    0093: ldc.i4.3
+    0094: ldarg.0
+    0095: call get_RemoteAddress
+    009A: stelem.ref
+    009B: call System.String::Format
+    00A0: call Info
+    00A5: ldarg.0
+    00A6: ldc.i4.1
+    00A7: call set_IsConnected
+    00AC: ldarg.0
+    00AD: ldarg.0
+    00AE: ldfld Service
+    00B3: callvirt get_TimeNow
+    00B8: stfld lastRecvTime
+    00BD: ldarg.0
+    00BE: ldfld sendBuffer
+    00C3: callvirt get_Count
+    00C8: ldc.i4.0
+    00C9: ble.s 224
+    00CB: ldarg.0
+    00CC: ldfld sendBuffer
+    00D1: callvirt Dequeue
+    00D6: stloc.1
+    00D7: ldarg.0
+    00D8: ldloc.1
+    00D9: call KcpSend
+    00DE: br.s 189
+    00E0: ret
+=== KChannel::Connect (RVA 0xFCF0) ===
+    000C: ldarg.0
+    000D: ldfld Service
+    0012: callvirt get_TimeNow
+    0017: stloc.0
+    0018: ldarg.0
+    0019: ldloc.0
+    001A: stfld lastRecvTime
+    001F: ldarg.0
+    0020: ldfld sendCache
+    0025: stloc.1
+    0026: ldloc.1
+    0027: ldc.i4.0
+    0028: ldc.i4.1
+    0029: call WriteTo
+    002E: ldloc.1
+    002F: ldc.i4.1
+    0030: ldarg.0
+    0031: call get_LocalConn
+    0036: call WriteTo
+    003B: ldloc.1
+    003C: ldc.i4.5
+    003D: ldarg.0
+    003E: call get_RemoteConn
+    0043: call WriteTo
+    0048: ldarg.0
+    0049: ldfld socket
+    004E: ldloc.1
+    004F: ldc.i4.0
+    0050: ldc.i4.s 9
+    0052: ldc.i4.0
+    0053: ldarg.0
+    0054: call get_RemoteAddress
+    0059: callvirt System.Net.Sockets.Socket::SendTo
+    005E: pop
+    005F: ldstr 'kchannel connect {0} {1} {2} {3} {4}'
+    0064: ldc.i4.5
+    0065: newarr System.Object
+    006A: dup
+    006B: ldc.i4.0
+    006C: ldarg.0
+    006D: ldfld Id
+    0072: box System.Int64
+    0077: stelem.ref
+    0078: dup
+    0079: ldc.i4.1
+    007A: ldarg.0
+    007B: call get_LocalConn
+    0080: box System.UInt32
+    0085: stelem.ref
+    0086: dup
+    0087: ldc.i4.2
+    0088: ldarg.0
+    0089: call get_RemoteConn
+    008E: box System.UInt32
+    0093: stelem.ref
+    0094: dup
+    0095: ldc.i4.3
+    0096: ldarg.0
+    0097: call get_RealAddress
+    009C: stelem.ref
+    009D: dup
+    009E: ldc.i4.4
+    009F: ldarg.0
+    00A0: ldfld socket
+    00A5: callvirt System.Net.Sockets.Socket::get_LocalEndPoint
+    00AA: stelem.ref
+    00AB: call System.String::Format
+    00B0: call Info
+    00B5: ldarg.0
+    00B6: ldfld Service
+    00BB: ldloc.0
+    00BC: ldc.i4 300
+    00C1: add
+    00C2: conv.u8
+    00C3: ldarg.0
+    00C4: ldfld Id
+    00C9: callvirt AddToUpdateNextTime
+    00CE: leave.s 226
+    00D0: call Error
+    00D5: ldarg.0
+    00D6: ldc.i4 100209
+    00DB: call OnError
+    00E0: leave.s 226
+    00E2: ret
+=== KChannel::Update (RVA 0xFDE4) ===
+    000C: ldarg.0
+    000D: call get_IsDisposed
+    0012: brfalse.s 21
+    0014: ret
+    0015: ldarg.0
+    0016: ldfld Service
+    001B: callvirt get_TimeNow
+    0020: stloc.0
+    0021: ldarg.0
+    0022: call get_IsConnected
+    0027: brtrue 181
+    002C: ldloc.0
+    002D: ldarg.0
+    002E: ldfld CreateTime
+    0033: sub
+    0034: ldc.i4 10000
+    0039: ble.un.s 166
+    003B: ldstr 'kChannel connect timeout: {0} {1} {2} {3} {4} {5}'
+    0040: ldc.i4.6
+    0041: newarr System.Object
+    0046: dup
+    0047: ldc.i4.0
+    0048: ldarg.0
+    0049: ldfld Id
+    004E: box System.Int64
+    0053: stelem.ref
+    0054: dup
+    0055: ldc.i4.1
+    0056: ldarg.0
+    0057: call get_RemoteConn
+    005C: box System.UInt32
+    0061: stelem.ref
+    0062: dup
+    0063: ldc.i4.2
+    0064: ldloc.0
+    0065: box System.UInt32
+    006A: stelem.ref
+    006B: dup
+    006C: ldc.i4.3
+    006D: ldarg.0
+    006E: ldfld CreateTime
+    0073: box System.UInt32
+    0078: stelem.ref
+    0079: dup
+    007A: ldc.i4.4
+    007B: ldarg.0
+    007C: call get_ChannelType
+    0081: box ChannelType
+    0086: stelem.ref
+    0087: dup
+    0088: ldc.i4.5
+    0089: ldarg.0
+    008A: call get_RemoteAddress
+    008F: stelem.ref
+    0090: call System.String::Format
+    0095: call Error
+    009A: ldarg.0
+    009B: ldc.i4 100205
+    00A0: call OnError
+    00A5: ret
+    00A6: ldarg.0
+    00A7: call get_ChannelType
+    00AC: brtrue.s 180
+    00AE: ldarg.0
+    00AF: call Connect
+    00B4: ret
+    00B5: nop
+    00B6: ldarg.0
+    00B7: ldfld kcp
+    00BC: ldloc.0
+    00BD: call KcpUpdate
+    00C2: leave.s 214
+    00C4: call Error
+    00C9: ldarg.0
+    00CA: ldc.i4 100210
+    00CF: call OnError
+    00D4: leave.s 264
+    00D6: ldarg.0
+    00D7: ldfld kcp
+    00DC: ldsfld System.IntPtr::Zero
+    00E1: call System.IntPtr::op_Inequality
+    00E6: brfalse.s 264
+    00E8: ldarg.0
+    00E9: ldfld kcp
+    00EE: ldloc.0
+    00EF: call KcpCheck
+    00F4: stloc.1
+    00F5: ldarg.0
+    00F6: ldfld Service
+    00FB: ldloc.1
+    00FC: conv.u8
+    00FD: ldarg.0
+    00FE: ldfld Id
+    0103: callvirt AddToUpdateNextTime
+    0108: ret
+=== KChannel::HandleRecv (RVA 0xFF00) ===
+    000C: ldarg.0
+    000D: call get_IsDisposed
+    0012: brfalse.s 21
+    0014: ret
+    0015: ldarg.0
+    0016: ldc.i4.1
+    0017: call set_IsConnected
+    001C: ldarg.0
+    001D: ldfld kcp
+    0022: ldarg.1
+    0023: ldarg.2
+    0024: ldarg.3
+    0025: call KcpInput
+    002A: pop
+    002B: ldarg.0
+    002C: ldfld Service
+    0031: ldc.i4.0
+    0032: conv.i8
+    0033: ldarg.0
+    0034: ldfld Id
+    0039: callvirt AddToUpdateNextTime
+    003E: ldarg.0
+    003F: call get_IsDisposed
+    0044: brtrue 231
+    0049: ldarg.0
+    004A: ldfld kcp
+    004F: call KcpPeeksize
+    0054: stloc.0
+    0055: ldloc.0
+    0056: ldc.i4.0
+    0057: blt 231
+    005C: ldloc.0
+    005D: brtrue.s 107
+    005F: ldarg.0
+    0060: ldc.i4 10052
+    0065: call OnError
+    006A: ret
+    006B: ldloc.0
+    006C: call GetStream
+    0071: stloc.1
+    0072: ldloc.1
+    0073: ldloc.0
+    0074: conv.i8
+    0075: callvirt System.IO.Stream::SetLength
+    007A: ldloc.1
+    007B: ldc.i4.0
+    007C: conv.i8
+    007D: ldc.i4.0
+    007E: callvirt System.IO.Stream::Seek
+    0083: pop
+    0084: ldloc.1
+    0085: callvirt System.IO.MemoryStream::GetBuffer
+    008A: stloc.2
+    008B: ldarg.0
+    008C: ldfld kcp
+    0091: ldloc.2
+    0092: ldloc.0
+    0093: call KcpRecv
+    0098: stloc.3
+    0099: ldloc.0
+    009A: ldloc.3
+    009B: bne.un.s 231
+    009D: ldarg.0
+    009E: ldfld Service
+    00A3: callvirt get_ServiceType
+    00A8: stloc.s local(0x0004)
+    00AA: ldloc.s local(0x0004)
+    00AC: brfalse.s 192
+    00AE: ldloc.s local(0x0004)
+    00B0: ldc.i4.1
+    00B1: bne.un.s 202
+    00B3: ldloc.1
+    00B4: ldc.i4.s 10
+    00B6: conv.i8
+    00B7: ldc.i4.0
+    00B8: callvirt System.IO.Stream::Seek
+    00BD: pop
+    00BE: br.s 202
+    00C0: ldloc.1
+    00C1: ldc.i4.2
+    00C2: conv.i8
+    00C3: ldc.i4.0
+    00C4: callvirt System.IO.Stream::Seek
+    00C9: pop
+    00CA: ldarg.0
+    00CB: ldarg.0
+    00CC: ldfld Service
+    00D1: callvirt get_TimeNow
+    00D6: stfld lastRecvTime
+    00DB: ldarg.0
+    00DC: ldloc.1
+    00DD: call OnRead
+    00E2: br 62
+    00E7: ret
+=== KChannel::Output (RVA 0xFFE8) ===
+    000C: ldarg.0
+    000D: call get_IsDisposed
+    0012: brfalse.s 21
+    0014: ret
+    0015: nop
+    0016: ldarg.0
+    0017: call get_IsConnected
+    001C: brtrue.s 32
+    001E: leave.s 128
+    0020: ldarg.2
+    0021: brtrue.s 47
+    0023: ldstr 'output 0'
+    0028: call Error
+    002D: leave.s 128
+    002F: ldarg.0
+    0030: ldfld sendCache
+    0035: stloc.0
+    0036: ldloc.0
+    0037: ldc.i4.0
+    0038: ldc.i4.4
+    0039: call WriteTo
+    003E: ldloc.0
+    003F: ldc.i4.1
+    0040: ldarg.0
+    0041: call get_LocalConn
+    0046: call WriteTo
+    004B: ldarg.1
+    004C: ldloc.0
+    004D: ldc.i4.5
+    004E: ldarg.2
+    004F: call System.Runtime.InteropServices.Marshal::Copy
+    0054: ldarg.0
+    0055: ldfld socket
+    005A: ldloc.0
+    005B: ldc.i4.0
+    005C: ldarg.2
+    005D: ldc.i4.5
+    005E: add
+    005F: ldc.i4.0
+    0060: ldarg.0
+    0061: call get_RemoteAddress
+    0066: callvirt System.Net.Sockets.Socket::SendTo
+    006B: pop
+    006C: leave.s 128
+    006E: call Error
+    0073: ldarg.0
+    0074: ldc.i4 100209
+    0079: call OnError
+    007E: leave.s 128
+    0080: ret
+=== KChannel::KcpSend (RVA 0x1007C) ===
+    000C: ldarg.0
+    000D: call get_IsDisposed
+    0012: brfalse.s 21
+    0014: ret
+    0015: ldarg.1
+    0016: ldfld MemoryStream
+    001B: stloc.0
+    001C: ldarg.0
+    001D: ldfld Service
+    0022: callvirt get_ServiceType
+    0027: ldc.i4.1
+    0028: bne.un.s 60
+    002A: ldloc.0
+    002B: callvirt System.IO.MemoryStream::GetBuffer
+    0030: ldc.i4.0
+    0031: ldarg.1
+    0032: ldfld ActorId
+    0037: call WriteTo
+    003C: ldloc.0
+    003D: callvirt System.IO.Stream::get_Length
+    0042: ldloc.0
+    0043: callvirt System.IO.Stream::get_Position
+    0048: sub
+    0049: conv.i4
+    004A: stloc.1
+    004B: ldarg.0
+    004C: ldfld kcp
+    0051: ldloc.0
+    0052: callvirt System.IO.MemoryStream::GetBuffer
+    0057: ldloc.0
+    0058: callvirt System.IO.Stream::get_Position
+    005D: conv.i4
+    005E: ldloc.1
+    005F: call KcpSend
+    0064: pop
+    0065: ldarg.0
+    0066: ldfld Service
+    006B: ldc.i4.0
+    006C: conv.i8
+    006D: ldarg.0
+    006E: ldfld Id
+    0073: callvirt AddToUpdateNextTime
+    0078: ret
+=== KChannel::Send (RVA 0x100F8) ===
+    000C: ldarg.0
+    000D: ldfld kcp
+    0012: ldsfld System.IntPtr::Zero
+    0017: call System.IntPtr::op_Inequality
+    001C: brfalse.s 144
+    001E: ldarg.0
+    001F: ldfld kcp
+    0024: call KcpWaitsnd
+    0029: stloc.1
+    002A: ldc.i4.0
+    002B: stloc.2
+    002C: ldarg.0
+    002D: ldfld Service
+    0032: callvirt get_ServiceType
+    0037: stloc.3
+    0038: ldloc.3
+    0039: brfalse.s 71
+    003B: ldloc.3
+    003C: ldc.i4.1
+    003D: bne.un.s 79
+    003F: ldc.i4 1048576
+    0044: stloc.2
+    0045: br.s 85
+    0047: ldc.i4 10240
+    004C: stloc.2
+    004D: br.s 85
+    004F: newobj System.ArgumentOutOfRangeException::.ctor
+    0054: throw
+    0055: ldloc.1
+    0056: ldloc.2
+    0057: ble.s 144
+    0059: ldstr 'kcp wait snd too large: {0}: {1} {2}'
+    005E: ldloc.1
+    005F: box System.Int32
+    0064: ldarg.0
+    0065: ldfld Id
+    006A: box System.Int64
+    006F: ldarg.0
+    0070: call get_RemoteConn
+    0075: box System.UInt32
+    007A: call System.String::Format
+    007F: call Error
+    0084: ldarg.0
+    0085: ldc.i4 100211
+    008A: call OnError
+    008F: ret
+    0090: ldloca.s local(0x0004)
+    0092: initobj KcpWaitPacket
+    0098: ldloca.s local(0x0004)
+    009A: ldarg.1
+    009B: stfld ActorId
+    00A0: ldloca.s local(0x0004)
+    00A2: ldarg.2
+    00A3: stfld MemoryStream
+    00A8: ldloc.s local(0x0004)
+    00AA: stloc.0
+    00AB: ldarg.0
+    00AC: call get_IsConnected
+    00B1: brtrue.s 192
+    00B3: ldarg.0
+    00B4: ldfld sendBuffer
+    00B9: ldloc.0
+    00BA: callvirt Enqueue
+    00BF: ret
+    00C0: ldarg.0
+    00C1: ldloc.0
+    00C2: call KcpSend
+    00C7: ret
+=== KChannel::OnRead (RVA 0x101C0) ===
+    0001: ldarg.0
+    0002: ldfld Service
+    0007: ldarg.0
+    0008: ldfld Id
+    000D: ldarg.1
+    000E: callvirt OnRead
+    0013: ret
+=== KChannel::OnError (RVA 0x101D4) ===
+    000C: ldarg.0
+    000D: ldfld Id
+    0012: stloc.0
+    0013: ldarg.0
+    0014: ldfld Service
+    0019: ldloc.0
+    001A: callvirt Remove
+    001F: ldarg.0
+    0020: ldfld Service
+    0025: ldloc.0
+    0026: ldarg.1
+    0027: callvirt OnError
+    002C: ret
+=== KChannel::.cctor (RVA 0x10201) ===
+    0001: newobj .ctor
+    0006: stsfld kChannels
+    000B: newobj .ctor
+    0010: stsfld idLocalRemoteConn
+    0015: ret

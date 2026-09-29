@@ -1,0 +1,29 @@
+# 统一换行符，避免 Windows/Linux 差异
+* text=auto
+
+# 文本文件统一 LF
+*.go      text eol=lf
+*.py      text eol=lf
+*.md      text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+*.json    text eol=lf
+*.proto   text eol=lf
+*.sh      text eol=lf
+*.ps1     text eol=lf
+
+# 二进制文件
+*.assets  binary
+*.bundle  binary
+*.pcapng  binary
+*.pcap    binary
+*.etl     binary
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.zip     binary
+*.gz      binary
+*.exe     binary
+*.dll     binary
+*.db      binary

@@ -1,0 +1,32 @@
+[
+ [
+  101,
+  {
+   "_id": 101,
+   "AIConfigId": 1,
+   "Order": 1,
+   "Name": "AI_RecieveTeam"
+  }
+ ],
+ [
+  102,
+  {
+   "_id": 102,
+   "AIConfigId": 1,
+   "Order": 2,
+   "Name": "AI_InviteTeam"
+  }
+ ],
+ [
+  103,
+  {
+   "_id": 103,
+   "AIConfigId": 1,
+   "Order": 3,
+   "Name": "AI_Battle",
+   "NodeParams": [
+    "1"
+   ]
+  }
+ ]
+]

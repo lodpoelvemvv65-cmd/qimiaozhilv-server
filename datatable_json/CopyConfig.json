@@ -1,0 +1,222 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Name": "MainStoryNormalBattle",
+   "Desc": "主线普通战斗",
+   "BattleType": 1,
+   "VictoryCopyReword": "MainStoryBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 3,
+   "NeedBossEnergy": 0,
+   "CanTeam": true,
+   "MinTeamMember": 1,
+   "BattleSceneName": "暂时不知道"
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Name": "MainStoryEliteBattle",
+   "Desc": "主线精英战斗",
+   "BattleType": 1,
+   "VictoryCopyReword": "MainStoryBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 3,
+   "NeedBossEnergy": 0,
+   "CanTeam": true,
+   "MinTeamMember": 1,
+   "BattleSceneName": "暂时不知道"
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Name": "MainStoryBossBattle",
+   "Desc": "主线boss战斗",
+   "BattleType": 1,
+   "VictoryCopyReword": "MainStoryBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 1,
+   "NeedBossEnergy": 0,
+   "CanTeam": true,
+   "MinTeamMember": 1,
+   "BattleSceneName": "暂时不知道"
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Name": "TrialCopyBattle",
+   "Desc": "试炼之地战斗",
+   "BattleType": 2,
+   "VictoryCopyReword": "TrialCopyBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "CanTeam": false,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Name": "BossBattle",
+   "Desc": "Boss战斗",
+   "BattleType": 3,
+   "VictoryCopyReword": "BossBattleVictory",
+   "DefeatCopyReword": "BossBattleDefeat",
+   "NeedBossEnergy": 1,
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Name": "FamilyBossBattle",
+   "Desc": "家族Boss战斗",
+   "BattleType": 5,
+   "VictoryCopyReword": "FamilyBossBattleVictory",
+   "DefeatCopyReword": "FamilyBossBattleDefeat",
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Name": "ManulEquipBattle",
+   "Desc": "手工战斗",
+   "BattleType": 6,
+   "VictoryCopyReword": "ManulEquipBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "CanTeam": true,
+   "MinTeamMember": 3
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Name": "PersonalPvpBattle",
+   "Desc": "竞技场战斗",
+   "BattleType": 21,
+   "VictoryCopyReword": "PersonalPvpBattleVictory",
+   "DefeatCopyReword": "PersonalPvpBattleDefeat",
+   "IsPVP": true,
+   "CanTeam": false,
+   "MinTeamMember": 1,
+   "IsFobbidenPotion": true
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Name": "PKBattle",
+   "Desc": "PK",
+   "BattleType": 20,
+   "VictoryCopyReword": "PKBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "IsPVP": true,
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Name": "MainStoryNormalIdleBattle",
+   "Desc": "挂机普通",
+   "BattleType": 4,
+   "VictoryCopyReword": "MainStoryIdleBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 3,
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Name": "MainStoryEliteIdleBattle",
+   "Desc": "挂机精英",
+   "BattleType": 4,
+   "VictoryCopyReword": "MainStoryIdleBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 3
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Name": "MainStoryBossIdleBattle",
+   "Desc": "挂机boss",
+   "BattleType": 4,
+   "VictoryCopyReword": "MainStoryIdleBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 1
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Name": "SpaceTravelBattle",
+   "Desc": "时空旅行战斗",
+   "BattleType": 22,
+   "VictoryCopyReword": "SpaceTravelBattleVictory",
+   "DefeatCopyReword": "SpaceTravelBattleDefeat",
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Name": "StarSoulBattle",
+   "Desc": "星魂副本战斗",
+   "BattleType": 23,
+   "VictoryCopyReword": "StarSoulBattleVictory",
+   "DefeatCopyReword": "CommonDefeat",
+   "NeedEnergy": 10,
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Name": "WorldBossBattle",
+   "Desc": "世界boss",
+   "BattleType": 24,
+   "VictoryCopyReword": "WorldBossBattleVictory",
+   "DefeatCopyReword": "WorldBossBattleDefeat",
+   "CanTeam": true,
+   "MinTeamMember": 1
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Name": "JourneyOfDeathBattle",
+   "Desc": "死亡之路战斗",
+   "BattleType": 25,
+   "VictoryCopyReword": "JourneyOfDeathBattleVictory",
+   "DefeatCopyReword": "JourneyOfDeathBattleDefeat",
+   "MinTeamMember": 1
+  }
+ ]
+]

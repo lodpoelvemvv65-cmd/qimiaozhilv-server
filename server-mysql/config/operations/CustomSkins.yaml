@@ -1,0 +1,87 @@
+# 自定义外观配置。version/tables 是发布器使用的包装结构，fields 内填写外观字段。
+# 修改后由 cmd/publish-custom-skins 发布到 MySQL，服务端不读取 JSON。
+version: 1
+tables:
+  EquipBase:
+    - id: 130001
+      fields:
+        _id: 130001
+        Name: 朽木白哉
+        DetialType: 2
+        Type: 2
+        UseLevel: 1000
+        SpecialKey: 9
+        SpecialValue: 3000
+        Hp: 100000000000
+        Mp: 100000000000
+        PhyAtk: 300000000000
+        SpiAtk: 3000000000000
+        Pcri: 0.1
+        Mcri: 0.1
+        IconName: "130001"
+        Quality: 4
+        Star: 6
+        Description: 朽木白哉形象装备
+        MaxHole: 4
+        InlayPriceArr:
+          - _t: EquipBase+InlayPrice
+            Price_Coin: 5000000
+            Price_YuanBao: 0
+        CanInlayGemTypeArr: [1, 2, 3, 4, 5, 6, 7, 8]
+    - id: 130002
+      fields:
+        _id: 130002
+        Name: 卍解一护
+        DetialType: 2
+        Type: 2
+        UseLevel: 1000
+        SpecialKey: 9
+        SpecialValue: 10000
+        Hp: 20000
+        Mp: 20000
+        PhyAtk: 10000
+        SpiAtk: 10000
+        Pcri: 0.1
+        Mcri: 0.1
+        IconName: "130002"
+        Quality: 4
+        Star: 6
+        Description: 卍解一护形象装备
+        MaxHole: 4
+        InlayPriceArr:
+          - _t: EquipBase+InlayPrice
+            Price_Coin: 5000000
+            Price_YuanBao: 0
+        CanInlayGemTypeArr: [1, 2, 3, 4, 5, 6, 7, 8]
+  SkinBase:
+    - id: 130001
+      fields:
+        _id: 130001
+        PrfabId: 13001
+    - id: 130002
+      fields:
+        _id: 130002
+        PrfabId: 13002
+  Sys_Prefab:
+    - id: 13001
+      fields:
+        _id: 13001
+        Name: SkinByakuya
+        Desc: custom direct-id skin
+        AssetPath: Assets/Download/Role/RolePrefab/Skin/SkinByakuya.prefab
+        PoolId: 1
+        CullDespawned: true
+        CullAbove: 0
+        CullDelay: 30
+        CullMaxPerPass: 1
+    - id: 13002
+      fields:
+        _id: 13002
+        Name: SkinBankaiIchigo
+        Desc: custom direct-id skin
+        AssetPath: Assets/Download/Role/RolePrefab/Skin/SkinBankaiIchigo.prefab
+        PoolId: 1
+        CullDespawned: true
+        CullAbove: 0
+        CullDelay: 30
+        CullMaxPerPass: 1

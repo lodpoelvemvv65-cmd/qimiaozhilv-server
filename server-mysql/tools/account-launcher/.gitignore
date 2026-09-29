@@ -1,0 +1,7 @@
+/target/
+/client-patch/bin/
+/client-patch/obj/
+/client-patch/auto-enter/bin/
+/client-patch/auto-enter/obj/
+/client-patch/__pycache__/
+/client-patch/auto-enter/__pycache__/

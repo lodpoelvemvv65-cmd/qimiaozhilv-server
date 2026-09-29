@@ -1,0 +1,72 @@
+[
+ [
+  1,
+  {
+   "_id": 1,
+   "Desc": "1分钟",
+   "OnlineRewardsArr": [
+    {
+     "_t": "OnlineRewardBase+OnlineRewards",
+     "OnlineRewards_Id": 110328,
+     "OnlineRewards_Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "Desc": "5分钟",
+   "OnlineRewardsArr": [
+    {
+     "_t": "OnlineRewardBase+OnlineRewards",
+     "OnlineRewards_Id": 110330,
+     "OnlineRewards_Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  30,
+  {
+   "_id": 30,
+   "Desc": "30分钟",
+   "OnlineRewardsArr": [
+    {
+     "_t": "OnlineRewardBase+OnlineRewards",
+     "OnlineRewards_Id": 110343,
+     "OnlineRewards_Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  60,
+  {
+   "_id": 60,
+   "Desc": "60分钟",
+   "OnlineRewardsArr": [
+    {
+     "_t": "OnlineRewardBase+OnlineRewards",
+     "OnlineRewards_Id": 110377,
+     "OnlineRewards_Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  120,
+  {
+   "_id": 120,
+   "Desc": "120分钟",
+   "OnlineRewardsArr": [
+    {
+     "_t": "OnlineRewardBase+OnlineRewards",
+     "OnlineRewards_Id": 110820,
+     "OnlineRewards_Count": 2
+    }
+   ]
+  }
+ ]
+]

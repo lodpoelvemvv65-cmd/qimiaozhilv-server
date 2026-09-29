@@ -1,0 +1,9 @@
+# 世界 Boss 刷新/掉落配置（发布名：WorldBossConfig）。RefreshInterval 单位毫秒。
+# MonsterId 数组为可刷出的怪物；修改 YAML 并发布后在线服自动重载。
+- - 1001
+  - _id: 1001
+    Name: 机器狗
+    MonsterId:
+    - 81001
+    - 81001
+    - 81001

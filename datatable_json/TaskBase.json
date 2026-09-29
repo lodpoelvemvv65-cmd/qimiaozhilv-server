@@ -1,0 +1,2748 @@
+[
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Name": "开始旅程！",
+   "DialogDesc": "欢迎来到奇妙世界!现在去跟苹果JJ对话吧，他会告诉你如何战斗！",
+   "TaskTargetDesc": "跟苹果JJ对话",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1012,
+   "PreTaskId": 0,
+   "GiveNPCId": 0,
+   "SubmitNPCId": 1012,
+   "RwardCount": 3,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110305,
+     "Reward_Count": 10
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110316,
+     "Reward_Count": 10
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 120590,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 120591,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 120592,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 120593,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "超小型生命药水"
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Name": "战斗方式！",
+   "DialogDesc": "这么快就要开始战斗了，不知道你准备好了没有，右键点击怪物即可开始战斗，在战斗的过程中可以使用技能和药品，不同的操作可能有不一样的战斗效果哦，现在去开始战斗吧！",
+   "TaskTargetDesc": "击败急速荷叶球，进入下一个房间",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10001,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1012,
+   "SubmitNPCId": 1013,
+   "RwardCount": 3,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110327,
+     "Reward_Count": 5
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110329,
+     "Reward_Count": 5
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20216,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20217,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20218,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20219,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "100万生命魔法球"
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Name": "继续前行！",
+   "DialogDesc": "我要告诉你的是，想到达下一个房间,必须要消灭足够的怪物，去试着把行动条点亮吧，到下一个房间去找我，我会告诉你更多事情，好了,让我们开始这段旅程吧！",
+   "TaskTargetDesc": "跟下一个房间的苹果JJ对话",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1013,
+   "PreTaskId": 10011,
+   "GiveNPCId": 1012,
+   "SubmitNPCId": 1013,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110307,
+     "Reward_Count": 19
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110318,
+     "Reward_Count": 19
+    }
+   ],
+   "Comment": "中型生命药水"
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Name": "渐入佳境！",
+   "DialogDesc": "怪物太强打不过怎么办呢，穿戴装备会极大的提升你的战斗力，想办法武装自己，装备不但能提升你的实力，可能还会让你变的无比帅气哦！",
+   "TaskTargetDesc": "跟下一个房间的苹果JJ对话",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1014,
+   "PreTaskId": 10013,
+   "GiveNPCId": 1013,
+   "SubmitNPCId": 1014,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110373,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110345,
+     "Reward_Count": 2
+    }
+   ],
+   "Comment": "一小袋金币"
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Name": "勇往直前！",
+   "DialogDesc": "欢迎来到奇妙世界!首先我要告诉你的是，想到达下一个房间,必须要消灭足够的怪物。去试着把行动条点亮吧。到下一个房间去找我，我会告诉你更多事情。好了,让我们开始这段旅程吧",
+   "TaskTargetDesc": "跟下一个房间的苹果JJ对话",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1015,
+   "PreTaskId": 10014,
+   "GiveNPCId": 1014,
+   "SubmitNPCId": 1015,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110341,
+     "Reward_Count": 9
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110342,
+     "Reward_Count": 9
+    }
+   ],
+   "Comment": "太阳水"
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Name": "踏上更远的征程！",
+   "DialogDesc": "我能教你的就只有这么多了，还有很多东西需要你去自己学习，相信你能变得更强，去城镇找那个神秘的女人，他能帮到你很多",
+   "TaskTargetDesc": "通关比基尼海滩，找到冲级奖励试炼官",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1007,
+   "PreTaskId": 10015,
+   "GiveNPCId": 1015,
+   "SubmitNPCId": 1007,
+   "RwardCount": 2,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110429,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20216,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20217,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20218,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20219,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "随机代金券礼券"
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "Name": "新手上路！",
+   "DialogDesc": "是苹果JJ告诉你来找我的吧？欢迎来到奇妙之旅镇，在这里你将会遇到各种NPC，以及形形色色的玩家，希望你能在这里度过愉快的时光",
+   "TaskTargetDesc": "等级达到100级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 10,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 100,
+   "PreTaskId": 10016,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 4,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110344,
+     "Reward_Count": 10
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110430,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 10
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20216,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20217,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20218,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20219,
+     "Reward_Count": 3
+    }
+   ],
+   "Comment": "回城卷轴"
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "Name": "冲级任务2！",
+   "DialogDesc": "看来你已经熟悉了奇妙之旅的玩法？希望您能一直成长下去！",
+   "TaskTargetDesc": "等级达到200级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 200,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110362,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 110353,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 12
+    }
+   ],
+   "Comment": "500代金券礼券"
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "Name": "冲级任务3！",
+   "DialogDesc": "没事的时候多在其他场景转转，说不定能感悟人生的真谛！",
+   "TaskTargetDesc": "等级达到300级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 200,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 300,
+   "PreTaskId": 10018,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110354,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 14
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 1,
+     "Reward_Id": 120581,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 1,
+     "Reward_Id": 120582,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 1,
+     "Reward_Id": 120583,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 1,
+     "Reward_Id": 120584,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 1,
+     "Reward_Id": 120585,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "3百万经验药水"
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "Name": "冲级任务4！",
+   "DialogDesc": "一定不要错过每天的试炼，能获得大量的经验哦！即使是绝世高手，也不会嫌弃去哪里玩玩。",
+   "TaskTargetDesc": "等级达到400级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 400,
+   "PreTaskId": 10019,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 2,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 20216,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20217,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20218,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20219,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 16
+    }
+   ],
+   "Comment": "护士技能秘籍"
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "Name": "冲级任务5！",
+   "DialogDesc": "是不是对如何学习和升级技能倍感懵逼呢？除了能在打怪中获得技能书，还能在那个卖破烂的老头哪里购买低级技能书哦。",
+   "TaskTargetDesc": "等级达到500级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 400,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 500,
+   "PreTaskId": 10020,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110374,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 18
+    }
+   ],
+   "Comment": "一袋金币"
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "Name": "冲级任务6！",
+   "DialogDesc": "不要看主线地图的怪等级很低，他们可是很强的哦，推荐组队前往。不要逞英雄哦！",
+   "TaskTargetDesc": "等级达到600级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 600,
+   "PreTaskId": 10021,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110344,
+     "Reward_Count": 10
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 20
+    }
+   ],
+   "Comment": "回城卷轴"
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "Name": "冲级任务7！",
+   "DialogDesc": "主线地图的怪物能掉落好东西，并且可以给你带来经验，但是去主线地图之前，可以去我旁边的大妈哪里看看，收不定她能给你些帮助。",
+   "TaskTargetDesc": "等级达到700级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 600,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 700,
+   "PreTaskId": 10022,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110346,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 25
+    }
+   ],
+   "Comment": "经验卡礼包·中"
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "Name": "冲级任务8！",
+   "DialogDesc": "有没有不能进入主线地图的情况的？注意观察是不是自己活动值不够了呢？",
+   "TaskTargetDesc": "等级达到800级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 800,
+   "PreTaskId": 10023,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110385,
+     "Reward_Count": 2
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 25
+    }
+   ],
+   "Comment": "宠物粮食"
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "Name": "冲级任务9！",
+   "DialogDesc": "时间越长，背包的位置越觉得不够了，好烦啊！不妨试试把暂时不需要的东西丢尽仓库。",
+   "TaskTargetDesc": "等级达到900级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 800,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 900,
+   "PreTaskId": 10024,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110390,
+     "Reward_Count": 2
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 25
+    }
+   ],
+   "Comment": "小黄鸭"
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "Name": "冲级任务10！",
+   "DialogDesc": "升级的过程中，也要注意提升自己的装备，否则可能被比自己等级低的玩家欺负哦！悄悄告诉你，有个拎着铁锤的大叔貌似会制作装备。",
+   "TaskTargetDesc": "等级达到1000级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 900,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 1000,
+   "PreTaskId": 10025,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110427,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "手工小礼包"
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "Name": "冲级任务11！",
+   "DialogDesc": "有些东西不需要，又不舍得丢掉？不妨问问大家伙有没有需要的，也可以交给寄卖大叔，让他帮你寻找下家。",
+   "TaskTargetDesc": "等级达到1200级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 1200,
+   "PreTaskId": 10026,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110364,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "1500代金券礼券"
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "Name": "冲级任务12！",
+   "DialogDesc": "每周五晚上都有家族战，叫上同家族的人一起去战斗吧，不知道你是否有能力带领家族走向辉煌呢？",
+   "TaskTargetDesc": "等级达到1400级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 1200,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 1400,
+   "PreTaskId": 10027,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110427,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "手工小礼包"
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "Name": "冲级任务13！",
+   "DialogDesc": "等级高了以后，到奇妙小博士哪里答题有大量的经验，不要看不起她哦",
+   "TaskTargetDesc": "等级达到1600级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 1400,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 1600,
+   "PreTaskId": 10028,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 3,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20046,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20047,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20057,
+     "Reward_Count": 3
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20058,
+     "Reward_Count": 3
+    }
+   ],
+   "Comment": "生命之晶·一级"
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "Name": "冲级任务14！",
+   "DialogDesc": "每周六晚的热斗场热闹非凡，据说最拉风的人可以在荣誉圣殿立雕像，不知道是不是真的。",
+   "TaskTargetDesc": "等级达到1800级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 1600,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 1800,
+   "PreTaskId": 10029,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110364,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "1500代金券礼券"
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "Name": "冲级任务15！",
+   "DialogDesc": "现在你已经可以与你的伴侣喜结连理了哦，什么？你找不到伴侣？那真是可惜啊。",
+   "TaskTargetDesc": "等级达到2000级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 1800,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 2000,
+   "PreTaskId": 10030,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 3,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 20156,
+     "Reward_Count": 5
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20157,
+     "Reward_Count": 5
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20152,
+     "Reward_Count": 5
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20153,
+     "Reward_Count": 5
+    }
+   ],
+   "Comment": "虎眼石·一级"
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "Name": "冲级任务16！",
+   "DialogDesc": "你是不是嫌我啰嗦？年纪大了就这样嘛！你再嫌我啰嗦我就要回收我送给你的东西了，趁我没后悔，赶紧滚蛋！",
+   "TaskTargetDesc": "等级达到3000级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 2000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 3000,
+   "PreTaskId": 10031,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110365,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "2000代金券礼券"
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "Name": "冲级任务17！",
+   "DialogDesc": "从今天起，你就需要独当一面，我不能在帮助你什么了，想想还有点小伤感，山高水长，江湖路远，希望你没事的时候还能回来看看我，这是我给你的最后一份奖励，请收下吧！",
+   "TaskTargetDesc": "等级达到4000级",
+   "TaskFinishCount": 1,
+   "TargetType": 5,
+   "Level": 3000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetLevel": 4000,
+   "PreTaskId": 10032,
+   "GiveNPCId": 1007,
+   "SubmitNPCId": 1007,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110366,
+     "Reward_Count": 1
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 20283,
+     "Reward_Count": 30
+    }
+   ],
+   "Comment": "5000代金券礼券"
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "Name": "爱的考验！",
+   "DialogDesc": "申请结婚前需要完成“爱的考验”任务，作为证明两人的爱情和筹办婚礼的费用。",
+   "TaskTargetDesc": "准备材料：奇妙之心10个，奇妙宝石52个，金条199根",
+   "TaskFinishCount": -1,
+   "TargetType": 6,
+   "Level": 2000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 110343,
+     "CountTarget_Count": 199
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 20138,
+     "CountTarget_Count": 10
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 20146,
+     "CountTarget_Count": 52
+    }
+   ],
+   "PreTaskId": 10017,
+   "GiveNPCId": 1001,
+   "SubmitNPCId": 1001,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110361,
+     "Reward_Count": 2
+    },
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20139,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "超级喇叭"
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "Name": "元级·初级试炼",
+   "DialogDesc": "试炼之地可以获得大量经验，主线地图太强大怎么办，不妨去试炼之地练级",
+   "TaskTargetDesc": "通过试炼之地10层",
+   "DaliyTaskIndex": 0,
+   "TargetType": 7,
+   "Level": 250,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetSceneId": 10009,
+   "TargetMaplayer": 10,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20001,
+     "Reward_Count": 10
+    }
+   ],
+   "Comment": "素材·天上"
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "Name": "元级·中极试炼",
+   "DialogDesc": "试炼之地可以获得大量经验，主线地图太强大怎么办，不妨去试炼之地练级",
+   "TaskTargetDesc": "通过试炼之地15层",
+   "DaliyTaskIndex": 0,
+   "TargetType": 7,
+   "Level": 500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetSceneId": 10009,
+   "TargetMaplayer": 15,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20002,
+     "Reward_Count": 5
+    }
+   ],
+   "Comment": "素材·天下"
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "Name": "元级·高级试炼",
+   "DialogDesc": "试炼之地获得大量经验的同时，还可以获得很多材料，合成装备，进化形象都是必不可少的",
+   "TaskTargetDesc": "通过试炼之地20层",
+   "DaliyTaskIndex": 0,
+   "TargetType": 7,
+   "Level": 750,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetSceneId": 10009,
+   "TargetMaplayer": 20,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110343,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "金条"
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "Name": "元级·终极试炼",
+   "DialogDesc": "试炼之地获得大量经验的同时，还可以获得很多材料，合成装备，进化形象都是必不可少的",
+   "TaskTargetDesc": "通过试炼之地30层",
+   "DaliyTaskIndex": 0,
+   "TargetType": 7,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "TargetSceneId": 10009,
+   "TargetMaplayer": 30,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 110359,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "小喇叭"
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "Name": "孰能生巧",
+   "DialogDesc": "要记得每天打怪练习技能的配合，长时间不打怪可能会降低自己的战斗技巧",
+   "TaskTargetDesc": "击败100只怪物（不低于自身等级100级）",
+   "DaliyTaskIndex": 0,
+   "TargetType": 2,
+   "Level": 100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 100,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110343,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "金条"
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "Name": "学富五车",
+   "DialogDesc": "打怪打累了，就去奇妙小博士哪里答题，可是有高额经验的",
+   "TaskTargetDesc": "在奇妙小博士处完成答题",
+   "DaliyTaskIndex": 5,
+   "TargetType": 8,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "PreTaskId": 10017,
+   "GiveNPCId": 1006,
+   "SubmitNPCId": 1006,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110343,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "金条"
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "Name": "血浴神兵-初锻",
+   "DialogDesc": "神器的威力非常人所能掌握，去完成历练，只有足够强大才能拥有佩戴绝世武器的能力",
+   "TaskTargetDesc": "击败1000只怪物",
+   "TaskFinishCount": -1,
+   "TargetType": 2,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 1000,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10017,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "Name": "血浴神兵-进阶",
+   "DialogDesc": "神器的威力非常人所能掌握，去完成历练，只有足够强大才能拥有佩戴绝世武器的能力",
+   "TaskTargetDesc": "击败2000只怪物",
+   "TaskFinishCount": -1,
+   "TargetType": 2,
+   "Level": 2000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 2000,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10041,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "Name": "血浴神兵-化形",
+   "DialogDesc": "神器的威力非常人所能掌握，去完成历练，只有足够强大才能拥有佩戴绝世武器的能力",
+   "TaskTargetDesc": "击败3000只怪物",
+   "TaskFinishCount": -1,
+   "TargetType": 2,
+   "Level": 3000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 3000,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10041,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "Name": "血浴神兵-生灵",
+   "DialogDesc": "神器的威力非常人所能掌握，去完成历练，只有足够强大才能拥有佩戴绝世武器的能力",
+   "TaskTargetDesc": "击败4000只怪物",
+   "TaskFinishCount": -1,
+   "TargetType": 2,
+   "Level": 4000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 4000,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10041,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10045,
+  {
+   "_id": 10045,
+   "Name": "血浴神兵-赋灵",
+   "DialogDesc": "神器的威力非常人所能掌握，去完成历练，只有足够强大才能拥有佩戴绝世武器的能力",
+   "TaskTargetDesc": "击败5000只怪物",
+   "TaskFinishCount": -1,
+   "TargetType": 2,
+   "Level": 5000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "AnyTargetCount": 5000,
+   "AnyTargetLevel": 100,
+   "PreTaskId": 10041,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10046,
+  {
+   "_id": 10046,
+   "Name": "初入勃岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败右臂大力斧战士",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10015,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10016,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110201,
+     "Reward_Count": 1999
+    }
+   ],
+   "Comment": "经验"
+  }
+ ],
+ [
+  10047,
+  {
+   "_id": 10047,
+   "Name": "深入勃岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败精·圣堂圣骑士，击败精·圣堂女圣骑士，击败精·特洛伊弓箭手，击败精·自恋的女魔道",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10016,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10017,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10018,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10019,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10046,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110328,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "500万生命魔法球"
+  }
+ ],
+ [
+  10048,
+  {
+   "_id": 10048,
+   "Name": "突破勃岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※右臂大力斧战士",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10020,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10047,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120563,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "贪婪者项链"
+  }
+ ],
+ [
+  10049,
+  {
+   "_id": 10049,
+   "Name": "初入神异之岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败桀桀变异体",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10025,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10048,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110350,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "2倍经验卡"
+  }
+ ],
+ [
+  10050,
+  {
+   "_id": 10050,
+   "Name": "深入神异之岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败精·讨嫌的臭泥怪，击败精·下水道的臭泥怪，击败精·尖刺摩尔，击败精·水沟冰灵体",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 900,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10026,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10027,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10028,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10029,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10049,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110355,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "5百万经验药水"
+  }
+ ],
+ [
+  10051,
+  {
+   "_id": 10051,
+   "Name": "突破神异之岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※桀桀变异体",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10030,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10050,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120564,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "初斗者专用项链"
+  }
+ ],
+ [
+  10052,
+  {
+   "_id": 10052,
+   "Name": "初入死亡征途",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败狼王蒙格",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10035,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10051,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110813,
+     "Reward_Count": 10
+    }
+   ],
+   "Comment": "精力充沛药水"
+  }
+ ],
+ [
+  10053,
+  {
+   "_id": 10053,
+   "Name": "深入死亡征途",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败精·好色野狼，击败精·蓝色大灰狼，击败精·狼牙棒战士，击败精·大力强战士",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10036,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10037,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10038,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10039,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10052,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110814,
+     "Reward_Count": 5
+    }
+   ],
+   "Comment": "活力满满药水"
+  }
+ ],
+ [
+  10054,
+  {
+   "_id": 10054,
+   "Name": "突破死亡征途",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※狼王蒙格",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10040,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10053,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120565,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "好斗者常用项链"
+  }
+ ],
+ [
+  10055,
+  {
+   "_id": 10055,
+   "Name": "初入妖魔岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败闪影刺客",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1900,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10045,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10054,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110385,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "宠物粮食"
+  }
+ ],
+ [
+  10056,
+  {
+   "_id": 10056,
+   "Name": "深入妖魔岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "精·暴力熊，精·炸泥唛弹熊，精·哈巴狗，精·哈巴狗队长",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 2100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10046,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10047,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10048,
+     "CountTarget_Count": 1
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10049,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10055,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 110390,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "小黄鸭"
+  }
+ ],
+ [
+  10057,
+  {
+   "_id": 10057,
+   "Name": "突破妖魔岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※闪影刺客",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 2300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10050,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10056,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120566,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "影杀炼狱项链"
+  }
+ ],
+ [
+  10058,
+  {
+   "_id": 10058,
+   "Name": "肃清勃岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※小心屁眼",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 2500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10060,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10057,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120567,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "远古幻影项链"
+  }
+ ],
+ [
+  10059,
+  {
+   "_id": 10059,
+   "Name": "肃清神异之岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※梅米勒布朗",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 2700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10070,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10058,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120568,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "遗忘水晶项链"
+  }
+ ],
+ [
+  10060,
+  {
+   "_id": 10060,
+   "Name": "肃清死亡征途",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※阴阳狼王",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 2900,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10080,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10059,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120569,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "堕落水晶项链"
+  }
+ ],
+ [
+  10061,
+  {
+   "_id": 10061,
+   "Name": "肃清妖魔岛",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※夺命蔷薇",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10090,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10060,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120570,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "梦幻水晶项链"
+  }
+ ],
+ [
+  10062,
+  {
+   "_id": 10062,
+   "Name": "肃清精灵之森",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※狂暴野猪王",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10100,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10061,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120571,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "致命之蓝宝石项坠"
+  }
+ ],
+ [
+  10063,
+  {
+   "_id": 10063,
+   "Name": "肃清绿野仙踪",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※骷髅13",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10110,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10062,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120572,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "火魁之歌项链"
+  }
+ ],
+ [
+  10064,
+  {
+   "_id": 10064,
+   "Name": "肃清迷失城市",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※哥布林酋长",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10120,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10063,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120573,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "巨魂项链"
+  }
+ ],
+ [
+  10065,
+  {
+   "_id": 10065,
+   "Name": "肃清无尽长湖",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※变态提灯鱼",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3900,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10130,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10064,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120574,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "武动之魂项链"
+  }
+ ],
+ [
+  10066,
+  {
+   "_id": 10066,
+   "Name": "肃清海底世界",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※变异罗什",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 4100,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10140,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10065,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120575,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "暴雪项链"
+  }
+ ],
+ [
+  10067,
+  {
+   "_id": 10067,
+   "Name": "肃清浩瀚雪山",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※天使爱德华",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 4300,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10150,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10066,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120576,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "执行者的刺杀项链"
+  }
+ ],
+ [
+  10068,
+  {
+   "_id": 10068,
+   "Name": "肃清水晶矿洞",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※恐怖杰瑞",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 4500,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10160,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10067,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120577,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "风华绝世之坠"
+  }
+ ],
+ [
+  10069,
+  {
+   "_id": 10069,
+   "Name": "最后一战",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败※岚苀",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 4700,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10170,
+     "CountTarget_Count": 1
+    }
+   ],
+   "PreTaskId": 10068,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120578,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "贪食之影"
+  }
+ ],
+ [
+  10081,
+  {
+   "_id": 10081,
+   "Name": "☆活力宝贝☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败篮球行者",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 200,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10255,
+     "CountTarget_Count": 2
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120372,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰活力宝贝✰"
+  }
+ ],
+ [
+  10082,
+  {
+   "_id": 10082,
+   "Name": "☆辣手回春☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败性感天使",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 400,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10260,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120880,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰性感女神✰"
+  }
+ ],
+ [
+  10078,
+  {
+   "_id": 10078,
+   "Name": "☆黑夜骑士☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败蝙蝠侠",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10264,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120878,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰黑夜骑士✰"
+  }
+ ],
+ [
+  10083,
+  {
+   "_id": 10083,
+   "Name": "☆热血英豪☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败里昂，黑衣军官",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10266,
+     "CountTarget_Count": 2
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10263,
+     "CountTarget_Count": 2
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120370,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰热血英豪✰"
+  }
+ ],
+ [
+  10077,
+  {
+   "_id": 10077,
+   "Name": "☆月光美眉☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败月亮萝莉",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10265,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120887,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰月光美眉✰"
+  }
+ ],
+ [
+  10085,
+  {
+   "_id": 10085,
+   "Name": "☆代表月亮消灭你☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败月野兔",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 1000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10268,
+     "CountTarget_Count": 5
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120368,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰代表月亮消灭你✰"
+  }
+ ],
+ [
+  10072,
+  {
+   "_id": 10072,
+   "Name": "☆在世小强☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败不死星矢",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 3000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10269,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120883,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰在世小强✰"
+  }
+ ],
+ [
+  10075,
+  {
+   "_id": 10075,
+   "Name": "☆性感女神☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败野性御姐",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 4000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10275,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120880,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰性感女神✰"
+  }
+ ],
+ [
+  10070,
+  {
+   "_id": 10070,
+   "Name": "☆冰山美人☆",
+   "DialogDesc": "击杀指定怪物完成任务",
+   "TaskTargetDesc": "击败十番队长，魔女",
+   "TaskFinishCount": 1,
+   "TargetType": 1,
+   "Level": 5000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10276,
+     "CountTarget_Count": 2
+    },
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "PreTaskId": 10011,
+   "GiveNPCId": 1005,
+   "SubmitNPCId": 1005,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120885,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰冰山美人✰"
+  }
+ ],
+ [
+  10086,
+  {
+   "_id": 10086,
+   "Name": "✰我是新手✰",
+   "DialogDesc": "新手奖励",
+   "TaskTargetDesc": "跟苹果JJ对话",
+   "TaskFinishCount": 1,
+   "TargetType": 4,
+   "Level": 1,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 0,
+     "CountTarget_Count": 0
+    }
+   ],
+   "DialogTargetId": 1012,
+   "PreTaskId": 0,
+   "GiveNPCId": 1012,
+   "SubmitNPCId": 1012,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 2,
+     "Reward_Id": 120889,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "✰我是新手✰"
+  }
+ ],
+ [
+  10087,
+  {
+   "_id": 10087,
+   "Name": "新的征程",
+   "DialogDesc": "恭喜你，旅行者，在这里的一段时间，你历经艰难险阻，终于达到了一转巅峰的实力，可是你体内有一股无形的枷锁束缚你使你无法进行第二次转生，我愿意为你提供一些帮助，不过在这之前，我需要知道你是否能承受住更强的力量，所以你要完成一系列的考验，现在，你可以去找爱神看他能给你什么帮助",
+   "TaskTargetDesc": "跟爱神对话",
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 0,
+     "Reward_Id": 0,
+     "Reward_Count": 0
+    }
+   ],
+   "Comment": "_xlfn.IFS(Y143<110000,INDEX([1]Sheet1!$C:$C,MATCH(Y143,[1]Sheet1!$B:$B,FALSE)),Y143<120000,INDEX([2]Sheet1!$C:$C,MATCH(Y143,[2]Sheet1!$B:$B,FALSE)),Y143<200000,INDEX([3]Sheet1!$C:$C,MATCH(Y143,[3]Sheet1!$B:$B,FALSE)))"
+  }
+ ],
+ [
+  10088,
+  {
+   "_id": 10088,
+   "Name": "能力的训练",
+   "DialogDesc": "很高兴你已经成功将等级提升到一转，现在你需要一把趁手的兵器和装备，我猜我这里有你想要的东西，前提是你需要进行一些练习，去击败他们完成任务吧。",
+   "TaskTargetDesc": "击败※右臂大力斧战士※转生",
+   "TaskFinishCount": -1,
+   "DaliyTaskIndex": 0,
+   "TargetType": 1,
+   "Level": 6000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 10289,
+     "CountTarget_Count": 3
+    }
+   ],
+   "PreTaskId": 10017,
+   "GiveNPCId": 1016,
+   "SubmitNPCId": 1016,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20523,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "素材·无双（碎片）"
+  }
+ ],
+ [
+  10089,
+  {
+   "_id": 10089,
+   "Name": "运气的挑战",
+   "DialogDesc": "运气也是实力的一部分，想要得到我的认可，你还需要帮我收集一些东西，等等，你在嘀咕什么？如果嫌麻烦我的东西可就不归你了！",
+   "TaskTargetDesc": "收集女神的信物",
+   "TaskFinishCount": -1,
+   "DaliyTaskIndex": 0,
+   "TargetType": 3,
+   "Level": 6000,
+   "CountTargetArr": [
+    {
+     "_t": "TaskBase+CountTarget",
+     "CountTarget_Id": 20524,
+     "CountTarget_Count": 5
+    }
+   ],
+   "PreTaskId": 10017,
+   "GiveNPCId": 1016,
+   "SubmitNPCId": 1016,
+   "RwardCount": 0,
+   "RewardArr": [
+    {
+     "_t": "TaskBase+Reward",
+     "Reward_Type": 3,
+     "Reward_Id": 20442,
+     "Reward_Count": 1
+    }
+   ],
+   "Comment": "创造女神的认可"
+  }
+ ]
+]

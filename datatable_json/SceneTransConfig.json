@@ -1,0 +1,1025 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Name": "Scene_Login",
+   "Desc": "登录",
+   "TransPosArr": null
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Name": "Scene_CreateRole",
+   "TransPosArr": null
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Name": "Scene_EnterGame",
+   "TransPosArr": null
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Name": "Scene_MainCity",
+   "Desc": "城镇",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 14.50656,
+     "TransPos_y": -1.474469
+    },
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": -14.50656,
+     "TransPos_y": -1.474469
+    }
+   ],
+   "SceneIdArr": [
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019,
+    10020,
+    10021,
+    10022,
+    10023,
+    10024,
+    10025,
+    10026,
+    10027,
+    10028,
+    10030,
+    10031,
+    10032,
+    10033,
+    10034,
+    10035,
+    10036,
+    10037,
+    10038,
+    10045,
+    10046,
+    10047,
+    10048,
+    10049,
+    10050,
+    10051,
+    10052,
+    10053,
+    10054,
+    10055,
+    10056,
+    10057,
+    10058,
+    10059,
+    10060,
+    10061,
+    10062,
+    10063,
+    10064,
+    10065,
+    10066,
+    10067
+   ]
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Name": "Scene_MarvellousSquare",
+   "Desc": "奇妙广场",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": -10.6987,
+     "TransPos_y": -2.316899
+    }
+   ],
+   "SceneIdArr": [
+    10004,
+    10039,
+    10040,
+    10041,
+    10042,
+    10043,
+    10044
+   ]
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Name": "Scene_Beach",
+   "Desc": "比基尼海滩",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 14.50656,
+     "TransPos_y": -1.474469
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Name": "Scene_HonorTemple",
+   "Desc": "荣誉圣殿",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": -11.15156,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Name": "Scene_GuardianPark",
+   "Desc": "守护乐园",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": -7,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Name": "Scene_Challenge",
+   "Desc": "试炼之地",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": -11.15156,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Name": "Scene_Boss",
+   "Desc": "Boss",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Name": "Scene_MainStory1",
+   "Desc": "初心勃岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Name": "Scene_MainStory2",
+   "Desc": "初心神异之岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Name": "Scene_MainStory3",
+   "Desc": "初心死亡征途",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Name": "Scene_MainStory4",
+   "Desc": "初心妖魔岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Name": "Scene_MainStory5",
+   "Desc": "熟练勃岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Name": "Scene_MainStory6",
+   "Desc": "熟练神异之岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "Name": "Scene_MainStory7",
+   "Desc": "熟练死亡征途",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "Name": "Scene_MainStory8",
+   "Desc": "熟练妖魔岛",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "Name": "Scene_MainStory9",
+   "Desc": "会心精灵之森",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "Name": "Scene_MainStory10",
+   "Desc": "会心绿野仙踪",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "Name": "Scene_MainStory11",
+   "Desc": "会心迷失城市",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "Name": "Scene_MainStory12",
+   "Desc": "会心无尽长湖",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "Name": "Scene_MainStory13",
+   "Desc": "达人海底世界",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "Name": "Scene_MainStory14",
+   "Desc": "达人浩瀚雪山",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "Name": "Scene_MainStory15",
+   "Desc": "达人水晶矿洞",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "Name": "Scene_MainStory16",
+   "Desc": "达人天空之城",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "Name": "Scene_FimalyBattle",
+   "Desc": "家族战",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 0,
+     "TransPos_y": 0
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "Name": "Scene_ActiveTask",
+   "Desc": "活动",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 0,
+     "TransPos_y": 0
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "Name": "Scene_BattleIdle",
+   "Desc": "休闲岛",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "Name": "Scene_PersonalPvp1",
+   "Desc": "青铜斗士场",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004,
+    10031
+   ]
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "Name": "Scene_PersonalPvp2",
+   "Desc": "白银斗士场",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004,
+    10032,
+    10030
+   ]
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "Name": "Scene_PersonalPvp3",
+   "Desc": "黄金斗士场",
+   "TransPosArr": null
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "Name": "Scene_ManulEquip1",
+   "Desc": "初级手工",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 7,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "Name": "Scene_ManulEquip2",
+   "Desc": "中级手工",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 7,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "Name": "Scene_ManulEquip3",
+   "Desc": "高级手工",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 7,
+     "TransPos_y": -1.259455
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "Name": "Scene_Challenge_Middle",
+   "Desc": "中级试炼之地",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "Name": "Scene_Challenge_Hard",
+   "Desc": "高级试炼之地",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "Name": "Scene_PersonalBoss",
+   "Desc": "Boss之家",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "Name": "Scene_SpaceTravel1",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "Name": "Scene_SpaceTravel2",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "Name": "Scene_SpaceTravel3",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "Name": "Scene_SpaceTravel4",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "Name": "Scene_SpaceTravel5",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "Name": "Scene_SpaceTravel6",
+   "Desc": "时空旅行",
+   "TransPosArr": null,
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10052,
+  {
+   "_id": 10052,
+   "Name": "Scene_MainStory17",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10053,
+  {
+   "_id": 10053,
+   "Name": "Scene_MainStory18",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10054,
+  {
+   "_id": 10054,
+   "Name": "Scene_MainStory19",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10055,
+  {
+   "_id": 10055,
+   "Name": "Scene_MainStory20",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10056,
+  {
+   "_id": 10056,
+   "Name": "Scene_MainStory21",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10057,
+  {
+   "_id": 10057,
+   "Name": "Scene_MainStory22",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10058,
+  {
+   "_id": 10058,
+   "Name": "Scene_MainStory23",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10059,
+  {
+   "_id": 10059,
+   "Name": "Scene_MainStory24",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10060,
+  {
+   "_id": 10060,
+   "Name": "Scene_MainStory25",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10061,
+  {
+   "_id": 10061,
+   "Name": "Scene_MainStory26",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10062,
+  {
+   "_id": 10062,
+   "Name": "Scene_MainStory27",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10063,
+  {
+   "_id": 10063,
+   "Name": "Scene_MainStory28",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10064,
+  {
+   "_id": 10064,
+   "Name": "Scene_MainStory29",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10065,
+  {
+   "_id": 10065,
+   "Name": "Scene_MainStory30",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10066,
+  {
+   "_id": 10066,
+   "Name": "Scene_MainStory31",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ],
+ [
+  10067,
+  {
+   "_id": 10067,
+   "Name": "Scene_MainStory32",
+   "TransPosArr": [
+    {
+     "_t": "SceneTransConfig+TransPos",
+     "TransPos_x": 12.4,
+     "TransPos_y": -2.54827
+    }
+   ],
+   "SceneIdArr": [
+    10004
+   ]
+  }
+ ]
+]

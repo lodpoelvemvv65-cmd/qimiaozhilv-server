@@ -1,0 +1,662 @@
+[
+ [
+  1,
+  {
+   "_id": 1,
+   "Question": "游戏中金条可以用于什么用途？",
+   "Answer_A": "结婚",
+   "Answer_B": "砸人",
+   "Answer_C": "拿来跟朋友炫耀",
+   "Answer": 1
+  }
+ ],
+ [
+  2,
+  {
+   "_id": 2,
+   "Question": "想要去城镇外打怪应该怎样做？",
+   "Answer_A": "心里默念，怪来",
+   "Answer_B": "去找城镇左右侧传送门",
+   "Answer_C": "使用回城卷轴",
+   "Answer": 2
+  }
+ ],
+ [
+  3,
+  {
+   "_id": 3,
+   "Question": "角色想要结婚的条件是？",
+   "Answer_A": "等级到达2000级",
+   "Answer_B": "想结就结",
+   "Answer_C": "拿钱买通NPC",
+   "Answer": 1
+  }
+ ],
+ [
+  4,
+  {
+   "_id": 4,
+   "Question": "白求恩是哪国人？",
+   "Answer_A": "中国",
+   "Answer_B": "加拿大",
+   "Answer_C": "法国",
+   "Answer": 2
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "Question": "世界上最大的宫殿是？",
+   "Answer_A": "白宫",
+   "Answer_B": "克林姆林宫",
+   "Answer_C": "故宫",
+   "Answer": 3
+  }
+ ],
+ [
+  6,
+  {
+   "_id": 6,
+   "Question": "奥运会“五色环”旗中黄色环代表的是？",
+   "Answer_A": "非洲",
+   "Answer_B": "亚洲",
+   "Answer_C": "欧洲",
+   "Answer": 2
+  }
+ ],
+ [
+  7,
+  {
+   "_id": 7,
+   "Question": "轻于鸿毛中的“鸿毛”指的是？",
+   "Answer_A": "鸭毛",
+   "Answer_B": "鹅毛",
+   "Answer_C": "大雁",
+   "Answer": 2
+  }
+ ],
+ [
+  8,
+  {
+   "_id": 8,
+   "Question": "校园歌曲《童年》的词曲作者是？",
+   "Answer_A": "罗大佑",
+   "Answer_B": "李宗盛",
+   "Answer_C": "周杰伦",
+   "Answer": 1
+  }
+ ],
+ [
+  9,
+  {
+   "_id": 9,
+   "Question": "鱼有心脏吗?",
+   "Answer_A": "有",
+   "Answer_B": "没有",
+   "Answer_C": "不知道",
+   "Answer": 1
+  }
+ ],
+ [
+  10,
+  {
+   "_id": 10,
+   "Question": "“写鬼写妖高人一筹，刺贪刺虐入木三分”所描述的作者是？",
+   "Answer_A": "曹雪芹",
+   "Answer_B": "罗贯中",
+   "Answer_C": "蒲松龄",
+   "Answer": 3
+  }
+ ],
+ [
+  11,
+  {
+   "_id": 11,
+   "Question": "世界上最深的海沟是？",
+   "Answer_A": "马里纳亚海沟",
+   "Answer_B": "日本海沟",
+   "Answer_C": "地沟",
+   "Answer": 1
+  }
+ ],
+ [
+  12,
+  {
+   "_id": 12,
+   "Question": "发射第一颗人造卫星的国家是？",
+   "Answer_A": "美国",
+   "Answer_B": "前苏联",
+   "Answer_C": "中国",
+   "Answer": 2
+  }
+ ],
+ [
+  13,
+  {
+   "_id": 13,
+   "Question": "俗称四不像的动物是？",
+   "Answer_A": "山羊",
+   "Answer_B": "羚羊",
+   "Answer_C": "麋鹿",
+   "Answer": 3
+  }
+ ],
+ [
+  14,
+  {
+   "_id": 14,
+   "Question": "“豆蔻年华”是指几岁？",
+   "Answer_A": "13",
+   "Answer_B": "14",
+   "Answer_C": "15",
+   "Answer": 1
+  }
+ ],
+ [
+  15,
+  {
+   "_id": 15,
+   "Question": "有“日光之城”美称的城市是？",
+   "Answer_A": "厦门",
+   "Answer_B": "三亚",
+   "Answer_C": "拉萨",
+   "Answer": 3
+  }
+ ],
+ [
+  16,
+  {
+   "_id": 16,
+   "Question": "世界上最大的鲸是？",
+   "Answer_A": "虎鲸",
+   "Answer_B": "蓝鲸",
+   "Answer_C": "座头鲸",
+   "Answer": 2
+  }
+ ],
+ [
+  17,
+  {
+   "_id": 17,
+   "Question": "“牛郎织女”的故事的故事是众口皆碑的神话传说，那你知道牛郎星是属于什么星座? ",
+   "Answer_A": "处女座",
+   "Answer_B": "狮子座",
+   "Answer_C": "天鹰座",
+   "Answer": 3
+  }
+ ],
+ [
+  18,
+  {
+   "_id": 18,
+   "Question": "山东山西的“山”是指？",
+   "Answer_A": "喜马拉雅山",
+   "Answer_B": "太行山",
+   "Answer_C": "武夷山",
+   "Answer": 2
+  }
+ ],
+ [
+  19,
+  {
+   "_id": 19,
+   "Question": "中国最大的省份（包含自治区）是？",
+   "Answer_A": "新疆",
+   "Answer_B": "西藏",
+   "Answer_C": "香港",
+   "Answer": 1
+  }
+ ],
+ [
+  20,
+  {
+   "_id": 20,
+   "Question": "我国植树节定在每年的3月12日，这也是为了纪念那位人物而定的？",
+   "Answer_A": "雷锋",
+   "Answer_B": "孙中山",
+   "Answer_C": "邓小平",
+   "Answer": 2
+  }
+ ],
+ [
+  21,
+  {
+   "_id": 21,
+   "Question": "下列名茶中那些是产于福建安溪？",
+   "Answer_A": "龙井",
+   "Answer_B": "碧螺春",
+   "Answer_C": "铁观音",
+   "Answer": 3
+  }
+ ],
+ [
+  22,
+  {
+   "_id": 22,
+   "Question": "想要提升自己的战斗力，可以找那个NPC来制作更好的装备？",
+   "Answer_A": "装备合成大师",
+   "Answer_B": "普通商店",
+   "Answer_C": "万能管家",
+   "Answer": 1
+  }
+ ],
+ [
+  23,
+  {
+   "_id": 23,
+   "Question": "要想给自己的装备镶嵌宝石，需要寻找那个NPC？",
+   "Answer_A": "寄卖商人",
+   "Answer_B": "炼化大师",
+   "Answer_C": "冲击奖励任务官",
+   "Answer": 2
+  }
+ ],
+ [
+  24,
+  {
+   "_id": 24,
+   "Question": "武侠小说《射雕英雄传》的作者原名是?",
+   "Answer_A": "金庸",
+   "Answer_B": "古龙",
+   "Answer_C": "查良庸",
+   "Answer": 3
+  }
+ ],
+ [
+  25,
+  {
+   "_id": 25,
+   "Question": "想要寻找爱神需要去那个场景？",
+   "Answer_A": "奇妙广场",
+   "Answer_B": "荣誉圣殿",
+   "Answer_C": "城镇",
+   "Answer": 1
+  }
+ ],
+ [
+  26,
+  {
+   "_id": 26,
+   "Question": "想要寻找创世女神去那个场景？",
+   "Answer_A": "城镇",
+   "Answer_B": "守护乐园",
+   "Answer_C": "荣誉圣殿",
+   "Answer": 3
+  }
+ ],
+ [
+  27,
+  {
+   "_id": 27,
+   "Question": "想要寄卖物品需要找那个NPC？",
+   "Answer_A": "寄卖大师",
+   "Answer_B": "炼化大师",
+   "Answer_C": "万能管家",
+   "Answer": 1
+  }
+ ],
+ [
+  28,
+  {
+   "_id": 28,
+   "Question": "想要将背包内的物品换成金币，应该在普通商店怎样操作？",
+   "Answer_A": "将要出售的物品拖入商店",
+   "Answer_B": "在心中默念要卖的物品",
+   "Answer_C": "将物品拖在地上",
+   "Answer": 1
+  }
+ ],
+ [
+  29,
+  {
+   "_id": 29,
+   "Question": "当你想要移动你的角色是，你应该点击？",
+   "Answer_A": "左键",
+   "Answer_B": "右键",
+   "Answer_C": "滑轮",
+   "Answer": 1
+  }
+ ],
+ [
+  30,
+  {
+   "_id": 30,
+   "Question": "当你要与怪物战斗时，你需要用那个键点击怪物？",
+   "Answer_A": "左键",
+   "Answer_B": "右键",
+   "Answer_C": "Q",
+   "Answer": 2
+  }
+ ],
+ [
+  31,
+  {
+   "_id": 31,
+   "Question": "当地方目标被施加了睡眠状态后，你最好？",
+   "Answer_A": "攻击其他目标",
+   "Answer_B": "继续攻击被睡眠的目标",
+   "Answer_C": "胡乱攻击",
+   "Answer": 1
+  }
+ ],
+ [
+  32,
+  {
+   "_id": 32,
+   "Question": "超能力的技能特点是？",
+   "Answer_A": "攻击目标多",
+   "Answer_B": "攻击伤害高",
+   "Answer_C": "暴击高",
+   "Answer": 1
+  }
+ ],
+ [
+  33,
+  {
+   "_id": 33,
+   "Question": "护士的技能特点是？",
+   "Answer_A": "治疗能力或者中毒",
+   "Answer_B": "暴击伤害或者暴击率",
+   "Answer_C": "给队友加减伤BUFF",
+   "Answer": 1
+  }
+ ],
+ [
+  34,
+  {
+   "_id": 34,
+   "Question": "运动员的技能特点是？",
+   "Answer_A": "暴击伤害或者暴击率",
+   "Answer_B": "单体爆炸攻击",
+   "Answer_C": "治疗能力或者中毒",
+   "Answer": 1
+  }
+ ],
+ [
+  35,
+  {
+   "_id": 35,
+   "Question": "军官的技能特点是？",
+   "Answer_A": "单体爆炸攻击",
+   "Answer_B": "暴击高",
+   "Answer_C": "血多防高",
+   "Answer": 3
+  }
+ ],
+ [
+  36,
+  {
+   "_id": 36,
+   "Question": "当你觉得你需要升级是你可以去？",
+   "Answer_A": "奇妙广场",
+   "Answer_B": "荣誉圣殿",
+   "Answer_C": "试炼之地",
+   "Answer": 3
+  }
+ ],
+ [
+  37,
+  {
+   "_id": 37,
+   "Question": "当你需要获得珍稀材料时，你需要去与那种怪物战斗？",
+   "Answer_A": "BOOS",
+   "Answer_B": "主线怪物",
+   "Answer_C": "试炼之地",
+   "Answer": 1
+  }
+ ],
+ [
+  38,
+  {
+   "_id": 38,
+   "Question": "你觉得奇妙之旅NPC中最帅的人是？",
+   "Answer_A": "奇妙小博士",
+   "Answer_B": "毁灭天使",
+   "Answer_C": "创世女神",
+   "Answer": 1
+  }
+ ],
+ [
+  39,
+  {
+   "_id": 39,
+   "Question": "当你觉得自己需要很多金币时，你需要？",
+   "Answer_A": "打怪或者寄卖商品",
+   "Answer_B": "盗取他人账号",
+   "Answer_C": "上街要钱",
+   "Answer": 1
+  }
+ ],
+ [
+  40,
+  {
+   "_id": 40,
+   "Question": "当别人向你索要账号密码时，你应该？",
+   "Answer_A": "直接发给对方",
+   "Answer_B": "辱骂对方",
+   "Answer_C": "拒绝对方",
+   "Answer": 3
+  }
+ ],
+ [
+  41,
+  {
+   "_id": 41,
+   "Question": "当你在游戏中与其他人发生争执时你应该？",
+   "Answer_A": "冷静下来，和谐游戏",
+   "Answer_B": "辱骂对方",
+   "Answer_C": "盗取对方账号",
+   "Answer": 1
+  }
+ ],
+ [
+  42,
+  {
+   "_id": 42,
+   "Question": "当你在游戏里发现BUG时你可以？",
+   "Answer_A": "垃圾游戏，不玩也罢",
+   "Answer_B": "告知开发人员",
+   "Answer_C": "恶意利用BUG",
+   "Answer": 2
+  }
+ ],
+ [
+  43,
+  {
+   "_id": 43,
+   "Question": "当你遇到志同道合的玩家时，你想添加对方为好友，你可以？",
+   "Answer_A": "右键点击玩家",
+   "Answer_B": "移动到对方身边",
+   "Answer_C": "在聊天框告诉对方",
+   "Answer": 1
+  }
+ ],
+ [
+  44,
+  {
+   "_id": 44,
+   "Question": "冬瓜、黄瓜、西瓜、南瓜都能吃，什么瓜不能吃?",
+   "Answer_A": "黄瓜",
+   "Answer_B": "冬瓜",
+   "Answer_C": "傻瓜",
+   "Answer": 3
+  }
+ ],
+ [
+  45,
+  {
+   "_id": 45,
+   "Question": "冬天，宝宝怕冷，到了屋里也不肯脱帽。可是他见了一个人乖乖地脱下帽，那人是谁? ",
+   "Answer_A": "爸爸",
+   "Answer_B": "妈妈",
+   "Answer_C": "理发师",
+   "Answer": 3
+  }
+ ],
+ [
+  46,
+  {
+   "_id": 46,
+   "Question": "老王一天要刮四五十次脸，脸上却仍有胡子。这是什么原因?",
+   "Answer_A": "胡子长得快",
+   "Answer_B": "刮胡刀不好用",
+   "Answer_C": "他是理发师",
+   "Answer": 3
+  }
+ ],
+ [
+  47,
+  {
+   "_id": 47,
+   "Question": "鸡蛋壳有什么用处?",
+   "Answer_A": "好看",
+   "Answer_B": "可以吃",
+   "Answer_C": "用来包蛋清和蛋黄",
+   "Answer": 3
+  }
+ ],
+ [
+  48,
+  {
+   "_id": 48,
+   "Question": "不必花力气打的东西是什么?",
+   "Answer_A": "打怪",
+   "Answer_B": "打包",
+   "Answer_C": "打哈欠",
+   "Answer": 3
+  }
+ ],
+ [
+  49,
+  {
+   "_id": 49,
+   "Question": "你能做，我能做，大家都做;一个人能做，两个人不能一起做。这是做什么?",
+   "Answer_A": "做饭",
+   "Answer_B": "做梦",
+   "Answer_C": "做装备",
+   "Answer": 2
+  }
+ ],
+ [
+  50,
+  {
+   "_id": 50,
+   "Question": "什么车子寸步难行?",
+   "Answer_A": "自行车",
+   "Answer_B": "风车",
+   "Answer_C": "汽车",
+   "Answer": 2
+  }
+ ],
+ [
+  51,
+  {
+   "_id": 51,
+   "Question": "什么蛋打不烂，煮不熟，更不能吃? ",
+   "Answer_A": "皮蛋",
+   "Answer_B": "鸡蛋",
+   "Answer_C": "考试考“0蛋”",
+   "Answer": 3
+  }
+ ],
+ [
+  52,
+  {
+   "_id": 52,
+   "Question": "时钟什么时候不会走?",
+   "Answer_A": "时钟本来就不会走",
+   "Answer_B": "早晨",
+   "Answer_C": "晚上",
+   "Answer": 1
+  }
+ ],
+ [
+  53,
+  {
+   "_id": 53,
+   "Question": "小明知道试卷的答案,为什么还频频看同学的? ",
+   "Answer_A": "小明要对答案",
+   "Answer_B": "小明是老师",
+   "Answer_C": "小明不自信",
+   "Answer": 2
+  }
+ ],
+ [
+  54,
+  {
+   "_id": 54,
+   "Question": "汽车在右转弯时,哪只轮胎不转?",
+   "Answer_A": "前胎",
+   "Answer_B": "后备胎",
+   "Answer_C": "后胎",
+   "Answer": 2
+  }
+ ],
+ [
+  55,
+  {
+   "_id": 55,
+   "Question": "想把梦变成现实，第一步应该干什么?",
+   "Answer_A": "起床",
+   "Answer_B": "时光机",
+   "Answer_C": "不知道",
+   "Answer": 1
+  }
+ ],
+ [
+  56,
+  {
+   "_id": 56,
+   "Question": "山坡上有一群羊，来了一群羊。一共有几群羊?",
+   "Answer_A": "一群",
+   "Answer_B": "两群",
+   "Answer_C": "三群",
+   "Answer": 1
+  }
+ ],
+ [
+  57,
+  {
+   "_id": 57,
+   "Question": "什么东西没吃的时候是绿的，吃的时候是红的，吐出来的是黑的?",
+   "Answer_A": "西瓜",
+   "Answer_B": "冬瓜",
+   "Answer_C": "南瓜",
+   "Answer": 1
+  }
+ ],
+ [
+  58,
+  {
+   "_id": 58,
+   "Question": "铁放在屋外露天会生锈，那么金子呢?",
+   "Answer_A": "生钻石",
+   "Answer_B": "生翡翠",
+   "Answer_C": "被偷走",
+   "Answer": 3
+  }
+ ],
+ [
+  59,
+  {
+   "_id": 59,
+   "Question": "房间里着火了，小明怎么也拉不开门，请问他后来是怎么出去的?",
+   "Answer_A": "跳窗",
+   "Answer_B": "推开门",
+   "Answer_C": "别人给小明开门",
+   "Answer": 2
+  }
+ ],
+ [
+  60,
+  {
+   "_id": 60,
+   "Question": "什么事天不知地知，你不知我知?",
+   "Answer_A": "亏心事",
+   "Answer_B": "鞋底破了",
+   "Answer_C": "喜事",
+   "Answer": 2
+  }
+ ]
+]

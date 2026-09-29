@@ -1,0 +1,1440 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Name": "Scene_Login",
+   "Desc": "登录",
+   "SceneName": "Scene_Login",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "RecommendLevel": 0,
+   "Layers": 1,
+   "CameraPos_MinX": 0,
+   "CameraPos_MaxX": 0,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": 0
+    }
+   ]
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Name": "Scene_CreateRole",
+   "SceneName": "Scene_CreateRole",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": 0,
+   "CameraPos_MaxX": 0,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": 0
+    }
+   ]
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Name": "Scene_EnterGame",
+   "SceneName": "Scene_EnterGame",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": 0,
+   "CameraPos_MaxX": 0,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": 0
+    }
+   ]
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Name": "Scene_MainCity",
+   "Desc": "城镇",
+   "SceneName": "Scene_MainCity",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.50656,
+     "PlayerPos_y": -1.474469
+    }
+   ]
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Name": "Scene_MarvellousSquare",
+   "Desc": "奇妙广场",
+   "SceneName": "Scene_MarvellousSquare",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -12,
+   "CameraPos_MaxX": 12,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Name": "Scene_Beach",
+   "Desc": "比基尼海滩",
+   "SceneName": "Scene_Beach",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 10,
+   "CameraPos_MinX": -17.15,
+   "CameraPos_MaxX": 17.15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.50656,
+     "PlayerPos_y": -1.474469
+    }
+   ]
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Name": "Scene_HonorTemple",
+   "Desc": "荣誉圣殿",
+   "SceneName": "Scene_HonorTemple",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Name": "Scene_GuardianPark",
+   "Desc": "角斗场",
+   "SceneName": "Scene_GuardianPark",
+   "CanForcedPK": true,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Name": "Scene_Challenge",
+   "Desc": "试炼之地",
+   "SceneName": "Scene_Challenge",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 40,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Name": "Scene_Boss",
+   "Desc": "Boss",
+   "SceneName": "Scene_Boss",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 25,
+   "CameraPos_MinX": -14.5,
+   "CameraPos_MaxX": 14.5,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -10,
+     "PlayerPos_y": -1.9
+    }
+   ]
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Name": "Scene_MainStory1",
+   "Desc": "初心勃岛",
+   "SceneName": "Scene_MainStory1",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 100,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Name": "Scene_MainStory2",
+   "Desc": "初心神异之岛",
+   "SceneName": "Scene_MainStory2",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 300,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Name": "Scene_MainStory3",
+   "Desc": "初心死亡征途",
+   "SceneName": "Scene_MainStory3",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Name": "Scene_MainStory4",
+   "Desc": "初心妖魔岛",
+   "SceneName": "Scene_MainStory4",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 1000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Name": "Scene_MainStory5",
+   "Desc": "熟练勃岛",
+   "SceneName": "Scene_MainStory5",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 1500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Name": "Scene_MainStory6",
+   "Desc": "熟练神异之岛",
+   "SceneName": "Scene_MainStory6",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 2000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "Name": "Scene_MainStory7",
+   "Desc": "熟练死亡征途",
+   "SceneName": "Scene_MainStory7",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 2500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "Name": "Scene_MainStory8",
+   "Desc": "熟练妖魔岛",
+   "SceneName": "Scene_MainStory8",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 3000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "Name": "Scene_MainStory9",
+   "Desc": "会心精灵之森",
+   "SceneName": "Scene_MainStory9",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 3500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "Name": "Scene_MainStory10",
+   "Desc": "会心绿野仙踪",
+   "SceneName": "Scene_MainStory10",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 4000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "Name": "Scene_MainStory11",
+   "Desc": "会心迷失城市",
+   "SceneName": "Scene_MainStory11",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 4500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "Name": "Scene_MainStory12",
+   "Desc": "会心无尽长湖",
+   "SceneName": "Scene_MainStory12",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 5000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "Name": "Scene_MainStory13",
+   "Desc": "达人海底世界",
+   "SceneName": "Scene_MainStory13",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 5500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "Name": "Scene_MainStory14",
+   "Desc": "达人浩瀚雪山",
+   "SceneName": "Scene_MainStory14",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 6000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "Name": "Scene_MainStory15",
+   "Desc": "达人水晶矿洞",
+   "SceneName": "Scene_MainStory15",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 6500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "Name": "Scene_MainStory16",
+   "Desc": "达人天空之城",
+   "SceneName": "Scene_MainStory16",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 7000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "Name": "Scene_FimalyBattle",
+   "Desc": "家族战",
+   "SceneName": "Scene_FimalyBattle",
+   "CanForcedPK": true,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "Name": "Scene_ActiveTask",
+   "Desc": "活动",
+   "SceneName": "Scene_ActiveTask",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 1,
+     "PlayerPos_y": 0.259455
+    }
+   ]
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "Name": "Scene_BattleIdle",
+   "Desc": "休闲岛",
+   "SceneName": "Scene_BattleIdle",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "Name": "Scene_PersonalPvp1",
+   "Desc": "青铜斗士场",
+   "SceneName": "Scene_PersonalPvp1",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "Name": "Scene_PersonalPvp2",
+   "Desc": "白银斗士场",
+   "SceneName": "Scene_PersonalPvp2",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "Name": "Scene_PersonalPvp3",
+   "Desc": "黄金斗士场",
+   "SceneName": "Scene_PersonalPvp3",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 1,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "Name": "Scene_ManulEquip1",
+   "Desc": "初级手工",
+   "SceneName": "Scene_ManulEquip1",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 4,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "Name": "Scene_ManulEquip2",
+   "Desc": "中级手工",
+   "SceneName": "Scene_ManulEquip1",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 4,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "Name": "Scene_ManulEquip3",
+   "Desc": "高级手工",
+   "SceneName": "Scene_ManulEquip1",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 4,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "Name": "Scene_Challenge_Middle",
+   "Desc": "中级试炼之地",
+   "SceneName": "Scene_Challenge_Middle",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 80,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "Name": "Scene_Challenge_Hard",
+   "Desc": "高级试炼之地",
+   "SceneName": "Scene_Challenge_Hard",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 99,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "Name": "Scene_PersonalBoss",
+   "Desc": "Boss之家",
+   "SceneName": "Scene_PersonalBoss",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 24,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": 0,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "Name": "Scene_SpaceTravel1",
+   "Desc": "时空旅行1",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "Name": "Scene_SpaceTravel2",
+   "Desc": "时空旅行2",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "Name": "Scene_SpaceTravel3",
+   "Desc": "时空旅行3",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "Name": "Scene_SpaceTravel4",
+   "Desc": "时空旅行4",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "Name": "Scene_SpaceTravel5",
+   "Desc": "时空旅行5",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "Name": "Scene_SpaceTravel6",
+   "Desc": "时空旅行6",
+   "SceneName": "Scene_SpaceTravel",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 6,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10045,
+  {
+   "_id": 10045,
+   "Name": "Scene_StarSoulCopyA",
+   "Desc": "A星魂副本",
+   "SceneName": "Scene_StarSoul",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 3,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10046,
+  {
+   "_id": 10046,
+   "Name": "Scene_StarSoulCopyB",
+   "Desc": "B星魂副本",
+   "SceneName": "Scene_StarSoul",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 3,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10047,
+  {
+   "_id": 10047,
+   "Name": "Scene_StarSoulCopyC",
+   "Desc": "C星魂副本",
+   "SceneName": "Scene_StarSoul",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 3,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10048,
+  {
+   "_id": 10048,
+   "Name": "Scene_StarSoulCopyD",
+   "Desc": "D星魂副本",
+   "SceneName": "Scene_StarSoul",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 3,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10049,
+  {
+   "_id": 10049,
+   "Name": "Scene_StarSoulCopyE",
+   "Desc": "E星魂副本",
+   "SceneName": "Scene_StarSoul",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "Layers": 3,
+   "CameraPos_MinX": -15,
+   "CameraPos_MaxX": 15,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -14,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10050,
+  {
+   "_id": 10050,
+   "Name": "Scene_WorldBoss",
+   "Desc": "终极战场",
+   "SceneName": "Scene_WorldBoss",
+   "CanForcedPK": true,
+   "CanTeam": true,
+   "Layers": 1,
+   "CameraPos_MinX": -13,
+   "CameraPos_MaxX": 13,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -12,
+     "PlayerPos_y": -1.259455
+    }
+   ]
+  }
+ ],
+ [
+  10051,
+  {
+   "_id": 10051,
+   "Name": "Scene_Death",
+   "Desc": "死神之路",
+   "SceneName": "Scene_Death",
+   "CanForcedPK": false,
+   "CanTeam": false,
+   "Layers": 2,
+   "CameraPos_MinX": -8,
+   "CameraPos_MaxX": 8,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -6.52,
+     "PlayerPos_y": -1.92
+    }
+   ]
+  }
+ ],
+ [
+  10052,
+  {
+   "_id": 10052,
+   "Name": "Scene_MainStory17",
+   "Desc": "天上勃岛",
+   "SceneName": "Scene_MainStory1",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 100,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10053,
+  {
+   "_id": 10053,
+   "Name": "Scene_MainStory18",
+   "Desc": "天上神异之岛",
+   "SceneName": "Scene_MainStory2",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 300,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10054,
+  {
+   "_id": 10054,
+   "Name": "Scene_MainStory19",
+   "Desc": "天上死亡征途",
+   "SceneName": "Scene_MainStory3",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10055,
+  {
+   "_id": 10055,
+   "Name": "Scene_MainStory20",
+   "Desc": "天上妖魔岛",
+   "SceneName": "Scene_MainStory4",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 1000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10056,
+  {
+   "_id": 10056,
+   "Name": "Scene_MainStory21",
+   "Desc": "天下勃岛",
+   "SceneName": "Scene_MainStory5",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 1500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10057,
+  {
+   "_id": 10057,
+   "Name": "Scene_MainStory22",
+   "Desc": "天下神异之岛",
+   "SceneName": "Scene_MainStory6",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 2000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10058,
+  {
+   "_id": 10058,
+   "Name": "Scene_MainStory23",
+   "Desc": "天下死亡征途",
+   "SceneName": "Scene_MainStory7",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 2500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10059,
+  {
+   "_id": 10059,
+   "Name": "Scene_MainStory24",
+   "Desc": "天下妖魔岛",
+   "SceneName": "Scene_MainStory8",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 3000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10060,
+  {
+   "_id": 10060,
+   "Name": "Scene_MainStory25",
+   "Desc": "无双精灵之森",
+   "SceneName": "Scene_MainStory9",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 3500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10061,
+  {
+   "_id": 10061,
+   "Name": "Scene_MainStory26",
+   "Desc": "无双绿野仙踪",
+   "SceneName": "Scene_MainStory10",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 4000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10062,
+  {
+   "_id": 10062,
+   "Name": "Scene_MainStory27",
+   "Desc": "无双迷失城市",
+   "SceneName": "Scene_MainStory11",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 4500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10063,
+  {
+   "_id": 10063,
+   "Name": "Scene_MainStory28",
+   "Desc": "无双无尽长湖",
+   "SceneName": "Scene_MainStory12",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 5000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10064,
+  {
+   "_id": 10064,
+   "Name": "Scene_MainStory29",
+   "Desc": "地狱海底世界",
+   "SceneName": "Scene_MainStory13",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 5500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10065,
+  {
+   "_id": 10065,
+   "Name": "Scene_MainStory30",
+   "Desc": "地狱浩瀚雪山",
+   "SceneName": "Scene_MainStory14",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 6000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10066,
+  {
+   "_id": 10066,
+   "Name": "Scene_MainStory31",
+   "Desc": "地狱水晶矿洞",
+   "SceneName": "Scene_MainStory15",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 6500,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ],
+ [
+  10067,
+  {
+   "_id": 10067,
+   "Name": "Scene_MainStory32",
+   "Desc": "地狱天空之城",
+   "SceneName": "Scene_MainStory16",
+   "CanForcedPK": false,
+   "CanTeam": true,
+   "RecommendLevel": 7000,
+   "Layers": 10,
+   "CameraPos_MinX": -16,
+   "CameraPos_MaxX": 16,
+   "PlayerPosArr": [
+    {
+     "_t": "Sys_Scene+PlayerPos",
+     "PlayerPos_x": -13.80534,
+     "PlayerPos_y": -1.3
+    }
+   ]
+  }
+ ]
+]

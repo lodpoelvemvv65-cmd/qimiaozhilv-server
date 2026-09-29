@@ -1,0 +1,57 @@
+name: mhq-gm
+
+services:
+  gm-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mhq-gm:${GM_IMAGE_TAG:-latest}
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    environment:
+      TZ: Asia/Shanghai
+      MHQ_MYSQL_DSN: mhq:${MHQ_DB_PASSWORD}@tcp(mysql:3306)/mhq?charset=utf8mb4&collation=utf8mb4_bin&parseTime=true&loc=Local&timeout=10s&readTimeout=10s&writeTimeout=10s
+      MHQ_REDIS_ADDR: redis:6379
+      GM_GAME_ADDR: game:7756
+      GM_LISTEN: 0.0.0.0:8080
+      GM_COOKIE_SECURE: "false"
+    command: ["-listen", "0.0.0.0:8080"]
+    networks:
+      - backend
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    logging:
+      options:
+        max-size: 20m
+        max-file: "3"
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      - gm-api
+    ports:
+      - "8897:80/tcp"
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro,Z
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro,Z
+    networks:
+      - backend
+      - public
+    logging:
+      options:
+        max-size: 20m
+        max-file: "3"
+
+networks:
+  backend:
+    external: true
+    name: mhq_backend
+  public:
+    external: true
+    name: mhq_public

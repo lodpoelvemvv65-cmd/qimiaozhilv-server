@@ -1,0 +1,67 @@
+[
+ [
+  1,
+  {
+   "_id": 1,
+   "Name": "1阶boss",
+   "MonsterId": 50001,
+   "Exp": 0,
+   "Contribute": 100,
+   "PersonalContribute": 150,
+   "Dropasubset": 10051,
+   "CharacterAdd": 0.05
+  }
+ ],
+ [
+  2,
+  {
+   "_id": 2,
+   "Name": "2阶boss",
+   "MonsterId": 50002,
+   "Exp": 0,
+   "Contribute": 300,
+   "PersonalContribute": 300,
+   "Dropasubset": 10052,
+   "CharacterAdd": 0.08
+  }
+ ],
+ [
+  3,
+  {
+   "_id": 3,
+   "Name": "3阶boss",
+   "MonsterId": 50003,
+   "Exp": 0,
+   "Contribute": 600,
+   "PersonalContribute": 500,
+   "Dropasubset": 10053,
+   "CharacterAdd": 0.15
+  }
+ ],
+ [
+  4,
+  {
+   "_id": 4,
+   "Name": "4阶boss",
+   "MonsterId": 50004,
+   "Exp": 0,
+   "Contribute": 2400,
+   "PersonalContribute": 2500,
+   "Dropasubset": 10054,
+   "CharacterAdd": 0.23
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "Name": "5阶boss",
+   "MonsterId": 50005,
+   "Exp": 0,
+   "Contribute": 6000,
+   "PersonalContribute": 4500,
+   "Dropasubset": 10055,
+   "CharacterAdd": 0.33
+  }
+ ]
+]

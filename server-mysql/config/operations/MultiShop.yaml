@@ -1,0 +1,777 @@
+# 杂货铺/多商店配置（发布名：MultiShop）。Type 决定货币页签，Price 是单价。
+# 商品行可增加 Enabled: false 下架；省略时默认上架。发布后在线刷新目录。
+- - 11001
+  - _id: 11001
+    Type: 1
+    ItemId: 20258
+    Price: 8888888
+- - 11002
+  - _id: 11002
+    Type: 1
+    ItemId: 20259
+    Price: 8888888
+- - 11003
+  - _id: 11003
+    Type: 1
+    ItemId: 20260
+    Price: 8888888
+- - 11004
+  - _id: 11004
+    Type: 1
+    ItemId: 20261
+    Price: 8888888
+- - 11005
+  - _id: 11005
+    Type: 1
+    ItemId: 110341
+    Price: 888888
+- - 11006
+  - _id: 11006
+    Type: 1
+    ItemId: 110342
+    Price: 1888888
+- - 11007
+  - _id: 11007
+    Type: 1
+    ItemId: 110352
+    Price: 2888888
+- - 11008
+  - _id: 11008
+    Type: 1
+    ItemId: 110394
+    Price: 1260000000
+- - 11009
+  - _id: 11009
+    Type: 1
+    ItemId: 110395
+    Price: 1260000000
+- - 11010
+  - _id: 11010
+    Type: 1
+    ItemId: 110396
+    Price: 1260000000
+- - 11011
+  - _id: 11011
+    Type: 1
+    ItemId: 110397
+    Price: 1260000000
+- - 11012
+  - _id: 11012
+    Type: 1
+    ItemId: 110341
+    Price: 1260000000
+- - 11013
+  - _id: 11013
+    Type: 1
+    ItemId: 110828
+    Price: 35000000
+- - 12001
+  - _id: 12001
+    Type: 2
+    ItemId: 120343
+    Price: 1000
+- - 12002
+  - _id: 12002
+    Type: 2
+    ItemId: 120344
+    Price: 2000
+- - 12003
+  - _id: 12003
+    Type: 2
+    ItemId: 120345
+    Price: 5000
+- - 12004
+  - _id: 12004
+    Type: 2
+    ItemId: 120346
+    Price: 10000
+- - 12005
+  - _id: 12005
+    Type: 2
+    ItemId: 120347
+    Price: 20000
+- - 12006
+  - _id: 12006
+    Type: 2
+    ItemId: 120348
+    Price: 50000
+- - 12007
+  - _id: 12007
+    Type: 2
+    ItemId: 120349
+    Price: 1000
+- - 12008
+  - _id: 12008
+    Type: 2
+    ItemId: 120350
+    Price: 2000
+- - 12009
+  - _id: 12009
+    Type: 2
+    ItemId: 120351
+    Price: 5000
+- - 12010
+  - _id: 12010
+    Type: 2
+    ItemId: 120352
+    Price: 10000
+- - 12011
+  - _id: 12011
+    Type: 2
+    ItemId: 120353
+    Price: 20000
+- - 12012
+  - _id: 12012
+    Type: 2
+    ItemId: 120354
+    Price: 50000
+- - 12013
+  - _id: 12013
+    Type: 2
+    ItemId: 120355
+    Price: 1000
+- - 12014
+  - _id: 12014
+    Type: 2
+    ItemId: 120356
+    Price: 2000
+- - 12015
+  - _id: 12015
+    Type: 2
+    ItemId: 120357
+    Price: 5000
+- - 12016
+  - _id: 12016
+    Type: 2
+    ItemId: 120358
+    Price: 10000
+- - 12017
+  - _id: 12017
+    Type: 2
+    ItemId: 120359
+    Price: 20000
+- - 12018
+  - _id: 12018
+    Type: 2
+    ItemId: 120360
+    Price: 50000
+- - 12019
+  - _id: 12019
+    Type: 2
+    ItemId: 120361
+    Price: 1000
+- - 12020
+  - _id: 12020
+    Type: 2
+    ItemId: 120362
+    Price: 2000
+- - 12021
+  - _id: 12021
+    Type: 2
+    ItemId: 120363
+    Price: 5000
+- - 12022
+  - _id: 12022
+    Type: 2
+    ItemId: 120364
+    Price: 10000
+- - 12023
+  - _id: 12023
+    Type: 2
+    ItemId: 120365
+    Price: 20000
+- - 12024
+  - _id: 12024
+    Type: 2
+    ItemId: 120366
+    Price: 50000
+- - 12025
+  - _id: 12025
+    Type: 2
+    ItemId: 120375
+    Price: 1000
+- - 12026
+  - _id: 12026
+    Type: 2
+    ItemId: 120376
+    Price: 2000
+- - 12027
+  - _id: 12027
+    Type: 2
+    ItemId: 120377
+    Price: 5000
+- - 12028
+  - _id: 12028
+    Type: 2
+    ItemId: 120378
+    Price: 10000
+- - 12029
+  - _id: 12029
+    Type: 2
+    ItemId: 120379
+    Price: 20000
+- - 12030
+  - _id: 12030
+    Type: 2
+    ItemId: 120380
+    Price: 50000
+- - 12031
+  - _id: 12031
+    Type: 2
+    ItemId: 120381
+    Price: 1000
+- - 12032
+  - _id: 12032
+    Type: 2
+    ItemId: 120382
+    Price: 2000
+- - 12033
+  - _id: 12033
+    Type: 2
+    ItemId: 120383
+    Price: 5000
+- - 12034
+  - _id: 12034
+    Type: 2
+    ItemId: 120384
+    Price: 10000
+- - 12035
+  - _id: 12035
+    Type: 2
+    ItemId: 120385
+    Price: 20000
+- - 12036
+  - _id: 12036
+    Type: 2
+    ItemId: 120386
+    Price: 50000
+- - 12037
+  - _id: 12037
+    Type: 2
+    ItemId: 120387
+    Price: 1000
+- - 12038
+  - _id: 12038
+    Type: 2
+    ItemId: 120388
+    Price: 2000
+- - 12039
+  - _id: 12039
+    Type: 2
+    ItemId: 120389
+    Price: 5000
+- - 12040
+  - _id: 12040
+    Type: 2
+    ItemId: 120390
+    Price: 10000
+- - 12041
+  - _id: 12041
+    Type: 2
+    ItemId: 120391
+    Price: 20000
+- - 12042
+  - _id: 12042
+    Type: 2
+    ItemId: 120392
+    Price: 50000
+- - 12043
+  - _id: 12043
+    Type: 2
+    ItemId: 120393
+    Price: 1000
+- - 12044
+  - _id: 12044
+    Type: 2
+    ItemId: 120394
+    Price: 2000
+- - 12045
+  - _id: 12045
+    Type: 2
+    ItemId: 120395
+    Price: 5000
+- - 12046
+  - _id: 12046
+    Type: 2
+    ItemId: 120396
+    Price: 10000
+- - 12047
+  - _id: 12047
+    Type: 2
+    ItemId: 120397
+    Price: 20000
+- - 12048
+  - _id: 12048
+    Type: 2
+    ItemId: 120398
+    Price: 50000
+- - 12049
+  - _id: 12049
+    Type: 2
+    ItemId: 120563
+    Price: 1000
+- - 12050
+  - _id: 12050
+    Type: 2
+    ItemId: 120564
+    Price: 2000
+- - 12051
+  - _id: 12051
+    Type: 2
+    ItemId: 120565
+    Price: 3000
+- - 12052
+  - _id: 12052
+    Type: 2
+    ItemId: 120566
+    Price: 4000
+- - 12053
+  - _id: 12053
+    Type: 2
+    ItemId: 120567
+    Price: 5000
+- - 12054
+  - _id: 12054
+    Type: 2
+    ItemId: 120568
+    Price: 6000
+- - 12055
+  - _id: 12055
+    Type: 2
+    ItemId: 120569
+    Price: 7000
+- - 12056
+  - _id: 12056
+    Type: 2
+    ItemId: 120570
+    Price: 8000
+- - 12057
+  - _id: 12057
+    Type: 2
+    ItemId: 120571
+    Price: 9000
+- - 12058
+  - _id: 12058
+    Type: 2
+    ItemId: 120572
+    Price: 10000
+- - 12059
+  - _id: 12059
+    Type: 2
+    ItemId: 120573
+    Price: 11000
+- - 12060
+  - _id: 12060
+    Type: 2
+    ItemId: 120574
+    Price: 12000
+- - 12061
+  - _id: 12061
+    Type: 2
+    ItemId: 120575
+    Price: 13000
+- - 12062
+  - _id: 12062
+    Type: 2
+    ItemId: 120576
+    Price: 14000
+- - 12063
+  - _id: 12063
+    Type: 2
+    ItemId: 120577
+    Price: 15000
+- - 12064
+  - _id: 12064
+    Type: 2
+    ItemId: 120578
+    Price: 16000
+- - 13001
+  - _id: 13001
+    Type: 3
+    ItemId: 20085
+    Price: 588
+- - 13002
+  - _id: 13002
+    Type: 3
+    ItemId: 20086
+    Price: 588
+- - 13003
+  - _id: 13003
+    Type: 3
+    ItemId: 20087
+    Price: 588
+- - 13004
+  - _id: 13004
+    Type: 3
+    ItemId: 20088
+    Price: 588
+- - 13005
+  - _id: 13005
+    Type: 3
+    ItemId: 20089
+    Price: 588
+- - 13006
+  - _id: 13006
+    Type: 3
+    ItemId: 20090
+    Price: 588
+- - 13007
+  - _id: 13007
+    Type: 3
+    ItemId: 20091
+    Price: 588
+- - 13008
+  - _id: 13008
+    Type: 3
+    ItemId: 20092
+    Price: 588
+- - 13009
+  - _id: 13009
+    Type: 3
+    ItemId: 20093
+    Price: 588
+- - 13010
+  - _id: 13010
+    Type: 3
+    ItemId: 20094
+    Price: 588
+- - 13011
+  - _id: 13011
+    Type: 3
+    ItemId: 20095
+    Price: 588
+- - 13012
+  - _id: 13012
+    Type: 3
+    ItemId: 20096
+    Price: 588
+- - 13013
+  - _id: 13013
+    Type: 3
+    ItemId: 20097
+    Price: 588
+- - 13014
+  - _id: 13014
+    Type: 3
+    ItemId: 20267
+    Price: 588
+- - 13015
+  - _id: 13015
+    Type: 3
+    ItemId: 20274
+    Price: 588
+- - 13016
+  - _id: 13016
+    Type: 3
+    ItemId: 20149
+    Price: 16888
+- - 13017
+  - _id: 13017
+    Type: 3
+    ItemId: 20206
+    Price: 588
+- - 13018
+  - _id: 13018
+    Type: 3
+    ItemId: 20207
+    Price: 788
+- - 13019
+  - _id: 13019
+    Type: 3
+    ItemId: 20208
+    Price: 988
+- - 13020
+  - _id: 13020
+    Type: 3
+    ItemId: 20209
+    Price: 1188
+- - 13021
+  - _id: 13021
+    Type: 3
+    ItemId: 20210
+    Price: 1388
+- - 13022
+  - _id: 13022
+    Type: 3
+    ItemId: 20211
+    Price: 1588
+- - 13023
+  - _id: 13023
+    Type: 3
+    ItemId: 20212
+    Price: 1788
+- - 13024
+  - _id: 13024
+    Type: 3
+    ItemId: 20213
+    Price: 1988
+- - 13025
+  - _id: 13025
+    Type: 3
+    ItemId: 20214
+    Price: 2188
+- - 13026
+  - _id: 13026
+    Type: 3
+    ItemId: 20215
+    Price: 18
+- - 13027
+  - _id: 13027
+    Type: 3
+    ItemId: 20228
+    Price: 10000
+- - 13028
+  - _id: 13028
+    Type: 3
+    ItemId: 20229
+    Price: 10000
+- - 13029
+  - _id: 13029
+    Type: 3
+    ItemId: 20230
+    Price: 10000
+- - 13030
+  - _id: 13030
+    Type: 3
+    ItemId: 20231
+    Price: 10000
+- - 13031
+  - _id: 13031
+    Type: 3
+    ItemId: 20232
+    Price: 10000
+- - 13032
+  - _id: 13032
+    Type: 3
+    ItemId: 20233
+    Price: 10000
+- - 13033
+  - _id: 13033
+    Type: 3
+    ItemId: 20234
+    Price: 10000
+- - 13034
+  - _id: 13034
+    Type: 3
+    ItemId: 20235
+    Price: 10000
+- - 13035
+  - _id: 13035
+    Type: 3
+    ItemId: 110394
+    Price: 28888
+- - 13036
+  - _id: 13036
+    Type: 3
+    ItemId: 110395
+    Price: 28888
+- - 13037
+  - _id: 13037
+    Type: 3
+    ItemId: 110396
+    Price: 28888
+- - 13038
+  - _id: 13038
+    Type: 3
+    ItemId: 110397
+    Price: 28888
+- - 13039
+  - _id: 13039
+    Type: 3
+    ItemId: 110426
+    Price: 1288
+- - 13040
+  - _id: 13040
+    Type: 3
+    ItemId: 110427
+    Price: 1888
+- - 13041
+  - _id: 13041
+    Type: 3
+    ItemId: 110428
+    Price: 4888
+- - 13042
+  - _id: 13042
+    Type: 3
+    ItemId: 110824
+    Price: 288
+- - 13043
+  - _id: 13043
+    Type: 3
+    ItemId: 110826
+    Price: 16888
+- - 13044
+  - _id: 13044
+    Type: 3
+    ItemId: 110814
+    Price: 120
+- - 13045
+  - _id: 13045
+    Type: 3
+    ItemId: 110377
+    Price: 25
+- - 14001
+  - _id: 14001
+    Type: 4
+    ItemId: 20216
+    Price: 100
+- - 14002
+  - _id: 14002
+    Type: 4
+    ItemId: 20217
+    Price: 100
+- - 14003
+  - _id: 14003
+    Type: 4
+    ItemId: 20218
+    Price: 100
+- - 14004
+  - _id: 14004
+    Type: 4
+    ItemId: 20219
+    Price: 100
+- - 14005
+  - _id: 14005
+    Type: 4
+    ItemId: 20220
+    Price: 300
+- - 14006
+  - _id: 14006
+    Type: 4
+    ItemId: 20221
+    Price: 300
+- - 14007
+  - _id: 14007
+    Type: 4
+    ItemId: 20222
+    Price: 300
+- - 14008
+  - _id: 14008
+    Type: 4
+    ItemId: 20223
+    Price: 300
+- - 14009
+  - _id: 14009
+    Type: 4
+    ItemId: 110824
+    Price: 500
+- - 14010
+  - _id: 14010
+    Type: 4
+    ItemId: 20140
+    Price: 800
+- - 14011
+  - _id: 14011
+    Type: 4
+    ItemId: 20145
+    Price: 1500
+- - 14012
+  - _id: 14012
+    Type: 4
+    ItemId: 20147
+    Price: 2000
+- - 14013
+  - _id: 14013
+    Type: 4
+    ItemId: 20149
+    Price: 5000
+- - 14014
+  - _id: 14014
+    Type: 4
+    ItemId: 110826
+    Price: 10000
+- - 14015
+  - _id: 14015
+    Type: 4
+    ItemId: 110394
+    Price: 50000
+- - 14016
+  - _id: 14016
+    Type: 4
+    ItemId: 110395
+    Price: 50000
+- - 14017
+  - _id: 14017
+    Type: 4
+    ItemId: 110396
+    Price: 50000
+- - 14018
+  - _id: 14018
+    Type: 4
+    ItemId: 110397
+    Price: 50000
+- - 14019
+  - _id: 14019
+    Type: 4
+    ItemId: 20206
+    Price: 1500
+- - 14020
+  - _id: 14020
+    Type: 4
+    ItemId: 20207
+    Price: 1700
+- - 14021
+  - _id: 14021
+    Type: 4
+    ItemId: 20208
+    Price: 2000
+- - 14022
+  - _id: 14022
+    Type: 4
+    ItemId: 20209
+    Price: 2300
+- - 14023
+  - _id: 14023
+    Type: 4
+    ItemId: 20210
+    Price: 2600
+- - 14024
+  - _id: 14024
+    Type: 4
+    ItemId: 20211
+    Price: 3000
+- - 14025
+  - _id: 14025
+    Type: 4
+    ItemId: 20212
+    Price: 3500
+- - 14026
+  - _id: 14026
+    Type: 4
+    ItemId: 20213
+    Price: 5000
+- - 14027
+  - _id: 14027
+    Type: 4
+    ItemId: 20214
+    Price: 6500
+- - 14028
+  - _id: 14028
+    Type: 4
+    ItemId: 20144
+    Price: 2500
+- - 14029
+  - _id: 14029
+    Type: 4
+    ItemId: 20486
+    Price: 2500
+- - 14030
+  - _id: 14030
+    Type: 4
+    ItemId: 20487
+    Price: 2500
+- - 14031
+  - _id: 14031
+    Type: 4
+    ItemId: 20488
+    Price: 2500
+- - 14032
+  - _id: 14032
+    Type: 4
+    ItemId: 20489
+    Price: 2500
+- - 14033
+  - _id: 14033
+    Type: 4
+    ItemId: 20490
+    Price: 2500

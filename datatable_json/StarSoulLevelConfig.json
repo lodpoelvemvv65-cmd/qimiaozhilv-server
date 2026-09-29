@@ -1,0 +1,1388 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Quality": 1,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 50,
+   "NeedCoin": 12
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Quality": 1,
+   "Level": 1,
+   "NeedExp": 17,
+   "Exp": 61,
+   "NeedCoin": 13
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Quality": 1,
+   "Level": 2,
+   "NeedExp": 38,
+   "Exp": 88,
+   "NeedCoin": 14
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Quality": 1,
+   "Level": 3,
+   "NeedExp": 85,
+   "Exp": 148,
+   "NeedCoin": 15
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Quality": 1,
+   "Level": 4,
+   "NeedExp": 190,
+   "Exp": 281,
+   "NeedCoin": 16
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Quality": 1,
+   "Level": 5,
+   "NeedExp": 424,
+   "Exp": 577,
+   "NeedCoin": 17
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Quality": 1,
+   "Level": 6,
+   "NeedExp": 652,
+   "Exp": 1034,
+   "NeedCoin": 18
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Quality": 1,
+   "Level": 7,
+   "NeedExp": 1004,
+   "Exp": 1737,
+   "NeedCoin": 19
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Quality": 1,
+   "Level": 8,
+   "NeedExp": 1545,
+   "Exp": 2818,
+   "NeedCoin": 20
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Quality": 1,
+   "Level": 9,
+   "NeedExp": 2377,
+   "Exp": 4482,
+   "NeedCoin": 21
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Quality": 1,
+   "Level": 10,
+   "NeedExp": 2972,
+   "Exp": 6562,
+   "NeedCoin": 22
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Quality": 1,
+   "Level": 11,
+   "NeedExp": 3715,
+   "Exp": 9163,
+   "NeedCoin": 23
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Quality": 1,
+   "Level": 12,
+   "NeedExp": 4643,
+   "Exp": 12413,
+   "NeedCoin": 24
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Quality": 1,
+   "Level": 13,
+   "NeedExp": 5804,
+   "Exp": 16476,
+   "NeedCoin": 25
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Quality": 1,
+   "Level": 14,
+   "NeedExp": 6449,
+   "Exp": 20990,
+   "NeedCoin": 26
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Quality": 1,
+   "Level": 15,
+   "NeedExp": 7166,
+   "Exp": 26006,
+   "NeedCoin": 27
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "Quality": 1,
+   "Level": 16,
+   "NeedExp": 7962,
+   "Exp": 31580,
+   "NeedCoin": 28
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "Quality": 1,
+   "Level": 17,
+   "NeedExp": 8847,
+   "Exp": 37773,
+   "NeedCoin": 29
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "Quality": 1,
+   "Level": 18,
+   "NeedExp": 9216,
+   "Exp": 44224,
+   "NeedCoin": 30
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "Quality": 1,
+   "Level": 19,
+   "NeedExp": 9600,
+   "Exp": 50944,
+   "NeedCoin": 31
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "Quality": 1,
+   "Level": 20,
+   "NeedExp": 10000,
+   "Exp": 57944,
+   "NeedCoin": 32
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "Quality": 2,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 100,
+   "NeedCoin": 25
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "Quality": 2,
+   "Level": 1,
+   "NeedExp": 25,
+   "Exp": 117,
+   "NeedCoin": 26
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "Quality": 2,
+   "Level": 2,
+   "NeedExp": 57,
+   "Exp": 155,
+   "NeedCoin": 27
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "Quality": 2,
+   "Level": 3,
+   "NeedExp": 127,
+   "Exp": 242,
+   "NeedCoin": 28
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "Quality": 2,
+   "Level": 4,
+   "NeedExp": 285,
+   "Exp": 435,
+   "NeedCoin": 29
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "Quality": 2,
+   "Level": 5,
+   "NeedExp": 636,
+   "Exp": 868,
+   "NeedCoin": 30
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "Quality": 2,
+   "Level": 6,
+   "NeedExp": 978,
+   "Exp": 1533,
+   "NeedCoin": 31
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "Quality": 2,
+   "Level": 7,
+   "NeedExp": 1506,
+   "Exp": 2557,
+   "NeedCoin": 32
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "Quality": 2,
+   "Level": 8,
+   "NeedExp": 2317,
+   "Exp": 4133,
+   "NeedCoin": 33
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "Quality": 2,
+   "Level": 9,
+   "NeedExp": 3565,
+   "Exp": 6557,
+   "NeedCoin": 34
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "Quality": 2,
+   "Level": 10,
+   "NeedExp": 4458,
+   "Exp": 9588,
+   "NeedCoin": 35
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "Quality": 2,
+   "Level": 11,
+   "NeedExp": 5572,
+   "Exp": 13377,
+   "NeedCoin": 36
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "Quality": 2,
+   "Level": 12,
+   "NeedExp": 6964,
+   "Exp": 18113,
+   "NeedCoin": 37
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "Quality": 2,
+   "Level": 13,
+   "NeedExp": 8706,
+   "Exp": 24033,
+   "NeedCoin": 38
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "Quality": 2,
+   "Level": 14,
+   "NeedExp": 9673,
+   "Exp": 30610,
+   "NeedCoin": 39
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "Quality": 2,
+   "Level": 15,
+   "NeedExp": 10749,
+   "Exp": 37920,
+   "NeedCoin": 40
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "Quality": 2,
+   "Level": 16,
+   "NeedExp": 11943,
+   "Exp": 46041,
+   "NeedCoin": 41
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "Quality": 2,
+   "Level": 17,
+   "NeedExp": 13270,
+   "Exp": 55065,
+   "NeedCoin": 42
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "Quality": 2,
+   "Level": 18,
+   "NeedExp": 13824,
+   "Exp": 64465,
+   "NeedCoin": 43
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "Quality": 2,
+   "Level": 19,
+   "NeedExp": 14400,
+   "Exp": 74257,
+   "NeedCoin": 44
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "Quality": 2,
+   "Level": 20,
+   "NeedExp": 15000,
+   "Exp": 84457,
+   "NeedCoin": 45
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "Quality": 3,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 200,
+   "NeedCoin": 40
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "Quality": 3,
+   "Level": 1,
+   "NeedExp": 38,
+   "Exp": 224,
+   "NeedCoin": 41
+  }
+ ],
+ [
+  10045,
+  {
+   "_id": 10045,
+   "Quality": 3,
+   "Level": 2,
+   "NeedExp": 85,
+   "Exp": 279,
+   "NeedCoin": 42
+  }
+ ],
+ [
+  10046,
+  {
+   "_id": 10046,
+   "Quality": 3,
+   "Level": 3,
+   "NeedExp": 191,
+   "Exp": 404,
+   "NeedCoin": 43
+  }
+ ],
+ [
+  10047,
+  {
+   "_id": 10047,
+   "Quality": 3,
+   "Level": 4,
+   "NeedExp": 427,
+   "Exp": 681,
+   "NeedCoin": 44
+  }
+ ],
+ [
+  10048,
+  {
+   "_id": 10048,
+   "Quality": 3,
+   "Level": 5,
+   "NeedExp": 954,
+   "Exp": 1301,
+   "NeedCoin": 45
+  }
+ ],
+ [
+  10049,
+  {
+   "_id": 10049,
+   "Quality": 3,
+   "Level": 6,
+   "NeedExp": 1467,
+   "Exp": 2255,
+   "NeedCoin": 46
+  }
+ ],
+ [
+  10050,
+  {
+   "_id": 10050,
+   "Quality": 3,
+   "Level": 7,
+   "NeedExp": 2259,
+   "Exp": 3723,
+   "NeedCoin": 47
+  }
+ ],
+ [
+  10051,
+  {
+   "_id": 10051,
+   "Quality": 3,
+   "Level": 8,
+   "NeedExp": 3476,
+   "Exp": 5983,
+   "NeedCoin": 48
+  }
+ ],
+ [
+  10052,
+  {
+   "_id": 10052,
+   "Quality": 3,
+   "Level": 9,
+   "NeedExp": 5348,
+   "Exp": 9459,
+   "NeedCoin": 49
+  }
+ ],
+ [
+  10053,
+  {
+   "_id": 10053,
+   "Quality": 3,
+   "Level": 10,
+   "NeedExp": 6687,
+   "Exp": 13805,
+   "NeedCoin": 50
+  }
+ ],
+ [
+  10054,
+  {
+   "_id": 10054,
+   "Quality": 3,
+   "Level": 11,
+   "NeedExp": 8358,
+   "Exp": 19238,
+   "NeedCoin": 51
+  }
+ ],
+ [
+  10055,
+  {
+   "_id": 10055,
+   "Quality": 3,
+   "Level": 12,
+   "NeedExp": 10446,
+   "Exp": 26028,
+   "NeedCoin": 52
+  }
+ ],
+ [
+  10056,
+  {
+   "_id": 10056,
+   "Quality": 3,
+   "Level": 13,
+   "NeedExp": 13059,
+   "Exp": 34516,
+   "NeedCoin": 53
+  }
+ ],
+ [
+  10057,
+  {
+   "_id": 10057,
+   "Quality": 3,
+   "Level": 14,
+   "NeedExp": 14510,
+   "Exp": 43948,
+   "NeedCoin": 54
+  }
+ ],
+ [
+  10058,
+  {
+   "_id": 10058,
+   "Quality": 3,
+   "Level": 15,
+   "NeedExp": 16123,
+   "Exp": 54428,
+   "NeedCoin": 55
+  }
+ ],
+ [
+  10059,
+  {
+   "_id": 10059,
+   "Quality": 3,
+   "Level": 16,
+   "NeedExp": 17914,
+   "Exp": 66072,
+   "NeedCoin": 56
+  }
+ ],
+ [
+  10060,
+  {
+   "_id": 10060,
+   "Quality": 3,
+   "Level": 17,
+   "NeedExp": 19905,
+   "Exp": 79010,
+   "NeedCoin": 57
+  }
+ ],
+ [
+  10061,
+  {
+   "_id": 10061,
+   "Quality": 3,
+   "Level": 18,
+   "NeedExp": 20736,
+   "Exp": 92488,
+   "NeedCoin": 58
+  }
+ ],
+ [
+  10062,
+  {
+   "_id": 10062,
+   "Quality": 3,
+   "Level": 19,
+   "NeedExp": 21600,
+   "Exp": 106528,
+   "NeedCoin": 59
+  }
+ ],
+ [
+  10063,
+  {
+   "_id": 10063,
+   "Quality": 3,
+   "Level": 20,
+   "NeedExp": 22500,
+   "Exp": 121153,
+   "NeedCoin": 60
+  }
+ ],
+ [
+  10064,
+  {
+   "_id": 10064,
+   "Quality": 4,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 400,
+   "NeedCoin": 80
+  }
+ ],
+ [
+  10065,
+  {
+   "_id": 10065,
+   "Quality": 4,
+   "Level": 1,
+   "NeedExp": 57,
+   "Exp": 434,
+   "NeedCoin": 81
+  }
+ ],
+ [
+  10066,
+  {
+   "_id": 10066,
+   "Quality": 4,
+   "Level": 2,
+   "NeedExp": 128,
+   "Exp": 512,
+   "NeedCoin": 82
+  }
+ ],
+ [
+  10067,
+  {
+   "_id": 10067,
+   "Quality": 4,
+   "Level": 3,
+   "NeedExp": 286,
+   "Exp": 687,
+   "NeedCoin": 83
+  }
+ ],
+ [
+  10068,
+  {
+   "_id": 10068,
+   "Quality": 4,
+   "Level": 4,
+   "NeedExp": 641,
+   "Exp": 1078,
+   "NeedCoin": 84
+  }
+ ],
+ [
+  10069,
+  {
+   "_id": 10069,
+   "Quality": 4,
+   "Level": 5,
+   "NeedExp": 1431,
+   "Exp": 1951,
+   "NeedCoin": 85
+  }
+ ],
+ [
+  10070,
+  {
+   "_id": 10070,
+   "Quality": 4,
+   "Level": 6,
+   "NeedExp": 2200,
+   "Exp": 3293,
+   "NeedCoin": 86
+  }
+ ],
+ [
+  10071,
+  {
+   "_id": 10071,
+   "Quality": 4,
+   "Level": 7,
+   "NeedExp": 3388,
+   "Exp": 5359,
+   "NeedCoin": 87
+  }
+ ],
+ [
+  10072,
+  {
+   "_id": 10072,
+   "Quality": 4,
+   "Level": 8,
+   "NeedExp": 5214,
+   "Exp": 8540,
+   "NeedCoin": 88
+  }
+ ],
+ [
+  10073,
+  {
+   "_id": 10073,
+   "Quality": 4,
+   "Level": 9,
+   "NeedExp": 8022,
+   "Exp": 13433,
+   "NeedCoin": 89
+  }
+ ],
+ [
+  10074,
+  {
+   "_id": 10074,
+   "Quality": 4,
+   "Level": 10,
+   "NeedExp": 10030,
+   "Exp": 19552,
+   "NeedCoin": 90
+  }
+ ],
+ [
+  10075,
+  {
+   "_id": 10075,
+   "Quality": 4,
+   "Level": 11,
+   "NeedExp": 12538,
+   "Exp": 27200,
+   "NeedCoin": 91
+  }
+ ],
+ [
+  10076,
+  {
+   "_id": 10076,
+   "Quality": 4,
+   "Level": 12,
+   "NeedExp": 15670,
+   "Exp": 36759,
+   "NeedCoin": 92
+  }
+ ],
+ [
+  10077,
+  {
+   "_id": 10077,
+   "Quality": 4,
+   "Level": 13,
+   "NeedExp": 19588,
+   "Exp": 48707,
+   "NeedCoin": 93
+  }
+ ],
+ [
+  10078,
+  {
+   "_id": 10078,
+   "Quality": 4,
+   "Level": 14,
+   "NeedExp": 21765,
+   "Exp": 61984,
+   "NeedCoin": 94
+  }
+ ],
+ [
+  10079,
+  {
+   "_id": 10079,
+   "Quality": 4,
+   "Level": 15,
+   "NeedExp": 24185,
+   "Exp": 76737,
+   "NeedCoin": 95
+  }
+ ],
+ [
+  10080,
+  {
+   "_id": 10080,
+   "Quality": 4,
+   "Level": 16,
+   "NeedExp": 26871,
+   "Exp": 93128,
+   "NeedCoin": 96
+  }
+ ],
+ [
+  10081,
+  {
+   "_id": 10081,
+   "Quality": 4,
+   "Level": 17,
+   "NeedExp": 29858,
+   "Exp": 111341,
+   "NeedCoin": 97
+  }
+ ],
+ [
+  10082,
+  {
+   "_id": 10082,
+   "Quality": 4,
+   "Level": 18,
+   "NeedExp": 31104,
+   "Exp": 130315,
+   "NeedCoin": 98
+  }
+ ],
+ [
+  10083,
+  {
+   "_id": 10083,
+   "Quality": 4,
+   "Level": 19,
+   "NeedExp": 32400,
+   "Exp": 150079,
+   "NeedCoin": 99
+  }
+ ],
+ [
+  10084,
+  {
+   "_id": 10084,
+   "Quality": 4,
+   "Level": 20,
+   "NeedExp": 33750,
+   "Exp": 170666,
+   "NeedCoin": 100
+  }
+ ],
+ [
+  10085,
+  {
+   "_id": 10085,
+   "Quality": 5,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 800,
+   "NeedCoin": 160
+  }
+ ],
+ [
+  10086,
+  {
+   "_id": 10086,
+   "Quality": 5,
+   "Level": 1,
+   "NeedExp": 86,
+   "Exp": 848,
+   "NeedCoin": 161
+  }
+ ],
+ [
+  10087,
+  {
+   "_id": 10087,
+   "Quality": 5,
+   "Level": 2,
+   "NeedExp": 192,
+   "Exp": 955,
+   "NeedCoin": 162
+  }
+ ],
+ [
+  10088,
+  {
+   "_id": 10088,
+   "Quality": 5,
+   "Level": 3,
+   "NeedExp": 430,
+   "Exp": 1196,
+   "NeedCoin": 163
+  }
+ ],
+ [
+  10089,
+  {
+   "_id": 10089,
+   "Quality": 5,
+   "Level": 4,
+   "NeedExp": 961,
+   "Exp": 1734,
+   "NeedCoin": 164
+  }
+ ],
+ [
+  10090,
+  {
+   "_id": 10090,
+   "Quality": 5,
+   "Level": 5,
+   "NeedExp": 2146,
+   "Exp": 2936,
+   "NeedCoin": 165
+  }
+ ],
+ [
+  10091,
+  {
+   "_id": 10091,
+   "Quality": 5,
+   "Level": 6,
+   "NeedExp": 3300,
+   "Exp": 4784,
+   "NeedCoin": 166
+  }
+ ],
+ [
+  10092,
+  {
+   "_id": 10092,
+   "Quality": 5,
+   "Level": 7,
+   "NeedExp": 5082,
+   "Exp": 7630,
+   "NeedCoin": 167
+  }
+ ],
+ [
+  10093,
+  {
+   "_id": 10093,
+   "Quality": 5,
+   "Level": 8,
+   "NeedExp": 7821,
+   "Exp": 12010,
+   "NeedCoin": 168
+  }
+ ],
+ [
+  10094,
+  {
+   "_id": 10094,
+   "Quality": 5,
+   "Level": 9,
+   "NeedExp": 12033,
+   "Exp": 18748,
+   "NeedCoin": 169
+  }
+ ],
+ [
+  10095,
+  {
+   "_id": 10095,
+   "Quality": 5,
+   "Level": 10,
+   "NeedExp": 15045,
+   "Exp": 27173,
+   "NeedCoin": 170
+  }
+ ],
+ [
+  10096,
+  {
+   "_id": 10096,
+   "Quality": 5,
+   "Level": 11,
+   "NeedExp": 18807,
+   "Exp": 37705,
+   "NeedCoin": 171
+  }
+ ],
+ [
+  10097,
+  {
+   "_id": 10097,
+   "Quality": 5,
+   "Level": 12,
+   "NeedExp": 23505,
+   "Exp": 50868,
+   "NeedCoin": 172
+  }
+ ],
+ [
+  10098,
+  {
+   "_id": 10098,
+   "Quality": 5,
+   "Level": 13,
+   "NeedExp": 29382,
+   "Exp": 67322,
+   "NeedCoin": 173
+  }
+ ],
+ [
+  10099,
+  {
+   "_id": 10099,
+   "Quality": 5,
+   "Level": 14,
+   "NeedExp": 32648,
+   "Exp": 85605,
+   "NeedCoin": 174
+  }
+ ],
+ [
+  10100,
+  {
+   "_id": 10100,
+   "Quality": 5,
+   "Level": 15,
+   "NeedExp": 36277,
+   "Exp": 105920,
+   "NeedCoin": 175
+  }
+ ],
+ [
+  10101,
+  {
+   "_id": 10101,
+   "Quality": 5,
+   "Level": 16,
+   "NeedExp": 40307,
+   "Exp": 128492,
+   "NeedCoin": 176
+  }
+ ],
+ [
+  10102,
+  {
+   "_id": 10102,
+   "Quality": 5,
+   "Level": 17,
+   "NeedExp": 44787,
+   "Exp": 153573,
+   "NeedCoin": 177
+  }
+ ],
+ [
+  10103,
+  {
+   "_id": 10103,
+   "Quality": 5,
+   "Level": 18,
+   "NeedExp": 46656,
+   "Exp": 179700,
+   "NeedCoin": 178
+  }
+ ],
+ [
+  10104,
+  {
+   "_id": 10104,
+   "Quality": 5,
+   "Level": 19,
+   "NeedExp": 48600,
+   "Exp": 206916,
+   "NeedCoin": 179
+  }
+ ],
+ [
+  10105,
+  {
+   "_id": 10105,
+   "Quality": 5,
+   "Level": 20,
+   "NeedExp": 50625,
+   "Exp": 235266,
+   "NeedCoin": 180
+  }
+ ],
+ [
+  10106,
+  {
+   "_id": 10106,
+   "Quality": 6,
+   "Level": 0,
+   "NeedExp": 0,
+   "Exp": 1600,
+   "NeedCoin": 320
+  }
+ ],
+ [
+  10107,
+  {
+   "_id": 10107,
+   "Quality": 6,
+   "Level": 1,
+   "NeedExp": 129,
+   "Exp": 1664,
+   "NeedCoin": 321
+  }
+ ],
+ [
+  10108,
+  {
+   "_id": 10108,
+   "Quality": 6,
+   "Level": 2,
+   "NeedExp": 288,
+   "Exp": 1808,
+   "NeedCoin": 322
+  }
+ ],
+ [
+  10109,
+  {
+   "_id": 10109,
+   "Quality": 6,
+   "Level": 3,
+   "NeedExp": 645,
+   "Exp": 2131,
+   "NeedCoin": 323
+  }
+ ],
+ [
+  10110,
+  {
+   "_id": 10110,
+   "Quality": 6,
+   "Level": 4,
+   "NeedExp": 1442,
+   "Exp": 2852,
+   "NeedCoin": 324
+  }
+ ],
+ [
+  10111,
+  {
+   "_id": 10111,
+   "Quality": 6,
+   "Level": 5,
+   "NeedExp": 3219,
+   "Exp": 4461,
+   "NeedCoin": 325
+  }
+ ],
+ [
+  10112,
+  {
+   "_id": 10112,
+   "Quality": 6,
+   "Level": 6,
+   "NeedExp": 4951,
+   "Exp": 6937,
+   "NeedCoin": 326
+  }
+ ],
+ [
+  10113,
+  {
+   "_id": 10113,
+   "Quality": 6,
+   "Level": 7,
+   "NeedExp": 7624,
+   "Exp": 10749,
+   "NeedCoin": 327
+  }
+ ],
+ [
+  10114,
+  {
+   "_id": 10114,
+   "Quality": 6,
+   "Level": 8,
+   "NeedExp": 11732,
+   "Exp": 16615,
+   "NeedCoin": 328
+  }
+ ],
+ [
+  10115,
+  {
+   "_id": 10115,
+   "Quality": 6,
+   "Level": 9,
+   "NeedExp": 18050,
+   "Exp": 25640,
+   "NeedCoin": 329
+  }
+ ],
+ [
+  10116,
+  {
+   "_id": 10116,
+   "Quality": 6,
+   "Level": 10,
+   "NeedExp": 22568,
+   "Exp": 36924,
+   "NeedCoin": 330
+  }
+ ],
+ [
+  10117,
+  {
+   "_id": 10117,
+   "Quality": 6,
+   "Level": 11,
+   "NeedExp": 28210,
+   "Exp": 51029,
+   "NeedCoin": 331
+  }
+ ],
+ [
+  10118,
+  {
+   "_id": 10118,
+   "Quality": 6,
+   "Level": 12,
+   "NeedExp": 35257,
+   "Exp": 68657,
+   "NeedCoin": 332
+  }
+ ],
+ [
+  10119,
+  {
+   "_id": 10119,
+   "Quality": 6,
+   "Level": 13,
+   "NeedExp": 44074,
+   "Exp": 90694,
+   "NeedCoin": 413
+  }
+ ],
+ [
+  10120,
+  {
+   "_id": 10120,
+   "Quality": 6,
+   "Level": 14,
+   "NeedExp": 48972,
+   "Exp": 115180,
+   "NeedCoin": 414
+  }
+ ],
+ [
+  10121,
+  {
+   "_id": 10121,
+   "Quality": 6,
+   "Level": 15,
+   "NeedExp": 54416,
+   "Exp": 142388,
+   "NeedCoin": 415
+  }
+ ],
+ [
+  10122,
+  {
+   "_id": 10122,
+   "Quality": 6,
+   "Level": 16,
+   "NeedExp": 60461,
+   "Exp": 172619,
+   "NeedCoin": 416
+  }
+ ],
+ [
+  10123,
+  {
+   "_id": 10123,
+   "Quality": 6,
+   "Level": 17,
+   "NeedExp": 67181,
+   "Exp": 206209,
+   "NeedCoin": 417
+  }
+ ],
+ [
+  10124,
+  {
+   "_id": 10124,
+   "Quality": 6,
+   "Level": 18,
+   "NeedExp": 69984,
+   "Exp": 241201,
+   "NeedCoin": 418
+  }
+ ],
+ [
+  10125,
+  {
+   "_id": 10125,
+   "Quality": 6,
+   "Level": 19,
+   "NeedExp": 72900,
+   "Exp": 277651,
+   "NeedCoin": 419
+  }
+ ],
+ [
+  10126,
+  {
+   "_id": 10126,
+   "Quality": 6,
+   "Level": 20,
+   "NeedExp": 75937,
+   "Exp": 315620,
+   "NeedCoin": 420
+  }
+ ]
+]

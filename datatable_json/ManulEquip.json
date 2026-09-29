@@ -1,0 +1,302 @@
+[
+ [
+  7,
+  {
+   "_id": 7,
+   "MaterialArr": [
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20242,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "RareMaterialArr": [
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20246,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "UpgradeRareMaterialArr": [
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20278,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20001,
+     "Count": 150
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20002,
+     "Count": 48
+    }
+   ],
+   "EpicMaterialArr": [
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20258,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "EquipId": 120877
+  }
+ ],
+ [
+  3,
+  {
+   "_id": 3,
+   "MaterialArr": [
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20243,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "RareMaterialArr": [
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20247,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "UpgradeRareMaterialArr": [
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20279,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20001,
+     "Count": 150
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20002,
+     "Count": 48
+    }
+   ],
+   "EpicMaterialArr": [
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20259,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "EquipId": 120855
+  }
+ ],
+ [
+  6,
+  {
+   "_id": 6,
+   "MaterialArr": [
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20244,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "RareMaterialArr": [
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20248,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "UpgradeRareMaterialArr": [
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20280,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20001,
+     "Count": 150
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20002,
+     "Count": 48
+    }
+   ],
+   "EpicMaterialArr": [
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20260,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "EquipId": 120854
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "MaterialArr": [
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20245,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+Material",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "RareMaterialArr": [
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20249,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+RareMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "UpgradeRareMaterialArr": [
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20281,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20001,
+     "Count": 150
+    },
+    {
+     "_t": "ManulEquip+UpgradeRareMaterial",
+     "MaterialId": 20002,
+     "Count": 48
+    }
+   ],
+   "EpicMaterialArr": [
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20261,
+     "Count": 10
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20001,
+     "Count": 100
+    },
+    {
+     "_t": "ManulEquip+EpicMaterial",
+     "MaterialId": 20002,
+     "Count": 30
+    }
+   ],
+   "EquipId": 120856
+  }
+ ]
+]

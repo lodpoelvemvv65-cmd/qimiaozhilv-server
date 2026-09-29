@@ -1,0 +1,53 @@
+# Local build products and historical server binaries
+*.exe
+*.exe~
+*.dll
+*.pdb
+*.bundle
+
+# Client patch artifacts are archived locally under server-mysql instead of
+# polluting the playable client tree. Keep their manifest, ignore binaries.
+client-patches/**/current/
+client-patches/**/backups/
+
+# Runtime logs, dumps, and local process state
+*.log
+*.err
+*.out
+*.pid
+# Protocol test scripts write their run summaries to logs/runtime/; logs/README.md
+# states runtime output is not committed, and .log/.err/.out alone misses the JSON.
+logs/runtime/*.json
+logs/runtime/*.jsonl
+
+# Local database/runtime files
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+data-mhq-*.sql
+deploy/runtime/mhqserver
+deploy/tools/publish-config
+deploy/database/*.sql
+deploy/database/*.sql.gz
+# 002-gm.sql 是 GM 增量表结构，需要随仓库发布（001-*.sql 为含玩家数据的维护窗口 dump，不提交）
+!deploy/database/002-gm.sql
+deploy/.env
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+
+# Local Go test cache and ad-hoc runtime text captures
+.gocache-test/
+logs/runtime/*.txt
+logs/runtime/tactical-counter-result-*.json
+
+# Reverse-engineering/build scratch workspace (large, local-only)
+_work/
+
+*.bak
+*.orig
+*.tmp
+*.pre_*
+*~

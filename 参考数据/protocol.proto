@@ -1,0 +1,3290 @@
+// 梦幻奇遇记 网络协议 (自动生成)
+// 来源: Hotfix.dll, protocol_dump.txt
+// 共 429 条消息, 13 个枚举
+// wire format: KCP 流内 [u16 opcode][protobuf body] (RpcId 时先 [i64 RpcId])
+
+syntax = "proto3";
+
+package ET;
+
+enum ItemType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    NoneItem = 0;
+    EquipItem = 1;
+    GoodsItem = 2;
+    MaterialsItem = 3;
+}
+
+enum CampType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    NoneCamp = 0;
+    Pioneer = 1;
+    Guardian = 2;
+}
+
+enum JobType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    UnKnown = 0;
+    Officer = 1;
+    Sportsman = 2;
+    Nurse = 3;
+    Superman = 4;
+}
+
+enum SexType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    Male = 0;
+    Famale = 1;
+}
+
+enum LoginType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    Editor = 0;
+    Tourist = 1;
+    WeChat = 2;
+    Voucher = 3;
+}
+
+enum FamilyPosition {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    FamilyLeader = 0;
+    FamilyDeputyLeader = 1;
+    FamilyMember = 2;
+}
+
+enum MarketType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    NoneMarket = 0;
+    VoucherMarket = 1;
+    YuanBaoMarket = 2;
+}
+
+enum TaskState {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    TaskNoneState = 0;
+    TaskWaiting = 1;
+    TaskRunning = 2;
+    TaskCompleted = 3;
+}
+
+enum MainUIType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    NoneSlot = 0;
+    SkillSlot = 1;
+    ItemSlot = 2;
+}
+
+enum MailState {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    UnReceive = 0;
+    Received = 1;
+}
+
+enum ChatType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    NoneChat = 0;
+    Normal = 1;
+    Team = 2;
+    Family = 3;
+    Camp = 4;
+    World = 5;
+    Private = 6;
+    System = 7;
+}
+
+enum ChangeType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    None = 0;
+    Add = 1;
+    Reduce = 2;
+}
+
+enum StoneType {
+    // 占位, 保证枚举非空 (proto3 要求第一个值为 0)
+    Nomal = 0;
+    Rare = 1;
+    Epic = 2;
+    UpgradeRare = 3;
+}
+
+// opcode 20001
+message BagMap {
+    int32 Index = 1;
+    NetItem NetItem = 2;
+    EquipTransMessage EquipTransMessage = 3;
+}
+
+// opcode 20002
+message NetItem {
+    int32 ItemId = 1;
+    ItemType ItemType = 2;
+    int64 ServerId = 3;
+    int32 Count = 4;
+    bool IsLock = 5;
+    string GetSource = 6;
+}
+
+// opcode 20003
+message UnitCharacter {
+    int64 Id = 1;
+    string NickName = 2;
+    int64 LeaderId = 3;
+    int32 JobId = 4;
+    int32 Title = 5;
+    CampType CampType = 6;
+    string Family = 7;
+    int32 SkinId = 8;
+    int32 CharacterPoint = 9;
+    int32 SkillPoint = 10;
+    int32 Level = 11;
+    int32 Trans = 12;
+    int32 Hp = 13;
+    int32 MaxHp = 14;
+    int32 Mp = 15;
+    int32 MaxMp = 16;
+    int32 PetId = 17;
+    string PetName = 18;
+    bool isShowPet = 19;
+    int32 PetLevel = 20;
+}
+
+// opcode 20004
+message UnitCommonCharacter {
+    int64 Id = 1;
+    string NickName = 2;
+    int32 JobId = 4;
+    string Title = 5;
+    string Family = 7;
+    int32 SkinId = 9;
+    int32 Level = 10;
+    int32 Hp = 12;
+    int32 MaxHp = 13;
+    int32 Mp = 14;
+    int32 MaxMp = 15;
+}
+
+// opcode 20005
+message BattleCharacter {
+    int32 Str = 7;
+    int32 Quk = 8;
+    int32 Spi = 9;
+    int32 Wim = 10;
+    int32 PhyAtk = 11;
+    int32 PhyDef = 12;
+    int32 SpiAtk = 13;
+    int32 SpiDef = 14;
+    float Dvo = 15;
+    float Pcrir = 16;
+    float Rpcrir = 17;
+    float Pcri = 18;
+    float Rpcri = 19;
+    float Mcrir = 20;
+    float Rmcrir = 21;
+    float Mcri = 22;
+    float Rmcri = 23;
+    float Nphyi = 24;
+    float Nmeni = 25;
+    int32 Phy = 27;
+    int32 Sta = 28;
+}
+
+// opcode 20006
+message AttributeMap {
+    int32 Key = 1;
+    float Value = 2;
+}
+
+// opcode 20007
+message EquipTransMessage {
+    int32 EquipId = 1;
+    int32 specialKey = 3;
+    bool IsLocked = 4;
+    int32 Star = 7;
+    int32 Quality = 8;
+    int32 Level = 9;
+    int32 specialId = 10;
+}
+
+// opcode 20008  -> R2C_Login
+message C2R_Login {
+    string Account = 1;
+    string Password = 2;
+    LoginType LoginType = 3;
+    string Identify = 4;
+    int32 RpcId = 90;
+}
+
+// opcode 20009
+message R2C_Login {
+    string Address = 1;
+    int64 Key = 2;
+    int64 GateId = 3;
+    string LoginVoucher = 4;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20010  -> R2C_Regist
+message C2R_Regist {
+    string Account = 1;
+    string Password = 2;
+    string Identify = 4;
+    int32 RpcId = 90;
+}
+
+// opcode 20011
+message R2C_Regist {
+    string Address = 1;
+    int64 Key = 2;
+    int64 GateId = 3;
+    string LoginVoucher = 4;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20012  -> G2C_HeartBeat
+message C2G_HeartBeat {
+    int32 RpcId = 90;
+}
+
+// opcode 20013
+message G2C_HeartBeat {
+    float DelayTime = 1;
+    int64 Key = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20014  -> G2C_LoginGate
+message C2G_LoginGate {
+    int64 Key = 1;
+    int64 GateId = 2;
+    string Platform = 3;
+    int32 RpcId = 90;
+}
+
+// opcode 20015
+message G2C_LoginGate {
+    int64 PlayerId = 1;
+    bool HasRole = 2;
+    int32 JobId = 3;
+    int64 ServerTime = 4;
+    int32 SkinId = 5;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20016  -> R2C_CreateRole
+message C2R_CreateRole {
+    int64 PlayerId = 1;
+    int32 JobId = 2;
+    string Name = 3;
+    int32 RpcId = 90;
+}
+
+// opcode 20017
+message R2C_CreateRole {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20018  -> R2C_DelRole
+message C2R_DelRole {
+    int64 UserId = 1;
+    int32 RpcId = 90;
+}
+
+// opcode 20019
+message R2C_DelRole {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20020
+message UnitPosInfo {
+    float X = 2;
+    float Y = 3;
+    int32 YAngle = 5;
+}
+
+// opcode 20021
+message UnitScene {
+    int32 MapId = 1;
+    int32 TierId = 2;
+    int32 YAngle = 6;
+}
+
+// opcode 20022
+message Frame_ClickMap {
+    UnitPosInfo UnitInfo = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+    int64 Id = 94;
+}
+
+// opcode 20023
+message C2M_CheckSceneError {
+    string Info = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+    int64 Id = 94;
+}
+
+// opcode 20024
+message M2C_PathfindingResult {
+    int64 Id = 1;
+    float X = 2;
+    float Y = 3;
+    float TX = 5;
+    float TY = 6;
+    float MoveSpeed = 7;
+    int64 ActorId = 93;
+}
+
+// opcode 20025
+message M2C_SendUnitInfo {
+    UnitCharacter UnitCharacter = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20026
+message M2C_SendUnitInfoList {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20027  -> G2C_EnterGame
+message C2G_EnterGame {
+    int32 RpcId = 90;
+}
+
+// opcode 20028
+message G2C_EnterGame {
+    int64 Id = 1;
+    int32 SkinId = 2;
+    int32 JobId = 3;
+    bool IsOnline = 4;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20029
+message C2M_GetBasicalInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20030
+message C2M_GetStateReback {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20031  -> M2C_RequestEnterMap
+message C2M_RequestEnterMap {
+    int32 MapId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20032
+message M2C_RequestEnterMap {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20033
+message M2C_ChangeMap {
+    float X = 2;
+    float Y = 3;
+    int32 MapId = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20034
+message M2C_EnterMap {
+    UnitPosInfo UnitInfo = 1;
+    UnitCharacter PvpUnitCharacter = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20035
+message M2C_Stop {
+    int64 Id = 1;
+    float X = 2;
+    float Y = 3;
+    int32 YAngle = 4;
+    int32 Error = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20036
+message M2C_UnitsInMap {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20037
+message M2C_LeaveMap {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20038
+message M2C_OffLine {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20039
+message M2C_StartupTransPoint {
+    int32 MapId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20040
+message C2M_StopMove {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20041  -> G2C_GetNotice
+message C2G_GetNotice {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20042
+message G2C_GetNotice {
+    string Notice = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20043  -> M2C_BackMainCity
+message C2M_BackMainCity {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20044
+message M2C_BackMainCity {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20045
+message C2M_GetBuffTime {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20046
+message C2M_AddExp {
+    int32 Exp = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20047
+message M2C_InitMainStoryMap {
+    int32 MainStoryId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20048  -> M2C_StartMainStoryFight
+message C2M_StartMainStoryFight {
+    int32 Region = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20049
+message M2C_StartMainStoryFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20050
+message M2C_MainStoryMonsterInfo {
+    int32 battleType = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20051
+message MonsterUnitInfo {
+    int64 Id = 1;
+    int32 MonsterId = 2;
+}
+
+// opcode 20052
+message ReMonsterUnitInfo {
+    int64 Id = 1;
+    int32 MonsterId = 2;
+    int32 Hp = 3;
+    int32 MaxHp = 4;
+}
+
+// opcode 20053
+message M2C_ReMainStoryMonsterInfo {
+    int32 battleType = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20054
+message M2C_BattleVictory {
+    int32 BattleType = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20055
+message M2C_BattleDefeat {
+    int32 BattleType = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20056
+message M2C_BossRefresh {
+    int32 BossId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20057  -> M2C_StartBossFightRequest
+message C2M_StartBossFightRequest {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20058
+message M2C_StartBossFightRequest {
+    int64 Key = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20059  -> M2C_StartBossFight
+message C2M_StartBossFight {
+    int64 Key = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20060
+message M2C_StartBossFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20061
+message M2C_SendBossInfo {
+    int32 BossId = 1;
+    int64 UnitId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20062
+message M2C_ReSendBossInfo {
+    int32 BossId = 1;
+    int64 UnitId = 2;
+    int32 Hp = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20063
+message M2C_BossFightVictory {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20064
+message M2C_BossFightDefeat {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20065
+message M2C_BossDead {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20066
+message M2C_BossBeDefeat {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20067
+message RewardItem {
+    int32 Id = 1;
+    ItemType ItemType = 2;
+    int32 Count = 3;
+}
+
+// opcode 20068
+message StateBuffInfo {
+    int32 StateType = 1;
+    int32 Layer = 2;
+    int32 UserData = 3;
+}
+
+// opcode 20069  -> M2C_AutoBattle
+message C2M_AutoBattle {
+    bool isAuto = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20070
+message M2C_AutoBattle {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20071  -> M2C_SelectEnermy
+message C2M_SelectEnermy {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20072
+message M2C_SelectEnermy {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20073  -> M2C_SelectTeamMember
+message C2M_SelectTeamMember {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20074
+message M2C_SelectTeamMember {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20075
+message M2C_PlaySkill {
+    int64 UnitId = 1;
+    int32 SkillId = 2;
+    int32 CoolTime = 3;
+    int64 TargetId = 4;
+    int32 MpCost = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20076
+message M2C_MonsterPlaySkill {
+    int64 UnitId = 1;
+    int32 SkillId = 2;
+    int64 TargetId = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20077
+message M2C_PlaySkillEffect {
+    int64 UnitId = 1;
+    int64 TargetId = 4;
+    int32 Time = 6;
+    int32 EffectPos = 8;
+    int32 EffectId = 9;
+    int32 EffectTargetType = 10;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20078
+message M2C_BattleSkillRet {
+    int64 UnitId = 1;
+    int32 ChangeHpValue = 2;
+    bool IsCrit = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20079
+message M2C_BattleChangeMP {
+    int64 UnitId = 1;
+    int32 ChangeMPValue = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20080
+message M2C_BattleChangeState {
+    int64 Id = 1;
+    int64 TargetUnitId = 2;
+    string IconId = 3;
+    string IconDesc = 4;
+    ChangeType Type = 6;
+    int32 Time = 7;
+    bool IsBuff = 8;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20081
+message M2C_BattleTouchState {
+    int64 UnitId = 1;
+    int64 TargetUnitId = 2;
+    int32 StateType = 3;
+    int32 UserData = 4;
+    int32 EffectId = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20082
+message M2C_MainstoryMonsterDead {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20083
+message M2C_UnitDead {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20084
+message M2C_SendReward {
+    int64 Exp = 2;
+    int64 Coin = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20085  -> M2C_GetBattleStateBuff
+message C2M_GetBattleStateBuff {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20086
+message M2C_GetBattleStateBuff {
+    repeated StateBuffInfo InfoList = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20087  -> M2C_StartBattleIdleFight
+message C2M_StartBattleIdleFight {
+    int32 SceneId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20088
+message M2C_StartBattleIdleFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20089  -> M2C_EndBattleIdleFight
+message C2M_EndBattleIdleFight {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20090
+message M2C_EndBattleIdleFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20091
+message M2C_InitTrialCopyMap {
+    int32 TrialCopyId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20092  -> M2C_StartTrialCopyFight
+message C2M_StartTrialCopyFight {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20093
+message M2C_StartTrialCopyFight {
+    int32 TrialCopyId = 1;
+    repeated int64 UnitIdList = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20094  -> M2C_StartPKFight
+message C2M_StartPKFight {
+    int64 TargetId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20095
+message M2C_StartPKFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20096
+message M2C_SendStartPK {
+    int32 battleType = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20097
+message M2C_PKFightVictory {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20098
+message M2C_PKFightDefeat {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20099
+message M2C_SendManulEquipMonsterInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20100
+message M2C_ReSendManulEquipMonsterInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20101  -> M2C_StartTestBattleFight
+message C2M_StartTestBattleFight {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20102
+message M2C_StartTestBattleFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20103  -> M2C_EndTestBattleFight
+message C2M_EndTestBattleFight {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20104
+message M2C_EndTestBattleFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20105
+message FriendInfo {
+    int64 Id = 1;
+    string Name = 2;
+    JobType Job = 3;
+    int32 Level = 4;
+    int64 LastLginTime = 5;
+}
+
+// opcode 20106
+message RequestAddFriendInfo {
+    string Name = 1;
+    int32 Level = 2;
+    JobType Job = 3;
+    SexType Sex = 4;
+    int64 Id = 5;
+}
+
+// opcode 20107  -> M2C_GetFriend
+message C2M_GetFriend {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20108
+message M2C_GetFriend {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20109  -> M2C_FindFriend
+message C2M_FindFriend {
+    string Name = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20110
+message M2C_FindFriend {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20111  -> M2C_AddFriend
+message C2M_AddFriend {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20112
+message M2C_AddFriend {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20113
+message M2C_SendAddFriendRequest {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20114  -> M2C_HandleAddFriend
+message C2M_HandleAddFriend {
+    bool IsAgree = 1;
+    int64 Id = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20115
+message M2C_HandleAddFriend {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20116
+message M2C_HandleAddFriendResult {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20117  -> M2C_DeleteFriend
+message C2M_DeleteFriend {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20118
+message M2C_DeleteFriend {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20119
+message FamilyMemberInfo {
+    int64 Id = 1;
+    string Name = 2;
+    JobType Job = 3;
+    int32 Level = 4;
+    int64 LastLginTime = 5;
+}
+
+// opcode 20120
+message FamilyPositionMap {
+    string Name = 2;
+    FamilyPosition Position = 3;
+}
+
+// opcode 20121
+message FamilyContributionMap {
+    int64 Id = 1;
+    int32 Value = 2;
+}
+
+// opcode 20122
+message FamilyInfo {
+    int32 Level = 1;
+    int32 Hornor = 2;
+    string Name = 3;
+    string Notice = 5;
+}
+
+// opcode 20123  -> M2C_CrateFamily
+message C2M_CrateFamily {
+    string Name = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20124
+message M2C_CrateFamily {
+    FamilyInfo Info = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20125  -> M2C_GetFamily
+message C2M_GetFamily {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20126
+message M2C_GetFamily {
+    FamilyInfo Info = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20127  -> M2C_FindFamily
+message C2M_FindFamily {
+    string Name = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20128
+message M2C_FindFamily {
+    FamilyInfo Info = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20129  -> M2C_DeleteFamily
+message C2M_DeleteFamily {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20130
+message M2C_DeleteFamily {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20131  -> M2C_RequestEnterFamily
+message C2M_RequestEnterFamily {
+    string Name = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20132
+message M2C_RequestEnterFamily {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20133  -> M2C_LeaveFamily
+message C2M_LeaveFamily {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20134
+message M2C_LeaveFamily {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20135  -> M2C_HandleEnterFamiy
+message C2M_HandleEnterFamiy {
+    bool IsAgree = 1;
+    int64 Id = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20136
+message M2C_HandleEnterFamiy {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20137  -> M2C_DeleteFamilyMember
+message C2M_DeleteFamilyMember {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20138
+message M2C_DeleteFamilyMember {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20139  -> M2C_GetFamilyBossInfo
+message C2M_GetFamilyBossInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20140
+message BossInfo {
+    int32 Index = 1;
+    int32 Hp = 2;
+    int32 MaxHp = 3;
+    bool HasReward = 4;
+}
+
+// opcode 20141
+message M2C_GetFamilyBossInfo {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20142  -> M2C_StartFamilyBossFight
+message C2M_StartFamilyBossFight {
+    int32 BossId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20143
+message M2C_StartFamilyBossFight {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20144
+message M2C_SendFamilyBossInfo {
+    int32 BossId = 1;
+    int64 UnitId = 2;
+    int32 Hp = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20145
+message M2C_ReSendFamilyBossInfo {
+    int32 BossId = 1;
+    int64 UnitId = 2;
+    int32 Hp = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20146
+message BossDamagePerMemberMap {
+    int64 Id = 1;
+    string Name = 2;
+    int32 Damage = 3;
+    int32 Treat = 4;
+}
+
+// opcode 20147
+message BossDamageMap {
+    int32 TotalDamage = 1;
+}
+
+// opcode 20148  -> M2C_GetBossDamageMap
+message C2M_GetBossDamageMap {
+    int32 BossId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20149
+message M2C_GetBossDamageMap {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20150  -> M2C_GetFamilyBossReward
+message C2M_GetFamilyBossReward {
+    int32 BossId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20151
+message ItemInfo {
+    int32 Id = 1;
+    int32 Count = 2;
+}
+
+// opcode 20152
+message M2C_GetFamilyBossReward {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20153
+message HandleInfo {
+    int64 Id = 1;
+    bool Bool = 2;
+}
+
+// opcode 20154  -> M2C_RequestTeam
+message C2M_RequestTeam {
+    int64 TargetId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20155
+message M2C_RequestTeam {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20156  -> M2C_InviteTeam
+message C2M_InviteTeam {
+    int64 TargetId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20157
+message M2C_InviteTeam {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20158
+message M2C_RequestList {
+    int64 UnitId = 1;
+    int32 TimeOut = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20159
+message M2C_InviteList {
+    int64 UnitId = 1;
+    int32 TimeOut = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20160  -> M2C_HandleTeam
+message C2M_HandleTeam {
+    HandleInfo HandleInfo = 1;
+    bool IsRequest = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20161
+message M2C_HandleTeam {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20162
+message M2C_TeamMember {
+    int64 LeaderId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20163  -> M2C_TransferTeamLeader
+message C2M_TransferTeamLeader {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20164
+message M2C_TransferTeamLeader {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20165  -> M2C_QuitTeam
+message C2M_QuitTeam {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20166
+message M2C_QuitTeam {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20167  -> M2C_KickoutTeam
+message C2M_KickoutTeam {
+    int64 TargetId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20168
+message M2C_KickoutTeam {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20169
+message M2C_SyncUnitAttribute {
+    int64 UnitId = 1;
+    int32 NumericType = 2;
+    float Value = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20170
+message M2C_SyncUnitAttributeList {
+    int64 UnitId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20171
+message C2M_QuitBattle {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20172  -> M2C_GetMarket
+message C2M_GetMarket {
+    int32 PageIndex = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20173
+message M2C_GetMarket {
+    float Discount = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20174  -> M2C_BuyInShop
+message C2M_BuyInShop {
+    int32 PageIndex = 1;
+    int32 SlotIndex = 2;
+    int32 Count = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20175
+message M2C_BuyInShop {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20176  -> M2C_BuyInMarket
+message C2M_BuyInMarket {
+    int32 PageIndex = 1;
+    int32 SlotIndex = 2;
+    int32 Count = 3;
+    MarketType Type = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20177
+message M2C_BuyInMarket {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20178  -> M2C_SellItem
+message C2M_SellItem {
+    int32 SlotIndex = 2;
+    int32 Count = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20179
+message M2C_SellItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20180
+message ConsignMap {
+    int64 ConsignItemId = 1;
+    int64 UnitId = 2;
+    string Name = 3;
+    int64 RemainTime = 4;
+    NetItem Item = 5;
+    EquipTransMessage EquipTransMessage = 6;
+    int64 Price = 7;
+    bool NeedPwd = 8;
+}
+
+// opcode 20181  -> M2C_GetConsignment
+message C2M_GetConsignment {
+    JobType JobType = 1;
+    ItemType ItemType = 2;
+    int32 Page = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20182
+message M2C_GetConsignment {
+    int32 TotalPage = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20183  -> M2C_PutInConsignment
+message C2M_PutInConsignment {
+    int32 Index = 1;
+    int64 Price = 2;
+    int32 Count = 3;
+    string Pwd = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20184
+message M2C_PutInConsignment {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20185  -> M2C_BuyInConsignment
+message C2M_BuyInConsignment {
+    int64 ConsignmentId = 1;
+    int64 UnitId = 2;
+    string Pwd = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20186
+message M2C_BuyInConsignment {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20187
+message M2C_OpenStoreUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20188  -> M2C_GetStore
+message C2M_GetStore {
+    int32 Page = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20189
+message M2C_GetStore {
+    int64 Coin = 2;
+    int32 Total = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20190  -> M2C_SortStore
+message C2M_SortStore {
+    int32 Page = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20191
+message M2C_SortStore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20192  -> M2C_PutInStore
+message C2M_PutInStore {
+    int32 BagIndex = 1;
+    int32 Count = 3;
+    int32 Page = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20193
+message M2C_PutInStore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20194  -> M2C_TakeOffStore
+message C2M_TakeOffStore {
+    int32 StoreIndex = 1;
+    int32 Count = 3;
+    int32 Page = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20195
+message M2C_TakeOffStore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20196  -> M2C_PutCoinInStore
+message C2M_PutCoinInStore {
+    int64 Coin = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20197
+message M2C_PutCoinInStore {
+    int64 Coin = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20198  -> M2C_TakeCoinOutStore
+message C2M_TakeCoinOutStore {
+    int64 Coin = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20199
+message M2C_TakeCoinOutStore {
+    int64 Coin = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20200  -> M2C_QueryExtandPrice
+message C2M_QueryExtandPrice {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20201
+message M2C_QueryExtandPrice {
+    int64 Coin = 2;
+    int32 Voucher = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20202  -> M2C_ExtandStore
+message C2M_ExtandStore {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20203
+message M2C_ExtandStore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20204  -> M2C_ForgeEquip
+message C2M_ForgeEquip {
+    int32 Id = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20205
+message M2C_ForgeEquip {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20206  -> M2C_ClickNPC
+message C2M_ClickNPC {
+    int32 NPCId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20207
+message M2C_ClickNPC {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20208
+message M2C_OpenMeltEquipUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20209
+message M2C_OpenShopUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20210
+message M2C_OpenConsignmentUI {
+    int32 TotalPage = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20211
+message M2C_OpenForgeUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20212  -> M2C_MeltEquip
+message C2M_MeltEquip {
+    int32 EquipIndex = 1;
+    int32 GemIndex = 2;
+    int32 AttributeIndex = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20213
+message M2C_MeltEquip {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20214
+message TansferTask {
+    int32 Id = 1;
+}
+
+// opcode 20215
+message NPCTask {
+    int32 Id = 1;
+    TaskState TaskState = 2;
+}
+
+// opcode 20216
+message M2C_OpenTaskUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20217  -> M2C_AcceptTask
+message C2M_AcceptTask {
+    int32 TaskId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20218
+message M2C_AcceptTask {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20219  -> M2C_CompleteTask
+message C2M_CompleteTask {
+    int32 TaskId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20220
+message M2C_CompleteTask {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20221  -> M2C_GetTask
+message C2M_GetTask {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20222
+message M2C_GetTask {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20223  -> M2C_GetTaskState
+message C2M_GetTaskState {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20224
+message M2C_GetTaskState {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20225
+message M2C_SendTaskState {
+    NPCTask NPCState = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20226
+message MainUISlotInfo {
+    int32 Id = 1;
+    MainUIType MainUIType = 2;
+    int32 Level = 3;
+    int32 ItemCount = 4;
+    int32 Index = 5;
+}
+
+// opcode 20227  -> M2C_GetMainUISetting
+message C2M_GetMainUISetting {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20228
+message M2C_GetMainUISetting {
+    bool IsAutoSkill = 2;
+    bool IsDisplayOthers = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20229  -> M2C_DropSkill
+message C2M_DropSkill {
+    int32 SlotId = 1;
+    int32 SkillId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20230
+message M2C_DropSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20231  -> M2C_DropItem
+message C2M_DropItem {
+    int32 SlotId = 1;
+    int32 BagIndex = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20232
+message M2C_DropItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20233  -> M2C_UseMainUISkill
+message C2M_UseMainUISkill {
+    int32 SlotId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20234
+message M2C_UseMainUISkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20235  -> M2C_UseMainUIGoods
+message C2M_UseMainUIGoods {
+    int32 SlotId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20236
+message M2C_UseMainUIGoods {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20237
+message M2C_StartCD {
+    int32 Time = 1;
+    int32 Id = 2;
+    int32 SkillCD = 3;
+    MainUIType Type = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20238
+message SkillInfo {
+    int32 SkillId = 1;
+    int32 SkillLevel = 2;
+}
+
+// opcode 20239  -> M2C_GetSkill
+message C2M_GetSkill {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20240
+message M2C_GetSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20241  -> M2C_SaveAutoSkill
+message C2M_SaveAutoSkill {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20242
+message M2C_SaveAutoSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20243  -> M2C_LearnSkill
+message C2M_LearnSkill {
+    int32 SkillId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20244
+message M2C_LearnSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20245  -> M2C_FreeReSetSkill
+message C2M_FreeReSetSkill {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20246
+message M2C_FreeReSetSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20247  -> M2C_GetReSetSkillPrice
+message C2M_GetReSetSkillPrice {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20248
+message M2C_GetReSetSkillPrice {
+    int32 Voucher = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20249  -> M2C_ReSetSkill
+message C2M_ReSetSkill {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20250
+message M2C_ReSetSkill {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20251  -> M2C_GetCharacter
+message C2M_GetCharacter {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20252
+message M2C_GetCharacter {
+    UnitCharacter UnitCharacter = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20253  -> M2C_AddPoint
+message C2M_AddPoint {
+    int32 Trans = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20254
+message M2C_AddPoint {
+    UnitCharacter Character = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20255  -> M2C_ResetPoint
+message C2M_ResetPoint {
+    int32 Trans = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20256
+message M2C_ResetPoint {
+    UnitCharacter Character = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20257
+message M2C_SendCharacter {
+    UnitCharacter UnitCharacter = 1;
+    int64 Id = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20258  -> M2C_GetBag
+message C2M_GetBag {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20259
+message M2C_GetBag {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20260
+message M2C_SendBag {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20261
+message C2M_AddRandomItem {
+    ItemType ItemType = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20262
+message M2C_SendTip {
+    string Message = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20263  -> M2C_DeleteItem
+message C2M_DeleteItem {
+    int32 Index = 1;
+    int32 Count = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20264
+message M2C_DeleteItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20265  -> M2C_ChangeItemPos
+message C2M_ChangeItemPos {
+    int32 Pos1 = 1;
+    int32 Pos2 = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20266
+message M2C_ChangeItemPos {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20267  -> M2C_SplitItem
+message C2M_SplitItem {
+    int32 Index = 1;
+    int32 Count = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20268
+message M2C_SplitItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20269  -> M2C_SortBag
+message C2M_SortBag {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20270
+message M2C_SortBag {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20271  -> M2C_PutOn
+message C2M_PutOn {
+    int32 Index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20272
+message M2C_PutOn {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20273  -> M2C_Takeoff
+message C2M_Takeoff {
+    int32 Index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20274
+message M2C_Takeoff {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20275  -> M2C_UseGoods
+message C2M_UseGoods {
+    int32 Index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20276
+message M2C_UseGoods {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20277  -> M2C_Upgrade
+message C2M_Upgrade {
+    int32 Index = 1;
+    bool isLock = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20278
+message M2C_Upgrade {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20279
+message MailItem {
+    int32 ItemId = 1;
+    int64 Count = 4;
+    bool IsLock = 5;
+    bool IsHasItem = 6;
+}
+
+// opcode 20280
+message Mail {
+    string Title = 2;
+    string Content = 3;
+    int64 RemainTime = 4;
+    string SenderName = 5;
+    MailState State = 7;
+    int64 Id = 8;
+}
+
+// opcode 20281  -> M2C_GetMail
+message C2M_GetMail {
+    int32 Page = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20282
+message M2C_GetMail {
+    int32 MailCount = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20283  -> M2C_ReceiveMail
+message C2M_ReceiveMail {
+    int64 MailId = 1;
+    int32 Page = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20284
+message M2C_ReceiveMail {
+    int32 MailCount = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20285  -> M2C_DeleteMail
+message C2M_DeleteMail {
+    int64 MailId = 1;
+    int32 Page = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20286
+message M2C_DeleteMail {
+    int32 MailCount = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20287  -> M2C_ReceiveAllMail
+message C2M_ReceiveAllMail {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20288
+message M2C_ReceiveAllMail {
+    int32 MailCount = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20289  -> M2C_DeleteAllMail
+message C2M_DeleteAllMail {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20290
+message M2C_DeleteAllMail {
+    int32 MailCount = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20291
+message RankingInfo {
+    string Name = 1;
+    string Job = 2;
+    float Value = 3;
+}
+
+// opcode 20292  -> M2C_GetRanking
+message C2M_GetRanking {
+    int32 Index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20293
+message M2C_GetRanking {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20294  -> M2C_GetOpenRemoteStore
+message C2M_GetOpenRemoteStore {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20295
+message M2C_GetOpenRemoteStore {
+    int32 Price = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20296  -> M2C_OpenRemoteStore
+message C2M_OpenRemoteStore {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20297
+message M2C_OpenRemoteStore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20298  -> M2C_RequestChat
+message C2M_RequestChat {
+    string Content = 1;
+    ChatType Type = 2;
+    int64 Id = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20299
+message M2C_RequestChat {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20300
+message M2C_SendNormalChat {
+    string Content = 1;
+    ChatType Type = 2;
+    int64 Id = 3;
+    string Name = 4;
+    bool IsSystemBrocast = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20301
+message M2C_SendSystemChat {
+    ChatType Type = 2;
+    string Name = 4;
+    bool IsSystemBrocast = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20302
+message M2C_OpenQuestUI {
+    int32 Card = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20303
+message QuestScordInfo {
+    int64 Id = 1;
+    int32 Scord = 2;
+    string Name = 3;
+    int32 Level = 4;
+    int64 Time = 5;
+}
+
+// opcode 20304  -> M2C_StartAnswerQuest
+message C2M_StartAnswerQuest {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20305
+message M2C_StartAnswerQuest {
+    int32 ConfigId = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20306  -> M2C_NextAnswerQuest
+message C2M_NextAnswerQuest {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20307
+message M2C_NextAnswerQuest {
+    int32 ConfigId = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20308  -> M2C_AnswerQuest
+message C2M_AnswerQuest {
+    int32 Answer = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20309
+message M2C_AnswerQuest {
+    int32 Time = 1;
+    int32 ContinueCorrectCount = 2;
+    int32 Scord = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20310  -> M2C_GetQuestScordInfo
+message C2M_GetQuestScordInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20311
+message M2C_GetQuestScordInfo {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20312  -> M2C_ChargeVoucher
+message C2M_ChargeVoucher {
+    int32 YuanBao = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20313
+message M2C_ChargeVoucher {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20314  -> M2C_ChargeCoin
+message C2M_ChargeCoin {
+    int32 Gem = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20315
+message M2C_ChargeCoin {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20316  -> M2C_GetAddEnergyPrice
+message C2M_GetAddEnergyPrice {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20317
+message M2C_GetAddEnergyPrice {
+    int32 Price = 1;
+    int32 Energy = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20318  -> M2C_AddEnergy
+message C2M_AddEnergy {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20319
+message M2C_AddEnergy {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20320
+message M2C_CreateMapMonster {
+    int64 Id = 1;
+    float X = 2;
+    float Y = 3;
+    int32 ConfigId = 4;
+    int32 MapMonsterType = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20321
+message M2C_DisposeMapMonster {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20322  -> M2C_StartManulEquipBattle
+message C2M_StartManulEquipBattle {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20323
+message M2C_StartManulEquipBattle {
+    int32 ConfigId = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20324  -> M2C_MakeMunalEquip
+message C2M_MakeMunalEquip {
+    int32 Type = 1;
+    StoneType IsRare = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20325
+message M2C_MakeMunalEquip {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20326  -> M2C_RequestPersonalPvp
+message C2M_RequestPersonalPvp {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20327
+message M2C_RequestPersonalPvp {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20328
+message G2C_ForceOffLine {
+}
+
+// opcode 20329  -> M2C_TestRequest
+message C2M_TestRequest {
+    string request = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20330
+message M2C_TestRequest {
+    string response = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20331  -> M2C_TransferRequest
+message C2M_TransferRequest {
+    int32 MapIndex = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20332
+message M2C_TransferRequest {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20333  -> G2C_Ping
+message C2G_Ping {
+    int32 RpcId = 90;
+}
+
+// opcode 20334
+message G2C_Ping {
+    int64 Time = 1;
+    int64 Token = 2;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20335
+message G2C_Test {
+}
+
+// opcode 20336  -> M2C_Reload
+message C2M_Reload {
+    string Account = 1;
+    string Password = 2;
+    int32 RpcId = 90;
+}
+
+// opcode 20337
+message M2C_Reload {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20338  -> M2C_GetPvpBoardInfo
+message C2M_GetPvpBoardInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20339
+message M2C_GetPvpBoardInfo {
+    int32 battleCount = 1;
+    int32 scord = 2;
+    bool isMatch = 3;
+    int32 matchCount = 4;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20340  -> M2C_StrengthEquip
+message C2M_StrengthEquip {
+    int32 bagIndex = 1;
+    int32 plusItemIndex = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20341
+message M2C_StrengthEquip {
+    bool isSuccess = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20342  -> M2C_TransLevel
+message C2M_TransLevel {
+    int32 Level = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20343
+message M2C_TransLevel {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20344
+message PvpRankInfo {
+    string name = 1;
+    int32 level = 2;
+    int32 scord = 3;
+    int32 jobIs = 4;
+}
+
+// opcode 20345  -> M2C_RefreshEquipMainAttribute
+message C2M_RefreshEquipMainAttribute {
+    int32 bagIndex = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20346
+message M2C_RefreshEquipMainAttribute {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20347  -> M2C_RefreshEquipAffix
+message C2M_RefreshEquipAffix {
+    int32 bagIndex = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20348
+message M2C_RefreshEquipAffix {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20349  -> M2C_DismountGem
+message C2M_DismountGem {
+    int32 bagIndex = 1;
+    int32 gemIndex = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20350
+message M2C_DismountGem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20351  -> M2C_GetMapCoin
+message C2M_GetMapCoin {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20352
+message M2C_GetMapCoin {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20353  -> M2C_AddMapCoinCount
+message C2M_AddMapCoinCount {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20354
+message M2C_AddMapCoinCount {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20355  -> M2C_TransferJob
+message C2M_TransferJob {
+    int32 jobType = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20356
+message M2C_TransferJob {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20357  -> M2C_GetUserInfo
+message C2M_GetUserInfo {
+    int64 Id = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20358
+message M2C_GetUserInfo {
+    string Name = 1;
+    int32 Level = 2;
+    int32 JobId = 3;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20359  -> M2C_SendGMCMD
+message C2M_SendGMCMD {
+    string cmd = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20360
+message M2C_SendGMCMD {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20361  -> M2C_OpenGMUI
+message C2M_OpenGMUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20362
+message M2C_OpenGMUI {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20363  -> M2C_ChangeNickName
+message C2M_ChangeNickName {
+    string name = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20364
+message M2C_ChangeNickName {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20365  -> M2C_StartMainStoryAI
+message C2M_StartMainStoryAI {
+    int32 Index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20366
+message M2C_StartMainStoryAI {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20367  -> M2C_EndMainStoryAI
+message C2M_EndMainStoryAI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20368
+message M2C_EndMainStoryAI {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20369
+message C2M_SendQMacro {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20370
+message M2C_SyncPet {
+    int32 petId = 1;
+    int32 level = 2;
+    int32 exp = 3;
+    int32 intimacy = 4;
+    string name = 5;
+    bool isShow = 6;
+    int64 UnitId = 7;
+    int32 active = 8;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20371
+message C2M_ShowPet {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20372
+message M2C_OpenSpaceTravelNpcUI {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20373  -> M2C_GetAllTrialCopyReword
+message C2M_GetAllTrialCopyReword {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20374
+message M2C_GetAllTrialCopyReword {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20375  -> M2C_GetPetInfo
+message C2M_GetPetInfo {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20376
+message M2C_GetPetInfo {
+    int32 eatCount = 1;
+    int32 active = 2;
+    int32 petState = 3;
+    int64 remainTime = 4;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20377  -> M2C_StartPetPlay
+message C2M_StartPetPlay {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20378
+message M2C_StartPetPlay {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20379  -> M2C_StartPetExplore
+message C2M_StartPetExplore {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20380
+message M2C_StartPetExplore {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20381  -> M2C_StartPetExperience
+message C2M_StartPetExperience {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20382
+message M2C_StartPetExperience {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20383  -> M2C_EndPetAction
+message C2M_EndPetAction {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20384
+message M2C_EndPetAction {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20385  -> M2C_GetPetActionReword
+message C2M_GetPetActionReword {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20386
+message M2C_GetPetActionReword {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20387  -> M2C_GetPetQuickEndPrice
+message C2M_GetPetQuickEndPrice {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20388
+message M2C_GetPetQuickEndPrice {
+    int32 voucher = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20389  -> M2C_UpgradePet
+message C2M_UpgradePet {
+    int32 index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20390
+message M2C_UpgradePet {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20391  -> M2C_ClickMapUnit
+message C2M_ClickMapUnit {
+    int64 Id = 1;
+    int32 type = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20392
+message M2C_ClickMapUnit {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20393  -> M2C_StartSpaceTravel
+message C2M_StartSpaceTravel {
+    int32 index = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20394
+message M2C_StartSpaceTravel {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20395
+message StarSoulNetItem {
+    int64 Id = 1;
+    int32 typeId = 2;
+    int32 level = 3;
+    int32 exp = 4;
+    int32 posType = 5;
+    int32 quality = 6;
+    bool isUsed = 7;
+    int32 main = 8;
+    repeated int32 vice = 9;
+    repeated float viceAdd = 10;
+    bool isLocked = 11;
+}
+
+// opcode 20396  -> M2C_GetStarSoulBag
+message C2M_GetStarSoulBag {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20397
+message KV_int32_int64 {
+    int32 key = 1;
+    int64 value = 2;
+}
+
+// opcode 20398
+message KV_int32_int32 {
+    int32 key = 1;
+    int32 value = 2;
+}
+
+// opcode 20399
+message KV_string_int32 {
+    string key = 1;
+    int32 value = 2;
+}
+
+// opcode 20400
+message M2C_GetStarSoulBag {
+    repeated StarSoulNetItem itemList = 1;
+    repeated int64 usedIdMap = 2;
+    repeated KV_int32_int32 suitKVs = 5;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20401
+message M2C_SyncStarSoulBagInfo {
+    repeated StarSoulNetItem itemList = 1;
+    repeated int64 usedIdMap = 2;
+    int64 UnitId = 3;
+    repeated KV_int32_int32 suitKVs = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20402
+message M2C_SyncStarSoulBag {
+    int64 Id = 1;
+    StarSoulNetItem item = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20403
+message M2C_SyncStarSoulBagItemUsed {
+    int32 key = 3;
+    int64 value = 4;
+    repeated KV_int32_int32 suitKVs = 5;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20404  -> M2C_UpgradeStarSoulItem
+message C2M_UpgradeStarSoulItem {
+    repeated int64 idList = 1;
+    int64 itemId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20405
+message M2C_UpgradeStarSoulItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20406  -> M2C_PutonStarSoulItem
+message C2M_PutonStarSoulItem {
+    int64 itemId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20407
+message M2C_PutonStarSoulItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20408
+message C2M_LockStarSoulItem {
+    bool isLock = 1;
+    int64 itemId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20409  -> M2C_StartActive
+message C2M_StartActive {
+    int32 itemId = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20410
+message M2C_StartActive {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20411  -> M2C_GetUIDByName
+message C2M_GetUIDByName {
+    string name = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20412
+message M2C_GetUIDByName {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20413  -> M2C_ResolveStarSoul
+message C2M_ResolveStarSoul {
+    repeated int64 ids = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20414
+message M2C_ResolveStarSoul {
+    repeated RewardItem itenList = 1;
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20415  -> M2C_ResolveAllStarSoul
+message C2M_ResolveAllStarSoul {
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20416
+message M2C_ResolveAllStarSoul {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20417  -> M2C_BuyInMultiShop
+message C2M_BuyInMultiShop {
+    int32 shopType = 1;
+    int32 index = 2;
+    int32 count = 3;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20418
+message M2C_BuyInMultiShop {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20419  -> M2C_GetSigninReward
+message C2M_GetSigninReward {
+    int32 configId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20420
+message M2C_GetSigninReward {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20421  -> M2C_GetSigninInMonthReward
+message C2M_GetSigninInMonthReward {
+    int32 configId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20422
+message M2C_GetSigninInMonthReward {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20423
+message M2C_SendActiveInfo {
+    int32 signinCurrId = 1;
+    bool isGetSininReward = 2;
+    int32 signinInMonthCount = 4;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20424  -> M2C_GetStarSoulItem
+message C2M_GetStarSoulItem {
+    int32 configId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20425
+message M2C_GetStarSoulItem {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20426  -> M2C_GetOtherUserBag
+message C2M_GetOtherUserBag {
+    int64 userId = 1;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20427
+message M2C_GetOtherUserBag {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}
+
+// opcode 20428  -> M2C_GMDelOtherUserBag
+message C2M_GMDelOtherUserBag {
+    int64 userId = 1;
+    int32 index = 2;
+    int32 RpcId = 90;
+    int64 ActorId = 93;
+}
+
+// opcode 20429
+message M2C_GMDelOtherUserBag {
+    int32 RpcId = 90;
+    int32 Error = 91;
+    string Message = 92;
+}

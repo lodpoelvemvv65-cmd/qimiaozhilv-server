@@ -1,0 +1,7394 @@
+[
+ [
+  20001,
+  {
+   "_id": 20001,
+   "Name": "素材·天上",
+   "IconName": "20001",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20002,
+  {
+   "_id": 20002,
+   "Name": "素材·天下",
+   "IconName": "20002",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20003,
+  {
+   "_id": 20003,
+   "Name": "素材·天地",
+   "IconName": "20003",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20004,
+  {
+   "_id": 20004,
+   "Name": "72变宝石",
+   "IconName": "20005",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20005,
+  {
+   "_id": 20005,
+   "Name": "奇妙之花",
+   "IconName": "20006",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20006,
+  {
+   "_id": 20006,
+   "Name": "王国之心碎片",
+   "IconName": "20008",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "集齐10个可在商店老头处兑换王国之心"
+  }
+ ],
+ [
+  20007,
+  {
+   "_id": 20007,
+   "Name": "奇妙之心碎片",
+   "IconName": "20010",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "集齐10个可在商店老头处兑换王国之心"
+  }
+ ],
+ [
+  20008,
+  {
+   "_id": 20008,
+   "Name": "进化小元宝",
+   "IconName": "20011",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20009,
+  {
+   "_id": 20009,
+   "Name": "金条",
+   "IconName": "20013",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "可卖给商店获得金币，也可用于完成特殊任务。"
+  }
+ ],
+ [
+  20010,
+  {
+   "_id": 20010,
+   "Name": "刁蛮女神粮票",
+   "IconName": "20018",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20011,
+  {
+   "_id": 20011,
+   "Name": "自然女神粮票",
+   "IconName": "20019",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20012,
+  {
+   "_id": 20012,
+   "Name": "希望女神粮票",
+   "IconName": "20020",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20013,
+  {
+   "_id": 20013,
+   "Name": "性感女神粮票",
+   "IconName": "20021",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20014,
+  {
+   "_id": 20014,
+   "Name": "刁蛮女神面具",
+   "IconName": "20022",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20015,
+  {
+   "_id": 20015,
+   "Name": "自然女神面具",
+   "IconName": "20023",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20016,
+  {
+   "_id": 20016,
+   "Name": "希望女神面具",
+   "IconName": "20024",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20017,
+  {
+   "_id": 20017,
+   "Name": "性感女神面具",
+   "IconName": "20025",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20018,
+  {
+   "_id": 20018,
+   "Name": "生命女神面具",
+   "IconName": "20026",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20019,
+  {
+   "_id": 20019,
+   "Name": "大地泡泡棉",
+   "IconName": "20027",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20020,
+  {
+   "_id": 20020,
+   "Name": "海洋泡泡棉",
+   "IconName": "20028",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20021,
+  {
+   "_id": 20021,
+   "Name": "刁蛮泡泡棉",
+   "IconName": "20029",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20022,
+  {
+   "_id": 20022,
+   "Name": "绿原泡泡棉",
+   "IconName": "20030",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20023,
+  {
+   "_id": 20023,
+   "Name": "火山泡泡棉",
+   "IconName": "20031",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20024,
+  {
+   "_id": 20024,
+   "Name": "破烂的古董",
+   "IconName": "20032",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20025,
+  {
+   "_id": 20025,
+   "Name": "完好的古董",
+   "IconName": "20033",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20026,
+  {
+   "_id": 20026,
+   "Name": "珍贵的古董",
+   "IconName": "20034",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20027,
+  {
+   "_id": 20027,
+   "Name": "怪物头颅",
+   "IconName": "20035",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20028,
+  {
+   "_id": 20028,
+   "Name": "碎布片",
+   "IconName": "20036",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途，集齐10个可以进化为精制布片。"
+  }
+ ],
+ [
+  20029,
+  {
+   "_id": 20029,
+   "Name": "怪物角",
+   "IconName": "20037",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20030,
+  {
+   "_id": 20030,
+   "Name": "怪物内丹",
+   "IconName": "20038",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20031,
+  {
+   "_id": 20031,
+   "Name": "怪物精华",
+   "IconName": "20039",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20032,
+  {
+   "_id": 20032,
+   "Name": "女神之吻",
+   "IconName": "20042",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20033,
+  {
+   "_id": 20033,
+   "Name": "月亮之眼",
+   "IconName": "20043",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20034,
+  {
+   "_id": 20034,
+   "Name": "海洋之星",
+   "IconName": "20044",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20035,
+  {
+   "_id": 20035,
+   "Name": "女神之结",
+   "IconName": "20045",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20036,
+  {
+   "_id": 20036,
+   "Name": "大地之心",
+   "IconName": "20046",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20037,
+  {
+   "_id": 20037,
+   "Name": "有用的零件",
+   "IconName": "20052",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20038,
+  {
+   "_id": 20038,
+   "Name": "精制布片",
+   "IconName": "20047",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20039,
+  {
+   "_id": 20039,
+   "Name": "有用的零件",
+   "IconName": "20052",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20040,
+  {
+   "_id": 20040,
+   "Name": "火之怪物灵魂",
+   "IconName": "20054",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20041,
+  {
+   "_id": 20041,
+   "Name": "木之怪物灵魂",
+   "IconName": "20055",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20042,
+  {
+   "_id": 20042,
+   "Name": "水之怪物灵魂",
+   "IconName": "20056",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20043,
+  {
+   "_id": 20043,
+   "Name": "金之怪物灵魂",
+   "IconName": "20057",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20044,
+  {
+   "_id": 20044,
+   "Name": "土之怪物灵魂",
+   "IconName": "20058",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20045,
+  {
+   "_id": 20045,
+   "Name": "太阳之晶",
+   "IconName": "20059",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20046,
+  {
+   "_id": 20046,
+   "Name": "生命之晶·一级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 2733,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20047,
+  {
+   "_id": 20047,
+   "Name": "蓝晶石·一级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 4200,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20048,
+  {
+   "_id": 20048,
+   "Name": "耀世·一级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.002,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20049,
+  {
+   "_id": 20049,
+   "Name": "紫薇·一级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.002,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20050,
+  {
+   "_id": 20050,
+   "Name": "琥珀石·一级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20051,
+  {
+   "_id": 20051,
+   "Name": "猫妖石·一级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20052,
+  {
+   "_id": 20052,
+   "Name": "精神水晶·一级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20053,
+  {
+   "_id": 20053,
+   "Name": "祖母绿·一级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20054,
+  {
+   "_id": 20054,
+   "Name": "辉夜·一级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20055,
+  {
+   "_id": 20055,
+   "Name": "光华·一级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.001,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20056,
+  {
+   "_id": 20056,
+   "Name": "紫晶·一级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.001,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20057,
+  {
+   "_id": 20057,
+   "Name": "灰晶石·一级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20058,
+  {
+   "_id": 20058,
+   "Name": "翂石·一级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20152,
+  {
+   "_id": 20152,
+   "Name": "铯晶体·一级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20153,
+  {
+   "_id": 20153,
+   "Name": "铯宝石·一级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20154,
+  {
+   "_id": 20154,
+   "Name": "石榴石·一级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20155,
+  {
+   "_id": 20155,
+   "Name": "彩晶石·一级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20156,
+  {
+   "_id": 20156,
+   "Name": "虎眼石·一级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 1000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20157,
+  {
+   "_id": 20157,
+   "Name": "猫眼石·一级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 1000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20059,
+  {
+   "_id": 20059,
+   "Name": "生命之晶·二级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 8133,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20060,
+  {
+   "_id": 20060,
+   "Name": "蓝晶石·二级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 12300,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20061,
+  {
+   "_id": 20061,
+   "Name": "耀世·二级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.007,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20062,
+  {
+   "_id": 20062,
+   "Name": "紫薇·二级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.007,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20063,
+  {
+   "_id": 20063,
+   "Name": "琥珀石·二级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20064,
+  {
+   "_id": 20064,
+   "Name": "猫妖石·二级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20065,
+  {
+   "_id": 20065,
+   "Name": "精神水晶·二级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20066,
+  {
+   "_id": 20066,
+   "Name": "祖母绿·二级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20067,
+  {
+   "_id": 20067,
+   "Name": "辉夜·二级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.05,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20068,
+  {
+   "_id": 20068,
+   "Name": "光华·二级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.003,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20069,
+  {
+   "_id": 20069,
+   "Name": "紫晶·二级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.003,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20070,
+  {
+   "_id": 20070,
+   "Name": "灰晶石·二级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 800,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20071,
+  {
+   "_id": 20071,
+   "Name": "翂石·二级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 800,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20158,
+  {
+   "_id": 20158,
+   "Name": "铯晶体·二级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20159,
+  {
+   "_id": 20159,
+   "Name": "铯宝石·二级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20160,
+  {
+   "_id": 20160,
+   "Name": "石榴石·二级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20161,
+  {
+   "_id": 20161,
+   "Name": "彩晶石·二级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20162,
+  {
+   "_id": 20162,
+   "Name": "虎眼石·二级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 3000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20163,
+  {
+   "_id": 20163,
+   "Name": "猫眼石·二级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 3000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20072,
+  {
+   "_id": 20072,
+   "Name": "生命之晶·三级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 24333,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20073,
+  {
+   "_id": 20073,
+   "Name": "蓝晶石·三级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 32800,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20074,
+  {
+   "_id": 20074,
+   "Name": "耀世·三级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20075,
+  {
+   "_id": 20075,
+   "Name": "紫薇·三级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.02,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20076,
+  {
+   "_id": 20076,
+   "Name": "琥珀石·三级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20077,
+  {
+   "_id": 20077,
+   "Name": "猫妖石·三级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20078,
+  {
+   "_id": 20078,
+   "Name": "精神水晶·三级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20079,
+  {
+   "_id": 20079,
+   "Name": "祖母绿·三级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20080,
+  {
+   "_id": 20080,
+   "Name": "辉夜·三级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.25,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20081,
+  {
+   "_id": 20081,
+   "Name": "光华·三级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.025,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20082,
+  {
+   "_id": 20082,
+   "Name": "紫晶·三级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.025,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20083,
+  {
+   "_id": 20083,
+   "Name": "灰晶石·三级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 2000,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20084,
+  {
+   "_id": 20084,
+   "Name": "翂石·三级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 2000,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20164,
+  {
+   "_id": 20164,
+   "Name": "铯晶体·三级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.09,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20165,
+  {
+   "_id": 20165,
+   "Name": "铯宝石·三级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.09,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20166,
+  {
+   "_id": 20166,
+   "Name": "石榴石·三级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.09,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20167,
+  {
+   "_id": 20167,
+   "Name": "彩晶石·三级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.09,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20168,
+  {
+   "_id": 20168,
+   "Name": "虎眼石·三级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 9000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20169,
+  {
+   "_id": 20169,
+   "Name": "猫眼石·三级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 9000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20085,
+  {
+   "_id": 20085,
+   "Name": "生命之晶·四级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 72933,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20086,
+  {
+   "_id": 20086,
+   "Name": "蓝晶石·四级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 80670,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20087,
+  {
+   "_id": 20087,
+   "Name": "耀世·四级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.07,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20088,
+  {
+   "_id": 20088,
+   "Name": "紫薇·四级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.07,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20089,
+  {
+   "_id": 20089,
+   "Name": "琥珀石·四级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20090,
+  {
+   "_id": 20090,
+   "Name": "猫妖石·四级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20091,
+  {
+   "_id": 20091,
+   "Name": "精神水晶·四级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20092,
+  {
+   "_id": 20092,
+   "Name": "祖母绿·四级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20093,
+  {
+   "_id": 20093,
+   "Name": "辉夜·四级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.4,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20094,
+  {
+   "_id": 20094,
+   "Name": "光华·四级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20095,
+  {
+   "_id": 20095,
+   "Name": "紫晶·四级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.03,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20096,
+  {
+   "_id": 20096,
+   "Name": "灰晶石·四级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 4000,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20097,
+  {
+   "_id": 20097,
+   "Name": "翂石·四级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 4000,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20170,
+  {
+   "_id": 20170,
+   "Name": "铯晶体·四级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.35,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20171,
+  {
+   "_id": 20171,
+   "Name": "铯宝石·四级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.35,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20172,
+  {
+   "_id": 20172,
+   "Name": "石榴石·四级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.35,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20173,
+  {
+   "_id": 20173,
+   "Name": "彩晶石·四级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.35,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20174,
+  {
+   "_id": 20174,
+   "Name": "虎眼石·四级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 18000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20175,
+  {
+   "_id": 20175,
+   "Name": "猫眼石·四级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 18000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20098,
+  {
+   "_id": 20098,
+   "Name": "生命之晶·五级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 218799,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20099,
+  {
+   "_id": 20099,
+   "Name": "蓝晶石·五级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 137500,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20100,
+  {
+   "_id": 20100,
+   "Name": "耀世·五级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20101,
+  {
+   "_id": 20101,
+   "Name": "紫薇·五级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20102,
+  {
+   "_id": 20102,
+   "Name": "琥珀石·五级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20103,
+  {
+   "_id": 20103,
+   "Name": "猫妖石·五级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20104,
+  {
+   "_id": 20104,
+   "Name": "精神水晶·五级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20105,
+  {
+   "_id": 20105,
+   "Name": "祖母绿·五级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20106,
+  {
+   "_id": 20106,
+   "Name": "辉夜·五级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.5,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20107,
+  {
+   "_id": 20107,
+   "Name": "光华·五级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.07,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20108,
+  {
+   "_id": 20108,
+   "Name": "紫晶·五级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.07,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20109,
+  {
+   "_id": 20109,
+   "Name": "灰晶石·五级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 8800,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20110,
+  {
+   "_id": 20110,
+   "Name": "翂石·五级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 8800,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20176,
+  {
+   "_id": 20176,
+   "Name": "铯晶体·五级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.5,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20177,
+  {
+   "_id": 20177,
+   "Name": "铯宝石·五级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.5,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20178,
+  {
+   "_id": 20178,
+   "Name": "石榴石·五级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.5,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20179,
+  {
+   "_id": 20179,
+   "Name": "彩晶石·五级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.5,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20180,
+  {
+   "_id": 20180,
+   "Name": "虎眼石·五级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 27000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20181,
+  {
+   "_id": 20181,
+   "Name": "猫眼石·五级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 27000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20111,
+  {
+   "_id": 20111,
+   "Name": "生命之晶·六级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 386800,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20112,
+  {
+   "_id": 20112,
+   "Name": "蓝晶石·六级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 217000,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20113,
+  {
+   "_id": 20113,
+   "Name": "耀世·六级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.15,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20114,
+  {
+   "_id": 20114,
+   "Name": "紫薇·六级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.15,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20115,
+  {
+   "_id": 20115,
+   "Name": "琥珀石·六级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20116,
+  {
+   "_id": 20116,
+   "Name": "猫妖石·六级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20117,
+  {
+   "_id": 20117,
+   "Name": "精神水晶·六级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20118,
+  {
+   "_id": 20118,
+   "Name": "祖母绿·六级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20119,
+  {
+   "_id": 20119,
+   "Name": "辉夜·六级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.56,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20120,
+  {
+   "_id": 20120,
+   "Name": "光华·六级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.13,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20121,
+  {
+   "_id": 20121,
+   "Name": "紫晶·六级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.13,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20122,
+  {
+   "_id": 20122,
+   "Name": "灰晶石·六级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 18000,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20123,
+  {
+   "_id": 20123,
+   "Name": "翂石·六级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 18000,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20182,
+  {
+   "_id": 20182,
+   "Name": "铯晶体·六级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.58,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20183,
+  {
+   "_id": 20183,
+   "Name": "铯宝石·六级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.58,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20184,
+  {
+   "_id": 20184,
+   "Name": "石榴石·六级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.58,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20185,
+  {
+   "_id": 20185,
+   "Name": "彩晶石·六级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.58,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20186,
+  {
+   "_id": 20186,
+   "Name": "虎眼石·六级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 36000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20187,
+  {
+   "_id": 20187,
+   "Name": "猫眼石·六级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 36000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20124,
+  {
+   "_id": 20124,
+   "Name": "生命之晶·七级",
+   "IconName": "20060",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 5,
+   "GemKey": 1,
+   "GemValue": 587800,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20125,
+  {
+   "_id": 20125,
+   "Name": "蓝晶石·七级",
+   "IconName": "20061",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 8,
+   "GemKey": 2,
+   "GemValue": 256660,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20126,
+  {
+   "_id": 20126,
+   "Name": "耀世·七级",
+   "IconName": "20062",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 3,
+   "GemKey": 11,
+   "GemValue": 0.2,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20127,
+  {
+   "_id": 20127,
+   "Name": "紫薇·七级",
+   "IconName": "20063",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 4,
+   "GemKey": 12,
+   "GemValue": 0.2,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20128,
+  {
+   "_id": 20128,
+   "Name": "琥珀石·七级",
+   "IconName": "20064",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 3,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20129,
+  {
+   "_id": 20129,
+   "Name": "猫妖石·七级",
+   "IconName": "20065",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 4,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20130,
+  {
+   "_id": 20130,
+   "Name": "精神水晶·七级",
+   "IconName": "20066",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 5,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20131,
+  {
+   "_id": 20131,
+   "Name": "祖母绿·七级",
+   "IconName": "20067",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 6,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20132,
+  {
+   "_id": 20132,
+   "Name": "辉夜·七级",
+   "IconName": "20068",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 6,
+   "GemKey": 19,
+   "GemValue": 0.85,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20133,
+  {
+   "_id": 20133,
+   "Name": "光华·七级",
+   "IconName": "20069",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 15,
+   "GemValue": 0.14,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20134,
+  {
+   "_id": 20134,
+   "Name": "紫晶·七级",
+   "IconName": "20070",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 16,
+   "GemValue": 0.14,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20135,
+  {
+   "_id": 20135,
+   "Name": "灰晶石·七级",
+   "IconName": "20071",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 7,
+   "GemKey": 9,
+   "GemValue": 25000,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20136,
+  {
+   "_id": 20136,
+   "Name": "翂石·七级",
+   "IconName": "20072",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 7,
+   "GemKey": 10,
+   "GemValue": 25000,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20188,
+  {
+   "_id": 20188,
+   "Name": "铯晶体·七级",
+   "IconName": "20073",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 3,
+   "GemKey": 13,
+   "GemValue": 0.65,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20189,
+  {
+   "_id": 20189,
+   "Name": "铯宝石·七级",
+   "IconName": "20074",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 4,
+   "GemKey": 14,
+   "GemValue": 0.65,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20190,
+  {
+   "_id": 20190,
+   "Name": "石榴石·七级",
+   "IconName": "20075",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 17,
+   "GemValue": 0.65,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20191,
+  {
+   "_id": 20191,
+   "Name": "彩晶石·七级",
+   "IconName": "20076",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 2,
+   "GemKey": 18,
+   "GemValue": 0.65,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20192,
+  {
+   "_id": 20192,
+   "Name": "虎眼石·七级",
+   "IconName": "20077",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 3,
+   "GemKey": 7,
+   "GemValue": 58000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20193,
+  {
+   "_id": 20193,
+   "Name": "猫眼石·七级",
+   "IconName": "20078",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 4,
+   "GemKey": 8,
+   "GemValue": 58000,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20137,
+  {
+   "_id": 20137,
+   "Name": "王国之心",
+   "IconName": "20007",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "传说品质的材料，价值连城。"
+  }
+ ],
+ [
+  20138,
+  {
+   "_id": 20138,
+   "Name": "奇妙之心",
+   "IconName": "20009",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "传说品质的材料，价值连城。"
+  }
+ ],
+ [
+  20139,
+  {
+   "_id": 20139,
+   "Name": "情比金坚",
+   "IconName": "20014",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "结婚凭证。"
+  }
+ ],
+ [
+  20140,
+  {
+   "_id": 20140,
+   "Name": "金砂",
+   "IconName": "20015",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 99,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20141,
+  {
+   "_id": 20141,
+   "Name": "转生DNA",
+   "IconName": "20016",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 1,
+   "Description": "获得转生资格的凭证。"
+  }
+ ],
+ [
+  20142,
+  {
+   "_id": 20142,
+   "Name": "奇妙精华",
+   "IconName": "20017",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20143,
+  {
+   "_id": 20143,
+   "Name": "进化原石",
+   "IconName": "20040",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20144,
+  {
+   "_id": 20144,
+   "Name": "进化神石",
+   "IconName": "20041",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20145,
+  {
+   "_id": 20145,
+   "Name": "博士的胶囊",
+   "IconName": "20048",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20146,
+  {
+   "_id": 20146,
+   "Name": "奇妙宝石",
+   "IconName": "20049",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20147,
+  {
+   "_id": 20147,
+   "Name": "荣誉之徽章",
+   "IconName": "20050",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20148,
+  {
+   "_id": 20148,
+   "Name": "时空秒表",
+   "IconName": "20051",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20149,
+  {
+   "_id": 20149,
+   "Name": "素材·无双",
+   "IconName": "20004",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20150,
+  {
+   "_id": 20150,
+   "Name": "进化元宝",
+   "IconName": "20012",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20151,
+  {
+   "_id": 20151,
+   "Name": "击杀BOOS凭证",
+   "IconName": "20053",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20200,
+  {
+   "_id": 20200,
+   "Name": "无用物品",
+   "IconName": "20079",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 255,
+   "Description": "无用材料"
+  }
+ ],
+ [
+  20201,
+  {
+   "_id": 20201,
+   "Name": "无用物品",
+   "IconName": "20080",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "无用材料"
+  }
+ ],
+ [
+  20202,
+  {
+   "_id": 20202,
+   "Name": "女武神的认可",
+   "IconName": "20081",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "用于制作形象的必须品"
+  }
+ ],
+ [
+  20203,
+  {
+   "_id": 20203,
+   "Name": "光之战士的认可",
+   "IconName": "20082",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "用于制作形象的必须品"
+  }
+ ],
+ [
+  20204,
+  {
+   "_id": 20204,
+   "Name": "暗之战士的认可",
+   "IconName": "20083",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "用于制作形象的必须品"
+  }
+ ],
+ [
+  20205,
+  {
+   "_id": 20205,
+   "Name": "魔女的认可",
+   "IconName": "20084",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "用于制作形象的必须品"
+  }
+ ],
+ [
+  20206,
+  {
+   "_id": 20206,
+   "Name": "魔银·改",
+   "IconName": "20085",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20207,
+  {
+   "_id": 20207,
+   "Name": "魔银·极",
+   "IconName": "20086",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20208,
+  {
+   "_id": 20208,
+   "Name": "魔银·尊",
+   "IconName": "20087",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20209,
+  {
+   "_id": 20209,
+   "Name": "魔银·王",
+   "IconName": "20088",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20210,
+  {
+   "_id": 20210,
+   "Name": "魔银·皇",
+   "IconName": "20089",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20211,
+  {
+   "_id": 20211,
+   "Name": "魔银·生",
+   "IconName": "20090",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20212,
+  {
+   "_id": 20212,
+   "Name": "魔银·影",
+   "IconName": "20091",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "蕴含神秘力量，用途未知"
+  }
+ ],
+ [
+  20213,
+  {
+   "_id": 20213,
+   "Name": "上古卷轴※生者必灭",
+   "IconName": "20092",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "上古卷轴，没有超绝的实力，无法使用此物品"
+  }
+ ],
+ [
+  20214,
+  {
+   "_id": 20214,
+   "Name": "上古卷轴※影",
+   "IconName": "20093",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 1,
+   "Description": "上古卷轴，没有超绝的实力，无法使用此物品"
+  }
+ ],
+ [
+  20215,
+  {
+   "_id": 20215,
+   "Name": "上古陨石",
+   "IconName": "上古陨石",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于装备强化，赋予装备更强大的力量"
+  }
+ ],
+ [
+  20216,
+  {
+   "_id": 20216,
+   "Name": "护士技能秘籍",
+   "IconName": "20095",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20217,
+  {
+   "_id": 20217,
+   "Name": "军官技能秘籍",
+   "IconName": "20096",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20218,
+  {
+   "_id": 20218,
+   "Name": "超能力技能秘籍",
+   "IconName": "20097",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20219,
+  {
+   "_id": 20219,
+   "Name": "运动员技能秘籍",
+   "IconName": "20098",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20220,
+  {
+   "_id": 20220,
+   "Name": "护士技能典籍",
+   "IconName": "20095",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20221,
+  {
+   "_id": 20221,
+   "Name": "军官技能典籍",
+   "IconName": "20096",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20222,
+  {
+   "_id": 20222,
+   "Name": "超能力技能典籍",
+   "IconName": "20097",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20223,
+  {
+   "_id": 20223,
+   "Name": "运动员技能典籍",
+   "IconName": "20098",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20224,
+  {
+   "_id": 20224,
+   "Name": "护士技能上古卷轴",
+   "IconName": "20095",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20225,
+  {
+   "_id": 20225,
+   "Name": "军官技能上古卷轴",
+   "IconName": "20096",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20226,
+  {
+   "_id": 20226,
+   "Name": "超能力技能上古卷轴",
+   "IconName": "20097",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20227,
+  {
+   "_id": 20227,
+   "Name": "运动员技能上古卷轴",
+   "IconName": "20098",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "书中蕴含带有无穷奥秘的文字，可以帮助学习神奇的技能，需要特定职业方可参透"
+  }
+ ],
+ [
+  20228,
+  {
+   "_id": 20228,
+   "Name": "饕餮设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20229,
+  {
+   "_id": 20229,
+   "Name": "淫欲设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20230,
+  {
+   "_id": 20230,
+   "Name": "贪婪设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20231,
+  {
+   "_id": 20231,
+   "Name": "愤怒设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20232,
+  {
+   "_id": 20232,
+   "Name": "嫉妒设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20233,
+  {
+   "_id": 20233,
+   "Name": "懒惰设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20234,
+  {
+   "_id": 20234,
+   "Name": "傲慢设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20235,
+  {
+   "_id": 20235,
+   "Name": "世界守护者项链设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 1,
+   "Description": "某种装备的设计书，用来打造装备。"
+  }
+ ],
+ [
+  20236,
+  {
+   "_id": 20236,
+   "Name": "素材·天上·特",
+   "IconName": "20001",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "IsLock": true,
+   "MaxAmount": 9999,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20237,
+  {
+   "_id": 20237,
+   "Name": "素材·天下·特",
+   "IconName": "20002",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "IsLock": true,
+   "MaxAmount": 4999,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20238,
+  {
+   "_id": 20238,
+   "Name": "素材·天地·特",
+   "IconName": "20003",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 999,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20239,
+  {
+   "_id": 20239,
+   "Name": "奇妙精华·特",
+   "IconName": "20017",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20240,
+  {
+   "_id": 20240,
+   "Name": "奇妙宝石·特",
+   "IconName": "20049",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20241,
+  {
+   "_id": 20241,
+   "Name": "进化元宝·特",
+   "IconName": "20012",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于合成进化等用途。"
+  }
+ ],
+ [
+  20242,
+  {
+   "_id": 20242,
+   "Name": "红色彩石",
+   "IconName": "20100",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作3-10星绑定的手工装备。"
+  }
+ ],
+ [
+  20243,
+  {
+   "_id": 20243,
+   "Name": "白色彩石",
+   "IconName": "20101",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作3-10星绑定的手工装备。"
+  }
+ ],
+ [
+  20244,
+  {
+   "_id": 20244,
+   "Name": "绿色彩石",
+   "IconName": "20102",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作3-10星绑定的手工装备。"
+  }
+ ],
+ [
+  20245,
+  {
+   "_id": 20245,
+   "Name": "蓝色彩石",
+   "IconName": "20103",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作3-10星绑定的手工装备。"
+  }
+ ],
+ [
+  20246,
+  {
+   "_id": 20246,
+   "Name": "稀有红色彩石",
+   "IconName": "20104",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20247,
+  {
+   "_id": 20247,
+   "Name": "稀有白色彩石",
+   "IconName": "20105",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20248,
+  {
+   "_id": 20248,
+   "Name": "稀有绿色彩石",
+   "IconName": "20106",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20249,
+  {
+   "_id": 20249,
+   "Name": "稀有黑色彩石",
+   "IconName": "20107",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20250,
+  {
+   "_id": 20250,
+   "Name": "宇宙结晶·一阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20251,
+  {
+   "_id": 20251,
+   "Name": "宇宙结晶·二阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20252,
+  {
+   "_id": 20252,
+   "Name": "宇宙结晶·三阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20253,
+  {
+   "_id": 20253,
+   "Name": "宇宙结晶·四阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20254,
+  {
+   "_id": 20254,
+   "Name": "宇宙结晶·五阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20255,
+  {
+   "_id": 20255,
+   "Name": "宇宙结晶·六阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20256,
+  {
+   "_id": 20256,
+   "Name": "宇宙结晶·七阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20257,
+  {
+   "_id": 20257,
+   "Name": "宇宙结晶·八阶",
+   "IconName": "20108",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "用于制作进化限量版装备。"
+  }
+ ],
+ [
+  20258,
+  {
+   "_id": 20258,
+   "Name": "幻·红色彩石",
+   "IconName": "20104",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "可无限制次数制作最低6星蓝色的手工装备，80-100次必定出红色品质，用幻·彩石制作出红色以上将会重置计数"
+  }
+ ],
+ [
+  20259,
+  {
+   "_id": 20259,
+   "Name": "幻·白色彩石",
+   "IconName": "20105",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "可无限制次数制作最低6星蓝色的手工装备，80-100次必定出红色品质，用幻·彩石制作出红色以上将会重置计数"
+  }
+ ],
+ [
+  20260,
+  {
+   "_id": 20260,
+   "Name": "幻·绿色彩石",
+   "IconName": "20106",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "可无限制次数制作最低6星蓝色的手工装备，80-100次必定出红色品质，用幻·彩石制作出红色以上将会重置计数"
+  }
+ ],
+ [
+  20261,
+  {
+   "_id": 20261,
+   "Name": "幻·黑色彩石",
+   "IconName": "20107",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 255,
+   "Description": "可无限制次数制作最低6星蓝色的手工装备，80-100次必定出红色品质，用幻·彩石制作出红色以上将会重置计数"
+  }
+ ],
+ [
+  20262,
+  {
+   "_id": 20262,
+   "Name": "转生DNA（一转）",
+   "IconName": "20016",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 1,
+   "Description": "获得二转转生资格的凭证。"
+  }
+ ],
+ [
+  20263,
+  {
+   "_id": 20263,
+   "Name": "转生DNA（二转）",
+   "IconName": "20016",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 1,
+   "Description": "获得三转转生资格的凭证。"
+  }
+ ],
+ [
+  20264,
+  {
+   "_id": 20264,
+   "Name": "猩红宝石·一级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20265,
+  {
+   "_id": 20265,
+   "Name": "猩红宝石·二级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20266,
+  {
+   "_id": 20266,
+   "Name": "猩红宝石·三级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20267,
+  {
+   "_id": 20267,
+   "Name": "猩红宝石·四级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20268,
+  {
+   "_id": 20268,
+   "Name": "猩红宝石·五级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20269,
+  {
+   "_id": 20269,
+   "Name": "猩红宝石·六级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20270,
+  {
+   "_id": 20270,
+   "Name": "猩红宝石·七级",
+   "IconName": "20109",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 5,
+   "GemKey": 20,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20271,
+  {
+   "_id": 20271,
+   "Name": "蔚蓝宝石·一级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 1,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 10,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20272,
+  {
+   "_id": 20272,
+   "Name": "蔚蓝宝石·二级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 2,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 30,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 888,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20273,
+  {
+   "_id": 20273,
+   "Name": "蔚蓝宝石·三级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 3,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 90,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 777,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20274,
+  {
+   "_id": 20274,
+   "Name": "蔚蓝宝石·四级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 4,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 180,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 666,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20275,
+  {
+   "_id": 20275,
+   "Name": "蔚蓝宝石·五级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 5,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 300,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 555,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20276,
+  {
+   "_id": 20276,
+   "Name": "蔚蓝宝石·六级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 6,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 520,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 444,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20277,
+  {
+   "_id": 20277,
+   "Name": "蔚蓝宝石·七级",
+   "IconName": "20110",
+   "MaterialType": 2,
+   "GemLevel": 7,
+   "GemType": 5,
+   "GemKey": 21,
+   "GemValue": 720,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 333,
+   "Description": "用于装备炼化，可在背包进化为更高级的宝石"
+  }
+ ],
+ [
+  20278,
+  {
+   "_id": 20278,
+   "Name": "稀有红色彩石·合",
+   "IconName": "20104",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，制作出来的手工装备绑定，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20279,
+  {
+   "_id": 20279,
+   "Name": "稀有白色彩石·合",
+   "IconName": "20105",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，制作出来的手工装备绑定，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20280,
+  {
+   "_id": 20280,
+   "Name": "稀有绿色彩石·合",
+   "IconName": "20106",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，制作出来的手工装备绑定，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20281,
+  {
+   "_id": 20281,
+   "Name": "稀有黑色彩石·合",
+   "IconName": "20107",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 255,
+   "Description": "用于制作6-10星手工装备，制作出来的手工装备绑定，80-100次中随机选取一个数作为保底橙色以上(5%红色)，制作出橙色以上将会重置计数"
+  }
+ ],
+ [
+  20282,
+  {
+   "_id": 20282,
+   "Name": "时空旅行船票",
+   "IconName": "20111",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 20,
+   "Description": "用于参加时空旅行活动。"
+  }
+ ],
+ [
+  20283,
+  {
+   "_id": 20283,
+   "Name": "星魂碎片",
+   "IconName": "20112",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 999,
+   "Description": "用于兑换指定套装的天工星魂。"
+  }
+ ],
+ [
+  20284,
+  {
+   "_id": 20284,
+   "Name": "普通沙漏",
+   "IconName": "20113",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 999,
+   "Description": "用于合成与升级普通背景。"
+  }
+ ],
+ [
+  20285,
+  {
+   "_id": 20285,
+   "Name": "时光沙漏",
+   "IconName": "20114",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 999,
+   "Description": "用于合成与升级高级背景。"
+  }
+ ],
+ [
+  20286,
+  {
+   "_id": 20286,
+   "Name": "樱※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20287,
+  {
+   "_id": 20287,
+   "Name": "星系※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20288,
+  {
+   "_id": 20288,
+   "Name": "雨夜※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20289,
+  {
+   "_id": 20289,
+   "Name": "橘色旋律※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20290,
+  {
+   "_id": 20290,
+   "Name": "节奏跳动※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20291,
+  {
+   "_id": 20291,
+   "Name": "河桥※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20292,
+  {
+   "_id": 20292,
+   "Name": "枫叶飘舞※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20293,
+  {
+   "_id": 20293,
+   "Name": "蝴蝶花※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20294,
+  {
+   "_id": 20294,
+   "Name": "光斓※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20295,
+  {
+   "_id": 20295,
+   "Name": "滴血玫瑰※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20296,
+  {
+   "_id": 20296,
+   "Name": "北极光※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20297,
+  {
+   "_id": 20297,
+   "Name": "午后时光※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20298,
+  {
+   "_id": 20298,
+   "Name": "四色光※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20299,
+  {
+   "_id": 20299,
+   "Name": "蒲公英※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20300,
+  {
+   "_id": 20300,
+   "Name": "星夜传说※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20301,
+  {
+   "_id": 20301,
+   "Name": "霓虹灯※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20302,
+  {
+   "_id": 20302,
+   "Name": "星光闪闪※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20303,
+  {
+   "_id": 20303,
+   "Name": "热舞气球※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20304,
+  {
+   "_id": 20304,
+   "Name": "满天繁星※设计书",
+   "IconName": "20099",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "IsLock": true,
+   "MaxAmount": 10,
+   "Description": "用于设计背景装备。"
+  }
+ ],
+ [
+  20305,
+  {
+   "_id": 20305,
+   "Name": "舍利",
+   "IconName": "20115",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于制造背景的材料，能赋予背景能量。"
+  }
+ ],
+ [
+  20306,
+  {
+   "_id": 20306,
+   "Name": "丹青",
+   "IconName": "20116",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于制造背景的材料，用于描绘背景。"
+  }
+ ],
+ [
+  20307,
+  {
+   "_id": 20307,
+   "Name": "远古战魂存息",
+   "IconName": "20112",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 5,
+   "MaxAmount": 255,
+   "Description": "远古遗迹，远古战神在世上仅存之物，价值连城。"
+  }
+ ],
+ [
+  20308,
+  {
+   "_id": 20308,
+   "Name": "1级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20309,
+  {
+   "_id": 20309,
+   "Name": "2级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20310,
+  {
+   "_id": 20310,
+   "Name": "3级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20311,
+  {
+   "_id": 20311,
+   "Name": "4级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20312,
+  {
+   "_id": 20312,
+   "Name": "5级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20313,
+  {
+   "_id": 20313,
+   "Name": "6级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20314,
+  {
+   "_id": 20314,
+   "Name": "7级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20315,
+  {
+   "_id": 20315,
+   "Name": "8级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20316,
+  {
+   "_id": 20316,
+   "Name": "1级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20317,
+  {
+   "_id": 20317,
+   "Name": "2级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20318,
+  {
+   "_id": 20318,
+   "Name": "3级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20319,
+  {
+   "_id": 20319,
+   "Name": "4级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20320,
+  {
+   "_id": 20320,
+   "Name": "5级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20321,
+  {
+   "_id": 20321,
+   "Name": "6级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20322,
+  {
+   "_id": 20322,
+   "Name": "7级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20323,
+  {
+   "_id": 20323,
+   "Name": "8级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20324,
+  {
+   "_id": 20324,
+   "Name": "1级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20325,
+  {
+   "_id": 20325,
+   "Name": "2级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20326,
+  {
+   "_id": 20326,
+   "Name": "3级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20327,
+  {
+   "_id": 20327,
+   "Name": "4级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20328,
+  {
+   "_id": 20328,
+   "Name": "5级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20329,
+  {
+   "_id": 20329,
+   "Name": "6级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20330,
+  {
+   "_id": 20330,
+   "Name": "7级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20331,
+  {
+   "_id": 20331,
+   "Name": "8级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20332,
+  {
+   "_id": 20332,
+   "Name": "1级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20333,
+  {
+   "_id": 20333,
+   "Name": "2级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20334,
+  {
+   "_id": 20334,
+   "Name": "3级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20335,
+  {
+   "_id": 20335,
+   "Name": "4级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20336,
+  {
+   "_id": 20336,
+   "Name": "5级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20337,
+  {
+   "_id": 20337,
+   "Name": "6级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20338,
+  {
+   "_id": 20338,
+   "Name": "7级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20339,
+  {
+   "_id": 20339,
+   "Name": "8级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20340,
+  {
+   "_id": 20340,
+   "Name": "1级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20341,
+  {
+   "_id": 20341,
+   "Name": "2级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20342,
+  {
+   "_id": 20342,
+   "Name": "3级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20343,
+  {
+   "_id": 20343,
+   "Name": "4级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20344,
+  {
+   "_id": 20344,
+   "Name": "5级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20345,
+  {
+   "_id": 20345,
+   "Name": "6级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20346,
+  {
+   "_id": 20346,
+   "Name": "7级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20347,
+  {
+   "_id": 20347,
+   "Name": "1级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20348,
+  {
+   "_id": 20348,
+   "Name": "2级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20349,
+  {
+   "_id": 20349,
+   "Name": "3级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20350,
+  {
+   "_id": 20350,
+   "Name": "4级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20351,
+  {
+   "_id": 20351,
+   "Name": "5级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20352,
+  {
+   "_id": 20352,
+   "Name": "6级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20353,
+  {
+   "_id": 20353,
+   "Name": "7级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20354,
+  {
+   "_id": 20354,
+   "Name": "1级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20355,
+  {
+   "_id": 20355,
+   "Name": "2级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20356,
+  {
+   "_id": 20356,
+   "Name": "3级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20357,
+  {
+   "_id": 20357,
+   "Name": "4级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20358,
+  {
+   "_id": 20358,
+   "Name": "5级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20359,
+  {
+   "_id": 20359,
+   "Name": "6级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20360,
+  {
+   "_id": 20360,
+   "Name": "7级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20361,
+  {
+   "_id": 20361,
+   "Name": "1级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20362,
+  {
+   "_id": 20362,
+   "Name": "2级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20363,
+  {
+   "_id": 20363,
+   "Name": "3级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20364,
+  {
+   "_id": 20364,
+   "Name": "4级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20365,
+  {
+   "_id": 20365,
+   "Name": "5级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20366,
+  {
+   "_id": 20366,
+   "Name": "6级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20367,
+  {
+   "_id": 20367,
+   "Name": "7级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20368,
+  {
+   "_id": 20368,
+   "Name": "1级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20369,
+  {
+   "_id": 20369,
+   "Name": "2级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20370,
+  {
+   "_id": 20370,
+   "Name": "3级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20371,
+  {
+   "_id": 20371,
+   "Name": "4级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20372,
+  {
+   "_id": 20372,
+   "Name": "5级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20373,
+  {
+   "_id": 20373,
+   "Name": "6级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20374,
+  {
+   "_id": 20374,
+   "Name": "7级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20375,
+  {
+   "_id": 20375,
+   "Name": "1级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20376,
+  {
+   "_id": 20376,
+   "Name": "2级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20377,
+  {
+   "_id": 20377,
+   "Name": "3级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20378,
+  {
+   "_id": 20378,
+   "Name": "4级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20379,
+  {
+   "_id": 20379,
+   "Name": "5级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20380,
+  {
+   "_id": 20380,
+   "Name": "6级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20381,
+  {
+   "_id": 20381,
+   "Name": "7级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20382,
+  {
+   "_id": 20382,
+   "Name": "1级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20383,
+  {
+   "_id": 20383,
+   "Name": "2级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20384,
+  {
+   "_id": 20384,
+   "Name": "3级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20385,
+  {
+   "_id": 20385,
+   "Name": "4级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20386,
+  {
+   "_id": 20386,
+   "Name": "5级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20387,
+  {
+   "_id": 20387,
+   "Name": "6级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20388,
+  {
+   "_id": 20388,
+   "Name": "7级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20389,
+  {
+   "_id": 20389,
+   "Name": "1级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20390,
+  {
+   "_id": 20390,
+   "Name": "2级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20391,
+  {
+   "_id": 20391,
+   "Name": "3级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20392,
+  {
+   "_id": 20392,
+   "Name": "4级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20393,
+  {
+   "_id": 20393,
+   "Name": "5级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20394,
+  {
+   "_id": 20394,
+   "Name": "6级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20395,
+  {
+   "_id": 20395,
+   "Name": "7级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20396,
+  {
+   "_id": 20396,
+   "Name": "1级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20397,
+  {
+   "_id": 20397,
+   "Name": "2级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20398,
+  {
+   "_id": 20398,
+   "Name": "3级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20399,
+  {
+   "_id": 20399,
+   "Name": "4级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20400,
+  {
+   "_id": 20400,
+   "Name": "5级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20401,
+  {
+   "_id": 20401,
+   "Name": "1级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20402,
+  {
+   "_id": 20402,
+   "Name": "2级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20403,
+  {
+   "_id": 20403,
+   "Name": "3级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20404,
+  {
+   "_id": 20404,
+   "Name": "4级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20405,
+  {
+   "_id": 20405,
+   "Name": "5级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20406,
+  {
+   "_id": 20406,
+   "Name": "1级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20407,
+  {
+   "_id": 20407,
+   "Name": "2级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20408,
+  {
+   "_id": 20408,
+   "Name": "3级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20409,
+  {
+   "_id": 20409,
+   "Name": "4级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20410,
+  {
+   "_id": 20410,
+   "Name": "5级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20411,
+  {
+   "_id": 20411,
+   "Name": "1级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20412,
+  {
+   "_id": 20412,
+   "Name": "2级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20413,
+  {
+   "_id": 20413,
+   "Name": "3级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20414,
+  {
+   "_id": 20414,
+   "Name": "4级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20415,
+  {
+   "_id": 20415,
+   "Name": "5级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20416,
+  {
+   "_id": 20416,
+   "Name": "1级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20417,
+  {
+   "_id": 20417,
+   "Name": "2级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20418,
+  {
+   "_id": 20418,
+   "Name": "3级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20419,
+  {
+   "_id": 20419,
+   "Name": "4级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20420,
+  {
+   "_id": 20420,
+   "Name": "5级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20421,
+  {
+   "_id": 20421,
+   "Name": "6级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20422,
+  {
+   "_id": 20422,
+   "Name": "1级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20423,
+  {
+   "_id": 20423,
+   "Name": "2级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20424,
+  {
+   "_id": 20424,
+   "Name": "3级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20425,
+  {
+   "_id": 20425,
+   "Name": "4级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20426,
+  {
+   "_id": 20426,
+   "Name": "5级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20427,
+  {
+   "_id": 20427,
+   "Name": "6级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20428,
+  {
+   "_id": 20428,
+   "Name": "1级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20429,
+  {
+   "_id": 20429,
+   "Name": "2级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20430,
+  {
+   "_id": 20430,
+   "Name": "3级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20431,
+  {
+   "_id": 20431,
+   "Name": "4级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20432,
+  {
+   "_id": 20432,
+   "Name": "5级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20433,
+  {
+   "_id": 20433,
+   "Name": "6级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20434,
+  {
+   "_id": 20434,
+   "Name": "1级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20435,
+  {
+   "_id": 20435,
+   "Name": "2级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20436,
+  {
+   "_id": 20436,
+   "Name": "3级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20437,
+  {
+   "_id": 20437,
+   "Name": "4级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 2,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20438,
+  {
+   "_id": 20438,
+   "Name": "5级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20439,
+  {
+   "_id": 20439,
+   "Name": "6级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20440,
+  {
+   "_id": 20440,
+   "Name": "铸造硬币",
+   "IconName": "20122",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 1,
+   "MaxAmount": 999,
+   "Description": "装备合成大师最喜欢的一种硬币，交给他可以换取你需要的东西"
+  }
+ ],
+ [
+  20441,
+  {
+   "_id": 20441,
+   "Name": "高级铸造硬币",
+   "IconName": "20123",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 4,
+   "MaxAmount": 999,
+   "Description": "装备合成大师最喜欢的一种硬币，交给他可以换取你需要的东西"
+  }
+ ],
+ [
+  20442,
+  {
+   "_id": 20442,
+   "Name": "创造女神的认可",
+   "IconName": "20124",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 5,
+   "MaxAmount": 999,
+   "Description": "传说创世女神创造了整个世界，她有一种能够创造万物的能力，据说获得足够的女神认可可以制造强力的装备。"
+  }
+ ],
+ [
+  20443,
+  {
+   "_id": 20443,
+   "Name": "时空石",
+   "IconName": "20125",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "存在空间能量波动，是一种稀有的制造材料。"
+  }
+ ],
+ [
+  20444,
+  {
+   "_id": 20444,
+   "Name": "素材·创生",
+   "IconName": "20126",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 5,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20445,
+  {
+   "_id": 20445,
+   "Name": "武器膜具·一阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20446,
+  {
+   "_id": 20446,
+   "Name": "武器膜具·二阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20447,
+  {
+   "_id": 20447,
+   "Name": "武器膜具·三阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20448,
+  {
+   "_id": 20448,
+   "Name": "武器膜具·四阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20449,
+  {
+   "_id": 20449,
+   "Name": "武器膜具·五阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20450,
+  {
+   "_id": 20450,
+   "Name": "武器膜具·六阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20451,
+  {
+   "_id": 20451,
+   "Name": "武器膜具·七阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20452,
+  {
+   "_id": 20452,
+   "Name": "武器膜具·八阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20453,
+  {
+   "_id": 20453,
+   "Name": "武器膜具·九阶段",
+   "IconName": "20127",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20454,
+  {
+   "_id": 20454,
+   "Name": "衣服膜具·一阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20455,
+  {
+   "_id": 20455,
+   "Name": "衣服膜具·二阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20456,
+  {
+   "_id": 20456,
+   "Name": "衣服膜具·三阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20457,
+  {
+   "_id": 20457,
+   "Name": "衣服膜具·四阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20458,
+  {
+   "_id": 20458,
+   "Name": "衣服膜具·五阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20459,
+  {
+   "_id": 20459,
+   "Name": "衣服膜具·六阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20460,
+  {
+   "_id": 20460,
+   "Name": "衣服膜具·七阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20461,
+  {
+   "_id": 20461,
+   "Name": "衣服膜具·八阶段",
+   "IconName": "20128",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20462,
+  {
+   "_id": 20462,
+   "Name": "裤子膜具·一阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20463,
+  {
+   "_id": 20463,
+   "Name": "裤子膜具·二阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20464,
+  {
+   "_id": 20464,
+   "Name": "裤子膜具·三阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20465,
+  {
+   "_id": 20465,
+   "Name": "裤子膜具·四阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20466,
+  {
+   "_id": 20466,
+   "Name": "裤子膜具·五阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20467,
+  {
+   "_id": 20467,
+   "Name": "裤子膜具·六阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20468,
+  {
+   "_id": 20468,
+   "Name": "裤子膜具·七阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20469,
+  {
+   "_id": 20469,
+   "Name": "裤子膜具·八阶段",
+   "IconName": "20129",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20470,
+  {
+   "_id": 20470,
+   "Name": "手套膜具·一阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20471,
+  {
+   "_id": 20471,
+   "Name": "手套膜具·二阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20472,
+  {
+   "_id": 20472,
+   "Name": "手套膜具·三阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20473,
+  {
+   "_id": 20473,
+   "Name": "手套膜具·四阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20474,
+  {
+   "_id": 20474,
+   "Name": "手套膜具·五阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20475,
+  {
+   "_id": 20475,
+   "Name": "手套膜具·六阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20476,
+  {
+   "_id": 20476,
+   "Name": "手套膜具·七阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20477,
+  {
+   "_id": 20477,
+   "Name": "手套膜具·八阶段",
+   "IconName": "20130",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20478,
+  {
+   "_id": 20478,
+   "Name": "鞋子膜具·一阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20479,
+  {
+   "_id": 20479,
+   "Name": "鞋子膜具·二阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20480,
+  {
+   "_id": 20480,
+   "Name": "鞋子膜具·三阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20481,
+  {
+   "_id": 20481,
+   "Name": "鞋子膜具·四阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20482,
+  {
+   "_id": 20482,
+   "Name": "鞋子膜具·五阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20483,
+  {
+   "_id": 20483,
+   "Name": "鞋子膜具·六阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20484,
+  {
+   "_id": 20484,
+   "Name": "鞋子膜具·七阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20485,
+  {
+   "_id": 20485,
+   "Name": "鞋子膜具·八阶段",
+   "IconName": "20131",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20486,
+  {
+   "_id": 20486,
+   "Name": "能量核心",
+   "IconName": "20132",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20487,
+  {
+   "_id": 20487,
+   "Name": "守御之魂",
+   "IconName": "20133",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20488,
+  {
+   "_id": 20488,
+   "Name": "坚固之石",
+   "IconName": "20134",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20489,
+  {
+   "_id": 20489,
+   "Name": "迅捷之玉",
+   "IconName": "20135",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20490,
+  {
+   "_id": 20490,
+   "Name": "心灵之晶",
+   "IconName": "20136",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20491,
+  {
+   "_id": 20491,
+   "Name": "9级武器淬炼剂·风",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20492,
+  {
+   "_id": 20492,
+   "Name": "9级武器淬炼剂·火",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20493,
+  {
+   "_id": 20493,
+   "Name": "9级武器淬炼剂·山",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20494,
+  {
+   "_id": 20494,
+   "Name": "9级武器淬炼剂·林",
+   "IconName": "20117",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20495,
+  {
+   "_id": 20495,
+   "Name": "8级衣服淬炼剂·风",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20496,
+  {
+   "_id": 20496,
+   "Name": "8级衣服淬炼剂·火",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20497,
+  {
+   "_id": 20497,
+   "Name": "8级衣服淬炼剂·山",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20498,
+  {
+   "_id": 20498,
+   "Name": "8级衣服淬炼剂·林",
+   "IconName": "20118",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20499,
+  {
+   "_id": 20499,
+   "Name": "8级裤子淬炼剂·风",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20500,
+  {
+   "_id": 20500,
+   "Name": "8级裤子淬炼剂·火",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20501,
+  {
+   "_id": 20501,
+   "Name": "8级裤子淬炼剂·山",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20502,
+  {
+   "_id": 20502,
+   "Name": "8级裤子淬炼剂·林",
+   "IconName": "20119",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20503,
+  {
+   "_id": 20503,
+   "Name": "6级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20504,
+  {
+   "_id": 20504,
+   "Name": "7级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20505,
+  {
+   "_id": 20505,
+   "Name": "8级手套淬炼剂·风",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20506,
+  {
+   "_id": 20506,
+   "Name": "6级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20507,
+  {
+   "_id": 20507,
+   "Name": "7级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20508,
+  {
+   "_id": 20508,
+   "Name": "8级手套淬炼剂·火",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20509,
+  {
+   "_id": 20509,
+   "Name": "6级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20510,
+  {
+   "_id": 20510,
+   "Name": "7级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20511,
+  {
+   "_id": 20511,
+   "Name": "8级手套淬炼剂·山",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20512,
+  {
+   "_id": 20512,
+   "Name": "6级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20513,
+  {
+   "_id": 20513,
+   "Name": "7级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20514,
+  {
+   "_id": 20514,
+   "Name": "8级手套淬炼剂·林",
+   "IconName": "20120",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20515,
+  {
+   "_id": 20515,
+   "Name": "7级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20516,
+  {
+   "_id": 20516,
+   "Name": "8级鞋子萃取剂·风",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20517,
+  {
+   "_id": 20517,
+   "Name": "7级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20518,
+  {
+   "_id": 20518,
+   "Name": "8级鞋子萃取剂·火",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20519,
+  {
+   "_id": 20519,
+   "Name": "7级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20520,
+  {
+   "_id": 20520,
+   "Name": "8级鞋子萃取剂·山",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20521,
+  {
+   "_id": 20521,
+   "Name": "7级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20522,
+  {
+   "_id": 20522,
+   "Name": "8级鞋子萃取剂·林",
+   "IconName": "20121",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "用于转生装备合成，可在装备合成大师处使用。"
+  }
+ ],
+ [
+  20523,
+  {
+   "_id": 20523,
+   "Name": "素材·无双（碎片）",
+   "IconName": "20137",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "素材·无双的碎片，虽然已经失去了素材·无双的能量，但仍然可以作为素材·创世的材料。（可在背包进化）"
+  }
+ ],
+ [
+  20524,
+  {
+   "_id": 20524,
+   "Name": "创世女神的信物",
+   "IconName": "20138",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 3,
+   "MaxAmount": 999,
+   "Description": "任务道具，可以帮助完成创世女神的考验任务。"
+  }
+ ],
+ [
+  20525,
+  {
+   "_id": 20525,
+   "Name": "代金券碎片",
+   "IconName": "20139",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 5,
+   "MaxAmount": 999,
+   "Description": "可以跟稀有物品合成成为代金券，可在背包进化。"
+  }
+ ],
+ [
+  20526,
+  {
+   "_id": 20526,
+   "Name": "高级代金券碎片",
+   "IconName": "20139",
+   "MaterialType": 1,
+   "Price": 500,
+   "Quality": 6,
+   "MaxAmount": 999,
+   "Description": "可以跟稀有物品合成成为代金券，可在背包进化。"
+  }
+ ]
+]

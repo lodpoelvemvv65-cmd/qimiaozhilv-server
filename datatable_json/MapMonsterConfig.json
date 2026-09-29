@@ -1,0 +1,210 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Name": "ManulEquip1",
+   "Desc": "火之领主",
+   "PrefabId": 301,
+   "Level": 3000,
+   "Dropasubset": 10056,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Name": "ManulEquip2",
+   "Desc": "风之领主",
+   "PrefabId": 302,
+   "Level": 3000,
+   "Dropasubset": 10057,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Name": "ManulEquip3",
+   "Desc": "土之领主",
+   "PrefabId": 303,
+   "Level": 1,
+   "Dropasubset": 10058,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Name": "ManulEquip4",
+   "Desc": "暗之领主",
+   "PrefabId": 4103,
+   "Level": 1,
+   "Dropasubset": 10059,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Name": "CoinMonster",
+   "Desc": "地图金币怪",
+   "PrefabId": 336,
+   "Level": 1,
+   "Dropasubset": 0,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Name": "SpaceTravel1",
+   "Desc": "一层怪",
+   "PrefabId": 301,
+   "Level": 1,
+   "Dropasubset": 10056,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Name": "SpaceTravel2",
+   "Desc": "二层怪",
+   "PrefabId": 302,
+   "Level": 1,
+   "Dropasubset": 10057,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Name": "SpaceTravel3",
+   "Desc": "三层怪",
+   "PrefabId": 303,
+   "Level": 1,
+   "Dropasubset": 10058,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Name": "SpaceTravel4",
+   "Desc": "四层怪",
+   "PrefabId": 302,
+   "Level": 1,
+   "Dropasubset": 10057,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Name": "SpaceTravel5",
+   "Desc": "五层怪",
+   "PrefabId": 303,
+   "Level": 1,
+   "Dropasubset": 10058,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Name": "SpaceTravel6",
+   "Desc": "隐藏boss",
+   "PrefabId": 4103,
+   "Level": 1,
+   "Dropasubset": 10059,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1012,
+  {
+   "_id": 1012,
+   "Name": "StarSoul1",
+   "Desc": "星魂侍者",
+   "PrefabId": 301,
+   "Level": 1,
+   "Dropasubset": 10056,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1013,
+  {
+   "_id": 1013,
+   "Name": "StarSoul2",
+   "Desc": "星魂操纵者",
+   "PrefabId": 302,
+   "Level": 1,
+   "Dropasubset": 10057,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1014,
+  {
+   "_id": 1014,
+   "Name": "StarSoul3",
+   "Desc": "星魂极巫",
+   "PrefabId": 303,
+   "Level": 1,
+   "Dropasubset": 10058,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Name": "JourneyOfDeath1",
+   "Desc": "gan1",
+   "PrefabId": 301,
+   "Level": 1,
+   "Dropasubset": 0,
+   "X": 0,
+   "Y": -1.2
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Name": "JourneyOfDeath2",
+   "Desc": "gan2",
+   "PrefabId": 302,
+   "Level": 1,
+   "Dropasubset": 0,
+   "X": 0,
+   "Y": -1.2
+  }
+ ]
+]

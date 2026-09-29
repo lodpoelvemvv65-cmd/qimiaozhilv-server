@@ -1,0 +1,274 @@
+# 梦幻奇遇记运营热更参数（配置名：Gameplay）
+#
+# 发布到本地服：
+#   go run ./cmd/publish-config -name Gameplay -source ./config/operations/Gameplay.yaml \
+#     -publisher local-admin -note "update gameplay operations"
+#
+# 发布成功后，工具会写入 MySQL game_config_nodes，并通过 Redis 频道
+# mhq:config:reload 通知运行中的服务端。服务端先完整校验新配置，再原子切换；
+# 校验失败时继续使用旧快照，不需要重启进程，也不会出现半套新旧参数。
+#
+# 注意：MarketBase.yaml 管每件商品的基础价格；此文件的 market 只管每日浮动比例。
+# FamilyBossConfig.yaml 管各阶 BOSS 的贡献值；此文件管额外道具掉落概率和候选池。
+
+# 常用项：market 控制商城每日折扣；pet 控制宠物时长/立即完成价格；其余段落按字段名填写。
+# 每个数字都有服务端范围校验，发布失败时会继续使用旧配置。
+version: 1
+
+quiz:
+  # 每轮总题数，答对或答错都会计入。达到该数量后本轮结束。
+  questions_per_round: 10
+
+new_role:
+  # 新建角色（注册后首次创建角色）发放的代金券数量。原版由 players 表的
+  # 列默认值提供 100。只影响之后新建的角色，不会改写已有角色；热重载立即生效。
+  # 0 表示不送。
+  voucher: 999999999
+
+pet:
+  # 客户端没有时长选择 UI，只显示服务端下发的 RemainTime（毫秒）。
+  # 档位按宠物当前等级选择；必须从 1 级开始，等级和时长都严格递增。
+  duration_tiers:
+    - minimum_level: 1
+      duration_ms: 600000
+    - minimum_level: 21
+      duration_ms: 1200000
+    - minimum_level: 41
+      duration_ms: 1800000
+    - minimum_level: 61
+      duration_ms: 2400000
+    - minimum_level: 81
+      duration_ms: 3000000
+    - minimum_level: 101
+      duration_ms: 3600000
+  # 兼容旧配置：仅当 duration_tiers 显式设为空列表时，才按活动类型读取以下三个值。
+  play_duration_ms: 3600000
+  explore_duration_ms: 3600000
+  experience_duration_ms: 3600000
+  # 立即结束一次宠物玩法消耗的代金券；0 表示免费。
+  quick_end_voucher: 10
+
+online_reward:
+  # 每累计在线达到一个周期，发放一封系统邮件；在线余量在正常下线时持久化。
+  interval_ms: 3600000
+  voucher_amount: 100
+  # 邮件有效期按生成时间起算，客户端使用绝对 Unix 毫秒时间戳显示。
+  mail_expire_days: 30
+
+voucher_gift:
+  # 键是 GoodsBase 物品 ID，minimum/maximum 均包含在随机范围内。
+  # 110429 是“随机代金券礼盒”，默认每次独立随机 1..500。
+  random_ranges:
+    110429:
+      minimum: 1
+      maximum: 500
+
+map_coin:
+  # 每次完成地图加载后独立抽取；0 表示关闭，100 表示每次进入地图必定出现。
+  spawn_chance_percent: 5
+  # 单次点击获得的铜币闭区间。原版抓包实测过 3508647 铜币。
+  minimum_reward: 3000000
+  maximum_reward: 5000000
+  # 每日基础领取次数，以及万能管家购买一次额外次数所需代金券。
+  daily_base_count: 1
+  extra_count_voucher: 20
+
+run_map:
+  # 每个运营日自动补充的普通跑图储备；时间可与跑图卡累积。
+  daily_normal_duration_ms: 7200000
+  timezone_offset_hours: 8
+
+progression:
+  # 所有角色经验收益倍率；200 表示基础经验的 2 倍，并与经验卡倍率相乘。
+  # 热重载后从下一次经验结算开始生效，不改变客户端经验条的协议单位。
+  experience_gain_percent: 200
+  # 每达到该等级倍数发放 1 点技能点。1 级起步为 0 点，200 级发第 1 点。
+  # 已发放的技能点不回收。热重载后从下一次升级开始生效。
+  skill_point_levels: 200
+
+town_idle_exp:
+  # 主城（城镇）挂机经验：角色停在城镇地图不动时，按节拍窗口自动下发经验。
+  # 2026-09-13 线上抓包实测（参考数据/抓包归档/online-base-attr-idle-20260913.pcapng、
+  # online-lv1-idle-20260913.pcapng）：每分钟固定一跳 24560 点，与等级无关，
+  # 1 级新角色吃到第一跳后直接到 56 级；节拍落在每分钟的 :57~:58（全局时钟，
+  # 不是进图后计时）。exp_per_tick 是线上那一跳的最终值，不再乘
+  # progression.experience_gain_percent（线上下发什么就是什么）。
+  enabled: true
+  interval_seconds: 60
+  exp_per_tick: 24560
+  # 只有城镇地图生效（问题.txt 第 4 条）：10004 主城、1000401 主城副本线。
+  # 其他地图（野外/副本/BOSS 层）一律不发。
+  map_ids: [10004, 1000401]
+
+combat:
+  # Applied to SkillLogicConfig.cast: castBaseType=0 uses character level.
+  # 50 matches the captured level-21500 costs: 2150 / 5375 / 8600 / 10750.
+  skill_mp_cost_percent: 50
+  # 同一个可叠加效果（流血/中毒/燃烧/持续治疗，以及护盾、减益等）最多叠多少层。
+  # 原版客户端表只说「可叠加（叠加层数，用于持续伤害）」，没有给出层数上限，
+  # 因此这个数字是运营参数：10 沿用历史行为，范围 1..100。
+  effect_max_stacks: 10
+  # 持续伤害/持续治疗每隔多久生效一次。原版客户端表里完全没有这个节拍：
+  # event 8「循环执行定时器」节点只有伤害/治愈公式，没有间隔或次数；
+  # modifier.thinkInterval 在 19 个周期 modifier 里 9 个是 5 秒、10 个是空；
+  # skill 级 duration/interval 全是 0。所以只能从服务端实测倒推——
+  # 抓包 online-skill-effects-20260906 里护士三次施放 310501，每次挂上
+  # bufficon_constrea(Time=14000) 后都在 +4.00s 跳第一下，+8.00s 第二下，
+  # +12.00s 第三下，而 +16.00s 那一下（已超出 14 秒）三次都没有发生。
+  # 即首跳延后一个间隔、跳数 = floor(持续时间 / 间隔)。范围 100..60000 毫秒。
+  effect_tick_interval_ms: 4000
+  # 单 modifier 实测覆盖。50001033 才是 500010 外层 modifier 50001035
+  # 挂入的 event-8 中毒节点；线上本场连续末跳间隔稳定为 3.500 秒。
+  periodic_tick_overrides_ms:
+    "50001033": 3500
+
+market:
+  # 每个账号每天获得一个稳定比例；不同账号、不同日期会重新计算。
+  # 85 表示原价的 85%，125 表示原价的 125%。
+  minimum_percent: 85
+  maximum_percent: 125
+  # “每天”的日期边界时区。中国标准时间为 UTC+8。
+  timezone_offset_hours: 8
+
+shop_sale:
+  # true：未单独配置的物品沿用 EquipBase/GoodsBase/MaterialBase 线上 Price；
+  # false：只允许下方手工装备分类和 items 中 enabled=true 的物品出售。
+  use_online_prices: true
+  # 线上 Price 缺失或为 0 时，按客户端背包常见显示价 5 银币出售。
+  fallback_price_coin: 500
+  # 元宝/代金券商城购入的物品再次卖回商城时，按实付单价折算为代金券。
+  market_recovery_percent: 85
+  # 手工成品不是独立 ItemType；它们和普通装备都属于 ItemType=1。
+  # 服务端会从 MySQL 的 ManulEquip.EquipId 自动识别全部手工成品，当前为
+  # 120877、120855、120854、120856，因此这里不需要逐个维护物品 ID。
+  manual_equipment:
+    enabled: true
+    # 500 铜币在客户端显示为 5 银币（0.05 金币）。
+    price_coin: 500
+  # 单物品覆盖规则，装备、普通道具、材料都可按 ID 添加。
+  # enabled=false 表示禁售；enabled=true 表示按 price_coin 出售。
+  # 单物品规则优先于上方手工装备分类和线上价格。
+  items: []
+  # 添加其他物品示例（启用时去掉每行开头的 #）：
+  # - item_id: 9001
+  #   enabled: true
+  #   price_coin: 500
+  # - item_id: 9002
+  #   enabled: false
+  #   price_coin: 1
+  #
+  # 修改并发布后，在线服务端通过 MySQL + Redis 原子热重载，下一次出售立即生效。
+  # price_coin 是 NumericType.Coin=1028 的底层金币单位；客户端 100 单位显示为 1 银币。
+  # 货币/经验类物品始终受安全保护，不能通过这里改成可出售。
+
+equipment:
+  # 新装备主属性相对模板值的浮动百分比，最终会持久化到装备实例。
+  # -25 和 25 表示模板值的 -25%..+25%，不会在登录或热更时重抽。
+  minimum_main_attribute_percent: -25
+  maximum_main_attribute_percent: 25
+  # 强化失败后的最低等级保护；达到某档后失败不会跌破该档。
+  strength_safety_levels: [8, 13, 17]
+
+manual_equip:
+  # 品质色 1白 2绿 3蓝 4紫 5橙 6红，对应客户端 ET.Quality / GetQualityColor。
+  # 星级区间、绑定、5%红色和 80-100 次保底来自线上彩石说明；
+  # 普通品质没有线上概率表，按白>绿>蓝>紫递减且不出橙红。
+  normal:
+    min_star: 3
+    max_star: 10
+    bound: true
+    quality_weights:
+      - quality: 1
+        weight: 40
+      - quality: 2
+        weight: 30
+      - quality: 3
+        weight: 20
+      - quality: 4
+        weight: 10
+  rare:
+    min_star: 6
+    max_star: 10
+    red_percent: 5
+    pity_min_count: 80
+    pity_max_count: 100
+    pity_min_quality: 5
+    quality_weights:
+      - quality: 3
+        weight: 45
+      - quality: 4
+        weight: 35
+      - quality: 5
+        weight: 15
+  epic:
+    min_star: 6
+    max_star: 10
+    min_quality: 3
+    pity_min_count: 80
+    pity_max_count: 100
+    pity_min_quality: 6
+    quality_weights:
+      - quality: 3
+        weight: 40
+      - quality: 4
+        weight: 30
+      - quality: 5
+        weight: 25
+      - quality: 6
+        weight: 5
+  upgrade_rare:
+    min_star: 6
+    max_star: 10
+    bound: true
+    red_percent: 5
+    pity_min_count: 80
+    pity_max_count: 100
+    pity_min_quality: 5
+    quality_weights:
+      - quality: 3
+        weight: 45
+      - quality: 4
+        weight: 35
+      - quality: 5
+        weight: 15
+
+dungeon:
+  # 每日额度按该时区的自然日重置。中国标准时间为 UTC+8。
+  timezone_offset_hours: 8
+  # 每名玩家每天成功进入时空旅行战斗可消耗的次数。组队时每名参战者各扣 1 次。
+  space_travel_daily_attempts: 50
+  # 每名玩家每天可挑战死亡之塔的次数。只在第一阶段成功开战时扣除，第二阶段不重复扣除。
+  death_tower_daily_attempts: 10
+  # 每名玩家每天拥有的家族 Boss 钥匙。组队时每名实际参战的同家族成员各扣 1 把。
+  family_boss_daily_keys: 2
+
+world_boss:
+  # 客户端活动文案声明世界 Boss 产出稀有物品，但 81001 本身没有经验和掉落组。
+  # 默认复用客户端线上最高阶困难 Boss 掉落链；每次活动胜利只结算一次，不按三只镜像怪重复结算。
+  reward_parentset_id: 10125
+
+hard_main_story:
+  # 困难主线第 1-9 层自身无奖励时，按对应普通怪物的经验和线上掉落链结算该倍率。
+  # 掉落链会独立抽取多次；第 10 层 Boss 和自身已有奖励的怪物不使用此倍率。
+  normal_reward_multiplier: 3
+
+personal_pvp:
+  # The client fixes the daily display at 100 battles but does not contain score deltas.
+  victory_score_delta: 10
+  defeat_score_delta: -5
+  timezone_offset_hours: 8
+
+family_boss:
+  # Dead bosses revive at the next dungeon timezone midnight; dead_at is persisted across restarts.
+  # 无论胜负都会结算 FamilyBossConfig.yaml 中的贡献；以下只控制额外道具。
+  # 各阶开场战斗属性倍率 = 此基值 + FamilyBossConfig.CharacterAdd。
+  attribute_base_multiplier: 1.20
+  # 线上五阶抓包的战斗属性叠层时间网格：稳定在 4.706~4.710 秒。
+  attribute_stack_interval_ms: 4710
+  bonus_drop_chance_percent: 5
+  # 已命中额外掉落时，选择形象池的概率；剩余概率选择宝石池。
+  skin_share_percent: 10
+  # 留空表示从原版数据表自动收集全部宝石/可穿戴形象。
+  # 填入 ID 后只从指定池抽取；无效或类型不符的 ID 会被安全忽略。
+  gem_item_ids: []
+  skin_item_ids: []

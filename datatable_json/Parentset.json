@@ -1,0 +1,3648 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30001,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30016,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30002,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30002,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30002,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30002,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30003,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30003,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30003,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30012,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30003,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30012,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30004,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30013,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30004,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30013,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30004,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30004,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30241,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30242,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30243,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30015,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30244,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30015,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30025,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30030,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30031,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30026,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30032,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30027,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30028,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30140,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30029,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30006,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30067,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30007,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30067,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30008,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30067,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30008,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30068,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30009,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30009,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30009,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30009,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30009,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30136,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30083,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30136,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30083,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30136,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30010,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30083,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30136,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30017,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30018,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30062,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30083,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30137,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30084,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30137,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30011,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30084,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30137,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30012,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30084,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30137,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30012,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30063,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30019,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30020,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30084,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30138,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30013,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30085,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30138,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30013,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30085,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10045,
+  {
+   "_id": 10045,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30138,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30085,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10046,
+  {
+   "_id": 10046,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30138,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30021,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30022,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30064,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30085,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10047,
+  {
+   "_id": 10047,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30139,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30086,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10048,
+  {
+   "_id": 10048,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30139,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30014,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30086,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10049,
+  {
+   "_id": 10049,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30139,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30015,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30086,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10050,
+  {
+   "_id": 10050,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30139,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30065,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30023,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30024,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30015,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30086,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10051,
+  {
+   "_id": 10051,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30091,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30092,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30093,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10052,
+  {
+   "_id": 10052,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30094,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30095,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30096,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10053,
+  {
+   "_id": 10053,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30097,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30098,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30099,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10054,
+  {
+   "_id": 10054,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30100,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30101,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30102,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10055,
+  {
+   "_id": 10055,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30103,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30104,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30105,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10056,
+  {
+   "_id": 10056,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30106,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10057,
+  {
+   "_id": 10057,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30107,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10058,
+  {
+   "_id": 10058,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30108,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10059,
+  {
+   "_id": 10059,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30109,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10060,
+  {
+   "_id": 10060,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30110,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10061,
+  {
+   "_id": 10061,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30111,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10062,
+  {
+   "_id": 10062,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30112,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10063,
+  {
+   "_id": 10063,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30113,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10064,
+  {
+   "_id": 10064,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30114,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10065,
+  {
+   "_id": 10065,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30115,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10066,
+  {
+   "_id": 10066,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30116,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10067,
+  {
+   "_id": 10067,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30117,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10068,
+  {
+   "_id": 10068,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30118,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10069,
+  {
+   "_id": 10069,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30119,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10070,
+  {
+   "_id": 10070,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30120,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10071,
+  {
+   "_id": 10071,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30121,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30050,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10072,
+  {
+   "_id": 10072,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30122,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10073,
+  {
+   "_id": 10073,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30123,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10074,
+  {
+   "_id": 10074,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30124,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10075,
+  {
+   "_id": 10075,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30125,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10076,
+  {
+   "_id": 10076,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30141,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30126,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10077,
+  {
+   "_id": 10077,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30127,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10078,
+  {
+   "_id": 10078,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30128,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30052,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10079,
+  {
+   "_id": 10079,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30129,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30054,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10080,
+  {
+   "_id": 10080,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30130,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30054,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10081,
+  {
+   "_id": 10081,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30131,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30054,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10082,
+  {
+   "_id": 10082,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30132,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30054,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10083,
+  {
+   "_id": 10083,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30142,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30133,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30054,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30051,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30056,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30066,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10084,
+  {
+   "_id": 10084,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30134,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10085,
+  {
+   "_id": 10085,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30143,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30146,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10086,
+  {
+   "_id": 10086,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30144,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30147,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30151,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10087,
+  {
+   "_id": 10087,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30145,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30148,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30151,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10088,
+  {
+   "_id": 10088,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30007,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30149,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30151,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10089,
+  {
+   "_id": 10089,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30008,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30150,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30151,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10090,
+  {
+   "_id": 10090,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30152,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10091,
+  {
+   "_id": 10091,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30153,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10092,
+  {
+   "_id": 10092,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30154,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10093,
+  {
+   "_id": 10093,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30155,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10094,
+  {
+   "_id": 10094,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30156,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10095,
+  {
+   "_id": 10095,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30157,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10096,
+  {
+   "_id": 10096,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30158,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10097,
+  {
+   "_id": 10097,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30159,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10098,
+  {
+   "_id": 10098,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30160,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10099,
+  {
+   "_id": 10099,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30161,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10100,
+  {
+   "_id": 10100,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30162,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10101,
+  {
+   "_id": 10101,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30163,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10102,
+  {
+   "_id": 10102,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30164,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10103,
+  {
+   "_id": 10103,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30165,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10104,
+  {
+   "_id": 10104,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30166,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10105,
+  {
+   "_id": 10105,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30167,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10106,
+  {
+   "_id": 10106,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30168,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10107,
+  {
+   "_id": 10107,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30169,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30170,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30171,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30172,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10108,
+  {
+   "_id": 10108,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30173,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30174,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30175,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30176,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10109,
+  {
+   "_id": 10109,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30177,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30178,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30179,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30180,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10110,
+  {
+   "_id": 10110,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30181,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30182,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30183,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30184,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10111,
+  {
+   "_id": 10111,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30185,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30186,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30187,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30188,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10112,
+  {
+   "_id": 10112,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30189,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30190,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30191,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30192,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10113,
+  {
+   "_id": 10113,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30193,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30194,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30195,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30196,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10114,
+  {
+   "_id": 10114,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30197,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30198,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30199,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30200,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10115,
+  {
+   "_id": 10115,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30201,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30202,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30203,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30204,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10116,
+  {
+   "_id": 10116,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30205,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30206,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30207,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30208,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10117,
+  {
+   "_id": 10117,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30209,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30210,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30211,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30212,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10118,
+  {
+   "_id": 10118,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30213,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30214,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30215,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30216,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10119,
+  {
+   "_id": 10119,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30217,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30218,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30219,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30220,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10120,
+  {
+   "_id": 10120,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30221,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30222,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30223,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30224,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10121,
+  {
+   "_id": 10121,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30225,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30226,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30227,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30228,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10122,
+  {
+   "_id": 10122,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30193,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30197,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30201,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30202,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30203,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10123,
+  {
+   "_id": 10123,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30194,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30198,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30204,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30205,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30206,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10124,
+  {
+   "_id": 10124,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30195,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30199,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30207,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30208,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30209,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10125,
+  {
+   "_id": 10125,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30196,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30200,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30210,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30211,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30212,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10126,
+  {
+   "_id": 10126,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30213,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30214,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30230,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10127,
+  {
+   "_id": 10127,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30215,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30216,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30230,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10128,
+  {
+   "_id": 10128,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30217,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30218,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30230,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10129,
+  {
+   "_id": 10129,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30219,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30220,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30230,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10130,
+  {
+   "_id": 10130,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30221,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30222,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30231,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10131,
+  {
+   "_id": 10131,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30223,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30224,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30231,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10132,
+  {
+   "_id": 10132,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30225,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30226,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30231,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10133,
+  {
+   "_id": 10133,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30227,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30228,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30229,
+     "Weight": 0
+    },
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30231,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10134,
+  {
+   "_id": 10134,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30245,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10135,
+  {
+   "_id": 10135,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30246,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10136,
+  {
+   "_id": 10136,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30247,
+     "Weight": 0
+    }
+   ]
+  }
+ ],
+ [
+  10137,
+  {
+   "_id": 10137,
+   "SubsetArr": [
+    {
+     "_t": "Parentset+Subset",
+     "_Id": 30248,
+     "Weight": 0
+    }
+   ]
+  }
+ ]
+]

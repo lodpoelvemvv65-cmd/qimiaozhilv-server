@@ -1,0 +1,103 @@
+# ---- 构建产物 ----
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.o
+*.a
+*.rlib
+bin/
+obj/
+target/
+dist/
+build/
+
+# ---- Go ----
+*.test
+.gocache*/
+server-mysql/mhqserver-mysql
+server-mysql/mhqserver
+server-mysql/config-watcher
+server-mysql/gm-api
+server-mysql/gm-admin
+server-mysql/deploy/runtime/mhqserver
+server-mysql/deploy/tools/publish-config
+server-mysql/deploy/gm/gm-admin
+server-mysql/deploy/gm/gm-api
+
+# ---- Node / 前端 ----
+node_modules/
+.vite/
+web/dist/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 运行时与日志 ----
+*.log
+*.err
+*.out
+*.pid
+logs/runtime/*
+!logs/runtime/.gitkeep
+logs/archive/*
+!logs/archive/.gitkeep
+
+# ---- 本地数据与数据库 ----
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sql
+!server-mysql/deploy/database/002-gm.sql
+*.sql.gz
+server-mysql/deploy/.env
+.env
+
+# ---- 客户端补丁二进制与备份 ----
+*.bundle
+*.assets.bak
+*.server-address.bak
+server-mysql/client-patches/*/current/
+server-mysql/client-patches/*/backups/
+*.pre_*
+*.orig
+*.bak
+*.tmp
+*~
+
+# ---- 游戏客户端本体（版权资源，不纳入仓库）----
+/client-test/
+/client-127.0.0.1/
+梦幻奇遇记_Data/
+MonoBleedingEdge/
+UnityPlayer.dll
+UnityCrashHandler64.exe
+
+# ---- 本地临时工作区（不属于发布内容）----
+_work/
+_archive/
+_test_runs/
+_docx_review/
+_dsh_work/
+test-背包寄售/
+assets/
+.workbuddy/
+.workbuddy-ai/
+.spec-workflow/
+
+# ---- 工具链二进制（请自行安装 protoc）----
+tools/protoc/
+tools/protoc.zip
+tools/protoc-gen-go.exe
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

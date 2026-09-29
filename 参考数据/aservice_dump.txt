@@ -1,0 +1,98 @@
+
+===== ET.KChannel =====
+
+--- OnRead (RVA 0x101C0) ---
+    0001: ldarg.0
+    0002: ldfld Field::Service
+    0007: ldarg.0
+    0008: ldfld Field::Id
+    000D: ldarg.1
+    000E: callvirt MethodDef::OnRead
+    0013: ret
+
+===== ET.AService =====
+
+--- CreateConnectChannelId (RVA 0xF290) ---
+    000C: ldarg.0
+    000D: ldarg.0
+    000E: ldfld Field::connectIdGenerater
+    0013: ldc.i4.1
+    0014: conv.i8
+    0015: sub
+    0016: stloc.0
+    0017: ldloc.0
+    0018: stfld Field::connectIdGenerater
+    001D: ldloc.0
+    001E: ldc.i4.s 32
+    0020: shl
+    0021: ldarg.1
+    0022: conv.u8
+    0023: or
+    0024: ret
+
+--- CreateRandomLocalConn (RVA 0xF2B5) ---
+    0001: ldc.i4 1073741824
+    0006: ldarg.1
+    0007: call MethodDef::RandUInt32
+    000C: or
+    000D: ret
+
+--- CreateAcceptChannelId (RVA 0xF2C4) ---
+    000C: ldarg.0
+    000D: ldarg.0
+    000E: ldfld Field::acceptIdGenerater
+    0013: ldc.i4.1
+    0014: conv.i8
+    0015: add
+    0016: stloc.0
+    0017: ldloc.0
+    0018: stfld Field::acceptIdGenerater
+    001D: ldloc.0
+    001E: ldc.i4.s 32
+    0020: shl
+    0021: ldarg.1
+    0022: conv.u8
+    0023: or
+    0024: ret
+
+--- Get (RVA 0x0) ---
+
+--- OnAccept (RVA 0xF2E9) ---
+    0001: ldarg.0
+    0002: ldfld Field::AcceptCallback
+    0007: ldarg.1
+    0008: ldarg.2
+    0009: callvirt MemberRef::Invoke
+    000E: ret
+
+--- OnRead (RVA 0xF2F8) ---
+    0001: ldarg.0
+    0002: ldfld Field::ReadCallback
+    0007: ldarg.1
+    0008: ldarg.2
+    0009: callvirt MemberRef::Invoke
+    000E: ret
+
+--- SendStream (RVA 0xF333) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: ldarg.2
+    0004: ldarg.3
+    0005: callvirt MethodDef::Send
+    000A: ret
+
+--- GetOrCreate (RVA 0xF33E) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: ldarg.2
+    0004: callvirt MethodDef::Get
+    0009: ret
+
+===== ET.OpcodeTypeComponent =====
+
+--- IsOutrActorMessage (RVA 0xEC1C) ---
+    0001: ldarg.0
+    0002: ldfld Field::outrActorMessage
+    0007: ldarg.1
+    0008: callvirt MemberRef::Contains
+    000D: ret

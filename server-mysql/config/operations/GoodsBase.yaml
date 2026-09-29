@@ -1,0 +1,7083 @@
+# GoodsBase 完整配置源（运行时发布到 MySQL game_config_nodes）
+# 服务端运行时不读取 JSON；修改后使用 cmd/publish-config 发布。
+# 该文件必须保留完整 [id, object] 表，发布会整表替换。
+# 魔法球 Capacity：110327/110329=100万，110328/110330=500万，
+# 110809/110811=1000万，110810/110812=2000万，110832/110834=4000万，110833/110835=8亿。
+# 关键字段：Capacity 是魔法球可储存的血/蓝；ContinuedSeconds 是持续时间（秒）。
+# Name/Description 只影响客户端文字；服务端购买与回血以发布到 MySQL 的数值为准。
+- - 110201
+  - _id: 110201
+    Name: 经验
+    IconName: '1001'
+    Type: 1
+    UsedLevel: 1
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110202
+  - _id: 110202
+    Name: 元宝
+    IconName: '1002'
+    Type: 1
+    UsedLevel: 1
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110203
+  - _id: 110203
+    Name: 铜币
+    IconName: '1003'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Description: 绑定货币
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110204
+  - _id: 110204
+    Name: 代金券
+    IconName: '1004'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Description: 绑定货币
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110205
+  - _id: 110205
+    Name: 星币
+    IconName: '1003'
+    UsedLevel: 1
+    Description: 与铜币同价值 ，10000星币兑换1金币
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110206
+  - _id: 110206
+    Name: 家族贡献
+    IconName: '1003'
+    UsedLevel: 1
+    IsLock: true
+    EffectType: 0
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110301
+  - _id: 110301
+    Name: 领主宝箱·初心
+    IconName: '110301'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 13
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 120211
+      EquipBySpecial_MaxId: 120342
+      EquipBySpecial_MinLevel: 10
+      EquipBySpecial_MaxLevel: 1400
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 20010
+      MaterialBySpecial_MaxId: 20045
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110302
+  - _id: 110302
+    Name: 领主宝箱·熟练
+    IconName: '110302'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 13
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 120211
+      EquipBySpecial_MaxId: 120342
+      EquipBySpecial_MinLevel: 1400
+      EquipBySpecial_MaxLevel: 3400
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 20010
+      MaterialBySpecial_MaxId: 20045
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110303
+  - _id: 110303
+    Name: 领主宝箱·会心
+    IconName: '110303'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 13
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 120211
+      EquipBySpecial_MaxId: 120342
+      EquipBySpecial_MinLevel: 3000
+      EquipBySpecial_MaxLevel: 4400
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 20010
+      MaterialBySpecial_MaxId: 20045
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110304
+  - _id: 110304
+    Name: 领主宝箱·达人
+    IconName: '110304'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 13
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 120211
+      EquipBySpecial_MaxId: 120342
+      EquipBySpecial_MinLevel: 4000
+      EquipBySpecial_MaxLevel: 6000
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 20001
+      MaterialBySpecial_MaxId: 20056
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110305
+  - _id: 110305
+    Name: 超小型生命药水
+    IconName: '110305'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复500HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 500
+- - 110306
+  - _id: 110306
+    Name: 小型生命药水
+    IconName: '110306'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复1000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1000
+- - 110307
+  - _id: 110307
+    Name: 中型生命药水
+    IconName: '110307'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复5000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 5000
+- - 110308
+  - _id: 110308
+    Name: 低级生命药水
+    IconName: '110308'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复10000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 10000
+- - 110309
+  - _id: 110309
+    Name: 中级生命药水
+    IconName: '110309'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复20000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 20000
+- - 110310
+  - _id: 110310
+    Name: 高级生命药水
+    IconName: '110310'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复50000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 50000
+- - 110311
+  - _id: 110311
+    Name: 低级生命恢复药剂
+    IconName: '110311'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复75000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 75000
+- - 110312
+  - _id: 110312
+    Name: 中级生命恢复药剂
+    IconName: '110312'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复100000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 100000
+- - 110313
+  - _id: 110313
+    Name: 高级生命恢复药剂
+    IconName: '110313'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复125000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 125000
+- - 110314
+  - _id: 110314
+    Name: 古老的生命药剂
+    IconName: '110314'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复200000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 200000
+- - 110315
+  - _id: 110315
+    Name: 橙汁
+    IconName: '110315'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 4
+    MaxAmount: 999
+    Description: 使用后恢复500000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 500000
+- - 110316
+  - _id: 110316
+    Name: 超小型精力药水
+    IconName: '110316'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复500MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 500
+- - 110317
+  - _id: 110317
+    Name: 小型精力药水
+    IconName: '110317'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复1000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 1000
+- - 110318
+  - _id: 110318
+    Name: 中型精力药水
+    IconName: '110318'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复5000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 5000
+- - 110319
+  - _id: 110319
+    Name: 低级精力药水
+    IconName: '110319'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 1
+    MaxAmount: 999
+    Description: 使用后恢复10000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 10000
+- - 110320
+  - _id: 110320
+    Name: 中级精力药水
+    IconName: '110320'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复20000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 20000
+- - 110321
+  - _id: 110321
+    Name: 高级精力药水
+    IconName: '110321'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复50000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 50000
+- - 110322
+  - _id: 110322
+    Name: 低级精力恢复药剂
+    IconName: '110322'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 2
+    MaxAmount: 999
+    Description: 使用后恢复75000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 75000
+- - 110323
+  - _id: 110323
+    Name: 中级精力恢复药剂
+    IconName: '110323'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复100000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 100000
+- - 110324
+  - _id: 110324
+    Name: 高级精力恢复药剂
+    IconName: '110324'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复125000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 125000
+- - 110325
+  - _id: 110325
+    Name: 古老的精力药剂
+    IconName: '110325'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后恢复200000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 200000
+- - 110326
+  - _id: 110326
+    Name: 蓝色忧郁
+    IconName: '110326'
+    Type: 1
+    UsedLevel: 1
+    Price: 500
+    Quality: 4
+    MaxAmount: 999
+    Description: 使用后恢复500000MP
+    EffectType: 12
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedMp: 500000
+- - 110327
+  - _id: 110327
+    Name: 100万生命魔法球
+    IconName: '110327'
+    Type: 2
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 战斗结束后自动回满生命，不可叠加，存储1000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 1000000
+- - 110328
+  - _id: 110328
+    Name: 500万生命魔法球
+    IconName: '110328'
+    Type: 2
+    UsedLevel: 1000
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 战斗结束后自动回满生命，不可叠加，存储5000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 5000000
+- - 110329
+  - _id: 110329
+    Name: 100万精力魔法球
+    IconName: '110329'
+    Type: 2
+    UsedLevel: 1
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 战斗结束后自动回满精力，不可叠加，存储1000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 1000000
+- - 110330
+  - _id: 110330
+    Name: 5000万精力魔法球
+    IconName: '110330'
+    Type: 2
+    UsedLevel: 1000
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 战斗结束后自动回满精力，不可叠加，存储50000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 50000000
+- - 110331
+  - _id: 110331
+    Name: 桂圆
+    IconName: '110331'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复520000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 520000
+- - 110332
+  - _id: 110332
+    Name: 红枣
+    IconName: '110332'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复520000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 520000
+- - 110333
+  - _id: 110333
+    Name: 花生
+    IconName: '110333'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复520000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 520000
+- - 110334
+  - _id: 110334
+    Name: 喜糖
+    IconName: '110334'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复520000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 520000
+- - 110335
+  - _id: 110335
+    Name: 荔枝
+    IconName: '110335'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复520000HP
+    EffectType: 11
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 520000
+- - 110336
+  - _id: 110336
+    Name: 精制桂圆（奢侈品）
+    IconName: '110336'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复1314000HP与5200000MP
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1314000
+    FixedMp: 5200000
+- - 110337
+  - _id: 110337
+    Name: 精制红枣（奢侈品）
+    IconName: '110337'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复1314000HP与5200000MP
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1314000
+    FixedMp: 5200000
+- - 110338
+  - _id: 110338
+    Name: 精制花生（奢侈品）
+    IconName: '110338'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复1314000HP与5200000MP
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1314000
+    FixedMp: 5200000
+- - 110339
+  - _id: 110339
+    Name: 精制喜糖（奢侈品）
+    IconName: '110339'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复1314000HP与5200000MP
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1314000
+    FixedMp: 5200000
+- - 110340
+  - _id: 110340
+    Name: 精制荔枝（奢侈品）
+    IconName: '110340'
+    Type: 1
+    UsedLevel: 200
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复1314000HP与5200000MP
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    FixedHp: 1314000
+    FixedMp: 5200000
+- - 110341
+  - _id: 110341
+    Name: 太阳水
+    IconName: '110341'
+    Type: 1
+    UsedLevel: 2000
+    Price: 50000
+    Quality: 4
+    MaxAmount: 999
+    Description: 恢复50%生命和精力
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 0.5
+    PercentMp: 0.5
+- - 110342
+  - _id: 110342
+    Name: 紫药
+    IconName: '110342'
+    Type: 1
+    UsedLevel: 2000
+    Price: 50000
+    Quality: 4
+    MaxAmount: 999
+    Description: 恢复100%生命和精力
+    EffectType: 1
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    PercentMp: 1
+- - 110343
+  - _id: 110343
+    Name: 金条
+    IconName: '110343'
+    Type: 1
+    UsedLevel: 100
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后获得10银币，也可用于完成任务
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 1000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110344
+  - _id: 110344
+    Name: 回城卷轴
+    IconName: '110344'
+    Type: 1
+    UsedLevel: 100
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后返回城镇1
+    EffectType: 5
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110345
+  - _id: 110345
+    Name: 经验卡礼包·小
+    IconName: '110345'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 1
+    MaxAmount: 1
+    Description: 使用后获得1.5倍经验卡x3
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110349
+      Goods_Probability: 1
+      Goods_Count: 3
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110346
+  - _id: 110346
+    Name: 经验卡礼包·中
+    IconName: '110346'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 2
+    MaxAmount: 1
+    Description: 使用后获得2倍经验卡x5
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110350
+      Goods_Probability: 1
+      Goods_Count: 5
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110347
+  - _id: 110347
+    Name: 经验卡礼包·大
+    IconName: '110347'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 1
+    Description: 使用后获得2倍经验卡x2和3倍经验卡x3
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110350
+      Goods_Probability: 1
+      Goods_Count: 2
+    - _t: GoodsBase+Goods
+      Goods_Id: 110351
+      Goods_Probability: 1
+      Goods_Count: 3
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110348
+  - _id: 110348
+    Name: 经验卡礼包·超
+    IconName: '110348'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得3倍经验卡x2和4倍经验卡x3
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110351
+      Goods_Probability: 1
+      Goods_Count: 2
+    - _t: GoodsBase+Goods
+      Goods_Id: 110352
+      Goods_Probability: 1
+      Goods_Count: 3
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110349
+  - _id: 110349
+    Name: 1.5倍经验卡
+    IconName: '110349'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 1
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为1.5倍，持续1小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 1.5
+    ContinuedSeconds: 3600000
+- - 110350
+  - _id: 110350
+    Name: 2倍经验卡
+    IconName: '110350'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 2
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为2倍，持续1小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 2
+    ContinuedSeconds: 3600000
+- - 110351
+  - _id: 110351
+    Name: 3倍经验卡
+    IconName: '110351'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为3倍，持续1小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 3
+    ContinuedSeconds: 3600000
+- - 110352
+  - _id: 110352
+    Name: 4倍经验卡
+    IconName: '110352'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为4倍，持续1小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 4
+    ContinuedSeconds: 3600000
+- - 110353
+  - _id: 110353
+    Name: 1百万经验药水
+    IconName: '110353'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得1000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 1000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110354
+  - _id: 110354
+    Name: 3百万经验药水
+    IconName: '110354'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得3000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 3000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110355
+  - _id: 110355
+    Name: 5百万经验药水
+    IconName: '110355'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得5000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 5000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110356
+  - _id: 110356
+    Name: 1亿经验药水
+    IconName: '110356'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得100000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 10000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110357
+  - _id: 110357
+    Name: 50亿经验药水
+    IconName: '110357'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得5000000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 50000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110358
+  - _id: 110358
+    Name: 100亿经验药水
+    IconName: '110358'
+    Type: 1
+    UsedLevel: 100
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 5
+    Description: 使用后增加获得10000000000经验
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110201
+      Goods_Probability: 1
+      Goods_Count: 100000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110359
+  - _id: 110359
+    Name: 小喇叭
+    IconName: '110359'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 2
+    MaxAmount: 20
+    Description: 在最显眼的地方向大家展示你的消息，持续15秒
+    EffectType: 8
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ContinuedSeconds: 15000
+- - 110360
+  - _id: 110360
+    Name: 大喇叭
+    IconName: '110360'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 在最显眼的地方向大家展示你的消息，持续30秒
+    EffectType: 8
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ContinuedSeconds: 30000
+- - 110361
+  - _id: 110361
+    Name: 超级喇叭
+    IconName: '110361'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 在最显眼的地方向大家展示你的消息，持续1分钟
+    EffectType: 8
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ContinuedSeconds: 60000
+- - 110362
+  - _id: 110362
+    Name: 500代金券礼券
+    IconName: '110362'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得500代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 500
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110363
+  - _id: 110363
+    Name: 1000代金券礼券
+    IconName: '110363'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得1000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 1000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110364
+  - _id: 110364
+    Name: 1500代金券礼券
+    IconName: '110365'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得1500代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 1500
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110365
+  - _id: 110365
+    Name: 2000代金券礼券
+    IconName: '110364'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得2000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 2000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110366
+  - _id: 110366
+    Name: 5000代金券礼券
+    IconName: '110366'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得5000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 5000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110367
+  - _id: 110367
+    Name: 10000代金券礼券
+    IconName: '110367'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得10000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 10000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110368
+  - _id: 110368
+    Name: 15000代金券礼券
+    IconName: '110368'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得15000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 15000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110369
+  - _id: 110369
+    Name: 20000代金券礼券
+    IconName: '110369'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得20000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 20000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110370
+  - _id: 110370
+    Name: 30000代金券礼券
+    IconName: '110370'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得30000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 30000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110371
+  - _id: 110371
+    Name: 40000代金券礼券
+    IconName: '110371'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得40000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 40000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110372
+  - _id: 110372
+    Name: 120000代金券礼券
+    IconName: '110372'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得120000代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 120000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110373
+  - _id: 110373
+    Name: 一小袋金币
+    IconName: '110373'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后获得50000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 50000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110374
+  - _id: 110374
+    Name: 一袋金币
+    IconName: '110374'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 999
+    Description: 使用后获得500000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 500000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110375
+  - _id: 110375
+    Name: 一大袋金币
+    IconName: '110375'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 255
+    Description: 使用后获得990000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 990000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110376
+  - _id: 110376
+    Name: 一桶金币
+    IconName: '110376'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 255
+    Description: 使用后获得9990000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 9990000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110377
+  - _id: 110377
+    Name: 母鸡下蛋
+    IconName: '110377'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 255
+    Description: 使用后获得20000000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 20000000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110378
+  - _id: 110378
+    Name: 银元宝
+    IconName: '110378'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后获得10元宝
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110202
+      Goods_Probability: 1
+      Goods_Count: 10
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110379
+  - _id: 110379
+    Name: 金元宝
+    IconName: '110379'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后获得50元宝
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110202
+      Goods_Probability: 1
+      Goods_Count: 50
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110380
+  - _id: 110380
+    Name: 1.5倍挂机经验卡
+    IconName: '110380'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后使挂机变为1.5倍，持续1小时
+    EffectType: 7
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 1.5
+    ContinuedSeconds: 3600000
+- - 110381
+  - _id: 110381
+    Name: 2倍挂机经验卡
+    IconName: '110381'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后使挂机变为2倍，持续1小时
+    EffectType: 7
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 2
+    ContinuedSeconds: 3600000
+- - 110382
+  - _id: 110382
+    Name: 3倍挂机经验卡
+    IconName: '110382'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后使挂机变为3倍，持续1小时
+    EffectType: 7
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 3
+    ContinuedSeconds: 3600000
+- - 110383
+  - _id: 110383
+    Name: 4倍挂机经验卡
+    IconName: '110383'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后使挂机变为4倍，持续1小时
+    EffectType: 7
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 4
+    ContinuedSeconds: 3600000
+- - 110384
+  - _id: 110384
+    Name: 8倍挂机经验卡
+    IconName: '110384'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后使挂机变为8倍，持续1小时
+    EffectType: 7
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 8
+    ContinuedSeconds: 3600000
+- - 110385
+  - _id: 110385
+    Name: 宠物粮食
+    IconName: '110385'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 1
+    MaxAmount: 99
+    Description: 使用后增加宠物经验100
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:100
+- - 110386
+  - _id: 110386
+    Name: 小鱼干
+    IconName: '110386'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 2
+    MaxAmount: 99
+    Description: 使用后增加宠物经验200
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:200
+- - 110387
+  - _id: 110387
+    Name: 美味汤
+    IconName: '110387'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 3
+    MaxAmount: 99
+    Description: 使用后增加宠物经验500和1点活跃值
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:500_active:1
+- - 110388
+  - _id: 110388
+    Name: 高级粮食
+    IconName: '110388'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后增加宠物经验1000和1点活跃值
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:1000_active:1
+- - 110389
+  - _id: 110389
+    Name: 大腿肉
+    IconName: '110389'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后增加宠物经验2000和1点活跃值
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:2000_active:1
+- - 110390
+  - _id: 110390
+    Name: 小黄鸭
+    IconName: '110390'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 3
+    MaxAmount: 99
+    Description: 使用后可以增加与宠物的亲密度20
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: intimacy:20
+- - 110391
+  - _id: 110391
+    Name: 回旋皮球
+    IconName: '110391'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后可以增加与宠物的亲密度50
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: intimacy:50
+- - 110392
+  - _id: 110392
+    Name: 宠物1.5倍经验卡
+    IconName: '110392'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 2
+    MaxAmount: 99
+    Description: 使用后使宠物锻炼经验变为1.5倍，持续1小时
+    EffectType: 16
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 1.5
+    ContinuedSeconds: 3600000
+- - 110393
+  - _id: 110393
+    Name: 宠物2倍经验卡
+    IconName: '110393'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 1000
+    Quality: 3
+    MaxAmount: 99
+    Description: 使用后使宠物锻炼经验变为2倍，持续1小时
+    EffectType: 16
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 2
+    ContinuedSeconds: 3600000
+- - 110394
+  - _id: 110394
+    Name: YOYO套装礼盒·足球
+    IconName: '110394'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120399
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120400
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120401
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120402
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110395
+  - _id: 110395
+    Name: YOYO套装礼盒·超能力
+    IconName: '110395'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120431
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120432
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120433
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120434
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110396
+  - _id: 110396
+    Name: YOYO套装礼盒·军官
+    IconName: '110396'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120463
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120464
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120465
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120466
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110397
+  - _id: 110397
+    Name: YOYO套装礼盒·护士
+    IconName: '110397'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120495
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120496
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120497
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120498
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110398
+  - _id: 110398
+    Name: 改※YOYO套装礼盒·足球
+    IconName: '110398'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120403
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120404
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120405
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120406
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110399
+  - _id: 110399
+    Name: 改※YOYO套装礼盒·超能力
+    IconName: '110399'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120435
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120436
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120437
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120438
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110400
+  - _id: 110400
+    Name: 改※YOYO套装礼盒·军官
+    IconName: '110401'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120467
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120468
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120469
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120470
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110401
+  - _id: 110401
+    Name: 改※YOYO套装礼盒·护士
+    IconName: '110400'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120499
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120500
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120501
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120502
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110402
+  - _id: 110402
+    Name: 极※YOYO套装礼盒·足球
+    IconName: '110402'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120407
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120408
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120409
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120410
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110403
+  - _id: 110403
+    Name: 极※YOYO套装礼盒·超能力
+    IconName: '110403'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120439
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120440
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120441
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120442
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110404
+  - _id: 110404
+    Name: 极※YOYO套装礼盒·军官
+    IconName: '110404'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120471
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120472
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120473
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120474
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110405
+  - _id: 110405
+    Name: 极※YOYO套装礼盒·护士
+    IconName: '110405'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120503
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120504
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120505
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120506
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110406
+  - _id: 110406
+    Name: 尊※YOYO套装礼盒·足球
+    IconName: '110406'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120411
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120412
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120413
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120414
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110407
+  - _id: 110407
+    Name: 尊※YOYO套装礼盒·超能力
+    IconName: '110407'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120443
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120444
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120445
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120446
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110408
+  - _id: 110408
+    Name: 尊※YOYO套装礼盒·军官
+    IconName: '110408'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120475
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120476
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120477
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120478
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110409
+  - _id: 110409
+    Name: 尊※YOYO套装礼盒·护士
+    IconName: '110409'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120507
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120508
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120509
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120510
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110410
+  - _id: 110410
+    Name: 王※YOYO套装礼盒·足球
+    IconName: '110410'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120415
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120416
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120417
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120418
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110411
+  - _id: 110411
+    Name: 王※YOYO套装礼盒·超能力
+    IconName: '110411'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120447
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120448
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120449
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120450
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110412
+  - _id: 110412
+    Name: 王※YOYO套装礼盒·军官
+    IconName: '110412'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120479
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120480
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120481
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120482
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110413
+  - _id: 110413
+    Name: 王※YOYO套装礼盒·护士
+    IconName: '110413'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120511
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120512
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120513
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120514
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110414
+  - _id: 110414
+    Name: 皇※YOYO套装礼盒·足球
+    IconName: '110414'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120419
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120420
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120421
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120422
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110415
+  - _id: 110415
+    Name: 皇※YOYO套装礼盒·超能力
+    IconName: '110415'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120451
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120452
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120453
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120454
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110416
+  - _id: 110416
+    Name: 皇※YOYO套装礼盒·军官
+    IconName: '110416'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120483
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120484
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120485
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120486
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110417
+  - _id: 110417
+    Name: 皇※YOYO套装礼盒·护士
+    IconName: '110417'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120515
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120516
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120517
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120518
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110418
+  - _id: 110418
+    Name: 生者必灭礼盒·足球
+    IconName: '110418'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120423
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120424
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120425
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120426
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110419
+  - _id: 110419
+    Name: 生者必灭礼盒·超能力
+    IconName: '110419'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120455
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120456
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120457
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120458
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110420
+  - _id: 110420
+    Name: 生者必灭礼盒·军官
+    IconName: '110420'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120487
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120488
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120489
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120490
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110421
+  - _id: 110421
+    Name: 生者必灭礼盒·护士
+    IconName: '110421'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120519
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120520
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120521
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120522
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110422
+  - _id: 110422
+    Name: 绝※生者必灭礼盒·足球
+    IconName: '110422'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120427
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120428
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120429
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120430
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110423
+  - _id: 110423
+    Name: 绝※生者必灭礼盒·超能力
+    IconName: '110423'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120459
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120460
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120461
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120462
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110424
+  - _id: 110424
+    Name: 绝※生者必灭礼盒·军官
+    IconName: '110424'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120491
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120492
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120493
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120494
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110425
+  - _id: 110425
+    Name: 绝※生者必灭礼盒·护士
+    IconName: '110425'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 100000
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得极品装备
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 120523
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120524
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120525
+      Equip_Probability: 1
+      Equip_Count: 1
+    - _t: GoodsBase+Equip
+      Equip_Id: 120526
+      Equip_Probability: 1
+      Equip_Count: 1
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110426
+  - _id: 110426
+    Name: 紫药礼盒
+    IconName: '110426'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得88紫药
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110342
+      Goods_Probability: 1
+      Goods_Count: 88
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110427
+  - _id: 110427
+    Name: 手工小礼包
+    IconName: '110427'
+    Type: 1
+    UsedLevel: 1000
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得400个天上，120个天下，四种普通彩石各10个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20001
+      Materials_Probability: 1
+      Materials_Count: 400
+    - _t: GoodsBase+Materials
+      Materials_Id: 20002
+      Materials_Probability: 1
+      Materials_Count: 120
+    - _t: GoodsBase+Materials
+      Materials_Id: 20242
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20243
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20244
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20245
+      Materials_Probability: 1
+      Materials_Count: 10
+- - 110428
+  - _id: 110428
+    Name: 手工大礼包
+    IconName: '110428'
+    Type: 1
+    UsedLevel: 1000
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得400个天上，120个天下，四种稀有彩石各10个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20001
+      Materials_Probability: 1
+      Materials_Count: 400
+    - _t: GoodsBase+Materials
+      Materials_Id: 20002
+      Materials_Probability: 1
+      Materials_Count: 120
+    - _t: GoodsBase+Materials
+      Materials_Id: 20246
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20247
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20248
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20249
+      Materials_Probability: 1
+      Materials_Count: 10
+- - 110429
+  - _id: 110429
+    Name: 随机代金券礼券
+    IconName: '110429'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 999
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后随机获得1-500代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110430
+  - _id: 110430
+    Name: 江湖历练宝箱（1级）
+    IconName: '110430'
+    UsedLevel: 1000
+    IsLock: true
+    Price: 1
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得江湖历练宝箱（2级），以及珍稀物品材料等
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110322
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110311
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110373
+      Goods_Probability: 1
+      Goods_Count: 2
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20001
+      Materials_Probability: 1
+      Materials_Count: 20
+    - _t: GoodsBase+Materials
+      Materials_Id: 20002
+      Materials_Probability: 1
+      Materials_Count: 20
+    - _t: GoodsBase+Materials
+      Materials_Id: 20046
+      Materials_Probability: 1
+      Materials_Count: 3
+    - _t: GoodsBase+Materials
+      Materials_Id: 20047
+      Materials_Probability: 1
+      Materials_Count: 3
+- - 110431
+  - _id: 110431
+    Name: 江湖历练宝箱（2级）
+    IconName: '110431'
+    UsedLevel: 2000
+    IsLock: true
+    Price: 1
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得江湖历练宝箱（3级），以及珍稀物品材料等
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110323
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110312
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110374
+      Goods_Probability: 1
+      Goods_Count: 2
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20059
+      Materials_Probability: 1
+      Materials_Count: 2
+    - _t: GoodsBase+Materials
+      Materials_Id: 20060
+      Materials_Probability: 1
+      Materials_Count: 2
+    - _t: GoodsBase+Materials
+      Materials_Id: 20024
+      Materials_Probability: 1
+      Materials_Count: 5
+    - _t: GoodsBase+Materials
+      Materials_Id: 20028
+      Materials_Probability: 1
+      Materials_Count: 5
+- - 110432
+  - _id: 110432
+    Name: 江湖历练宝箱（3级）
+    IconName: '110432'
+    UsedLevel: 3000
+    IsLock: true
+    Price: 1
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得江湖历练宝箱（4级），以及珍稀物品材料等
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110324
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110313
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110375
+      Goods_Probability: 1
+      Goods_Count: 2
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20072
+      Materials_Probability: 1
+      Materials_Count: 2
+    - _t: GoodsBase+Materials
+      Materials_Id: 20073
+      Materials_Probability: 1
+      Materials_Count: 2
+- - 110433
+  - _id: 110433
+    Name: 江湖历练宝箱（4级）
+    IconName: '110433'
+    UsedLevel: 4000
+    IsLock: true
+    Price: 1
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得江湖历练宝箱（5级），以及珍稀物品材料等
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110325
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110314
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110376
+      Goods_Probability: 1
+      Goods_Count: 2
+    - _t: GoodsBase+Goods
+      Goods_Id: 110427
+      Goods_Probability: 1
+      Goods_Count: 1
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20085
+      Materials_Probability: 1
+      Materials_Count: 1
+    - _t: GoodsBase+Materials
+      Materials_Id: 20086
+      Materials_Probability: 1
+      Materials_Count: 1
+    - _t: GoodsBase+Materials
+      Materials_Id: 20005
+      Materials_Probability: 1
+      Materials_Count: 5
+    - _t: GoodsBase+Materials
+      Materials_Id: 20004
+      Materials_Probability: 1
+      Materials_Count: 5
+- - 110434
+  - _id: 110434
+    Name: 江湖历练宝箱（5级）
+    IconName: '110434'
+    UsedLevel: 5000
+    IsLock: true
+    Price: 1
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得大量珍稀物品材料等
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110326
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110315
+      Goods_Probability: 1
+      Goods_Count: 19
+    - _t: GoodsBase+Goods
+      Goods_Id: 110377
+      Goods_Probability: 1
+      Goods_Count: 2
+    - _t: GoodsBase+Goods
+      Goods_Id: 110427
+      Goods_Probability: 1
+      Goods_Count: 1
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20087
+      Materials_Probability: 1
+      Materials_Count: 1
+    - _t: GoodsBase+Materials
+      Materials_Id: 20088
+      Materials_Probability: 1
+      Materials_Count: 1
+    - _t: GoodsBase+Materials
+      Materials_Id: 20003
+      Materials_Probability: 1
+      Materials_Count: 5
+- - 110809
+  - _id: 110809
+    Name: 1000万生命魔法球
+    IconName: '110327'
+    Type: 2
+    UsedLevel: 2000
+    Price: 500
+    Quality: 3
+    MaxAmount: 299
+    Description: 战斗结束后自动回满生命，不可叠加，存储10000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 10000000
+- - 110810
+  - _id: 110810
+    Name: 2000万生命魔法球
+    IconName: '110328'
+    Type: 2
+    UsedLevel: 2000
+    Price: 500
+    Quality: 4
+    MaxAmount: 299
+    Description: 战斗结束后自动回满生命，不可叠加，存储20000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 20000000
+- - 110811
+  - _id: 110811
+    Name: 1000万精力魔法球
+    IconName: '110329'
+    Type: 2
+    UsedLevel: 2000
+    Price: 500
+    Quality: 3
+    MaxAmount: 299
+    Description: 战斗结束后自动回满精力，不可叠加，存储10000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 10000000
+- - 110812
+  - _id: 110812
+    Name: 2000万精力魔法球
+    IconName: '110330'
+    Type: 2
+    UsedLevel: 2000
+    Price: 500
+    Quality: 4
+    MaxAmount: 299
+    Description: 战斗结束后自动回满精力，不可叠加，存储20000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 20000000
+- - 110813
+  - _id: 110813
+    Name: 精力充沛药水
+    IconName: '110439'
+    UsedLevel: 1000
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 99
+    Description: 使用后恢复20点行动值
+    EffectType: 19
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 20
+- - 110814
+  - _id: 110814
+    Name: 活力满满药水
+    IconName: '110440'
+    UsedLevel: 1000
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后恢复100点行动值
+    EffectType: 19
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 100
+- - 110815
+  - _id: 110815
+    Name: 充值一重好礼
+    IconName: '110441'
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 满4000元宝赠送素材之星.天上”200个，“素材之星.天下”50个，“素材之星.天地”5个，“进化元宝”10个，“奇妙宝石”10个，“奇妙精华”10个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20001
+      Materials_Probability: 1
+      Materials_Count: 200
+    - _t: GoodsBase+Materials
+      Materials_Id: 20002
+      Materials_Probability: 1
+      Materials_Count: 50
+    - _t: GoodsBase+Materials
+      Materials_Id: 20003
+      Materials_Probability: 1
+      Materials_Count: 5
+    - _t: GoodsBase+Materials
+      Materials_Id: 20150
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20146
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20142
+      Materials_Probability: 1
+      Materials_Count: 10
+- - 110816
+  - _id: 110816
+    Name: 充值二重好礼
+    IconName: '110442'
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 满10000元宝赠送“一桶金币”10个和同时获得充值一重礼
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110815
+      Goods_Probability: 1
+      Goods_Count: 1
+    - _t: GoodsBase+Goods
+      Goods_Id: 110819
+      Goods_Probability: 1
+      Goods_Count: 10
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110817
+  - _id: 110817
+    Name: 充值三重好礼
+    IconName: '110443'
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 满20000元宝送十番队长同时获得充值二重礼
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110816
+      Goods_Probability: 1
+      Goods_Count: 1
+    - _t: GoodsBase+Goods
+      Goods_Id: 120644
+      Goods_Probability: 1
+      Goods_Count: 1
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110818
+  - _id: 110818
+    Name: 充值四重好礼
+    IconName: '110444'
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 满40000元宝送暗之战士同时获得充值三重礼
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110817
+      Goods_Probability: 1
+      Goods_Count: 1
+    - _t: GoodsBase+Goods
+      Goods_Id: 120654
+      Goods_Probability: 1
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110819
+  - _id: 110819
+    Name: 一桶金币
+    IconName: '110376'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后获得9990000铜币
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110203
+      Goods_Probability: 1
+      Goods_Count: 9990000
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110820
+  - _id: 110820
+    Name: 50代金券礼券
+    IconName: '110445'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得50代金券
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110204
+      Goods_Probability: 1
+      Goods_Count: 50
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110821
+  - _id: 110821
+    Name: 1.5倍经验卡（4小时）
+    IconName: '110349'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 1
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为1.5倍，持续4小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 1.5
+    ContinuedSeconds: 14400000
+- - 110822
+  - _id: 110822
+    Name: 2倍经验卡（4小时）
+    IconName: '110350'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 2
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为2倍，持续4小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 2
+    ContinuedSeconds: 14400000
+- - 110823
+  - _id: 110823
+    Name: 3倍经验卡（4小时）
+    IconName: '110351'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为3倍，持续4小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 3
+    ContinuedSeconds: 14400000
+- - 110824
+  - _id: 110824
+    Name: 4倍经验卡（4小时）
+    IconName: '110352'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后使战斗经验变为4倍，持续4小时，经验加成类道具不可叠加，请勿浪费！
+    EffectType: 6
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    ExpRange: 4
+    ContinuedSeconds: 14400000
+- - 110825
+  - _id: 110825
+    Name: 元宝礼盒
+    IconName: '110379'
+    UsedLevel: 4000
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后能获得100元宝
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110202
+      Goods_Probability: 1
+      Goods_Count: 100
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110826
+  - _id: 110826
+    Name: 手工超礼包
+    IconName: '110428'
+    Type: 1
+    UsedLevel: 1000
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得四种幻彩石各10个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20258
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20259
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20260
+      Materials_Probability: 1
+      Materials_Count: 10
+    - _t: GoodsBase+Materials
+      Materials_Id: 20261
+      Materials_Probability: 1
+      Materials_Count: 10
+- - 110827
+  - _id: 110827
+    Name: 上古陨石小礼包
+    IconName: '110428'
+    Type: 1
+    UsedLevel: 1000
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得上古陨石500个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20215
+      Materials_Probability: 1
+      Materials_Count: 500
+- - 110828
+  - _id: 110828
+    Name: 上古陨石大礼包
+    IconName: '110428'
+    Type: 1
+    UsedLevel: 1000
+    IsLock: true
+    Price: 199999
+    Quality: 4
+    MaxAmount: 1
+    Description: 使用后获得上古陨石1000个
+    EffectType: 9
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 20215
+      Materials_Probability: 1
+      Materials_Count: 1000
+- - 110829
+  - _id: 110829
+    Name: 普通跑图卡
+    IconName: '110383'
+    UsedLevel: 1000
+    Price: 10000
+    Quality: 3
+    MaxAmount: 20
+    Description: 使用后可以增加一小时普通跑图时间，此时间自动跑图时消耗，时间可累积
+    EffectType: 20
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 3600000
+- - 110830
+  - _id: 110830
+    Name: 畅爽跑图卡
+    IconName: '110384'
+    UsedLevel: 1000
+    Price: 10000
+    Quality: 4
+    MaxAmount: 20
+    Description: 使用后可以增加一小时畅爽跑图时间，【期间自动使用经验卡和血球、蓝球，多余的物品自动存仓库】；此时间自动跑图时消耗，优于普通跑图时间，两者不可叠加，时间可累积
+    EffectType: 21
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 3600000
+- - 110831
+  - _id: 110831
+    Name: 家族贡献兑换卡
+    IconName: '110376'
+    Type: 1
+    UsedLevel: 1
+    IsLock: true
+    Price: 500
+    Quality: 4
+    MaxAmount: 999
+    Description: 使用后获得10家族贡献
+    EffectType: 10
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 110206
+      Goods_Probability: 1
+      Goods_Count: 10
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110832
+  - _id: 110832
+    Name: 4000万生命魔法球
+    IconName: '110328'
+    Type: 2
+    UsedLevel: 6000
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 战斗结束后自动回满生命，不可叠加，存储40000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 40000000
+- - 110833
+  - _id: 110833
+    Name: 8000亿生命魔法球
+    IconName: '110328'
+    Type: 2
+    UsedLevel: 6000
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 战斗结束后自动回满生命，不可叠加，存储80000000000hp
+    EffectType: 2
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentHp: 1
+    Capacity: 800000000000
+- - 110834
+  - _id: 110834
+    Name: 4000万精力魔法球
+    IconName: '110330'
+    Type: 2
+    UsedLevel: 6000
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 战斗结束后自动回满精力，不可叠加，存储40000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 40000000
+- - 110835
+  - _id: 110835
+    Name: 8亿精力魔法球
+    IconName: '110330'
+    Type: 2
+    UsedLevel: 6000
+    Price: 500
+    Quality: 4
+    MaxAmount: 99
+    Description: 战斗结束后自动回满精力，不可叠加，存储800000000mp
+    EffectType: 3
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    PercentMp: 1
+    Capacity: 800000000
+- - 110836
+  - _id: 110836
+    Name: 装备强化券
+    IconName: '110379'
+    UsedLevel: 6000
+    IsLock: true
+    Price: 100000
+    Quality: 5
+    MaxAmount: 99
+    Description: 强化装备到20级（满级），强化背包第一个（左上角）位置的装备
+    EffectType: 23
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+- - 110837
+  - _id: 110837
+    Name: 老王盖饭
+    IconName: '110837'
+    Type: 1
+    UsedLevel: 6000
+    IsLock: true
+    Price: 1000
+    Quality: 4
+    MaxAmount: 99
+    Description: 使用后增加宠物经验5000
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    OtherParam: exp:5000
+- - 110838
+  - _id: 110838
+    Name: 口渴口乐
+    IconName: '110838'
+    Type: 1
+    UsedLevel: 6000
+    IsLock: true
+    Price: 1000
+    Quality: 2
+    MaxAmount: 99
+    Description: 使用后增加宠物经验1000
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: -1
+    OtherParam: exp:1000
+- - 110839
+  - _id: 110839
+    Name: 咯咯蛋蛋面
+    IconName: '110839'
+    Type: 1
+    UsedLevel: 6000
+    IsLock: true
+    Price: 1000
+    Quality: 2
+    MaxAmount: 99
+    Description: 使用后增加宠物经验1500
+    EffectType: 15
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: -1
+    OtherParam: exp:1500
+- - 110840
+  - _id: 110840
+    Name: 领主宝箱·专家
+    IconName: '110840'
+    Type: 1
+    UsedLevel: 13000
+    IsLock: true
+    Price: 100000
+    Quality: 2
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 24
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 10134
+- - 110841
+  - _id: 110841
+    Name: 领主宝箱·大师
+    IconName: '110841'
+    Type: 1
+    UsedLevel: 13000
+    IsLock: true
+    Price: 100000
+    Quality: 2
+    MaxAmount: 999
+    Description: 击败领主奖励
+    EffectType: 24
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 10135
+- - 110842
+  - _id: 110842
+    Name: 2024新年礼包
+    IconName: '110841'
+    UsedLevel: 6000
+    IsLock: true
+    Price: 10000000
+    Quality: 5
+    MaxAmount: 1
+    Description: 新年礼包，有几率获得以下物品之一：手工大礼包、手工超礼包、上古陨石小礼包、上古陨石大礼包、母鸡下蛋*100、远古战魂存息、素材·无双、5000代金券礼券
+    EffectType: 24
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 10136
+- - 110843
+  - _id: 110843
+    Name: 2024新年礼包·满级
+    IconName: '110841'
+    UsedLevel: 6000
+    IsLock: true
+    Price: 10000000
+    Quality: 5
+    MaxAmount: 1
+    Description: 新年礼包，有几率获得以下物品之一：☆无可匹敌☆、☆唯我独尊☆、元宝礼盒
+    EffectType: 24
+    EquipBySpecialArr:
+    - _t: GoodsBase+EquipBySpecial
+      EquipBySpecial_MinId: 0
+      EquipBySpecial_MaxId: 0
+      EquipBySpecial_MinLevel: 0
+      EquipBySpecial_MaxLevel: 0
+    EquipArr:
+    - _t: GoodsBase+Equip
+      Equip_Id: 0
+      Equip_Probability: 0
+      Equip_Count: 0
+    GoodsArr:
+    - _t: GoodsBase+Goods
+      Goods_Id: 0
+      Goods_Probability: 0
+      Goods_Count: 0
+    MaterialBySpecialArr:
+    - _t: GoodsBase+MaterialBySpecial
+      MaterialBySpecial_MinId: 0
+      MaterialBySpecial_MaxId: 0
+    MaterialsArr:
+    - _t: GoodsBase+Materials
+      Materials_Id: 0
+      Materials_Probability: 0
+      Materials_Count: 0
+    CommonIncrease: 10137

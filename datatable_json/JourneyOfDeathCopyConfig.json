@@ -1,0 +1,178 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90001
+   ]
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90002
+   ]
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90003
+   ]
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90004
+   ]
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90005
+   ]
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90006
+   ]
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90007
+   ]
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90008
+   ]
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Difficulty": 5,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90009
+   ]
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Difficulty": 5,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90010
+   ]
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Difficulty": 6,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90011
+   ]
+  }
+ ],
+ [
+  1012,
+  {
+   "_id": 1012,
+   "Difficulty": 6,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90012
+   ]
+  }
+ ],
+ [
+  1013,
+  {
+   "_id": 1013,
+   "Difficulty": 7,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90013
+   ]
+  }
+ ],
+ [
+  1014,
+  {
+   "_id": 1014,
+   "Difficulty": 7,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90014
+   ]
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Difficulty": 8,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    90015
+   ]
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Difficulty": 8,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    90016
+   ]
+  }
+ ]
+]

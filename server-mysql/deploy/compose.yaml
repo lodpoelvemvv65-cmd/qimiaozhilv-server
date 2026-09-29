@@ -1,0 +1,97 @@
+name: mhq
+
+services:
+  mysql:
+    image: mysql:8.0.37
+    restart: unless-stopped
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_bin
+    environment:
+      TZ: Asia/Shanghai
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?MYSQL_ROOT_PASSWORD is required}
+      MYSQL_DATABASE: mhq
+      MYSQL_USER: mhq
+      MYSQL_PASSWORD: ${MHQ_DB_PASSWORD:?MHQ_DB_PASSWORD is required}
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d:ro,Z
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+      start_period: 30s
+    networks:
+      - backend
+    logging:
+      options:
+        max-size: 50m
+        max-file: "5"
+
+  redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    networks:
+      - backend
+    logging:
+      options:
+        max-size: 20m
+        max-file: "3"
+
+  game:
+    build:
+      context: ./runtime
+      dockerfile: Dockerfile
+    image: mhqserver:${MHQ_IMAGE_TAG:-latest}
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    volumes:
+      # Keep reviewed operation YAMLs available to the built-in watcher. The
+      # server still loads authoritative runtime state from MySQL; this mount
+      # is only the editable input path for automatic validation/publication.
+      - ./config/operations:/config/operations:ro,Z
+    environment:
+      TZ: Asia/Shanghai
+      MHQ_PUBLIC_ADDR: ${MHQ_PUBLIC_ADDR:?MHQ_PUBLIC_ADDR is required}
+      MHQ_MYSQL_DSN: mhq:${MHQ_DB_PASSWORD}@tcp(mysql:3306)/mhq?charset=utf8mb4&collation=utf8mb4_bin&parseTime=true&loc=Local&timeout=10s&readTimeout=10s&writeTimeout=10s
+      MHQ_REDIS_ADDR: redis:6379
+    command: ["-listen", ":7756"]
+    ports:
+      - ${MHQ_GAME_PORT:-7756}:7756/tcp
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+      - public
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    logging:
+      options:
+        max-size: 50m
+        max-file: "5"
+
+networks:
+  backend:
+    internal: true
+  public:
+
+volumes:
+  mysql-data:
+  redis-data:

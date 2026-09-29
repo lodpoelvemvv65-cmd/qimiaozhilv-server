@@ -1,0 +1,1613 @@
+[
+ [
+  10001,
+  {
+   "_id": 10001,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    }
+   ]
+  }
+ ],
+ [
+  10002,
+  {
+   "_id": 10002,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    }
+   ]
+  }
+ ],
+ [
+  10003,
+  {
+   "_id": 10003,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    }
+   ]
+  }
+ ],
+ [
+  10004,
+  {
+   "_id": 10004,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500015
+    }
+   ]
+  }
+ ],
+ [
+  10005,
+  {
+   "_id": 10005,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    }
+   ]
+  }
+ ],
+ [
+  10006,
+  {
+   "_id": 10006,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    }
+   ]
+  }
+ ],
+ [
+  10007,
+  {
+   "_id": 10007,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    }
+   ]
+  }
+ ],
+ [
+  10008,
+  {
+   "_id": 10008,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    }
+   ]
+  }
+ ],
+ [
+  10009,
+  {
+   "_id": 10009,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    }
+   ]
+  }
+ ],
+ [
+  10010,
+  {
+   "_id": 10010,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    }
+   ]
+  }
+ ],
+ [
+  10011,
+  {
+   "_id": 10011,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    }
+   ]
+  }
+ ],
+ [
+  10012,
+  {
+   "_id": 10012,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    }
+   ]
+  }
+ ],
+ [
+  10013,
+  {
+   "_id": 10013,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500007
+    }
+   ]
+  }
+ ],
+ [
+  10014,
+  {
+   "_id": 10014,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500007
+    }
+   ]
+  }
+ ],
+ [
+  10015,
+  {
+   "_id": 10015,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500006
+    }
+   ]
+  }
+ ],
+ [
+  10016,
+  {
+   "_id": 10016,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    }
+   ]
+  }
+ ],
+ [
+  10017,
+  {
+   "_id": 10017,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500026
+    }
+   ]
+  }
+ ],
+ [
+  10018,
+  {
+   "_id": 10018,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    }
+   ]
+  }
+ ],
+ [
+  10019,
+  {
+   "_id": 10019,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    }
+   ]
+  }
+ ],
+ [
+  10020,
+  {
+   "_id": 10020,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    }
+   ]
+  }
+ ],
+ [
+  10021,
+  {
+   "_id": 10021,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500026
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    }
+   ]
+  }
+ ],
+ [
+  10022,
+  {
+   "_id": 10022,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500015
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500015
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500015
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500015
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    }
+   ]
+  }
+ ],
+ [
+  10023,
+  {
+   "_id": 10023,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500006
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    }
+   ]
+  }
+ ],
+ [
+  10024,
+  {
+   "_id": 10024,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500021
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500032
+    }
+   ]
+  }
+ ],
+ [
+  10025,
+  {
+   "_id": 10025,
+   "Desc": "技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500020
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500023
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500026
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500025
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    }
+   ]
+  }
+ ],
+ [
+  10026,
+  {
+   "_id": 10026,
+   "Desc": "家族1阶boss",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500023
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500039
+    }
+   ]
+  }
+ ],
+ [
+  10027,
+  {
+   "_id": 10027,
+   "Desc": "2阶",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    }
+   ]
+  }
+ ],
+ [
+  10028,
+  {
+   "_id": 10028,
+   "Desc": "3阶",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500042
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500040
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500032
+    }
+   ]
+  }
+ ],
+ [
+  10029,
+  {
+   "_id": 10029,
+   "Desc": "4阶",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500010
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500010
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500041
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    }
+   ]
+  }
+ ],
+ [
+  10030,
+  {
+   "_id": 10030,
+   "Desc": "5阶",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500032
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500021
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500023
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500010
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500010
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500041
+    }
+   ]
+  }
+ ],
+ [
+  10031,
+  {
+   "_id": 10031,
+   "Desc": "黑龙",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500020
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500023
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500026
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500041
+    }
+   ]
+  }
+ ],
+ [
+  10032,
+  {
+   "_id": 10032,
+   "Desc": "火",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    }
+   ]
+  }
+ ],
+ [
+  10033,
+  {
+   "_id": 10033,
+   "Desc": "风",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500005
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500010
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500005
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    }
+   ]
+  }
+ ],
+ [
+  10034,
+  {
+   "_id": 10034,
+   "Desc": "土",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500013
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500013
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    }
+   ]
+  }
+ ],
+ [
+  10035,
+  {
+   "_id": 10035,
+   "Desc": "暗",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500006
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500025
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500025
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500021
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500031
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    }
+   ]
+  }
+ ],
+ [
+  10036,
+  {
+   "_id": 10036,
+   "Desc": "左使",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500005
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500005
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500034
+    }
+   ]
+  }
+ ],
+ [
+  10037,
+  {
+   "_id": 10037,
+   "Desc": "右使",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500037
+    }
+   ]
+  }
+ ],
+ [
+  10038,
+  {
+   "_id": 10038,
+   "Desc": "试炼怪技能",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    }
+   ]
+  }
+ ],
+ [
+  10039,
+  {
+   "_id": 10039,
+   "Desc": "星魂守门",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500011
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500020
+    }
+   ]
+  }
+ ],
+ [
+  10040,
+  {
+   "_id": 10040,
+   "Desc": "星魂守卫",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500008
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500007
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500021
+    }
+   ]
+  }
+ ],
+ [
+  10041,
+  {
+   "_id": 10041,
+   "Desc": "星魂守望",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500036
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500001
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500039
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500042
+    }
+   ]
+  }
+ ],
+ [
+  10042,
+  {
+   "_id": 10042,
+   "Desc": "星魂精英",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    }
+   ]
+  }
+ ],
+ [
+  10043,
+  {
+   "_id": 10043,
+   "Desc": "星魂爆破者",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500009
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500003
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500012
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500017
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500041
+    }
+   ]
+  }
+ ],
+ [
+  10044,
+  {
+   "_id": 10044,
+   "Desc": "星魂诡术师",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500022
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500019
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500024
+    }
+   ]
+  }
+ ],
+ [
+  10045,
+  {
+   "_id": 10045,
+   "Desc": "星魂侍者",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500002
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500018
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    }
+   ]
+  }
+ ],
+ [
+  10046,
+  {
+   "_id": 10046,
+   "Desc": "星魂接待者",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500016
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500004
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    }
+   ]
+  }
+ ],
+ [
+  10047,
+  {
+   "_id": 10047,
+   "Desc": "星魂极巫",
+   "SkillsArr": [
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500029
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500028
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500030
+    },
+    {
+     "_t": "SkillGroupBase+Skills",
+     "Skills_Id": 500014
+    }
+   ]
+  }
+ ]
+]

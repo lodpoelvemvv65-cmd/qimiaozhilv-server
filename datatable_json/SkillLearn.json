@@ -1,0 +1,6346 @@
+[
+ [
+  11010100,
+  {
+   "_id": 11010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010101,
+  {
+   "_id": 11010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010102,
+  {
+   "_id": 11010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010103,
+  {
+   "_id": 11010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010104,
+  {
+   "_id": 11010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010105,
+  {
+   "_id": 11010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11010106,
+  {
+   "_id": 11010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11010107,
+  {
+   "_id": 11010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  11020100,
+  {
+   "_id": 11020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020101,
+  {
+   "_id": 11020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020102,
+  {
+   "_id": 11020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020103,
+  {
+   "_id": 11020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020104,
+  {
+   "_id": 11020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020105,
+  {
+   "_id": 11020105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020106,
+  {
+   "_id": 11020106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11030100,
+  {
+   "_id": 11030100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030101,
+  {
+   "_id": 11030101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030102,
+  {
+   "_id": 11030102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030103,
+  {
+   "_id": 11030103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030104,
+  {
+   "_id": 11030104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030105,
+  {
+   "_id": 11030105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11040100,
+  {
+   "_id": 11040100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040101,
+  {
+   "_id": 11040101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040102,
+  {
+   "_id": 11040102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040103,
+  {
+   "_id": 11040103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040104,
+  {
+   "_id": 11040104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11040105,
+  {
+   "_id": 11040105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  11050100,
+  {
+   "_id": 11050100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050101,
+  {
+   "_id": 11050101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050102,
+  {
+   "_id": 11050102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050103,
+  {
+   "_id": 11050103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  11050104,
+  {
+   "_id": 11050104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  11060100,
+  {
+   "_id": 11060100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060101,
+  {
+   "_id": 11060101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060102,
+  {
+   "_id": 11060102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  11060103,
+  {
+   "_id": 11060103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  11030200,
+  {
+   "_id": 11030200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030201,
+  {
+   "_id": 11030201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030202,
+  {
+   "_id": 11030202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030203,
+  {
+   "_id": 11030203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030204,
+  {
+   "_id": 11030204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030205,
+  {
+   "_id": 11030205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  11040200,
+  {
+   "_id": 11040200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040201,
+  {
+   "_id": 11040201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040202,
+  {
+   "_id": 11040202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040203,
+  {
+   "_id": 11040203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040204,
+  {
+   "_id": 11040204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040205,
+  {
+   "_id": 11040205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050200,
+  {
+   "_id": 11050200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050201,
+  {
+   "_id": 11050201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050202,
+  {
+   "_id": 11050202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050203,
+  {
+   "_id": 11050203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  11050204,
+  {
+   "_id": 11050204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  11060200,
+  {
+   "_id": 11060200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060201,
+  {
+   "_id": 11060201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060202,
+  {
+   "_id": 11060202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  11060203,
+  {
+   "_id": 11060203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  11020200,
+  {
+   "_id": 11020200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020201,
+  {
+   "_id": 11020201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020202,
+  {
+   "_id": 11020202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020203,
+  {
+   "_id": 11020203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020204,
+  {
+   "_id": 11020204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11020205,
+  {
+   "_id": 11020205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11020206,
+  {
+   "_id": 11020206,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  11030300,
+  {
+   "_id": 11030300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030301,
+  {
+   "_id": 11030301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030302,
+  {
+   "_id": 11030302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030303,
+  {
+   "_id": 11030303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030304,
+  {
+   "_id": 11030304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030305,
+  {
+   "_id": 11030305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11040300,
+  {
+   "_id": 11040300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040301,
+  {
+   "_id": 11040301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040302,
+  {
+   "_id": 11040302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040303,
+  {
+   "_id": 11040303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040304,
+  {
+   "_id": 11040304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040305,
+  {
+   "_id": 11040305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050300,
+  {
+   "_id": 11050300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050301,
+  {
+   "_id": 11050301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050302,
+  {
+   "_id": 11050302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050303,
+  {
+   "_id": 11050303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  11050304,
+  {
+   "_id": 11050304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  11060300,
+  {
+   "_id": 11060300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060301,
+  {
+   "_id": 11060301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060302,
+  {
+   "_id": 11060302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  11060303,
+  {
+   "_id": 11060303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  11030400,
+  {
+   "_id": 11030400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030401,
+  {
+   "_id": 11030401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030402,
+  {
+   "_id": 11030402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030403,
+  {
+   "_id": 11030403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030404,
+  {
+   "_id": 11030404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11030405,
+  {
+   "_id": 11030405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11040400,
+  {
+   "_id": 11040400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040401,
+  {
+   "_id": 11040401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040402,
+  {
+   "_id": 11040402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040403,
+  {
+   "_id": 11040403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040404,
+  {
+   "_id": 11040404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11040405,
+  {
+   "_id": 11040405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20221,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  11050400,
+  {
+   "_id": 11050400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050401,
+  {
+   "_id": 11050401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11050402,
+  {
+   "_id": 11050402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  11050403,
+  {
+   "_id": 11050403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  11050404,
+  {
+   "_id": 11050404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  11060400,
+  {
+   "_id": 11060400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060401,
+  {
+   "_id": 11060401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  11060402,
+  {
+   "_id": 11060402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  11060403,
+  {
+   "_id": 11060403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  12010100,
+  {
+   "_id": 12010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010101,
+  {
+   "_id": 12010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010102,
+  {
+   "_id": 12010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010103,
+  {
+   "_id": 12010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010104,
+  {
+   "_id": 12010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010105,
+  {
+   "_id": 12010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010106,
+  {
+   "_id": 12010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010107,
+  {
+   "_id": 12010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010108,
+  {
+   "_id": 12010108,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12010109,
+  {
+   "_id": 12010109,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  12010110,
+  {
+   "_id": 12010110,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20217,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  12020100,
+  {
+   "_id": 12020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  12020101,
+  {
+   "_id": 12020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  12020102,
+  {
+   "_id": 12020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  12020103,
+  {
+   "_id": 12020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  12020104,
+  {
+   "_id": 12020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20225,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  21010100,
+  {
+   "_id": 21010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010101,
+  {
+   "_id": 21010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010102,
+  {
+   "_id": 21010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010103,
+  {
+   "_id": 21010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010104,
+  {
+   "_id": 21010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010105,
+  {
+   "_id": 21010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21010106,
+  {
+   "_id": 21010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21010107,
+  {
+   "_id": 21010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  21020100,
+  {
+   "_id": 21020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020101,
+  {
+   "_id": 21020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020102,
+  {
+   "_id": 21020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020103,
+  {
+   "_id": 21020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020104,
+  {
+   "_id": 21020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020105,
+  {
+   "_id": 21020105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020106,
+  {
+   "_id": 21020106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21030100,
+  {
+   "_id": 21030100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030101,
+  {
+   "_id": 21030101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030102,
+  {
+   "_id": 21030102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030103,
+  {
+   "_id": 21030103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030104,
+  {
+   "_id": 21030104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030105,
+  {
+   "_id": 21030105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21040100,
+  {
+   "_id": 21040100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040101,
+  {
+   "_id": 21040101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040102,
+  {
+   "_id": 21040102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040103,
+  {
+   "_id": 21040103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040104,
+  {
+   "_id": 21040104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21040105,
+  {
+   "_id": 21040105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  21050100,
+  {
+   "_id": 21050100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050101,
+  {
+   "_id": 21050101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050102,
+  {
+   "_id": 21050102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050103,
+  {
+   "_id": 21050103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  21050104,
+  {
+   "_id": 21050104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  21060100,
+  {
+   "_id": 21060100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060101,
+  {
+   "_id": 21060101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060102,
+  {
+   "_id": 21060102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  21060103,
+  {
+   "_id": 21060103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  21030200,
+  {
+   "_id": 21030200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030201,
+  {
+   "_id": 21030201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030202,
+  {
+   "_id": 21030202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030203,
+  {
+   "_id": 21030203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030204,
+  {
+   "_id": 21030204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030205,
+  {
+   "_id": 21030205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  21040200,
+  {
+   "_id": 21040200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040201,
+  {
+   "_id": 21040201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040202,
+  {
+   "_id": 21040202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040203,
+  {
+   "_id": 21040203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040204,
+  {
+   "_id": 21040204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040205,
+  {
+   "_id": 21040205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050200,
+  {
+   "_id": 21050200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050201,
+  {
+   "_id": 21050201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050202,
+  {
+   "_id": 21050202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050203,
+  {
+   "_id": 21050203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  21050204,
+  {
+   "_id": 21050204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  21060200,
+  {
+   "_id": 21060200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060201,
+  {
+   "_id": 21060201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060202,
+  {
+   "_id": 21060202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  21060203,
+  {
+   "_id": 21060203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  21020200,
+  {
+   "_id": 21020200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020201,
+  {
+   "_id": 21020201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020202,
+  {
+   "_id": 21020202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020203,
+  {
+   "_id": 21020203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020204,
+  {
+   "_id": 21020204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21020205,
+  {
+   "_id": 21020205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21020206,
+  {
+   "_id": 21020206,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  21030300,
+  {
+   "_id": 21030300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030301,
+  {
+   "_id": 21030301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030302,
+  {
+   "_id": 21030302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030303,
+  {
+   "_id": 21030303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030304,
+  {
+   "_id": 21030304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030305,
+  {
+   "_id": 21030305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21040300,
+  {
+   "_id": 21040300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040301,
+  {
+   "_id": 21040301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040302,
+  {
+   "_id": 21040302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040303,
+  {
+   "_id": 21040303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040304,
+  {
+   "_id": 21040304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040305,
+  {
+   "_id": 21040305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050300,
+  {
+   "_id": 21050300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050301,
+  {
+   "_id": 21050301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050302,
+  {
+   "_id": 21050302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050303,
+  {
+   "_id": 21050303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  21050304,
+  {
+   "_id": 21050304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  21060300,
+  {
+   "_id": 21060300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060301,
+  {
+   "_id": 21060301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060302,
+  {
+   "_id": 21060302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  21060303,
+  {
+   "_id": 21060303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  21030400,
+  {
+   "_id": 21030400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030401,
+  {
+   "_id": 21030401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030402,
+  {
+   "_id": 21030402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030403,
+  {
+   "_id": 21030403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030404,
+  {
+   "_id": 21030404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21030405,
+  {
+   "_id": 21030405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21040400,
+  {
+   "_id": 21040400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040401,
+  {
+   "_id": 21040401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040402,
+  {
+   "_id": 21040402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040403,
+  {
+   "_id": 21040403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040404,
+  {
+   "_id": 21040404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21040405,
+  {
+   "_id": 21040405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20223,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  21050400,
+  {
+   "_id": 21050400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050401,
+  {
+   "_id": 21050401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21050402,
+  {
+   "_id": 21050402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  21050403,
+  {
+   "_id": 21050403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  21050404,
+  {
+   "_id": 21050404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  21060400,
+  {
+   "_id": 21060400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060401,
+  {
+   "_id": 21060401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  21060402,
+  {
+   "_id": 21060402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  21060403,
+  {
+   "_id": 21060403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  22010100,
+  {
+   "_id": 22010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010101,
+  {
+   "_id": 22010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010102,
+  {
+   "_id": 22010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010103,
+  {
+   "_id": 22010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010104,
+  {
+   "_id": 22010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010105,
+  {
+   "_id": 22010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010106,
+  {
+   "_id": 22010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010107,
+  {
+   "_id": 22010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010108,
+  {
+   "_id": 22010108,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22010109,
+  {
+   "_id": 22010109,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  22010110,
+  {
+   "_id": 22010110,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20219,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  22020100,
+  {
+   "_id": 22020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  22020101,
+  {
+   "_id": 22020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  22020102,
+  {
+   "_id": 22020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  22020103,
+  {
+   "_id": 22020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  22020104,
+  {
+   "_id": 22020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20227,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  31010100,
+  {
+   "_id": 31010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010101,
+  {
+   "_id": 31010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010102,
+  {
+   "_id": 31010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010103,
+  {
+   "_id": 31010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010104,
+  {
+   "_id": 31010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010105,
+  {
+   "_id": 31010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31010106,
+  {
+   "_id": 31010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31010107,
+  {
+   "_id": 31010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  31020100,
+  {
+   "_id": 31020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020101,
+  {
+   "_id": 31020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020102,
+  {
+   "_id": 31020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020103,
+  {
+   "_id": 31020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020104,
+  {
+   "_id": 31020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020105,
+  {
+   "_id": 31020105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020106,
+  {
+   "_id": 31020106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31030100,
+  {
+   "_id": 31030100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030101,
+  {
+   "_id": 31030101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030102,
+  {
+   "_id": 31030102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030103,
+  {
+   "_id": 31030103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030104,
+  {
+   "_id": 31030104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030105,
+  {
+   "_id": 31030105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31040100,
+  {
+   "_id": 31040100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040101,
+  {
+   "_id": 31040101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040102,
+  {
+   "_id": 31040102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040103,
+  {
+   "_id": 31040103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040104,
+  {
+   "_id": 31040104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31040105,
+  {
+   "_id": 31040105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  31050100,
+  {
+   "_id": 31050100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050101,
+  {
+   "_id": 31050101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050102,
+  {
+   "_id": 31050102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050103,
+  {
+   "_id": 31050103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  31050104,
+  {
+   "_id": 31050104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  31060100,
+  {
+   "_id": 31060100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060101,
+  {
+   "_id": 31060101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060102,
+  {
+   "_id": 31060102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  31060103,
+  {
+   "_id": 31060103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  31030200,
+  {
+   "_id": 31030200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030201,
+  {
+   "_id": 31030201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030202,
+  {
+   "_id": 31030202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030203,
+  {
+   "_id": 31030203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030204,
+  {
+   "_id": 31030204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030205,
+  {
+   "_id": 31030205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  31040200,
+  {
+   "_id": 31040200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040201,
+  {
+   "_id": 31040201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040202,
+  {
+   "_id": 31040202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040203,
+  {
+   "_id": 31040203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040204,
+  {
+   "_id": 31040204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040205,
+  {
+   "_id": 31040205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050200,
+  {
+   "_id": 31050200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050201,
+  {
+   "_id": 31050201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050202,
+  {
+   "_id": 31050202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050203,
+  {
+   "_id": 31050203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  31050204,
+  {
+   "_id": 31050204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  31060200,
+  {
+   "_id": 31060200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060201,
+  {
+   "_id": 31060201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060202,
+  {
+   "_id": 31060202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  31060203,
+  {
+   "_id": 31060203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  31020200,
+  {
+   "_id": 31020200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020201,
+  {
+   "_id": 31020201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020202,
+  {
+   "_id": 31020202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020203,
+  {
+   "_id": 31020203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020204,
+  {
+   "_id": 31020204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31020205,
+  {
+   "_id": 31020205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31020206,
+  {
+   "_id": 31020206,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  31030300,
+  {
+   "_id": 31030300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030301,
+  {
+   "_id": 31030301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030302,
+  {
+   "_id": 31030302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030303,
+  {
+   "_id": 31030303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030304,
+  {
+   "_id": 31030304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030305,
+  {
+   "_id": 31030305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31040300,
+  {
+   "_id": 31040300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040301,
+  {
+   "_id": 31040301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040302,
+  {
+   "_id": 31040302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040303,
+  {
+   "_id": 31040303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040304,
+  {
+   "_id": 31040304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040305,
+  {
+   "_id": 31040305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050300,
+  {
+   "_id": 31050300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050301,
+  {
+   "_id": 31050301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050302,
+  {
+   "_id": 31050302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050303,
+  {
+   "_id": 31050303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  31050304,
+  {
+   "_id": 31050304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  31060300,
+  {
+   "_id": 31060300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060301,
+  {
+   "_id": 31060301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060302,
+  {
+   "_id": 31060302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  31060303,
+  {
+   "_id": 31060303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  31030400,
+  {
+   "_id": 31030400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030401,
+  {
+   "_id": 31030401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030402,
+  {
+   "_id": 31030402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030403,
+  {
+   "_id": 31030403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030404,
+  {
+   "_id": 31030404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31030405,
+  {
+   "_id": 31030405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31040400,
+  {
+   "_id": 31040400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040401,
+  {
+   "_id": 31040401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040402,
+  {
+   "_id": 31040402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040403,
+  {
+   "_id": 31040403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040404,
+  {
+   "_id": 31040404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31040405,
+  {
+   "_id": 31040405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20220,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  31050400,
+  {
+   "_id": 31050400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050401,
+  {
+   "_id": 31050401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31050402,
+  {
+   "_id": 31050402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  31050403,
+  {
+   "_id": 31050403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  31050404,
+  {
+   "_id": 31050404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  31060400,
+  {
+   "_id": 31060400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060401,
+  {
+   "_id": 31060401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  31060402,
+  {
+   "_id": 31060402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  31060403,
+  {
+   "_id": 31060403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  32010100,
+  {
+   "_id": 32010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010101,
+  {
+   "_id": 32010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010102,
+  {
+   "_id": 32010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010103,
+  {
+   "_id": 32010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010104,
+  {
+   "_id": 32010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010105,
+  {
+   "_id": 32010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010106,
+  {
+   "_id": 32010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010107,
+  {
+   "_id": 32010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010108,
+  {
+   "_id": 32010108,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32010109,
+  {
+   "_id": 32010109,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  32010110,
+  {
+   "_id": 32010110,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20216,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  32020100,
+  {
+   "_id": 32020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  32020101,
+  {
+   "_id": 32020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  32020102,
+  {
+   "_id": 32020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  32020103,
+  {
+   "_id": 32020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  32020104,
+  {
+   "_id": 32020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20224,
+     "Count": 40
+    }
+   ]
+  }
+ ],
+ [
+  41010100,
+  {
+   "_id": 41010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010101,
+  {
+   "_id": 41010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010102,
+  {
+   "_id": 41010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010103,
+  {
+   "_id": 41010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010104,
+  {
+   "_id": 41010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010105,
+  {
+   "_id": 41010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41010106,
+  {
+   "_id": 41010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41010107,
+  {
+   "_id": 41010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  41020100,
+  {
+   "_id": 41020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020101,
+  {
+   "_id": 41020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020102,
+  {
+   "_id": 41020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020103,
+  {
+   "_id": 41020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020104,
+  {
+   "_id": 41020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020105,
+  {
+   "_id": 41020105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020106,
+  {
+   "_id": 41020106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41030100,
+  {
+   "_id": 41030100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030101,
+  {
+   "_id": 41030101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030102,
+  {
+   "_id": 41030102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030103,
+  {
+   "_id": 41030103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030104,
+  {
+   "_id": 41030104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030105,
+  {
+   "_id": 41030105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41040100,
+  {
+   "_id": 41040100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040101,
+  {
+   "_id": 41040101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040102,
+  {
+   "_id": 41040102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040103,
+  {
+   "_id": 41040103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040104,
+  {
+   "_id": 41040104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41040105,
+  {
+   "_id": 41040105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  41050100,
+  {
+   "_id": 41050100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050101,
+  {
+   "_id": 41050101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050102,
+  {
+   "_id": 41050102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050103,
+  {
+   "_id": 41050103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  41050104,
+  {
+   "_id": 41050104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  41060100,
+  {
+   "_id": 41060100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060101,
+  {
+   "_id": 41060101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060102,
+  {
+   "_id": 41060102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  41060103,
+  {
+   "_id": 41060103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  41030200,
+  {
+   "_id": 41030200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030201,
+  {
+   "_id": 41030201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030202,
+  {
+   "_id": 41030202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030203,
+  {
+   "_id": 41030203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030204,
+  {
+   "_id": 41030204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030205,
+  {
+   "_id": 41030205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  41040200,
+  {
+   "_id": 41040200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040201,
+  {
+   "_id": 41040201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040202,
+  {
+   "_id": 41040202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040203,
+  {
+   "_id": 41040203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040204,
+  {
+   "_id": 41040204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040205,
+  {
+   "_id": 41040205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050200,
+  {
+   "_id": 41050200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050201,
+  {
+   "_id": 41050201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050202,
+  {
+   "_id": 41050202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050203,
+  {
+   "_id": 41050203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  41050204,
+  {
+   "_id": 41050204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  41060200,
+  {
+   "_id": 41060200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060201,
+  {
+   "_id": 41060201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060202,
+  {
+   "_id": 41060202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  41060203,
+  {
+   "_id": 41060203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  41020200,
+  {
+   "_id": 41020200,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020201,
+  {
+   "_id": 41020201,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020202,
+  {
+   "_id": 41020202,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020203,
+  {
+   "_id": 41020203,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020204,
+  {
+   "_id": 41020204,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41020205,
+  {
+   "_id": 41020205,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41020206,
+  {
+   "_id": 41020206,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  41030300,
+  {
+   "_id": 41030300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030301,
+  {
+   "_id": 41030301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030302,
+  {
+   "_id": 41030302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030303,
+  {
+   "_id": 41030303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030304,
+  {
+   "_id": 41030304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030305,
+  {
+   "_id": 41030305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41040300,
+  {
+   "_id": 41040300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040301,
+  {
+   "_id": 41040301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040302,
+  {
+   "_id": 41040302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040303,
+  {
+   "_id": 41040303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040304,
+  {
+   "_id": 41040304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040305,
+  {
+   "_id": 41040305,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050300,
+  {
+   "_id": 41050300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050301,
+  {
+   "_id": 41050301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050302,
+  {
+   "_id": 41050302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050303,
+  {
+   "_id": 41050303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  41050304,
+  {
+   "_id": 41050304,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  41060300,
+  {
+   "_id": 41060300,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060301,
+  {
+   "_id": 41060301,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060302,
+  {
+   "_id": 41060302,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  41060303,
+  {
+   "_id": 41060303,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  41030400,
+  {
+   "_id": 41030400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030401,
+  {
+   "_id": 41030401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030402,
+  {
+   "_id": 41030402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030403,
+  {
+   "_id": 41030403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030404,
+  {
+   "_id": 41030404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41030405,
+  {
+   "_id": 41030405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41040400,
+  {
+   "_id": 41040400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040401,
+  {
+   "_id": 41040401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040402,
+  {
+   "_id": 41040402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040403,
+  {
+   "_id": 41040403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040404,
+  {
+   "_id": 41040404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41040405,
+  {
+   "_id": 41040405,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20222,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  41050400,
+  {
+   "_id": 41050400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050401,
+  {
+   "_id": 41050401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41050402,
+  {
+   "_id": 41050402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  41050403,
+  {
+   "_id": 41050403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 4
+    }
+   ]
+  }
+ ],
+ [
+  41050404,
+  {
+   "_id": 41050404,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 8
+    }
+   ]
+  }
+ ],
+ [
+  41060400,
+  {
+   "_id": 41060400,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060401,
+  {
+   "_id": 41060401,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  41060402,
+  {
+   "_id": 41060402,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 5
+    }
+   ]
+  }
+ ],
+ [
+  41060403,
+  {
+   "_id": 41060403,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  42010100,
+  {
+   "_id": 42010100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010101,
+  {
+   "_id": 42010101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010102,
+  {
+   "_id": 42010102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010103,
+  {
+   "_id": 42010103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010104,
+  {
+   "_id": 42010104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010105,
+  {
+   "_id": 42010105,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010106,
+  {
+   "_id": 42010106,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010107,
+  {
+   "_id": 42010107,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010108,
+  {
+   "_id": 42010108,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42010109,
+  {
+   "_id": 42010109,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  42010110,
+  {
+   "_id": 42010110,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20218,
+     "Count": 3
+    }
+   ]
+  }
+ ],
+ [
+  42020100,
+  {
+   "_id": 42020100,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 1
+    }
+   ]
+  }
+ ],
+ [
+  42020101,
+  {
+   "_id": 42020101,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 2
+    }
+   ]
+  }
+ ],
+ [
+  42020102,
+  {
+   "_id": 42020102,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 10
+    }
+   ]
+  }
+ ],
+ [
+  42020103,
+  {
+   "_id": 42020103,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 20
+    }
+   ]
+  }
+ ],
+ [
+  42020104,
+  {
+   "_id": 42020104,
+   "MaterialArr": [
+    {
+     "_t": "SkillLearn+Material",
+     "_Id": 20226,
+     "Count": 40
+    }
+   ]
+  }
+ ]
+]

@@ -1,0 +1,621 @@
+
+===== ET.Session =====
+
+--- OnRead (RVA 0xEFE0) ---
+    000C: ldarg.0
+    000D: call MethodDef::DomainZone
+    0012: ldarg.1
+    0013: ldarg.2
+    0014: call MethodDef::LogMsg
+    0019: ldarg.0
+    001A: ldfld Field::requestCallbacks
+    001F: ldarg.2
+    0020: callvirt MethodDef::get_RpcId
+    0025: ldloca.s local(0x0000)
+    0027: callvirt MemberRef::TryGetValue
+    002C: brtrue.s 47
+    002E: ret
+    002F: ldarg.0
+    0030: ldfld Field::requestCallbacks
+    0035: ldarg.2
+    0036: callvirt MethodDef::get_RpcId
+    003B: callvirt MemberRef::Remove
+    0040: pop
+    0041: ldarg.2
+    0042: callvirt MethodDef::get_Error
+    0047: call MethodDef::IsRpcNeedThrowException
+    004C: brfalse.s 112
+    004E: ldloc.0
+    004F: ldfld Field::Tcs
+    0054: ldstr 'Rpc error, request: {0} response: {1}'
+    0059: ldloc.0
+    005A: ldfld Field::Request
+    005F: ldarg.2
+    0060: call System.String::Format
+    0065: newobj System.Exception::.ctor
+    006A: callvirt MemberRef::SetException
+    006F: ret
+    0070: ldloc.0
+    0071: ldfld Field::Tcs
+    0076: ldarg.2
+    0077: callvirt MemberRef::SetResult
+    007C: ret
+
+--- Call (RVA 0xF060) ---
+    000C: ldloca.s local(0x0000)
+    000E: ldarg.0
+    000F: stfld Field::<>4__this
+    0014: ldloca.s local(0x0000)
+    0016: ldarg.1
+    0017: stfld Field::request
+    001C: ldloca.s local(0x0000)
+    001E: ldarg.2
+    001F: stfld Field::cancellationToken
+    0024: ldloca.s local(0x0000)
+    0026: call MemberRef::Create
+    002B: stfld Field::<>t__builder
+    0030: ldloca.s local(0x0000)
+    0032: ldc.i4.m1
+    0033: stfld Field::<>1__state
+    0038: ldloc.0
+    0039: ldfld Field::<>t__builder
+    003E: stloc.1
+    003F: ldloca.s local(0x0001)
+    0041: ldloca.s local(0x0000)
+    0043: call MethodSpec::rid=90
+    0048: ldloca.s local(0x0000)
+    004A: ldflda Field::<>t__builder
+    004F: call MemberRef::get_Task
+    0054: ret
+
+--- Call (RVA 0xF0B8) ---
+    000C: ldloca.s local(0x0000)
+    000E: ldarg.0
+    000F: stfld Field::<>4__this
+    0014: ldloca.s local(0x0000)
+    0016: ldarg.1
+    0017: stfld Field::request
+    001C: ldloca.s local(0x0000)
+    001E: call MemberRef::Create
+    0023: stfld Field::<>t__builder
+    0028: ldloca.s local(0x0000)
+    002A: ldc.i4.m1
+    002B: stfld Field::<>1__state
+    0030: ldloc.0
+    0031: ldfld Field::<>t__builder
+    0036: stloc.1
+    0037: ldloca.s local(0x0001)
+    0039: ldloca.s local(0x0000)
+    003B: call MethodSpec::rid=91
+    0040: ldloca.s local(0x0000)
+    0042: ldflda Field::<>t__builder
+    0047: call MemberRef::get_Task
+    004C: ret
+
+--- Reply (RVA 0xF105) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: call MethodDef::Send
+    0008: ret
+
+--- Send (RVA 0xF110) ---
+    000C: ldarg.0
+    000D: ldfld Field::AService
+    0012: callvirt MethodDef::get_ServiceType
+    0017: stloc.0
+    0018: ldloc.0
+    0019: brfalse.s 76
+    001B: ldloc.0
+    001C: ldc.i4.1
+    001D: bne.un.s 120
+    001F: ldc.i4.0
+    0020: conv.i8
+    0021: ldarg.1
+    0022: ldc.i4.0
+    0023: call MethodDef::MessageToStream
+    0028: dup
+    0029: ldfld MemberRef::Item1
+    002E: stloc.1
+    002F: ldfld MemberRef::Item2
+    0034: stloc.2
+    0035: ldarg.0
+    0036: call MethodDef::DomainZone
+    003B: ldloc.1
+    003C: ldarg.1
+    003D: call MethodDef::LogMsg
+    0042: ldarg.0
+    0043: ldc.i4.0
+    0044: conv.i8
+    0045: ldloc.2
+    0046: call MethodDef::Send
+    004B: ret
+    004C: ldarg.1
+    004D: ldc.i4.0
+    004E: call MethodDef::MessageToStream
+    0053: dup
+    0054: ldfld MemberRef::Item1
+    0059: stloc.3
+    005A: ldfld MemberRef::Item2
+    005F: stloc.s local(0x0004)
+    0061: ldarg.0
+    0062: call MethodDef::DomainZone
+    0067: ldloc.3
+    0068: ldarg.1
+    0069: call MethodDef::LogMsg
+    006E: ldarg.0
+    006F: ldc.i4.0
+    0070: conv.i8
+    0071: ldloc.s local(0x0004)
+    0073: call MethodDef::Send
+    0078: ret
+
+--- Send (RVA 0xF18C) ---
+    000C: ldarg.1
+    000D: ldarg.2
+    000E: ldc.i4.0
+    000F: call MethodDef::MessageToStream
+    0014: dup
+    0015: ldfld MemberRef::Item1
+    001A: stloc.0
+    001B: ldfld MemberRef::Item2
+    0020: stloc.1
+    0021: ldarg.0
+    0022: call MethodDef::DomainZone
+    0027: ldloc.0
+    0028: ldarg.2
+    0029: call MethodDef::LogMsg
+    002E: ldarg.0
+    002F: ldarg.1
+    0030: ldloc.1
+    0031: call MethodDef::Send
+    0036: ret
+
+--- Send (RVA 0xF1C3) ---
+    0001: ldarg.0
+    0002: call MethodDef::ClientNow
+    0007: call MethodDef::set_LastSendTime
+    000C: ldarg.0
+    000D: ldfld Field::AService
+    0012: ldarg.0
+    0013: call MethodDef::get_Id
+    0018: ldarg.1
+    0019: ldarg.2
+    001A: callvirt MethodDef::SendStream
+    001F: ret
+
+===== ET.MessageSerializeHelper =====
+
+--- DeserializeFrom (RVA 0xE7A8) ---
+    000C: ldarg.0
+    000D: ldc.i4 40000
+    0012: bge.s 28
+    0014: ldarg.1
+    0015: ldarg.2
+    0016: call MethodDef::FromStream
+    001B: ret
+    001C: ldarg.0
+    001D: ldc.i4 51000
+    0022: blt.s 75
+    0024: ldarg.1
+    0025: ldarg.2
+    0026: callvirt System.IO.MemoryStream::GetBuffer
+    002B: ldarg.2
+    002C: callvirt System.IO.Stream::get_Position
+    0031: conv.i4
+    0032: ldarg.2
+    0033: callvirt System.IO.Stream::get_Length
+    0038: ldarg.2
+    0039: callvirt System.IO.Stream::get_Position
+    003E: sub
+    003F: conv.i4
+    0040: call MethodDef::ToStr
+    0045: call MethodDef::FromJson
+    004A: ret
+    004B: ldstr 'client no message: {0}'
+    0050: ldarg.0
+    0051: box TypeRef::System.UInt16
+    0056: call System.String::Format
+    005B: newobj System.Exception::.ctor
+    0060: throw
+
+--- SerializeTo (RVA 0xE80C) ---
+    000C: ldarg.0
+    000D: ldc.i4 40000
+    0012: bge.s 28
+    0014: ldarg.1
+    0015: ldarg.2
+    0016: call MethodDef::ToStream
+    001B: ret
+    001C: ldarg.0
+    001D: ldc.i4 51000
+    0022: blt.s 60
+    0024: ldarg.1
+    0025: call MethodDef::ToJson
+    002A: call MethodDef::ToUtf8
+    002F: stloc.0
+    0030: ldarg.2
+    0031: ldloc.0
+    0032: ldc.i4.0
+    0033: ldloc.0
+    0034: ldlen
+    0035: conv.i4
+    0036: callvirt System.IO.Stream::Write
+    003B: ret
+    003C: ldstr 'client no message: {0}'
+    0041: ldarg.0
+    0042: box TypeRef::System.UInt16
+    0047: call System.String::Format
+    004C: newobj System.Exception::.ctor
+    0051: throw
+
+--- GetStream (RVA 0xE860) ---
+    000C: ldarg.0
+    000D: ldc.i4.0
+    000E: ble.s 25
+    0010: ldarg.0
+    0011: newobj System.IO.MemoryStream::.ctor
+    0016: stloc.0
+    0017: br.s 31
+    0019: newobj System.IO.MemoryStream::.ctor
+    001E: stloc.0
+    001F: ldloc.0
+    0020: ret
+
+--- MessageToStream (RVA 0xE884) ---
+    000C: ldc.i4.2
+    000D: ldarg.1
+    000E: add
+    000F: call MethodDef::GetStream
+    0014: stloc.0
+    0015: ldsfld Field::Instance
+    001A: ldarg.0
+    001B: callvirt System.Object::GetType
+    0020: callvirt MethodDef::GetOpcode
+    0025: stloc.1
+    0026: ldloc.0
+    0027: ldc.i4.2
+    0028: conv.i8
+    0029: ldc.i4.0
+    002A: callvirt System.IO.Stream::Seek
+    002F: pop
+    0030: ldloc.0
+    0031: ldc.i4.2
+    0032: conv.i8
+    0033: callvirt System.IO.Stream::SetLength
+    0038: ldloc.0
+    0039: callvirt System.IO.MemoryStream::GetBuffer
+    003E: ldc.i4.0
+    003F: ldloc.1
+    0040: call MethodDef::WriteTo
+    0045: ldloc.1
+    0046: ldarg.0
+    0047: ldloc.0
+    0048: call MethodDef::SerializeTo
+    004D: ldloc.0
+    004E: ldc.i4.0
+    004F: conv.i8
+    0050: ldc.i4.0
+    0051: callvirt System.IO.Stream::Seek
+    0056: pop
+    0057: ldloc.1
+    0058: ldloc.0
+    0059: newobj MemberRef::.ctor
+    005E: ret
+
+--- MessageToStream (RVA 0xE8E4) ---
+    000C: ldc.i4.8
+    000D: stloc.0
+    000E: ldloc.0
+    000F: ldc.i4.2
+    0010: add
+    0011: ldarg.2
+    0012: add
+    0013: call MethodDef::GetStream
+    0018: stloc.1
+    0019: ldsfld Field::Instance
+    001E: ldarg.1
+    001F: callvirt System.Object::GetType
+    0024: callvirt MethodDef::GetOpcode
+    0029: stloc.2
+    002A: ldloc.1
+    002B: ldloc.0
+    002C: ldc.i4.2
+    002D: add
+    002E: conv.i8
+    002F: ldc.i4.0
+    0030: callvirt System.IO.Stream::Seek
+    0035: pop
+    0036: ldloc.1
+    0037: ldloc.0
+    0038: ldc.i4.2
+    0039: add
+    003A: conv.i8
+    003B: callvirt System.IO.Stream::SetLength
+    0040: ldloc.1
+    0041: callvirt System.IO.MemoryStream::GetBuffer
+    0046: ldc.i4.0
+    0047: ldarg.0
+    0048: call MethodDef::WriteTo
+    004D: ldloc.1
+    004E: callvirt System.IO.MemoryStream::GetBuffer
+    0053: ldloc.0
+    0054: ldloc.2
+    0055: call MethodDef::WriteTo
+    005A: ldloc.2
+    005B: ldarg.1
+    005C: ldloc.1
+    005D: call MethodDef::SerializeTo
+    0062: ldloc.1
+    0063: ldc.i4.0
+    0064: conv.i8
+    0065: ldc.i4.0
+    0066: callvirt System.IO.Stream::Seek
+    006B: pop
+    006C: ldloc.2
+    006D: ldloc.1
+    006E: newobj MemberRef::.ctor
+    0073: ret
+
+===== ET.PacketParser =====
+
+--- Parse (RVA 0x1101C) ---
+    000C: ldarg.0
+    000D: ldfld Field::state
+    0012: stloc.0
+    0013: ldloc.0
+    0014: brfalse.s 34
+    0016: ldloc.0
+    0017: ldc.i4.1
+    0018: beq 255
+    001D: br 360
+    0022: ldarg.0
+    0023: ldfld Field::service
+    0028: callvirt MethodDef::get_ServiceType
+    002D: ldc.i4.1
+    002E: bne.un.s 152
+    0030: ldarg.0
+    0031: ldfld Field::buffer
+    0036: callvirt System.IO.Stream::get_Length
+    003B: ldc.i4.4
+    003C: conv.i8
+    003D: bge.s 65
+    003F: ldc.i4.0
+    0040: ret
+    0041: ldarg.0
+    0042: ldfld Field::buffer
+    0047: ldarg.0
+    0048: ldfld Field::cache
+    004D: ldc.i4.0
+    004E: ldc.i4.4
+    004F: callvirt System.IO.Stream::Read
+    0054: pop
+    0055: ldarg.0
+    0056: ldarg.0
+    0057: ldfld Field::cache
+    005C: ldc.i4.0
+    005D: call System.BitConverter::ToInt32
+    0062: stfld Field::packetSize
+    0067: ldarg.0
+    0068: ldfld Field::packetSize
+    006D: ldc.i4 1048560
+    0072: bgt.s 125
+    0074: ldarg.0
+    0075: ldfld Field::packetSize
+    007A: ldc.i4.2
+    007B: bge.s 243
+    007D: ldstr 'recv packet size error, 可能是外网探测端口: {0}'
+    0082: ldarg.0
+    0083: ldfld Field::packetSize
+    0088: box TypeRef::System.Int32
+    008D: call System.String::Format
+    0092: newobj System.Exception::.ctor
+    0097: throw
+    0098: ldarg.0
+    0099: ldfld Field::buffer
+    009E: callvirt System.IO.Stream::get_Length
+    00A3: ldc.i4.2
+    00A4: conv.i8
+    00A5: bge.s 169
+    00A7: ldc.i4.0
+    00A8: ret
+    00A9: ldarg.0
+    00AA: ldfld Field::buffer
+    00AF: ldarg.0
+    00B0: ldfld Field::cache
+    00B5: ldc.i4.0
+    00B6: ldc.i4.2
+    00B7: callvirt System.IO.Stream::Read
+    00BC: pop
+    00BD: ldarg.0
+    00BE: ldarg.0
+    00BF: ldfld Field::cache
+    00C4: ldc.i4.0
+    00C5: call System.BitConverter::ToUInt16
+    00CA: stfld Field::packetSize
+    00CF: ldarg.0
+    00D0: ldfld Field::packetSize
+    00D5: ldc.i4.2
+    00D6: bge.s 243
+    00D8: ldstr 'recv packet size error, 可能是外网探测端口: {0}'
+    00DD: ldarg.0
+    00DE: ldfld Field::packetSize
+    00E3: box TypeRef::System.Int32
+    00E8: call System.String::Format
+    00ED: newobj System.Exception::.ctor
+    00F2: throw
+    00F3: ldarg.0
+    00F4: ldc.i4.1
+    00F5: stfld Field::state
+    00FA: br 12
+    00FF: ldarg.0
+    0100: ldfld Field::buffer
+    0105: callvirt System.IO.Stream::get_Length
+    010A: ldarg.0
+    010B: ldfld Field::packetSize
+    0110: conv.i8
+    0111: bge.s 277
+    0113: ldc.i4.0
+    0114: ret
+    0115: ldarg.0
+    0116: ldfld Field::packetSize
+    011B: call MethodDef::GetStream
+    0120: stloc.1
+    0121: ldarg.0
+    0122: ldfld Field::buffer
+    0127: ldloc.1
+    0128: ldarg.0
+    0129: ldfld Field::packetSize
+    012E: callvirt MethodDef::Read
+    0133: ldarg.0
+    0134: ldloc.1
+    0135: stfld Field::MemoryStream
+    013A: ldarg.0
+    013B: ldfld Field::service
+    0140: callvirt MethodDef::get_ServiceType
+    0145: ldc.i4.1
+    0146: bne.un.s 341
+    0148: ldloc.1
+    0149: ldc.i4.s 10
+    014B: conv.i8
+    014C: ldc.i4.0
+    014D: callvirt System.IO.Stream::Seek
+    0152: pop
+    0153: br.s 351
+    0155: ldloc.1
+    0156: ldc.i4.2
+    0157: conv.i8
+    0158: ldc.i4.0
+    0159: callvirt System.IO.Stream::Seek
+    015E: pop
+    015F: ldarg.0
+    0160: ldc.i4.0
+    0161: stfld Field::state
+    0166: ldc.i4.1
+    0167: ret
+    0168: newobj System.ArgumentOutOfRangeException::.ctor
+    016D: throw
+
+===== ET.Kcp =====
+
+--- KcpCreate (RVA 0x10D89) ---
+    0001: ldarg.0
+    0002: ldarg.1
+    0003: call MethodDef::ikcp_create
+    0008: ret
+
+--- KcpGetconv (RVA 0x10DB2) ---
+    0001: ldarg.0
+    0002: ldsfld System.IntPtr::Zero
+    0007: call System.IntPtr::op_Equality
+    000C: brfalse.s 25
+    000E: ldstr 'kcp error, kcp point is zero'
+    0013: newobj System.Exception::.ctor
+    0018: throw
+    0019: ldarg.0
+    001A: call MethodDef::ikcp_getconv
+    001F: ret
+
+--- KcpInput (RVA 0x10DD4) ---
+    000C: ldarg.0
+    000D: ldsfld System.IntPtr::Zero
+    0012: call System.IntPtr::op_Equality
+    0017: brfalse.s 36
+    0019: ldstr 'kcp error, kcp point is zero'
+    001E: newobj System.Exception::.ctor
+    0023: throw
+    0024: ldarg.2
+    0025: ldarg.3
+    0026: add
+    0027: ldarg.1
+    0028: ldlen
+    0029: conv.i4
+    002A: ble.s 80
+    002C: ldstr 'kcp error, KcpInput {0} {1} {2}'
+    0031: ldarg.1
+    0032: ldlen
+    0033: conv.i4
+    0034: box TypeRef::System.Int32
+    0039: ldarg.2
+    003A: box TypeRef::System.Int32
+    003F: ldarg.3
+    0040: box TypeRef::System.Int32
+    0045: call System.String::Format
+    004A: newobj System.Exception::.ctor
+    004F: throw
+    0050: ldarg.0
+    0051: ldarg.1
+    0052: ldarg.2
+    0053: ldarg.3
+    0054: call MethodDef::ikcp_input
+    0059: ret
+
+--- KcpRecv (RVA 0x10E73) ---
+    0001: ldarg.0
+    0002: ldsfld System.IntPtr::Zero
+    0007: call System.IntPtr::op_Equality
+    000C: brfalse.s 25
+    000E: ldstr 'kcp error, kcp point is zero'
+    0013: newobj System.Exception::.ctor
+    0018: throw
+    0019: ldarg.1
+    001A: ldlen
+    001B: conv.i4
+    001C: ldarg.2
+    001D: beq.s 53
+    001F: ldstr 'kcp error, KcpRecv error: {0}'
+    0024: ldarg.2
+    0025: box TypeRef::System.Int32
+    002A: call System.String::Format
+    002F: newobj System.Exception::.ctor
+    0034: throw
+    0035: ldarg.0
+    0036: ldarg.1
+    0037: ldarg.2
+    0038: call MethodDef::ikcp_recv
+    003D: ret
+
+--- KcpSend (RVA 0x10ED4) ---
+    000C: ldarg.0
+    000D: ldsfld System.IntPtr::Zero
+    0012: call System.IntPtr::op_Equality
+    0017: brfalse.s 36
+    0019: ldstr 'kcp error, kcp point is zero'
+    001E: newobj System.Exception::.ctor
+    0023: throw
+    0024: ldarg.2
+    0025: ldarg.3
+    0026: add
+    0027: ldarg.1
+    0028: ldlen
+    0029: conv.i4
+    002A: ble.s 80
+    002C: ldstr 'kcp error, KcpSend {0} {1} {2}'
+    0031: ldarg.1
+    0032: ldlen
+    0033: conv.i4
+    0034: box TypeRef::System.Int32
+    0039: ldarg.2
+    003A: box TypeRef::System.Int32
+    003F: ldarg.3
+    0040: box TypeRef::System.Int32
+    0045: call System.String::Format
+    004A: newobj System.Exception::.ctor
+    004F: throw
+    0050: ldarg.0
+    0051: ldarg.1
+    0052: ldarg.2
+    0053: ldarg.3
+    0054: call MethodDef::ikcp_send
+    0059: ret
+
+--- KcpWaitsnd (RVA 0x10FB5) ---
+    0001: ldarg.0
+    0002: ldsfld System.IntPtr::Zero
+    0007: call System.IntPtr::op_Equality
+    000C: brfalse.s 25
+    000E: ldstr 'kcp error, kcp point is zero'
+    0013: newobj System.Exception::.ctor
+    0018: throw
+    0019: ldarg.0
+    001A: call MethodDef::ikcp_waitsnd
+    001F: ret

@@ -1,0 +1,125 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Name": "太阳烛照",
+   "Icon": "120682",
+   "CopyType": 1,
+   "Suit4Key": 32,
+   "Suit4Value": 0.4,
+   "Suit4": "攻击+40%"
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Name": "太阴幽荧",
+   "Icon": "120684",
+   "CopyType": 1,
+   "Suit4Key": 33,
+   "Suit4Value": 0.4,
+   "Suit4": "防御+40%"
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Name": "青龙",
+   "Icon": "120677",
+   "CopyType": 2,
+   "Suit4Key": 34,
+   "Suit4Value": 0.4,
+   "Suit4": "生命+40%"
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Name": "白虎",
+   "Icon": "120678",
+   "CopyType": 2,
+   "Suit4Key": 35,
+   "Suit4Value": 0.4,
+   "Suit4": "精力+40%"
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Name": "朱雀",
+   "Icon": "120679",
+   "CopyType": 3,
+   "Suit4Key": 36,
+   "Suit4Value": 0.25,
+   "Suit4": "暴击系数+25%"
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Name": "玄武",
+   "Icon": "120680",
+   "CopyType": 3,
+   "Suit4Key": 37,
+   "Suit4Value": 0.5,
+   "Suit4": "暴击效果+50%"
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Name": "应龙",
+   "Icon": "120686",
+   "CopyType": 4,
+   "Suit4Key": 38,
+   "Suit4Value": 0.22,
+   "Suit4": "抗暴击系数+22%"
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Name": "黄龙",
+   "Icon": "120683",
+   "CopyType": 4,
+   "Suit4Key": 39,
+   "Suit4Value": 0.45,
+   "Suit4": "抗暴击效果+45%"
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Name": "螣蛇",
+   "Icon": "120681",
+   "CopyType": 5,
+   "Suit4Key": 27,
+   "Suit4Value": 0.05,
+   "Suit4": "吸血率+5%",
+   "Suit8Key": 28,
+   "Suit8Value": 0.1,
+   "Suit8": "吸血量+10%"
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Name": "勾陈",
+   "Icon": "120685",
+   "CopyType": 5,
+   "Suit4Key": 29,
+   "Suit4Value": 0.04,
+   "Suit4": "生命回复+4%"
+  }
+ ]
+]

@@ -1,0 +1,52 @@
+# 家族 BOSS 贡献热更表（配置名：FamilyBossConfig）。
+# Contribute / PersonalContribute 无论胜负都会结算给每位实际参战成员。
+# 全局额外道具概率和宝石/形象池在 Gameplay.yaml 的 family_boss 中配置。
+# 如需某一阶单独覆盖，可增加 BonusDropChance、BonusSkinShare（0..100）。
+# 字段提示：Contribute/PersonalContribute 是贡献奖励；Dropasubset 是掉落子集 ID。
+# 各阶开场战斗属性倍率 = Gameplay.family_boss.attribute_base_multiplier + CharacterAdd。
+# 修改后发布本 YAML，在线玩家会在下一次配置推送后看到新规则。
+- - 1
+  - _id: 1
+    Name: 1阶boss
+    MonsterId: 50001
+    Exp: 0
+    Contribute: 150
+    PersonalContribute: 150
+    Dropasubset: 10051
+    CharacterAdd: 0.05
+- - 2
+  - _id: 2
+    Name: 2阶boss
+    MonsterId: 50002
+    Exp: 0
+    Contribute: 300
+    PersonalContribute: 300
+    Dropasubset: 10052
+    CharacterAdd: 0.08
+- - 3
+  - _id: 3
+    Name: 3阶boss
+    MonsterId: 50003
+    Exp: 0
+    Contribute: 450
+    PersonalContribute: 450
+    Dropasubset: 10053
+    CharacterAdd: 0.15
+- - 4
+  - _id: 4
+    Name: 4阶boss
+    MonsterId: 50004
+    Exp: 0
+    Contribute: 2500
+    PersonalContribute: 2500
+    Dropasubset: 10054
+    CharacterAdd: 0.23
+- - 5
+  - _id: 5
+    Name: 5阶boss
+    MonsterId: 50005
+    Exp: 0
+    Contribute: 5000
+    PersonalContribute: 5000
+    Dropasubset: 10055
+    CharacterAdd: 0.33

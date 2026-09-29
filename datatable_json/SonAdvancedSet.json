@@ -1,0 +1,164 @@
+[
+ [
+  30025,
+  {
+   "_id": 30025,
+   "Adsubset": 30069,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30026,
+  {
+   "_id": 30026,
+   "Adsubset": 30070,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30027,
+  {
+   "_id": 30027,
+   "Adsubset": 30071,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30028,
+  {
+   "_id": 30028,
+   "Adsubset": 30072,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30029,
+  {
+   "_id": 30029,
+   "Adsubset": 30073,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30030,
+  {
+   "_id": 30030,
+   "Adsubset": 30074,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30031,
+  {
+   "_id": 30031,
+   "Adsubset": 30075,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30032,
+  {
+   "_id": 30032,
+   "Adsubset": 30076,
+   "MinAdCount": 7,
+   "MaxAdCount": 13
+  }
+ ],
+ [
+  30010,
+  {
+   "_id": 30010,
+   "Adsubset": 30077,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30011,
+  {
+   "_id": 30011,
+   "Adsubset": 30078,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30012,
+  {
+   "_id": 30012,
+   "Adsubset": 30079,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30013,
+  {
+   "_id": 30013,
+   "Adsubset": 30080,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30014,
+  {
+   "_id": 30014,
+   "Adsubset": 30081,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30015,
+  {
+   "_id": 30015,
+   "Adsubset": 30082,
+   "MinAdCount": 5,
+   "MaxAdCount": 11
+  }
+ ],
+ [
+  30082,
+  {
+   "_id": 30082,
+   "Adsubset": 30086,
+   "MinAdCount": 3,
+   "MaxAdCount": 5
+  }
+ ],
+ [
+  30083,
+  {
+   "_id": 30083,
+   "Adsubset": 30087,
+   "MinAdCount": 3,
+   "MaxAdCount": 5
+  }
+ ],
+ [
+  30084,
+  {
+   "_id": 30084,
+   "Adsubset": 30088,
+   "MinAdCount": 3,
+   "MaxAdCount": 5
+  }
+ ],
+ [
+  30085,
+  {
+   "_id": 30085,
+   "Adsubset": 30089,
+   "MinAdCount": 3,
+   "MaxAdCount": 5
+  }
+ ]
+]

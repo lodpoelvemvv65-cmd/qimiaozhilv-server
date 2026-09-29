@@ -1,0 +1,2314 @@
+################################################################################
+# 梦幻奇遇记 网络协议完整定义
+# 来源: Hotfix.dll
+################################################################################
+
+## [20001] ET.BagMap  ()
+    [1] Index: int
+    [2] NetItem: ET.NetItem
+    [3] EquipTransMessage: ET.EquipTransMessage
+
+## [20002] ET.NetItem  ()
+    [1] ItemId: int
+    [2] ItemType: ET.ItemType
+    [3] ServerId: long
+    [4] Count: int
+    [5] IsLock: bool
+    [6] GetSource: string
+
+## [20003] ET.UnitCharacter  ()
+    [1] Id: long
+    [2] NickName: string
+    [3] LeaderId: long
+    [4] JobId: int
+    [5] Title: int
+    [6] CampType: ET.CampType
+    [7] Family: string
+    [8] SkinId: int
+    [9] CharacterPoint: int
+    [10] SkillPoint: int
+    [11] Level: int
+    [12] Trans: int
+    [13] Hp: int
+    [14] MaxHp: int
+    [15] Mp: int
+    [16] MaxMp: int
+    [17] PetId: int
+    [18] PetName: string
+    [19] isShowPet: bool
+    [20] PetLevel: int
+
+## [20004] ET.UnitCommonCharacter  ()
+    [1] Id: long
+    [2] NickName: string
+    [4] JobId: int
+    [5] Title: string
+    [7] Family: string
+    [9] SkinId: int
+    [10] Level: int
+    [12] Hp: int
+    [13] MaxHp: int
+    [14] Mp: int
+    [15] MaxMp: int
+
+## [20005] ET.BattleCharacter  ()
+    [7] Str: int
+    [8] Quk: int
+    [9] Spi: int
+    [10] Wim: int
+    [11] PhyAtk: int
+    [12] PhyDef: int
+    [13] SpiAtk: int
+    [14] SpiDef: int
+    [15] Dvo: float
+    [16] Pcrir: float
+    [17] Rpcrir: float
+    [18] Pcri: float
+    [19] Rpcri: float
+    [20] Mcrir: float
+    [21] Rmcrir: float
+    [22] Mcri: float
+    [23] Rmcri: float
+    [24] Nphyi: float
+    [25] Nmeni: float
+    [27] Phy: int
+    [28] Sta: int
+
+## [20006] ET.AttributeMap  ()
+    [1] Key: int
+    [2] Value: float
+
+## [20007] ET.EquipTransMessage  ()
+    [1] EquipId: int
+    [3] specialKey: int
+    [4] IsLocked: bool
+    [7] Star: int
+    [8] Quality: int
+    [9] Level: int
+    [10] specialId: int
+
+## [20008] ET.C2R_Login  (IRequest,IMessage)  -> ET.R2C_Login
+    [1] Account: string
+    [2] Password: string
+    [3] LoginType: ET.LoginType
+    [4] Identify: string
+    [90] RpcId: int
+
+## [20009] ET.R2C_Login  (IResponse,IMessage)
+    [1] Address: string
+    [2] Key: long
+    [3] GateId: long
+    [4] LoginVoucher: string
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20010] ET.C2R_Regist  (IRequest,IMessage)  -> ET.R2C_Regist
+    [1] Account: string
+    [2] Password: string
+    [4] Identify: string
+    [90] RpcId: int
+
+## [20011] ET.R2C_Regist  (IResponse,IMessage)
+    [1] Address: string
+    [2] Key: long
+    [3] GateId: long
+    [4] LoginVoucher: string
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20012] ET.C2G_HeartBeat  (IRequest,IMessage)  -> ET.G2C_HeartBeat
+    [90] RpcId: int
+
+## [20013] ET.G2C_HeartBeat  (IResponse,IMessage)
+    [1] DelayTime: float
+    [2] Key: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20014] ET.C2G_LoginGate  (IRequest,IMessage)  -> ET.G2C_LoginGate
+    [1] Key: long
+    [2] GateId: long
+    [3] Platform: string
+    [90] RpcId: int
+
+## [20015] ET.G2C_LoginGate  (IResponse,IMessage)
+    [1] PlayerId: long
+    [2] HasRole: bool
+    [3] JobId: int
+    [4] ServerTime: long
+    [5] SkinId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20016] ET.C2R_CreateRole  (IRequest,IMessage)  -> ET.R2C_CreateRole
+    [1] PlayerId: long
+    [2] JobId: int
+    [3] Name: string
+    [90] RpcId: int
+
+## [20017] ET.R2C_CreateRole  (IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20018] ET.C2R_DelRole  (IRequest,IMessage)  -> ET.R2C_DelRole
+    [1] UserId: long
+    [90] RpcId: int
+
+## [20019] ET.R2C_DelRole  (IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20020] ET.UnitPosInfo  ()
+    [2] X: float
+    [3] Y: float
+    [5] YAngle: int
+
+## [20021] ET.UnitScene  ()
+    [1] MapId: int
+    [2] TierId: int
+    [6] YAngle: int
+
+## [20022] ET.Frame_ClickMap  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [1] UnitInfo: ET.UnitPosInfo
+    [90] RpcId: int
+    [93] ActorId: long
+    [94] Id: long
+
+## [20023] ET.C2M_CheckSceneError  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [1] Info: string
+    [90] RpcId: int
+    [93] ActorId: long
+    [94] Id: long
+
+## [20024] ET.M2C_PathfindingResult  (IActorMessage,IMessage)
+    [1] Id: long
+    [2] X: float
+    [3] Y: float
+    [5] TX: float
+    [6] TY: float
+    [7] MoveSpeed: float
+    [93] ActorId: long
+
+## [20025] ET.M2C_SendUnitInfo  (IActorMessage,IMessage)
+    [1] UnitCharacter: ET.UnitCharacter
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20026] ET.M2C_SendUnitInfoList  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20027] ET.C2G_EnterGame  (IRequest,IMessage)  -> ET.G2C_EnterGame
+    [90] RpcId: int
+
+## [20028] ET.G2C_EnterGame  (IResponse,IMessage)
+    [1] Id: long
+    [2] SkinId: int
+    [3] JobId: int
+    [4] IsOnline: bool
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20029] ET.C2M_GetBasicalInfo  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20030] ET.C2M_GetStateReback  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20031] ET.C2M_RequestEnterMap  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RequestEnterMap
+    [1] MapId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20032] ET.M2C_RequestEnterMap  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20033] ET.M2C_ChangeMap  (IActorMessage,IMessage)
+    [2] X: float
+    [3] Y: float
+    [4] MapId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20034] ET.M2C_EnterMap  (IActorMessage,IMessage)
+    [1] UnitInfo: ET.UnitPosInfo
+    [2] PvpUnitCharacter: ET.UnitCharacter
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20035] ET.M2C_Stop  (IActorMessage,IMessage)
+    [1] Id: long
+    [2] X: float
+    [3] Y: float
+    [4] YAngle: int
+    [5] Error: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20036] ET.M2C_UnitsInMap  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20037] ET.M2C_LeaveMap  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20038] ET.M2C_OffLine  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20039] ET.M2C_StartupTransPoint  (IActorMessage,IMessage)
+    [1] MapId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20040] ET.C2M_StopMove  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20041] ET.C2G_GetNotice  (IRequest,IMessage)  -> ET.G2C_GetNotice
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20042] ET.G2C_GetNotice  (IResponse,IMessage)
+    [1] Notice: string
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20043] ET.C2M_BackMainCity  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_BackMainCity
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20044] ET.M2C_BackMainCity  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20045] ET.C2M_GetBuffTime  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20046] ET.C2M_AddExp  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [1] Exp: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20047] ET.M2C_InitMainStoryMap  (IActorMessage,IMessage)
+    [1] MainStoryId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20048] ET.C2M_StartMainStoryFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartMainStoryFight
+    [1] Region: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20049] ET.M2C_StartMainStoryFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20050] ET.M2C_MainStoryMonsterInfo  (IActorMessage,IMessage)
+    [2] battleType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20051] ET.MonsterUnitInfo  ()
+    [1] Id: long
+    [2] MonsterId: int
+
+## [20052] ET.ReMonsterUnitInfo  ()
+    [1] Id: long
+    [2] MonsterId: int
+    [3] Hp: int
+    [4] MaxHp: int
+
+## [20053] ET.M2C_ReMainStoryMonsterInfo  (IActorMessage,IMessage)
+    [2] battleType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20054] ET.M2C_BattleVictory  (IActorMessage,IMessage)
+    [1] BattleType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20055] ET.M2C_BattleDefeat  (IActorMessage,IMessage)
+    [1] BattleType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20056] ET.M2C_BossRefresh  (IActorMessage,IMessage)
+    [1] BossId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20057] ET.C2M_StartBossFightRequest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartBossFightRequest
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20058] ET.M2C_StartBossFightRequest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] Key: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20059] ET.C2M_StartBossFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartBossFight
+    [2] Key: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20060] ET.M2C_StartBossFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20061] ET.M2C_SendBossInfo  (IActorMessage,IMessage)
+    [1] BossId: int
+    [2] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20062] ET.M2C_ReSendBossInfo  (IActorMessage,IMessage)
+    [1] BossId: int
+    [2] UnitId: long
+    [3] Hp: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20063] ET.M2C_BossFightVictory  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20064] ET.M2C_BossFightDefeat  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20065] ET.M2C_BossDead  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20066] ET.M2C_BossBeDefeat  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20067] ET.RewardItem  ()
+    [1] Id: int
+    [2] ItemType: ET.ItemType
+    [3] Count: int
+
+## [20068] ET.StateBuffInfo  ()
+    [1] StateType: int
+    [2] Layer: int
+    [3] UserData: int
+
+## [20069] ET.C2M_AutoBattle  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AutoBattle
+    [1] isAuto: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20070] ET.M2C_AutoBattle  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20071] ET.C2M_SelectEnermy  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SelectEnermy
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20072] ET.M2C_SelectEnermy  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20073] ET.C2M_SelectTeamMember  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SelectTeamMember
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20074] ET.M2C_SelectTeamMember  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20075] ET.M2C_PlaySkill  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] SkillId: int
+    [3] CoolTime: int
+    [4] TargetId: long
+    [5] MpCost: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20076] ET.M2C_MonsterPlaySkill  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] SkillId: int
+    [3] TargetId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20077] ET.M2C_PlaySkillEffect  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [4] TargetId: long
+    [6] Time: int
+    [8] EffectPos: int
+    [9] EffectId: int
+    [10] EffectTargetType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20078] ET.M2C_BattleSkillRet  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] ChangeHpValue: int
+    [3] IsCrit: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20079] ET.M2C_BattleChangeMP  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] ChangeMPValue: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20080] ET.M2C_BattleChangeState  (IActorMessage,IMessage)
+    [1] Id: long
+    [2] TargetUnitId: long
+    [3] IconId: string
+    [4] IconDesc: string
+    [6] Type: ChangeType
+    [7] Time: int
+    [8] IsBuff: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20081] ET.M2C_BattleTouchState  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] TargetUnitId: long
+    [3] StateType: int
+    [4] UserData: int
+    [5] EffectId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20082] ET.M2C_MainstoryMonsterDead  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20083] ET.M2C_UnitDead  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20084] ET.M2C_SendReward  (IActorMessage,IMessage)
+    [2] Exp: long
+    [3] Coin: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20085] ET.C2M_GetBattleStateBuff  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetBattleStateBuff
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20086] ET.M2C_GetBattleStateBuff  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20087] ET.C2M_StartBattleIdleFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartBattleIdleFight
+    [1] SceneId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20088] ET.M2C_StartBattleIdleFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20089] ET.C2M_EndBattleIdleFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_EndBattleIdleFight
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20090] ET.M2C_EndBattleIdleFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20091] ET.M2C_InitTrialCopyMap  (IActorMessage,IMessage)
+    [1] TrialCopyId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20092] ET.C2M_StartTrialCopyFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartTrialCopyFight
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20093] ET.M2C_StartTrialCopyFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] TrialCopyId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20094] ET.C2M_StartPKFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartPKFight
+    [1] TargetId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20095] ET.M2C_StartPKFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20096] ET.M2C_SendStartPK  (IActorMessage,IMessage)
+    [2] battleType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20097] ET.M2C_PKFightVictory  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20098] ET.M2C_PKFightDefeat  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20099] ET.M2C_SendManulEquipMonsterInfo  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20100] ET.M2C_ReSendManulEquipMonsterInfo  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20101] ET.C2M_StartTestBattleFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartTestBattleFight
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20102] ET.M2C_StartTestBattleFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20103] ET.C2M_EndTestBattleFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_EndTestBattleFight
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20104] ET.M2C_EndTestBattleFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20105] ET.FriendInfo  ()
+    [1] Id: long
+    [2] Name: string
+    [3] Job: ET.JobType
+    [4] Level: int
+    [5] LastLginTime: long
+
+## [20106] ET.RequestAddFriendInfo  ()
+    [1] Name: string
+    [2] Level: int
+    [3] Job: ET.JobType
+    [4] Sex: ET.SexType
+    [5] Id: long
+
+## [20107] ET.C2M_GetFriend  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetFriend
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20108] ET.M2C_GetFriend  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20109] ET.C2M_FindFriend  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_FindFriend
+    [1] Name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20110] ET.M2C_FindFriend  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Id: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20111] ET.C2M_AddFriend  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AddFriend
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20112] ET.M2C_AddFriend  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20113] ET.M2C_SendAddFriendRequest  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20114] ET.C2M_HandleAddFriend  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_HandleAddFriend
+    [1] IsAgree: bool
+    [2] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20115] ET.M2C_HandleAddFriend  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20116] ET.M2C_HandleAddFriendResult  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20117] ET.C2M_DeleteFriend  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteFriend
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20118] ET.M2C_DeleteFriend  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20119] ET.FamilyMemberInfo  ()
+    [1] Id: long
+    [2] Name: string
+    [3] Job: ET.JobType
+    [4] Level: int
+    [5] LastLginTime: long
+
+## [20120] ET.FamilyPositionMap  ()
+    [2] Name: string
+    [3] Position: ET.FamilyPosition
+
+## [20121] ET.FamilyContributionMap  ()
+    [1] Id: long
+    [2] Value: int
+
+## [20122] ET.FamilyInfo  ()
+    [1] Level: int
+    [2] Hornor: int
+    [3] Name: string
+    [5] Notice: string
+
+## [20123] ET.C2M_CrateFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_CrateFamily
+    [1] Name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20124] ET.M2C_CrateFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [3] Info: ET.FamilyInfo
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20125] ET.C2M_GetFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetFamily
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20126] ET.M2C_GetFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [3] Info: ET.FamilyInfo
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20127] ET.C2M_FindFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_FindFamily
+    [1] Name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20128] ET.M2C_FindFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [3] Info: ET.FamilyInfo
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20129] ET.C2M_DeleteFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteFamily
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20130] ET.M2C_DeleteFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20131] ET.C2M_RequestEnterFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RequestEnterFamily
+    [1] Name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20132] ET.M2C_RequestEnterFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20133] ET.C2M_LeaveFamily  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_LeaveFamily
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20134] ET.M2C_LeaveFamily  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20135] ET.C2M_HandleEnterFamiy  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_HandleEnterFamiy
+    [1] IsAgree: bool
+    [2] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20136] ET.M2C_HandleEnterFamiy  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20137] ET.C2M_DeleteFamilyMember  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteFamilyMember
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20138] ET.M2C_DeleteFamilyMember  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20139] ET.C2M_GetFamilyBossInfo  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetFamilyBossInfo
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20140] ET.BossInfo  ()
+    [1] Index: int
+    [2] Hp: int
+    [3] MaxHp: int
+    [4] HasReward: bool
+
+## [20141] ET.M2C_GetFamilyBossInfo  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20142] ET.C2M_StartFamilyBossFight  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartFamilyBossFight
+    [1] BossId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20143] ET.M2C_StartFamilyBossFight  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20144] ET.M2C_SendFamilyBossInfo  (IActorMessage,IMessage)
+    [1] BossId: int
+    [2] UnitId: long
+    [3] Hp: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20145] ET.M2C_ReSendFamilyBossInfo  (IActorMessage,IMessage)
+    [1] BossId: int
+    [2] UnitId: long
+    [3] Hp: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20146] ET.BossDamagePerMemberMap  ()
+    [1] Id: long
+    [2] Name: string
+    [3] Damage: int
+    [4] Treat: int
+
+## [20147] ET.BossDamageMap  ()
+    [1] TotalDamage: int
+
+## [20148] ET.C2M_GetBossDamageMap  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetBossDamageMap
+    [1] BossId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20149] ET.M2C_GetBossDamageMap  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20150] ET.C2M_GetFamilyBossReward  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetFamilyBossReward
+    [1] BossId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20151] ET.ItemInfo  ()
+    [1] Id: int
+    [2] Count: int
+
+## [20152] ET.M2C_GetFamilyBossReward  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20153] ET.HandleInfo  ()
+    [1] Id: long
+    [2] Bool: bool
+
+## [20154] ET.C2M_RequestTeam  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RequestTeam
+    [1] TargetId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20155] ET.M2C_RequestTeam  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20156] ET.C2M_InviteTeam  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_InviteTeam
+    [1] TargetId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20157] ET.M2C_InviteTeam  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20158] ET.M2C_RequestList  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] TimeOut: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20159] ET.M2C_InviteList  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] TimeOut: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20160] ET.C2M_HandleTeam  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_HandleTeam
+    [1] HandleInfo: ET.HandleInfo
+    [2] IsRequest: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20161] ET.M2C_HandleTeam  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20162] ET.M2C_TeamMember  (IActorMessage,IMessage)
+    [1] LeaderId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20163] ET.C2M_TransferTeamLeader  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TransferTeamLeader
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20164] ET.M2C_TransferTeamLeader  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20165] ET.C2M_QuitTeam  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_QuitTeam
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20166] ET.M2C_QuitTeam  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20167] ET.C2M_KickoutTeam  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_KickoutTeam
+    [1] TargetId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20168] ET.M2C_KickoutTeam  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20169] ET.M2C_SyncUnitAttribute  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [2] NumericType: int
+    [3] Value: float
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20170] ET.M2C_SyncUnitAttributeList  (IActorMessage,IMessage)
+    [1] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20171] ET.C2M_QuitBattle  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20172] ET.C2M_GetMarket  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetMarket
+    [1] PageIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20173] ET.M2C_GetMarket  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Discount: float
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20174] ET.C2M_BuyInShop  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_BuyInShop
+    [1] PageIndex: int
+    [2] SlotIndex: int
+    [3] Count: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20175] ET.M2C_BuyInShop  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20176] ET.C2M_BuyInMarket  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_BuyInMarket
+    [1] PageIndex: int
+    [2] SlotIndex: int
+    [3] Count: int
+    [4] Type: ET.MarketType
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20177] ET.M2C_BuyInMarket  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20178] ET.C2M_SellItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SellItem
+    [2] SlotIndex: int
+    [3] Count: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20179] ET.M2C_SellItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20180] ET.ConsignMap  ()
+    [1] ConsignItemId: long
+    [2] UnitId: long
+    [3] Name: string
+    [4] RemainTime: long
+    [5] Item: ET.NetItem
+    [6] EquipTransMessage: ET.EquipTransMessage
+    [7] Price: long
+    [8] NeedPwd: bool
+
+## [20181] ET.C2M_GetConsignment  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetConsignment
+    [1] JobType: ET.JobType
+    [2] ItemType: ET.ItemType
+    [3] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20182] ET.M2C_GetConsignment  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] TotalPage: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20183] ET.C2M_PutInConsignment  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_PutInConsignment
+    [1] Index: int
+    [2] Price: long
+    [3] Count: int
+    [4] Pwd: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20184] ET.M2C_PutInConsignment  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20185] ET.C2M_BuyInConsignment  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_BuyInConsignment
+    [1] ConsignmentId: long
+    [2] UnitId: long
+    [3] Pwd: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20186] ET.M2C_BuyInConsignment  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20187] ET.M2C_OpenStoreUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20188] ET.C2M_GetStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetStore
+    [1] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20189] ET.M2C_GetStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] Coin: long
+    [3] Total: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20190] ET.C2M_SortStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SortStore
+    [1] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20191] ET.M2C_SortStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20192] ET.C2M_PutInStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_PutInStore
+    [1] BagIndex: int
+    [3] Count: int
+    [4] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20193] ET.M2C_PutInStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20194] ET.C2M_TakeOffStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TakeOffStore
+    [1] StoreIndex: int
+    [3] Count: int
+    [4] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20195] ET.M2C_TakeOffStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20196] ET.C2M_PutCoinInStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_PutCoinInStore
+    [2] Coin: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20197] ET.M2C_PutCoinInStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] Coin: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20198] ET.C2M_TakeCoinOutStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TakeCoinOutStore
+    [2] Coin: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20199] ET.M2C_TakeCoinOutStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] Coin: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20200] ET.C2M_QueryExtandPrice  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_QueryExtandPrice
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20201] ET.M2C_QueryExtandPrice  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] Coin: long
+    [3] Voucher: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20202] ET.C2M_ExtandStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ExtandStore
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20203] ET.M2C_ExtandStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20204] ET.C2M_ForgeEquip  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ForgeEquip
+    [2] Id: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20205] ET.M2C_ForgeEquip  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20206] ET.C2M_ClickNPC  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ClickNPC
+    [1] NPCId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20207] ET.M2C_ClickNPC  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20208] ET.M2C_OpenMeltEquipUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20209] ET.M2C_OpenShopUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20210] ET.M2C_OpenConsignmentUI  (IActorMessage,IMessage)
+    [1] TotalPage: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20211] ET.M2C_OpenForgeUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20212] ET.C2M_MeltEquip  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_MeltEquip
+    [1] EquipIndex: int
+    [2] GemIndex: int
+    [3] AttributeIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20213] ET.M2C_MeltEquip  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20214] ET.TansferTask  ()
+    [1] Id: int
+
+## [20215] ET.NPCTask  ()
+    [1] Id: int
+    [2] TaskState: ET.TaskState
+
+## [20216] ET.M2C_OpenTaskUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20217] ET.C2M_AcceptTask  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AcceptTask
+    [1] TaskId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20218] ET.M2C_AcceptTask  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20219] ET.C2M_CompleteTask  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_CompleteTask
+    [1] TaskId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20220] ET.M2C_CompleteTask  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20221] ET.C2M_GetTask  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetTask
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20222] ET.M2C_GetTask  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20223] ET.C2M_GetTaskState  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetTaskState
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20224] ET.M2C_GetTaskState  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20225] ET.M2C_SendTaskState  (IActorMessage,IMessage)
+    [1] NPCState: ET.NPCTask
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20226] ET.MainUISlotInfo  ()
+    [1] Id: int
+    [2] MainUIType: ET.MainUIType
+    [3] Level: int
+    [4] ItemCount: int
+    [5] Index: int
+
+## [20227] ET.C2M_GetMainUISetting  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetMainUISetting
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20228] ET.M2C_GetMainUISetting  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] IsAutoSkill: bool
+    [3] IsDisplayOthers: bool
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20229] ET.C2M_DropSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DropSkill
+    [1] SlotId: int
+    [2] SkillId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20230] ET.M2C_DropSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20231] ET.C2M_DropItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DropItem
+    [1] SlotId: int
+    [2] BagIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20232] ET.M2C_DropItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20233] ET.C2M_UseMainUISkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_UseMainUISkill
+    [1] SlotId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20234] ET.M2C_UseMainUISkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20235] ET.C2M_UseMainUIGoods  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_UseMainUIGoods
+    [1] SlotId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20236] ET.M2C_UseMainUIGoods  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20237] ET.M2C_StartCD  (IActorMessage,IMessage)
+    [1] Time: int
+    [2] Id: int
+    [3] SkillCD: int
+    [4] Type: ET.MainUIType
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20238] ET.SkillInfo  ()
+    [1] SkillId: int
+    [2] SkillLevel: int
+
+## [20239] ET.C2M_GetSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetSkill
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20240] ET.M2C_GetSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20241] ET.C2M_SaveAutoSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SaveAutoSkill
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20242] ET.M2C_SaveAutoSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20243] ET.C2M_LearnSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_LearnSkill
+    [1] SkillId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20244] ET.M2C_LearnSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20245] ET.C2M_FreeReSetSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_FreeReSetSkill
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20246] ET.M2C_FreeReSetSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20247] ET.C2M_GetReSetSkillPrice  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetReSetSkillPrice
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20248] ET.M2C_GetReSetSkillPrice  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Voucher: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20249] ET.C2M_ReSetSkill  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ReSetSkill
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20250] ET.M2C_ReSetSkill  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20251] ET.C2M_GetCharacter  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetCharacter
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20252] ET.M2C_GetCharacter  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] UnitCharacter: ET.UnitCharacter
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20253] ET.C2M_AddPoint  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AddPoint
+    [2] Trans: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20254] ET.M2C_AddPoint  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Character: ET.UnitCharacter
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20255] ET.C2M_ResetPoint  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ResetPoint
+    [2] Trans: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20256] ET.M2C_ResetPoint  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Character: ET.UnitCharacter
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20257] ET.M2C_SendCharacter  (IActorMessage,IMessage)
+    [1] UnitCharacter: ET.UnitCharacter
+    [3] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20258] ET.C2M_GetBag  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetBag
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20259] ET.M2C_GetBag  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20260] ET.M2C_SendBag  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20261] ET.C2M_AddRandomItem  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [1] ItemType: ET.ItemType
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20262] ET.M2C_SendTip  (IActorMessage,IMessage)
+    [1] Message: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20263] ET.C2M_DeleteItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteItem
+    [1] Index: int
+    [2] Count: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20264] ET.M2C_DeleteItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20265] ET.C2M_ChangeItemPos  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ChangeItemPos
+    [1] Pos1: int
+    [2] Pos2: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20266] ET.M2C_ChangeItemPos  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20267] ET.C2M_SplitItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SplitItem
+    [1] Index: int
+    [2] Count: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20268] ET.M2C_SplitItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20269] ET.C2M_SortBag  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SortBag
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20270] ET.M2C_SortBag  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20271] ET.C2M_PutOn  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_PutOn
+    [1] Index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20272] ET.M2C_PutOn  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20273] ET.C2M_Takeoff  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_Takeoff
+    [1] Index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20274] ET.M2C_Takeoff  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20275] ET.C2M_UseGoods  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_UseGoods
+    [1] Index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20276] ET.M2C_UseGoods  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20277] ET.C2M_Upgrade  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_Upgrade
+    [1] Index: int
+    [2] isLock: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20278] ET.M2C_Upgrade  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20279] ET.MailItem  ()
+    [1] ItemId: int
+    [4] Count: long
+    [5] IsLock: bool
+    [6] IsHasItem: bool
+
+## [20280] ET.Mail  ()
+    [2] Title: string
+    [3] Content: string
+    [4] RemainTime: long
+    [5] SenderName: string
+    [7] State: ET.MailState
+    [8] Id: long
+
+## [20281] ET.C2M_GetMail  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetMail
+    [1] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20282] ET.M2C_GetMail  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] MailCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20283] ET.C2M_ReceiveMail  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ReceiveMail
+    [1] MailId: long
+    [2] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20284] ET.M2C_ReceiveMail  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [3] MailCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20285] ET.C2M_DeleteMail  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteMail
+    [1] MailId: long
+    [2] Page: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20286] ET.M2C_DeleteMail  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] MailCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20287] ET.C2M_ReceiveAllMail  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ReceiveAllMail
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20288] ET.M2C_ReceiveAllMail  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] MailCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20289] ET.C2M_DeleteAllMail  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DeleteAllMail
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20290] ET.M2C_DeleteAllMail  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [2] MailCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20291] ET.RankingInfo  ()
+    [1] Name: string
+    [2] Job: string
+    [3] Value: float
+
+## [20292] ET.C2M_GetRanking  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetRanking
+    [1] Index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20293] ET.M2C_GetRanking  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20294] ET.C2M_GetOpenRemoteStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetOpenRemoteStore
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20295] ET.M2C_GetOpenRemoteStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Price: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20296] ET.C2M_OpenRemoteStore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_OpenRemoteStore
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20297] ET.M2C_OpenRemoteStore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20298] ET.C2M_RequestChat  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RequestChat
+    [1] Content: string
+    [2] Type: ET.ChatType
+    [3] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20299] ET.M2C_RequestChat  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20300] ET.M2C_SendNormalChat  (IActorMessage,IMessage)
+    [1] Content: string
+    [2] Type: ET.ChatType
+    [3] Id: long
+    [4] Name: string
+    [5] IsSystemBrocast: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20301] ET.M2C_SendSystemChat  (IActorMessage,IMessage)
+    [2] Type: ET.ChatType
+    [4] Name: string
+    [5] IsSystemBrocast: bool
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20302] ET.M2C_OpenQuestUI  (IActorMessage,IMessage)
+    [1] Card: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20303] ET.QuestScordInfo  ()
+    [1] Id: long
+    [2] Scord: int
+    [3] Name: string
+    [4] Level: int
+    [5] Time: long
+
+## [20304] ET.C2M_StartAnswerQuest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartAnswerQuest
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20305] ET.M2C_StartAnswerQuest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] ConfigId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20306] ET.C2M_NextAnswerQuest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_NextAnswerQuest
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20307] ET.M2C_NextAnswerQuest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] ConfigId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20308] ET.C2M_AnswerQuest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AnswerQuest
+    [1] Answer: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20309] ET.M2C_AnswerQuest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Time: int
+    [2] ContinueCorrectCount: int
+    [3] Scord: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20310] ET.C2M_GetQuestScordInfo  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetQuestScordInfo
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20311] ET.M2C_GetQuestScordInfo  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20312] ET.C2M_ChargeVoucher  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ChargeVoucher
+    [1] YuanBao: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20313] ET.M2C_ChargeVoucher  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20314] ET.C2M_ChargeCoin  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ChargeCoin
+    [1] Gem: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20315] ET.M2C_ChargeCoin  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20316] ET.C2M_GetAddEnergyPrice  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetAddEnergyPrice
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20317] ET.M2C_GetAddEnergyPrice  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Price: int
+    [2] Energy: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20318] ET.C2M_AddEnergy  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AddEnergy
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20319] ET.M2C_AddEnergy  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20320] ET.M2C_CreateMapMonster  (IActorMessage,IMessage)
+    [1] Id: long
+    [2] X: float
+    [3] Y: float
+    [4] ConfigId: int
+    [5] MapMonsterType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20321] ET.M2C_DisposeMapMonster  (IActorMessage,IMessage)
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20322] ET.C2M_StartManulEquipBattle  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartManulEquipBattle
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20323] ET.M2C_StartManulEquipBattle  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] ConfigId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20324] ET.C2M_MakeMunalEquip  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_MakeMunalEquip
+    [1] Type: int
+    [2] IsRare: StoneType
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20325] ET.M2C_MakeMunalEquip  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20326] ET.C2M_RequestPersonalPvp  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RequestPersonalPvp
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20327] ET.M2C_RequestPersonalPvp  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20328] ET.G2C_ForceOffLine  (IMessage)
+
+## [20329] ET.C2M_TestRequest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TestRequest
+    [1] request: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20330] ET.M2C_TestRequest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] response: string
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20331] ET.C2M_TransferRequest  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TransferRequest
+    [1] MapIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20332] ET.M2C_TransferRequest  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20333] ET.C2G_Ping  (IRequest,IMessage)  -> ET.G2C_Ping
+    [90] RpcId: int
+
+## [20334] ET.G2C_Ping  (IResponse,IMessage)
+    [1] Time: long
+    [2] Token: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20335] ET.G2C_Test  (IMessage)
+
+## [20336] ET.C2M_Reload  (IRequest,IMessage)  -> ET.M2C_Reload
+    [1] Account: string
+    [2] Password: string
+    [90] RpcId: int
+
+## [20337] ET.M2C_Reload  (IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20338] ET.C2M_GetPvpBoardInfo  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetPvpBoardInfo
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20339] ET.M2C_GetPvpBoardInfo  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] battleCount: int
+    [2] scord: int
+    [3] isMatch: bool
+    [4] matchCount: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20340] ET.C2M_StrengthEquip  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StrengthEquip
+    [1] bagIndex: int
+    [2] plusItemIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20341] ET.M2C_StrengthEquip  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] isSuccess: bool
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20342] ET.C2M_TransLevel  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TransLevel
+    [1] Level: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20343] ET.M2C_TransLevel  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20344] ET.PvpRankInfo  ()
+    [1] name: string
+    [2] level: int
+    [3] scord: int
+    [4] jobIs: int
+
+## [20345] ET.C2M_RefreshEquipMainAttribute  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RefreshEquipMainAttribute
+    [1] bagIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20346] ET.M2C_RefreshEquipMainAttribute  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20347] ET.C2M_RefreshEquipAffix  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_RefreshEquipAffix
+    [1] bagIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20348] ET.M2C_RefreshEquipAffix  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20349] ET.C2M_DismountGem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_DismountGem
+    [1] bagIndex: int
+    [2] gemIndex: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20350] ET.M2C_DismountGem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20351] ET.C2M_GetMapCoin  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetMapCoin
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20352] ET.M2C_GetMapCoin  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20353] ET.C2M_AddMapCoinCount  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_AddMapCoinCount
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20354] ET.M2C_AddMapCoinCount  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20355] ET.C2M_TransferJob  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_TransferJob
+    [1] jobType: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20356] ET.M2C_TransferJob  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20357] ET.C2M_GetUserInfo  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetUserInfo
+    [1] Id: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20358] ET.M2C_GetUserInfo  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] Name: string
+    [2] Level: int
+    [3] JobId: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20359] ET.C2M_SendGMCMD  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_SendGMCMD
+    [1] cmd: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20360] ET.M2C_SendGMCMD  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20361] ET.C2M_OpenGMUI  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_OpenGMUI
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20362] ET.M2C_OpenGMUI  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20363] ET.C2M_ChangeNickName  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ChangeNickName
+    [1] name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20364] ET.M2C_ChangeNickName  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20365] ET.C2M_StartMainStoryAI  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartMainStoryAI
+    [1] Index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20366] ET.M2C_StartMainStoryAI  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20367] ET.C2M_EndMainStoryAI  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_EndMainStoryAI
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20368] ET.M2C_EndMainStoryAI  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20369] ET.C2M_SendQMacro  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20370] ET.M2C_SyncPet  (IActorMessage,IMessage)
+    [1] petId: int
+    [2] level: int
+    [3] exp: int
+    [4] intimacy: int
+    [5] name: string
+    [6] isShow: bool
+    [7] UnitId: long
+    [8] active: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20371] ET.C2M_ShowPet  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20372] ET.M2C_OpenSpaceTravelNpcUI  (IActorMessage,IMessage)
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20373] ET.C2M_GetAllTrialCopyReword  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetAllTrialCopyReword
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20374] ET.M2C_GetAllTrialCopyReword  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20375] ET.C2M_GetPetInfo  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetPetInfo
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20376] ET.M2C_GetPetInfo  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] eatCount: int
+    [2] active: int
+    [3] petState: int
+    [4] remainTime: long
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20377] ET.C2M_StartPetPlay  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartPetPlay
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20378] ET.M2C_StartPetPlay  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20379] ET.C2M_StartPetExplore  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartPetExplore
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20380] ET.M2C_StartPetExplore  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20381] ET.C2M_StartPetExperience  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartPetExperience
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20382] ET.M2C_StartPetExperience  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20383] ET.C2M_EndPetAction  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_EndPetAction
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20384] ET.M2C_EndPetAction  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20385] ET.C2M_GetPetActionReword  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetPetActionReword
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20386] ET.M2C_GetPetActionReword  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20387] ET.C2M_GetPetQuickEndPrice  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetPetQuickEndPrice
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20388] ET.M2C_GetPetQuickEndPrice  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [1] voucher: int
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20389] ET.C2M_UpgradePet  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_UpgradePet
+    [1] index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20390] ET.M2C_UpgradePet  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20391] ET.C2M_ClickMapUnit  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ClickMapUnit
+    [1] Id: long
+    [2] type: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20392] ET.M2C_ClickMapUnit  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20393] ET.C2M_StartSpaceTravel  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartSpaceTravel
+    [1] index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20394] ET.M2C_StartSpaceTravel  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20395] ET.StarSoulNetItem  ()
+    [1] Id: long
+    [2] typeId: int
+    [3] level: int
+    [4] exp: int
+    [5] posType: int
+    [6] quality: int
+    [7] isUsed: bool
+    [8] main: int
+    [11] isLocked: bool
+
+## [20396] ET.C2M_GetStarSoulBag  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetStarSoulBag
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20397] ET.KV_int32_int64  ()
+    [1] key: int
+    [2] value: long
+
+## [20398] ET.KV_int32_int32  ()
+    [1] key: int
+    [2] value: int
+
+## [20399] ET.KV_string_int32  ()
+    [1] key: string
+    [2] value: int
+
+## [20400] ET.M2C_GetStarSoulBag  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20401] ET.M2C_SyncStarSoulBagInfo  (IActorMessage,IMessage)
+    [3] UnitId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20402] ET.M2C_SyncStarSoulBag  (IActorMessage,IMessage)
+    [1] Id: long
+    [2] item: ET.StarSoulNetItem
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20403] ET.M2C_SyncStarSoulBagItemUsed  (IActorMessage,IMessage)
+    [3] key: int
+    [4] value: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20404] ET.C2M_UpgradeStarSoulItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_UpgradeStarSoulItem
+    [2] itemId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20405] ET.M2C_UpgradeStarSoulItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20406] ET.C2M_PutonStarSoulItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_PutonStarSoulItem
+    [2] itemId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20407] ET.M2C_PutonStarSoulItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20408] ET.C2M_LockStarSoulItem  (IActorLocationMessage,IActorRequest,IRequest,IMessage)
+    [1] isLock: bool
+    [2] itemId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20409] ET.C2M_StartActive  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_StartActive
+    [2] itemId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20410] ET.M2C_StartActive  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20411] ET.C2M_GetUIDByName  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetUIDByName
+    [2] name: string
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20412] ET.M2C_GetUIDByName  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20413] ET.C2M_ResolveStarSoul  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ResolveStarSoul
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20414] ET.M2C_ResolveStarSoul  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20415] ET.C2M_ResolveAllStarSoul  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_ResolveAllStarSoul
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20416] ET.M2C_ResolveAllStarSoul  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20417] ET.C2M_BuyInMultiShop  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_BuyInMultiShop
+    [1] shopType: int
+    [2] index: int
+    [3] count: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20418] ET.M2C_BuyInMultiShop  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20419] ET.C2M_GetSigninReward  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetSigninReward
+    [1] configId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20420] ET.M2C_GetSigninReward  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20421] ET.C2M_GetSigninInMonthReward  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetSigninInMonthReward
+    [1] configId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20422] ET.M2C_GetSigninInMonthReward  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20423] ET.M2C_SendActiveInfo  (IActorMessage,IMessage)
+    [1] signinCurrId: int
+    [2] isGetSininReward: bool
+    [4] signinInMonthCount: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20424] ET.C2M_GetStarSoulItem  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetStarSoulItem
+    [1] configId: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20425] ET.M2C_GetStarSoulItem  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20426] ET.C2M_GetOtherUserBag  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GetOtherUserBag
+    [1] userId: long
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20427] ET.M2C_GetOtherUserBag  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string
+
+## [20428] ET.C2M_GMDelOtherUserBag  (IActorLocationRequest,IActorRequest,IRequest,IMessage)  -> ET.M2C_GMDelOtherUserBag
+    [1] userId: long
+    [2] index: int
+    [90] RpcId: int
+    [93] ActorId: long
+
+## [20429] ET.M2C_GMDelOtherUserBag  (IActorLocationResponse,IActorResponse,IResponse,IMessage)
+    [90] RpcId: int
+    [91] Error: int
+    [92] Message: string

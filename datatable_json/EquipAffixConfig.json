@@ -1,0 +1,2857 @@
+[
+ [
+  110001,
+  {
+   "_id": 110001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 5400
+    }
+   ]
+  }
+ ],
+ [
+  111000,
+  {
+   "_id": 111000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 7000
+    }
+   ]
+  }
+ ],
+ [
+  112000,
+  {
+   "_id": 112000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 14400
+    }
+   ]
+  }
+ ],
+ [
+  113000,
+  {
+   "_id": 113000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 21600
+    }
+   ]
+  }
+ ],
+ [
+  116000,
+  {
+   "_id": 116000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 30600
+    }
+   ]
+  }
+ ],
+ [
+  210001,
+  {
+   "_id": 210001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 3000
+    }
+   ]
+  }
+ ],
+ [
+  211000,
+  {
+   "_id": 211000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 5000
+    }
+   ]
+  }
+ ],
+ [
+  212000,
+  {
+   "_id": 212000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 8000
+    }
+   ]
+  }
+ ],
+ [
+  213000,
+  {
+   "_id": 213000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 12000
+    }
+   ]
+  }
+ ],
+ [
+  216000,
+  {
+   "_id": 216000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 17000
+    }
+   ]
+  }
+ ],
+ [
+  310001,
+  {
+   "_id": 310001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  311000,
+  {
+   "_id": 311000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  312000,
+  {
+   "_id": 312000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  313000,
+  {
+   "_id": 313000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  316000,
+  {
+   "_id": 316000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  410001,
+  {
+   "_id": 410001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  411000,
+  {
+   "_id": 411000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  412000,
+  {
+   "_id": 412000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  413000,
+  {
+   "_id": 413000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  416000,
+  {
+   "_id": 416000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  510001,
+  {
+   "_id": 510001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  511000,
+  {
+   "_id": 511000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  512000,
+  {
+   "_id": 512000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  513000,
+  {
+   "_id": 513000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  516000,
+  {
+   "_id": 516000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  610001,
+  {
+   "_id": 610001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  611000,
+  {
+   "_id": 611000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  612000,
+  {
+   "_id": 612000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  613000,
+  {
+   "_id": 613000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  616000,
+  {
+   "_id": 616000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  710001,
+  {
+   "_id": 710001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 15,
+     "Value": 0.003
+    }
+   ]
+  }
+ ],
+ [
+  711000,
+  {
+   "_id": 711000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 15,
+     "Value": 0.008
+    }
+   ]
+  }
+ ],
+ [
+  712000,
+  {
+   "_id": 712000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 15,
+     "Value": 0.015
+    }
+   ]
+  }
+ ],
+ [
+  713000,
+  {
+   "_id": 713000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 15,
+     "Value": 0.025
+    }
+   ]
+  }
+ ],
+ [
+  716000,
+  {
+   "_id": 716000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 15,
+     "Value": 0.04
+    }
+   ]
+  }
+ ],
+ [
+  810001,
+  {
+   "_id": 810001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 16,
+     "Value": 0.003
+    }
+   ]
+  }
+ ],
+ [
+  811000,
+  {
+   "_id": 811000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 16,
+     "Value": 0.008
+    }
+   ]
+  }
+ ],
+ [
+  812000,
+  {
+   "_id": 812000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 16,
+     "Value": 0.015
+    }
+   ]
+  }
+ ],
+ [
+  813000,
+  {
+   "_id": 813000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 16,
+     "Value": 0.025
+    }
+   ]
+  }
+ ],
+ [
+  816000,
+  {
+   "_id": 816000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 16,
+     "Value": 0.04
+    }
+   ]
+  }
+ ],
+ [
+  910001,
+  {
+   "_id": 910001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  911000,
+  {
+   "_id": 911000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.011
+    }
+   ]
+  }
+ ],
+ [
+  912000,
+  {
+   "_id": 912000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.02
+    }
+   ]
+  }
+ ],
+ [
+  913000,
+  {
+   "_id": 913000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.035
+    }
+   ]
+  }
+ ],
+ [
+  916000,
+  {
+   "_id": 916000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  1010001,
+  {
+   "_id": 1010001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  1011000,
+  {
+   "_id": 1011000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.011
+    }
+   ]
+  }
+ ],
+ [
+  1012000,
+  {
+   "_id": 1012000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.02
+    }
+   ]
+  }
+ ],
+ [
+  1013000,
+  {
+   "_id": 1013000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.035
+    }
+   ]
+  }
+ ],
+ [
+  1016000,
+  {
+   "_id": 1016000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  1110001,
+  {
+   "_id": 1110001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  1111000,
+  {
+   "_id": 1111000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 300
+    }
+   ]
+  }
+ ],
+ [
+  1112000,
+  {
+   "_id": 1112000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 480
+    }
+   ]
+  }
+ ],
+ [
+  1113000,
+  {
+   "_id": 1113000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 720
+    }
+   ]
+  }
+ ],
+ [
+  1116000,
+  {
+   "_id": 1116000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 1020
+    }
+   ]
+  }
+ ],
+ [
+  1210001,
+  {
+   "_id": 1210001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  1211000,
+  {
+   "_id": 1211000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 300
+    }
+   ]
+  }
+ ],
+ [
+  1212000,
+  {
+   "_id": 1212000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 480
+    }
+   ]
+  }
+ ],
+ [
+  1213000,
+  {
+   "_id": 1213000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 720
+    }
+   ]
+  }
+ ],
+ [
+  1216000,
+  {
+   "_id": 1216000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 1020
+    }
+   ]
+  }
+ ],
+ [
+  1310001,
+  {
+   "_id": 1310001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 26,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  1311000,
+  {
+   "_id": 1311000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 26,
+     "Value": 0.01
+    }
+   ]
+  }
+ ],
+ [
+  1312000,
+  {
+   "_id": 1312000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 26,
+     "Value": 0.03
+    }
+   ]
+  }
+ ],
+ [
+  1313000,
+  {
+   "_id": 1313000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 26,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  1316000,
+  {
+   "_id": 1316000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 26,
+     "Value": 0.08
+    }
+   ]
+  }
+ ],
+ [
+  1410001,
+  {
+   "_id": 1410001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 19,
+     "Value": 0.04
+    }
+   ]
+  }
+ ],
+ [
+  1411000,
+  {
+   "_id": 1411000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 19,
+     "Value": 0.08
+    }
+   ]
+  }
+ ],
+ [
+  1412000,
+  {
+   "_id": 1412000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 19,
+     "Value": 0.12
+    }
+   ]
+  }
+ ],
+ [
+  1413000,
+  {
+   "_id": 1413000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 19,
+     "Value": 0.16
+    }
+   ]
+  }
+ ],
+ [
+  1416000,
+  {
+   "_id": 1416000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 19,
+     "Value": 0.24
+    }
+   ]
+  }
+ ],
+ [
+  1510001,
+  {
+   "_id": 1510001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  1511000,
+  {
+   "_id": 1511000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 300
+    }
+   ]
+  }
+ ],
+ [
+  1512000,
+  {
+   "_id": 1512000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 480
+    }
+   ]
+  }
+ ],
+ [
+  1513000,
+  {
+   "_id": 1513000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 720
+    }
+   ]
+  }
+ ],
+ [
+  1516000,
+  {
+   "_id": 1516000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 1020
+    }
+   ]
+  }
+ ],
+ [
+  1610001,
+  {
+   "_id": 1610001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  1611000,
+  {
+   "_id": 1611000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 300
+    }
+   ]
+  }
+ ],
+ [
+  1612000,
+  {
+   "_id": 1612000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 480
+    }
+   ]
+  }
+ ],
+ [
+  1613000,
+  {
+   "_id": 1613000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 720
+    }
+   ]
+  }
+ ],
+ [
+  1616000,
+  {
+   "_id": 1616000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 1020
+    }
+   ]
+  }
+ ],
+ [
+  1710001,
+  {
+   "_id": 1710001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 13,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  1711000,
+  {
+   "_id": 1711000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 13,
+     "Value": 0.01
+    }
+   ]
+  }
+ ],
+ [
+  1712000,
+  {
+   "_id": 1712000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 13,
+     "Value": 0.03
+    }
+   ]
+  }
+ ],
+ [
+  1713000,
+  {
+   "_id": 1713000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 13,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  1716000,
+  {
+   "_id": 1716000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 13,
+     "Value": 0.08
+    }
+   ]
+  }
+ ],
+ [
+  1810001,
+  {
+   "_id": 1810001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 14,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  1811000,
+  {
+   "_id": 1811000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 14,
+     "Value": 0.01
+    }
+   ]
+  }
+ ],
+ [
+  1812000,
+  {
+   "_id": 1812000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 14,
+     "Value": 0.03
+    }
+   ]
+  }
+ ],
+ [
+  1813000,
+  {
+   "_id": 1813000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 14,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  1816000,
+  {
+   "_id": 1816000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 14,
+     "Value": 0.08
+    }
+   ]
+  }
+ ],
+ [
+  1910001,
+  {
+   "_id": 1910001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 17,
+     "Value": 0.0025
+    }
+   ]
+  }
+ ],
+ [
+  1911000,
+  {
+   "_id": 1911000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 17,
+     "Value": 0.015
+    }
+   ]
+  }
+ ],
+ [
+  1912000,
+  {
+   "_id": 1912000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 17,
+     "Value": 0.04
+    }
+   ]
+  }
+ ],
+ [
+  1913000,
+  {
+   "_id": 1913000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 17,
+     "Value": 0.065
+    }
+   ]
+  }
+ ],
+ [
+  1916000,
+  {
+   "_id": 1916000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 17,
+     "Value": 0.1
+    }
+   ]
+  }
+ ],
+ [
+  2010001,
+  {
+   "_id": 2010001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 18,
+     "Value": 0.0025
+    }
+   ]
+  }
+ ],
+ [
+  2011000,
+  {
+   "_id": 2011000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 18,
+     "Value": 0.015
+    }
+   ]
+  }
+ ],
+ [
+  2012000,
+  {
+   "_id": 2012000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 18,
+     "Value": 0.04
+    }
+   ]
+  }
+ ],
+ [
+  2013000,
+  {
+   "_id": 2013000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 18,
+     "Value": 0.065
+    }
+   ]
+  }
+ ],
+ [
+  2016000,
+  {
+   "_id": 2016000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 18,
+     "Value": 0.1
+    }
+   ]
+  }
+ ],
+ [
+  2110001,
+  {
+   "_id": 2110001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2111000,
+  {
+   "_id": 2111000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2112000,
+  {
+   "_id": 2112000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2113000,
+  {
+   "_id": 2113000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2116000,
+  {
+   "_id": 2116000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2210001,
+  {
+   "_id": 2210001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 21,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2211000,
+  {
+   "_id": 2211000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 21,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2212000,
+  {
+   "_id": 2212000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 21,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2213000,
+  {
+   "_id": 2213000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 21,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2216000,
+  {
+   "_id": 2216000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 21,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2310001,
+  {
+   "_id": 2310001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 25,
+     "Value": 0.005
+    }
+   ]
+  }
+ ],
+ [
+  2311000,
+  {
+   "_id": 2311000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 25,
+     "Value": 0.01
+    }
+   ]
+  }
+ ],
+ [
+  2312000,
+  {
+   "_id": 2312000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 25,
+     "Value": 0.03
+    }
+   ]
+  }
+ ],
+ [
+  2313000,
+  {
+   "_id": 2313000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 25,
+     "Value": 0.05
+    }
+   ]
+  }
+ ],
+ [
+  2316000,
+  {
+   "_id": 2316000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 25,
+     "Value": 0.08
+    }
+   ]
+  }
+ ],
+ [
+  2420001,
+  {
+   "_id": 2420001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 10800
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 6000
+    }
+   ]
+  }
+ ],
+ [
+  2421000,
+  {
+   "_id": 2421000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 14000
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 10000
+    }
+   ]
+  }
+ ],
+ [
+  2422000,
+  {
+   "_id": 2422000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 28800
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 16000
+    }
+   ]
+  }
+ ],
+ [
+  2423000,
+  {
+   "_id": 2423000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 43200
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 24000
+    }
+   ]
+  }
+ ],
+ [
+  2426000,
+  {
+   "_id": 2426000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 1,
+     "Value": 61200
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 2,
+     "Value": 34000
+    }
+   ]
+  }
+ ],
+ [
+  2520001,
+  {
+   "_id": 2520001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2521000,
+  {
+   "_id": 2521000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2522000,
+  {
+   "_id": 2522000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2523000,
+  {
+   "_id": 2523000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2526000,
+  {
+   "_id": 2526000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2620001,
+  {
+   "_id": 2620001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2621000,
+  {
+   "_id": 2621000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2622000,
+  {
+   "_id": 2622000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2623000,
+  {
+   "_id": 2623000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2626000,
+  {
+   "_id": 2626000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2720001,
+  {
+   "_id": 2720001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2721000,
+  {
+   "_id": 2721000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2722000,
+  {
+   "_id": 2722000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2723000,
+  {
+   "_id": 2723000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2726000,
+  {
+   "_id": 2726000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2820001,
+  {
+   "_id": 2820001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2821000,
+  {
+   "_id": 2821000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2822000,
+  {
+   "_id": 2822000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2823000,
+  {
+   "_id": 2823000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2826000,
+  {
+   "_id": 2826000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  2920001,
+  {
+   "_id": 2920001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  2921000,
+  {
+   "_id": 2921000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2922000,
+  {
+   "_id": 2922000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  2923000,
+  {
+   "_id": 2923000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  2926000,
+  {
+   "_id": 2926000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  3020001,
+  {
+   "_id": 3020001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 18
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 9
+    }
+   ]
+  }
+ ],
+ [
+  3021000,
+  {
+   "_id": 3021000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 30
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  3022000,
+  {
+   "_id": 3022000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 48
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 24
+    }
+   ]
+  }
+ ],
+ [
+  3023000,
+  {
+   "_id": 3023000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 72
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 36
+    }
+   ]
+  }
+ ],
+ [
+  3026000,
+  {
+   "_id": 3026000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 102
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 20,
+     "Value": 51
+    }
+   ]
+  }
+ ],
+ [
+  3130001,
+  {
+   "_id": 3130001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 360
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 600
+    }
+   ]
+  }
+ ],
+ [
+  3131000,
+  {
+   "_id": 3131000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 960
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 1440
+    }
+   ]
+  }
+ ],
+ [
+  3132000,
+  {
+   "_id": 3132000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 2040
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 360
+    }
+   ]
+  }
+ ],
+ [
+  3133000,
+  {
+   "_id": 3133000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 600
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 960
+    }
+   ]
+  }
+ ],
+ [
+  3136000,
+  {
+   "_id": 3136000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 9,
+     "Value": 1440
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 10,
+     "Value": 2040
+    }
+   ]
+  }
+ ],
+ [
+  3230001,
+  {
+   "_id": 3230001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.01
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 900
+    }
+   ]
+  }
+ ],
+ [
+  3231000,
+  {
+   "_id": 3231000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.022
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 1500
+    }
+   ]
+  }
+ ],
+ [
+  3232000,
+  {
+   "_id": 3232000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.04
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 2400
+    }
+   ]
+  }
+ ],
+ [
+  3233000,
+  {
+   "_id": 3233000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.07
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 3600
+    }
+   ]
+  }
+ ],
+ [
+  3236000,
+  {
+   "_id": 3236000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 11,
+     "Value": 0.1
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 7,
+     "Value": 5100
+    }
+   ]
+  }
+ ],
+ [
+  3330001,
+  {
+   "_id": 3330001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.01
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 900
+    }
+   ]
+  }
+ ],
+ [
+  3331000,
+  {
+   "_id": 3331000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.022
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 1500
+    }
+   ]
+  }
+ ],
+ [
+  3332000,
+  {
+   "_id": 3332000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.04
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 2400
+    }
+   ]
+  }
+ ],
+ [
+  3333000,
+  {
+   "_id": 3333000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.07
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 3600
+    }
+   ]
+  }
+ ],
+ [
+  3336000,
+  {
+   "_id": 3336000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 12,
+     "Value": 0.1
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 8,
+     "Value": 5100
+    }
+   ]
+  }
+ ],
+ [
+  3430001,
+  {
+   "_id": 3430001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 90
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 45
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 45
+    }
+   ]
+  }
+ ],
+ [
+  3431000,
+  {
+   "_id": 3431000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 150
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 75
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 75
+    }
+   ]
+  }
+ ],
+ [
+  3432000,
+  {
+   "_id": 3432000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 240
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 120
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 120
+    }
+   ]
+  }
+ ],
+ [
+  3433000,
+  {
+   "_id": 3433000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 360
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 180
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  3436000,
+  {
+   "_id": 3436000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 510
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 255
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 255
+    }
+   ]
+  }
+ ],
+ [
+  3530001,
+  {
+   "_id": 3530001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 90
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 45
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 45
+    }
+   ]
+  }
+ ],
+ [
+  3531000,
+  {
+   "_id": 3531000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 150
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 75
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 75
+    }
+   ]
+  }
+ ],
+ [
+  3532000,
+  {
+   "_id": 3532000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 240
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 120
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 120
+    }
+   ]
+  }
+ ],
+ [
+  3533000,
+  {
+   "_id": 3533000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 360
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 180
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  3536000,
+  {
+   "_id": 3536000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 510
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 255
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 255
+    }
+   ]
+  }
+ ],
+ [
+  3630001,
+  {
+   "_id": 3630001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 90
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 45
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 45
+    }
+   ]
+  }
+ ],
+ [
+  3631000,
+  {
+   "_id": 3631000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 150
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 75
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 75
+    }
+   ]
+  }
+ ],
+ [
+  3632000,
+  {
+   "_id": 3632000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 240
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 120
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 120
+    }
+   ]
+  }
+ ],
+ [
+  3633000,
+  {
+   "_id": 3633000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 360
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 180
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  3636000,
+  {
+   "_id": 3636000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 510
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 5,
+     "Value": 255
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 255
+    }
+   ]
+  }
+ ],
+ [
+  3730001,
+  {
+   "_id": 3730001,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 90
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 45
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 45
+    }
+   ]
+  }
+ ],
+ [
+  3731000,
+  {
+   "_id": 3731000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 150
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 75
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 75
+    }
+   ]
+  }
+ ],
+ [
+  3732000,
+  {
+   "_id": 3732000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 240
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 120
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 120
+    }
+   ]
+  }
+ ],
+ [
+  3733000,
+  {
+   "_id": 3733000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 360
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 180
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 180
+    }
+   ]
+  }
+ ],
+ [
+  3736000,
+  {
+   "_id": 3736000,
+   "AffixArr": [
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 3,
+     "Value": 510
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 4,
+     "Value": 255
+    },
+    {
+     "_t": "EquipAffixConfig+Affix",
+     "Key": 6,
+     "Value": 255
+    }
+   ]
+  }
+ ]
+]

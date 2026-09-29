@@ -1,0 +1,498 @@
+=== KService::Recv (RVA 0x105C8) ===
+    000C: ldarg.0
+    000D: ldfld socket
+    0012: brtrue 518
+    0017: ret
+    0018: ldarg.0
+    0019: ldfld socket
+    001E: ldarg.0
+    001F: ldfld cache
+    0024: ldarg.0
+    0025: ldflda ipEndPoint
+    002A: callvirt System.Net.Sockets.Socket::ReceiveFrom
+    002F: stloc.0
+    0030: ldloc.0
+    0031: ldc.i4.1
+    0032: blt 518
+    0037: ldarg.0
+    0038: ldfld cache
+    003D: ldc.i4.0
+    003E: ldelem.u1
+    003F: stloc.1
+    0040: ldc.i4.0
+    0041: stloc.2
+    0042: ldc.i4.0
+    0043: stloc.3
+    0044: ldnull
+    0045: stloc.s local(0x0004)
+    0047: ldloc.1
+    0048: ldc.i4.2
+    0049: sub
+    004A: switch [96, 205, 361]
+    005B: br 459
+    0060: ldloc.0
+    0061: ldc.i4.s 9
+    0063: bne.un 459
+    0068: ldarg.0
+    0069: ldfld cache
+    006E: ldc.i4.1
+    006F: call System.BitConverter::ToUInt32
+    0074: stloc.2
+    0075: ldarg.0
+    0076: ldfld cache
+    007B: ldc.i4.5
+    007C: call System.BitConverter::ToUInt32
+    0081: stloc.3
+    0082: ldarg.0
+    0083: ldloc.3
+    0084: call GetByLocalConn
+    0089: stloc.s local(0x0004)
+    008B: ldloc.s local(0x0004)
+    008D: brfalse 459
+    0092: ldstr 'kservice ack: {0} {1} {2}'
+    0097: ldloc.s local(0x0004)
+    0099: ldfld Id
+    009E: box System.Int64
+    00A3: ldloc.2
+    00A4: box System.UInt32
+    00A9: ldloc.3
+    00AA: box System.UInt32
+    00AF: call System.String::Format
+    00B4: call Info
+    00B9: ldloc.s local(0x0004)
+    00BB: ldloc.2
+    00BC: callvirt set_RemoteConn
+    00C1: ldloc.s local(0x0004)
+    00C3: callvirt HandleConnnect
+    00C8: br 459
+    00CD: ldloc.0
+    00CE: ldc.i4.s 13
+    00D0: bne.un 459
+    00D5: ldarg.0
+    00D6: ldfld cache
+    00DB: ldc.i4.1
+    00DC: call System.BitConverter::ToUInt32
+    00E1: stloc.2
+    00E2: ldarg.0
+    00E3: ldfld cache
+    00E8: ldc.i4.5
+    00E9: call System.BitConverter::ToUInt32
+    00EE: stloc.3
+    00EF: ldarg.0
+    00F0: ldfld cache
+    00F5: ldc.i4.s 9
+    00F7: call System.BitConverter::ToInt32
+    00FC: stloc.s local(0x0005)
+    00FE: ldarg.0
+    00FF: ldloc.3
+    0100: call GetByLocalConn
+    0105: stloc.s local(0x0004)
+    0107: ldloc.s local(0x0004)
+    0109: brfalse 459
+    010E: ldloc.s local(0x0004)
+    0110: callvirt get_RemoteConn
+    0115: ldloc.2
+    0116: bne.un 459
+    011B: ldstr 'kservice recv fin: {0} {1} {2} {3}'
+    0120: ldc.i4.4
+    0121: newarr System.Object
+    0126: dup
+    0127: ldc.i4.0
+    0128: ldloc.s local(0x0004)
+    012A: ldfld Id
+    012F: box System.Int64
+    0134: stelem.ref
+    0135: dup
+    0136: ldc.i4.1
+    0137: ldloc.3
+    0138: box System.UInt32
+    013D: stelem.ref
+    013E: dup
+    013F: ldc.i4.2
+    0140: ldloc.2
+    0141: box System.UInt32
+    0146: stelem.ref
+    0147: dup
+    0148: ldc.i4.3
+    0149: ldloc.s local(0x0005)
+    014B: box System.Int32
+    0150: stelem.ref
+    0151: call System.String::Format
+    0156: call Info
+    015B: ldloc.s local(0x0004)
+    015D: ldc.i4 100208
+    0162: callvirt OnError
+    0167: br.s 459
+    0169: ldloc.0
+    016A: ldc.i4.s 9
+    016C: blt.s 459
+    016E: ldarg.0
+    016F: ldfld cache
+    0174: ldc.i4.1
+    0175: call System.BitConverter::ToUInt32
+    017A: stloc.2
+    017B: ldarg.0
+    017C: ldfld cache
+    0181: ldc.i4.5
+    0182: call System.BitConverter::ToUInt32
+    0187: stloc.3
+    0188: ldarg.0
+    0189: ldloc.3
+    018A: call GetByLocalConn
+    018F: stloc.s local(0x0004)
+    0191: ldloc.s local(0x0004)
+    0193: brtrue.s 432
+    0195: ldarg.0
+    0196: ldloc.3
+    0197: ldloc.2
+    0198: ldc.i4 100216
+    019D: ldarg.0
+    019E: ldfld ipEndPoint
+    01A3: castclass System.Net.IPEndPoint
+    01A8: ldc.i4.1
+    01A9: call Disconnect
+    01AE: br.s 459
+    01B0: ldloc.s local(0x0004)
+    01B2: callvirt get_RemoteConn
+    01B7: ldloc.2
+    01B8: bne.un.s 459
+    01BA: ldloc.s local(0x0004)
+    01BC: ldarg.0
+    01BD: ldfld cache
+    01C2: ldc.i4.5
+    01C3: ldloc.0
+    01C4: ldc.i4.5
+    01C5: sub
+    01C6: callvirt HandleRecv
+    01CB: leave.s 518
+    01CD: stloc.s local(0x0006)
+    01CF: ldstr 'kservice error: {0} {1} {2}\n{3}'
+    01D4: ldc.i4.4
+    01D5: newarr System.Object
+    01DA: dup
+    01DB: ldc.i4.0
+    01DC: ldloc.1
+    01DD: box System.Byte
+    01E2: stelem.ref
+    01E3: dup
+    01E4: ldc.i4.1
+    01E5: ldloc.2
+    01E6: box System.UInt32
+    01EB: stelem.ref
+    01EC: dup
+    01ED: ldc.i4.2
+    01EE: ldloc.3
+    01EF: box System.UInt32
+    01F4: stelem.ref
+    01F5: dup
+    01F6: ldc.i4.3
+    01F7: ldloc.s local(0x0006)
+    01F9: stelem.ref
+    01FA: call System.String::Format
+    01FF: call Error
+    0204: leave.s 518
+    0206: ldarg.0
+    0207: ldfld socket
+    020C: brfalse.s 543
+    020E: ldarg.0
+    020F: ldfld socket
+    0214: callvirt System.Net.Sockets.Socket::get_Available
+    0219: ldc.i4.0
+    021A: bgt 24
+    021F: ret
+=== KService::Get (RVA 0x10804) ===
+    000C: ldarg.0
+    000D: ldfld idChannels
+    0012: ldarg.1
+    0013: ldloca.s local(0x0000)
+    0015: callvirt TryGetValue
+    001A: pop
+    001B: ldloc.0
+    001C: ret
+=== KService::Get (RVA 0x10844) ===
+    000C: ldarg.0
+    000D: ldfld idChannels
+    0012: ldarg.1
+    0013: ldloca.s local(0x0000)
+    0015: callvirt TryGetValue
+    001A: brfalse.s 29
+    001C: ret
+    001D: nop
+    001E: ldarg.1
+    001F: ldc.i4.m1
+    0020: conv.u8
+    0021: and
+    0022: conv.u4
+    0023: stloc.1
+    0024: ldarg.1
+    0025: ldloc.1
+    0026: ldarg.0
+    0027: ldfld socket
+    002C: ldarg.2
+    002D: ldarg.0
+    002E: newobj .ctor
+    0033: stloc.0
+    0034: ldarg.0
+    0035: ldfld idChannels
+    003A: ldarg.1
+    003B: ldloc.0
+    003C: callvirt Add
+    0041: ldarg.0
+    0042: ldfld localConnChannels
+    0047: ldloc.0
+    0048: callvirt get_LocalConn
+    004D: conv.u8
+    004E: ldloc.0
+    004F: callvirt Add
+    0054: leave.s 111
+    0056: stloc.2
+    0057: ldstr 'kservice get error: {0}\n{1}'
+    005C: ldarg.1
+    005D: box System.Int64
+    0062: ldloc.2
+    0063: call System.String::Format
+    0068: call Error
+    006D: leave.s 111
+    006F: ret
+=== KService::Send (RVA 0x10A54) ===
+    000C: ldarg.0
+    000D: ldarg.1
+    000E: call Get
+    0013: stloc.0
+    0014: ldloc.0
+    0015: brtrue.s 24
+    0017: ret
+    0018: ldloc.0
+    0019: ldarg.2
+    001A: ldarg.3
+    001B: callvirt Send
+    0020: ret
+=== KService::AddToUpdateNextTime (RVA 0x10A75) ===
+    0001: ldarg.1
+    0002: brtrue.s 18
+    0004: ldarg.0
+    0005: ldfld updateChannels
+    000A: ldarg.2
+    000B: callvirt Add
+    0010: pop
+    0011: ret
+    0012: ldarg.1
+    0013: ldarg.0
+    0014: ldfld minTime
+    0019: bge.s 34
+    001B: ldarg.0
+    001C: ldarg.1
+    001D: stfld minTime
+    0022: ldarg.0
+    0023: ldfld timeId
+    0028: ldarg.1
+    0029: ldarg.2
+    002A: callvirt Add
+    002F: ret
+=== KService::Update (RVA 0x10AA8) ===
+    000C: ldarg.0
+    000D: call Recv
+    0012: ldarg.0
+    0013: call TimerOut
+    0018: ldarg.0
+    0019: ldfld updateChannels
+    001E: callvirt GetEnumerator
+    0023: stloc.0
+    0024: br.s 71
+    0026: ldloca.s local(0x0000)
+    0028: call get_Current
+    002D: stloc.1
+    002E: ldarg.0
+    002F: ldloc.1
+    0030: call Get
+    0035: stloc.2
+    0036: ldloc.2
+    0037: brfalse.s 71
+    0039: ldloc.2
+    003A: ldfld Id
+    003F: brfalse.s 71
+    0041: ldloc.2
+    0042: callvirt Update
+    0047: ldloca.s local(0x0000)
+    0049: call MoveNext
+    004E: brtrue.s 38
+    0050: leave.s 96
+    0052: ldloca.s local(0x0000)
+    0054: constrained. TypeSpec::rid=287
+    005A: callvirt System.IDisposable::Dispose
+    005F: endfinally
+    0060: ldarg.0
+    0061: ldfld updateChannels
+    0066: callvirt Clear
+    006B: ldarg.0
+    006C: call RemoveConnectTimeoutChannels
+    0071: ret
+=== KService::RemoveConnectTimeoutChannels (RVA 0x10B2C) ===
+    000C: ldarg.0
+    000D: ldfld waitRemoveChannels
+    0012: callvirt Clear
+    0017: ldarg.0
+    0018: ldfld waitConnectChannels
+    001D: callvirt get_Keys
+    0022: callvirt GetEnumerator
+    0027: stloc.0
+    0028: br.s 143
+    002A: ldloca.s local(0x0000)
+    002C: call get_Current
+    0031: stloc.1
+    0032: ldarg.0
+    0033: ldfld waitConnectChannels
+    0038: ldloc.1
+    0039: ldloca.s local(0x0002)
+    003B: callvirt TryGetValue
+    0040: pop
+    0041: ldloc.2
+    0042: brtrue.s 91
+    0044: ldstr 'RemoveConnectTimeoutChannels not found kchannel: {0}'
+    0049: ldloc.1
+    004A: box System.Int64
+    004F: call System.String::Format
+    0054: call Error
+    0059: br.s 143
+    005B: ldloc.2
+    005C: callvirt get_IsConnected
+    0061: brfalse.s 111
+    0063: ldarg.0
+    0064: ldfld waitRemoveChannels
+    0069: ldloc.1
+    006A: callvirt Add
+    006F: ldarg.0
+    0070: call get_TimeNow
+    0075: ldloc.2
+    0076: ldfld CreateTime
+    007B: ldc.i4 10000
+    0080: add
+    0081: ble.un.s 143
+    0083: ldarg.0
+    0084: ldfld waitRemoveChannels
+    0089: ldloc.1
+    008A: callvirt Add
+    008F: ldloca.s local(0x0000)
+    0091: call MoveNext
+    0096: brtrue.s 42
+    0098: leave.s 168
+    009A: ldloca.s local(0x0000)
+    009C: constrained. TypeSpec::rid=289
+    00A2: callvirt System.IDisposable::Dispose
+    00A7: endfinally
+    00A8: ldarg.0
+    00A9: ldfld waitRemoveChannels
+    00AE: callvirt GetEnumerator
+    00B3: stloc.3
+    00B4: br.s 205
+    00B6: ldloca.s local(0x0003)
+    00B8: call get_Current
+    00BD: stloc.s local(0x0004)
+    00BF: ldarg.0
+    00C0: ldfld waitConnectChannels
+    00C5: ldloc.s local(0x0004)
+    00C7: callvirt Remove
+    00CC: pop
+    00CD: ldloca.s local(0x0003)
+    00CF: call MoveNext
+    00D4: brtrue.s 182
+    00D6: leave.s 230
+    00D8: ldloca.s local(0x0003)
+    00DA: constrained. TypeSpec::rid=115
+    00E0: callvirt System.IDisposable::Dispose
+    00E5: endfinally
+    00E6: ret
+=== KService::TimerOut (RVA 0x10C30) ===
+    000C: ldarg.0
+    000D: ldfld timeId
+    0012: callvirt get_Count
+    0017: brtrue.s 26
+    0019: ret
+    001A: ldarg.0
+    001B: call get_TimeNow
+    0020: stloc.0
+    0021: ldloc.0
+    0022: conv.u8
+    0023: ldarg.0
+    0024: ldfld minTime
+    0029: bge.s 44
+    002B: ret
+    002C: ldarg.0
+    002D: ldfld timeOutTime
+    0032: callvirt Clear
+    0037: ldarg.0
+    0038: ldfld timeId
+    003D: callvirt GetEnumerator
+    0042: stloc.1
+    0043: br.s 111
+    0045: ldloca.s local(0x0001)
+    0047: call get_Current
+    004C: stloc.2
+    004D: ldloca.s local(0x0002)
+    004F: call get_Key
+    0054: stloc.3
+    0055: ldloc.3
+    0056: ldloc.0
+    0057: conv.u8
+    0058: ble.s 99
+    005A: ldarg.0
+    005B: ldloc.3
+    005C: stfld minTime
+    0061: leave.s 136
+    0063: ldarg.0
+    0064: ldfld timeOutTime
+    0069: ldloc.3
+    006A: callvirt Add
+    006F: ldloca.s local(0x0001)
+    0071: call MoveNext
+    0076: brtrue.s 69
+    0078: leave.s 136
+    007A: ldloca.s local(0x0001)
+    007C: constrained. TypeSpec::rid=110
+    0082: callvirt System.IDisposable::Dispose
+    0087: endfinally
+    0088: ldarg.0
+    0089: ldfld timeOutTime
+    008E: callvirt GetEnumerator
+    0093: stloc.s local(0x0004)
+    0095: br.s 244
+    0097: ldloca.s local(0x0004)
+    0099: call get_Current
+    009E: stloc.s local(0x0005)
+    00A0: ldarg.0
+    00A1: ldfld timeId
+    00A6: ldloc.s local(0x0005)
+    00A8: callvirt get_Item
+    00AD: callvirt GetEnumerator
+    00B2: stloc.s local(0x0006)
+    00B4: br.s 205
+    00B6: ldloca.s local(0x0006)
+    00B8: call get_Current
+    00BD: stloc.s local(0x0007)
+    00BF: ldarg.0
+    00C0: ldfld updateChannels
+    00C5: ldloc.s local(0x0007)
+    00C7: callvirt Add
+    00CC: pop
+    00CD: ldloca.s local(0x0006)
+    00CF: call MoveNext
+    00D4: brtrue.s 182
+    00D6: leave.s 230
+    00D8: ldloca.s local(0x0006)
+    00DA: constrained. TypeSpec::rid=115
+    00E0: callvirt System.IDisposable::Dispose
+    00E5: endfinally
+    00E6: ldarg.0
+    00E7: ldfld timeId
+    00EC: ldloc.s local(0x0005)
+    00EE: callvirt Remove
+    00F3: pop
+    00F4: ldloca.s local(0x0004)
+    00F6: call MoveNext
+    00FB: brtrue.s 151
+    00FD: leave.s 269
+    00FF: ldloca.s local(0x0004)
+    0101: constrained. TypeSpec::rid=115
+    0107: callvirt System.IDisposable::Dispose
+    010C: endfinally
+    010D: ret

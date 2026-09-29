@@ -1,0 +1,1302 @@
+[
+ [
+  1001,
+  {
+   "_id": 1001,
+   "Type": 1,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1002,
+  {
+   "_id": 1002,
+   "Type": 1,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72001,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1003,
+  {
+   "_id": 1003,
+   "Type": 1,
+   "Difficulty": 1,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73001,
+    70111,
+    70121,
+    70131,
+    70101,
+    70101
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1004,
+  {
+   "_id": 1004,
+   "Type": 1,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1005,
+  {
+   "_id": 1005,
+   "Type": 1,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72002,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1006,
+  {
+   "_id": 1006,
+   "Type": 1,
+   "Difficulty": 2,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73002,
+    70112,
+    70122,
+    70132,
+    70102,
+    70102
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1007,
+  {
+   "_id": 1007,
+   "Type": 1,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1008,
+  {
+   "_id": 1008,
+   "Type": 1,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72003,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1009,
+  {
+   "_id": 1009,
+   "Type": 1,
+   "Difficulty": 3,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73003,
+    70113,
+    70123,
+    70133,
+    70103,
+    70103
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1010,
+  {
+   "_id": 1010,
+   "Type": 1,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1011,
+  {
+   "_id": 1011,
+   "Type": 1,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72004,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1012,
+  {
+   "_id": 1012,
+   "Type": 1,
+   "Difficulty": 4,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73004,
+    70114,
+    70124,
+    70134,
+    70104,
+    70104
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1013,
+  {
+   "_id": 1013,
+   "Type": 2,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1014,
+  {
+   "_id": 1014,
+   "Type": 2,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72001,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1015,
+  {
+   "_id": 1015,
+   "Type": 2,
+   "Difficulty": 1,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73001,
+    70111,
+    70121,
+    70131,
+    70101,
+    70101
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1016,
+  {
+   "_id": 1016,
+   "Type": 2,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1017,
+  {
+   "_id": 1017,
+   "Type": 2,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72002,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1018,
+  {
+   "_id": 1018,
+   "Type": 2,
+   "Difficulty": 2,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73002,
+    70112,
+    70122,
+    70132,
+    70102,
+    70102
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1019,
+  {
+   "_id": 1019,
+   "Type": 2,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1020,
+  {
+   "_id": 1020,
+   "Type": 2,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72003,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1021,
+  {
+   "_id": 1021,
+   "Type": 2,
+   "Difficulty": 3,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73003,
+    70113,
+    70123,
+    70133,
+    70103,
+    70103
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1022,
+  {
+   "_id": 1022,
+   "Type": 2,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1023,
+  {
+   "_id": 1023,
+   "Type": 2,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72004,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1024,
+  {
+   "_id": 1024,
+   "Type": 2,
+   "Difficulty": 4,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73004,
+    70114,
+    70124,
+    70134,
+    70104,
+    70104
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1025,
+  {
+   "_id": 1025,
+   "Type": 3,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1026,
+  {
+   "_id": 1026,
+   "Type": 3,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72001,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1027,
+  {
+   "_id": 1027,
+   "Type": 3,
+   "Difficulty": 1,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73001,
+    70111,
+    70121,
+    70131,
+    70101,
+    70101
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1028,
+  {
+   "_id": 1028,
+   "Type": 3,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1029,
+  {
+   "_id": 1029,
+   "Type": 3,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72002,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1030,
+  {
+   "_id": 1030,
+   "Type": 3,
+   "Difficulty": 2,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73002,
+    70112,
+    70122,
+    70132,
+    70102,
+    70102
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1031,
+  {
+   "_id": 1031,
+   "Type": 3,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1032,
+  {
+   "_id": 1032,
+   "Type": 3,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72003,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1033,
+  {
+   "_id": 1033,
+   "Type": 3,
+   "Difficulty": 3,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73003,
+    70113,
+    70123,
+    70133,
+    70103,
+    70103
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1034,
+  {
+   "_id": 1034,
+   "Type": 3,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1035,
+  {
+   "_id": 1035,
+   "Type": 3,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72004,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1036,
+  {
+   "_id": 1036,
+   "Type": 3,
+   "Difficulty": 4,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73004,
+    70114,
+    70124,
+    70134,
+    70104,
+    70104
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1037,
+  {
+   "_id": 1037,
+   "Type": 4,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1038,
+  {
+   "_id": 1038,
+   "Type": 4,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72001,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1039,
+  {
+   "_id": 1039,
+   "Type": 4,
+   "Difficulty": 1,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73001,
+    70111,
+    70121,
+    70131,
+    70101,
+    70101
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1040,
+  {
+   "_id": 1040,
+   "Type": 4,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1041,
+  {
+   "_id": 1041,
+   "Type": 4,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72002,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1042,
+  {
+   "_id": 1042,
+   "Type": 4,
+   "Difficulty": 2,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73002,
+    70112,
+    70122,
+    70132,
+    70102,
+    70102
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1043,
+  {
+   "_id": 1043,
+   "Type": 4,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1044,
+  {
+   "_id": 1044,
+   "Type": 4,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72003,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1045,
+  {
+   "_id": 1045,
+   "Type": 4,
+   "Difficulty": 3,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73003,
+    70113,
+    70123,
+    70133,
+    70103,
+    70103
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1046,
+  {
+   "_id": 1046,
+   "Type": 4,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1047,
+  {
+   "_id": 1047,
+   "Type": 4,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72004,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1048,
+  {
+   "_id": 1048,
+   "Type": 4,
+   "Difficulty": 4,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73004,
+    70114,
+    70124,
+    70134,
+    70104,
+    70104
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1049,
+  {
+   "_id": 1049,
+   "Type": 5,
+   "Difficulty": 1,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001,
+    70001
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1050,
+  {
+   "_id": 1050,
+   "Type": 5,
+   "Difficulty": 1,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72001,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011,
+    70011
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1051,
+  {
+   "_id": 1051,
+   "Type": 5,
+   "Difficulty": 1,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73001,
+    70111,
+    70121,
+    70131,
+    70101,
+    70101
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1052,
+  {
+   "_id": 1052,
+   "Type": 5,
+   "Difficulty": 2,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002,
+    70002
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1053,
+  {
+   "_id": 1053,
+   "Type": 5,
+   "Difficulty": 2,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72002,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012,
+    70012
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1054,
+  {
+   "_id": 1054,
+   "Type": 5,
+   "Difficulty": 2,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73002,
+    70112,
+    70122,
+    70132,
+    70102,
+    70102
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1055,
+  {
+   "_id": 1055,
+   "Type": 5,
+   "Difficulty": 3,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003,
+    70003
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1056,
+  {
+   "_id": 1056,
+   "Type": 5,
+   "Difficulty": 3,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72003,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013,
+    70013
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1057,
+  {
+   "_id": 1057,
+   "Type": 5,
+   "Difficulty": 3,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73003,
+    70113,
+    70123,
+    70133,
+    70103,
+    70103
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ],
+ [
+  1058,
+  {
+   "_id": 1058,
+   "Type": 5,
+   "Difficulty": 4,
+   "BossIndex": 1,
+   "MonsterIdArr": [
+    71004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004,
+    70004
+   ],
+   "StarSoulCountMin": 0,
+   "StarSoulCountMax": 3
+  }
+ ],
+ [
+  1059,
+  {
+   "_id": 1059,
+   "Type": 5,
+   "Difficulty": 4,
+   "BossIndex": 2,
+   "MonsterIdArr": [
+    72004,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014,
+    70014
+   ],
+   "StarSoulCountMin": 1,
+   "StarSoulCountMax": 4
+  }
+ ],
+ [
+  1060,
+  {
+   "_id": 1060,
+   "Type": 5,
+   "Difficulty": 4,
+   "BossIndex": 3,
+   "MonsterIdArr": [
+    73004,
+    70114,
+    70124,
+    70134,
+    70104,
+    70104
+   ],
+   "StarSoulCountMin": 5,
+   "StarSoulCountMax": 8
+  }
+ ]
+]

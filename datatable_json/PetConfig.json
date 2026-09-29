@@ -1,0 +1,242 @@
+[
+ [
+  2101,
+  {
+   "_id": 2101,
+   "Name": "宠物01",
+   "PrefabId": 4201,
+   "UpgradeIdArr": [
+    2102,
+    2103
+   ],
+   "NeedLevel": 25,
+   "NeedIntimacy": 3271,
+   "AddAttibuteMapArr": [
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 20,
+     "BaseValue": 0,
+     "Value": 12
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 21,
+     "BaseValue": 0,
+     "Value": 12
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 5,
+     "BaseValue": 0,
+     "Value": 12
+    }
+   ]
+  }
+ ],
+ [
+  2102,
+  {
+   "_id": 2102,
+   "Name": "宠物02",
+   "PrefabId": 4202,
+   "UpgradeIdArr": [
+    2104
+   ],
+   "NeedLevel": 125,
+   "NeedIntimacy": 22000,
+   "AddAttibuteMapArr": [
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 20,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 3,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 5,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 21,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 4,
+     "BaseValue": 60,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2103,
+  {
+   "_id": 2103,
+   "Name": "宠物03",
+   "PrefabId": 4203,
+   "UpgradeIdArr": [
+    2105
+   ],
+   "NeedLevel": 125,
+   "NeedIntimacy": 22000,
+   "AddAttibuteMapArr": [
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 20,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 6,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 5,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 21,
+     "BaseValue": 60,
+     "Value": 15
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 4,
+     "BaseValue": 60,
+     "Value": 15
+    }
+   ]
+  }
+ ],
+ [
+  2104,
+  {
+   "_id": 2104,
+   "Name": "宠物04",
+   "PrefabId": 4204,
+   "AddAttibuteMapArr": [
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 3,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 4,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 5,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 20,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 21,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 15,
+     "BaseValue": 0,
+     "Value": 0.0018
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 11,
+     "BaseValue": 0,
+     "Value": 0.002
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 13,
+     "BaseValue": 0,
+     "Value": 0.01
+    }
+   ]
+  }
+ ],
+ [
+  2105,
+  {
+   "_id": 2105,
+   "Name": "宠物05",
+   "PrefabId": 4205,
+   "AddAttibuteMapArr": [
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 4,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 5,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 6,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 20,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 21,
+     "BaseValue": 1500,
+     "Value": 20
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 16,
+     "BaseValue": 0,
+     "Value": 0.0018
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 12,
+     "BaseValue": 0,
+     "Value": 0.002
+    },
+    {
+     "_t": "PetConfig+AddAttibuteMap",
+     "Key": 14,
+     "BaseValue": 0,
+     "Value": 0.01
+    }
+   ]
+  }
+ ]
+]

@@ -1,0 +1,382 @@
+[
+ [
+  1,
+  {
+   "_id": 1,
+   "FailLevel": 0,
+   "Probability": 1,
+   "MaxMinCount": 1,
+   "MaxMaxCount": 2,
+   "AttribteAdd": 0.069,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 1
+    }
+   ],
+   "NeedCoin": 100
+  }
+ ],
+ [
+  2,
+  {
+   "_id": 2,
+   "FailLevel": 1,
+   "Probability": 1,
+   "MaxMinCount": 1,
+   "MaxMaxCount": 2,
+   "AttribteAdd": 0.07935,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 1
+    }
+   ],
+   "NeedCoin": 150
+  }
+ ],
+ [
+  3,
+  {
+   "_id": 3,
+   "FailLevel": 2,
+   "Probability": 1,
+   "MaxMinCount": 1,
+   "MaxMaxCount": 2,
+   "AttribteAdd": 0.0912525,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 1
+    }
+   ],
+   "NeedCoin": 200
+  }
+ ],
+ [
+  4,
+  {
+   "_id": 4,
+   "FailLevel": 3,
+   "Probability": 0.75,
+   "MaxMinCount": 3,
+   "MaxMaxCount": 4,
+   "AttribteAdd": 0.104940375,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 2
+    }
+   ],
+   "NeedCoin": 220
+  }
+ ],
+ [
+  5,
+  {
+   "_id": 5,
+   "FailLevel": 4,
+   "Probability": 0.65,
+   "MaxMinCount": 4,
+   "MaxMaxCount": 5,
+   "AttribteAdd": 0.12068143125,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 2
+    }
+   ],
+   "NeedCoin": 260
+  }
+ ],
+ [
+  6,
+  {
+   "_id": 6,
+   "FailLevel": 5,
+   "Probability": 0.6,
+   "MaxMinCount": 5,
+   "MaxMaxCount": 6,
+   "AttribteAdd": 0.1387836459375,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 2
+    }
+   ],
+   "NeedCoin": 310
+  }
+ ],
+ [
+  7,
+  {
+   "_id": 7,
+   "FailLevel": 6,
+   "Probability": 0.53,
+   "MaxMinCount": 6,
+   "MaxMaxCount": 7,
+   "AttribteAdd": 0.159601192828125,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 3
+    }
+   ],
+   "NeedCoin": 380
+  }
+ ],
+ [
+  8,
+  {
+   "_id": 8,
+   "FailLevel": 7,
+   "Probability": 0.47,
+   "MaxMinCount": 7,
+   "MaxMaxCount": 8,
+   "AttribteAdd": 0.183541371752344,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 3
+    }
+   ],
+   "NeedCoin": 450
+  }
+ ],
+ [
+  9,
+  {
+   "_id": 9,
+   "FailLevel": 8,
+   "Probability": 0.41,
+   "MaxMinCount": 8,
+   "MaxMaxCount": 9,
+   "AttribteAdd": 0.211072577515195,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 3
+    }
+   ],
+   "NeedCoin": 512
+  }
+ ],
+ [
+  10,
+  {
+   "_id": 10,
+   "FailLevel": 8,
+   "Probability": 0.33,
+   "MaxMinCount": 9,
+   "MaxMaxCount": 10,
+   "AttribteAdd": 0.242733464142474,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 8
+    }
+   ],
+   "NeedCoin": 800
+  }
+ ],
+ [
+  11,
+  {
+   "_id": 11,
+   "FailLevel": 9,
+   "Probability": 0.3,
+   "MaxMinCount": 52,
+   "MaxMaxCount": 58,
+   "AttribteAdd": 0.279143483763846,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 8
+    }
+   ],
+   "NeedCoin": 820
+  }
+ ],
+ [
+  12,
+  {
+   "_id": 12,
+   "FailLevel": 10,
+   "Probability": 0.2,
+   "MaxMinCount": 21,
+   "MaxMaxCount": 25,
+   "AttribteAdd": 0.321015006328422,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 9
+    }
+   ],
+   "NeedCoin": 850
+  }
+ ],
+ [
+  13,
+  {
+   "_id": 13,
+   "FailLevel": 11,
+   "Probability": 0.18,
+   "MaxMinCount": 33,
+   "MaxMaxCount": 38,
+   "AttribteAdd": 0.369167257277686,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 10
+    }
+   ],
+   "NeedCoin": 900
+  }
+ ],
+ [
+  14,
+  {
+   "_id": 14,
+   "FailLevel": 13,
+   "Probability": 0.17,
+   "MaxMinCount": 54,
+   "MaxMaxCount": 59,
+   "AttribteAdd": 0.424542345869339,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 10
+    }
+   ],
+   "NeedCoin": 900
+  }
+ ],
+ [
+  15,
+  {
+   "_id": 15,
+   "FailLevel": 13,
+   "Probability": 0.16,
+   "MaxMinCount": 61,
+   "MaxMaxCount": 65,
+   "AttribteAdd": 0.488223697749739,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 13
+    }
+   ],
+   "NeedCoin": 1500
+  }
+ ],
+ [
+  16,
+  {
+   "_id": 16,
+   "FailLevel": 13,
+   "Probability": 0.12,
+   "MaxMinCount": 73,
+   "MaxMaxCount": 78,
+   "AttribteAdd": 0.5614572524122,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 13
+    }
+   ],
+   "NeedCoin": 1500
+  }
+ ],
+ [
+  17,
+  {
+   "_id": 17,
+   "FailLevel": 14,
+   "Probability": 0.11,
+   "MaxMinCount": 141,
+   "MaxMaxCount": 146,
+   "AttribteAdd": 0.64567584027403,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 14
+    }
+   ],
+   "NeedCoin": 1800
+  }
+ ],
+ [
+  18,
+  {
+   "_id": 18,
+   "FailLevel": 17,
+   "Probability": 0.1,
+   "MaxMinCount": 245,
+   "MaxMaxCount": 251,
+   "AttribteAdd": 0.742527216315134,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 14
+    }
+   ],
+   "NeedCoin": 2100
+  }
+ ],
+ [
+  19,
+  {
+   "_id": 19,
+   "FailLevel": 17,
+   "Probability": 0.09,
+   "MaxMinCount": 351,
+   "MaxMaxCount": 360,
+   "AttribteAdd": 0.853906298762404,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 15
+    }
+   ],
+   "NeedCoin": 2200
+  }
+ ],
+ [
+  20,
+  {
+   "_id": 20,
+   "FailLevel": 17,
+   "Probability": 0.08,
+   "MaxMinCount": 451,
+   "MaxMaxCount": 459,
+   "AttribteAdd": 0.981992243576765,
+   "NeedMaterialArr": [
+    {
+     "_t": "Strengthentable+NeedMaterial",
+     "_Id": 20215,
+     "Count": 15
+    }
+   ],
+   "NeedCoin": 2500
+  }
+ ]
+]

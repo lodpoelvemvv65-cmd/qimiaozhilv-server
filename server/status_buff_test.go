@@ -1,0 +1,251 @@
+package main
+
+import (
+	"encoding/binary"
+	"strings"
+	"testing"
+	"time"
+
+	"google.golang.org/protobuf/proto"
+
+	"mhqserver/protocol"
+)
+
+func combatStatesFromFrames(t *testing.T, data []byte) []*protocol.M2C_BattleChangeState {
+	t.Helper()
+	var states []*protocol.M2C_BattleChangeState
+	for len(data) > 0 {
+		if len(data) < 4 {
+			t.Fatalf("truncated frame: %x", data)
+		}
+		length := int(binary.LittleEndian.Uint16(data[:2]))
+		if length < 2 || length+2 > len(data) {
+			t.Fatalf("invalid frame length %d", length)
+		}
+		if opcode := binary.LittleEndian.Uint16(data[2:4]); opcode != protocol.OpM2C_BattleChangeState {
+			t.Fatalf("opcode = %d, want 20080", opcode)
+		}
+		state := &protocol.M2C_BattleChangeState{}
+		if err := proto.Unmarshal(data[4:length+2], state); err != nil {
+			t.Fatal(err)
+		}
+		states = append(states, state)
+		data = data[length+2:]
+	}
+	return states
+}
+
+func TestAllConfiguredBuffIconsResolveInClientSkillPackage(t *testing.T) {
+	if err := ensureSkillLogicCatalog(); err != nil {
+		t.Fatal(err)
+	}
+	for id, modifier := range skillLogicCatalog.Modifiers {
+		if modifier == nil {
+			continue
+		}
+		icon := strings.TrimSpace(modifier.IconID)
+		if icon == "" || icon == "0" {
+			continue
+		}
+		if resolved, ok := normalizeClientBuffIcon(modifier.IconID); !ok {
+			t.Errorf("modifier %d icon %q is absent from Skill_fui", id, modifier.IconID)
+		} else if _, exists := clientSkillBuffIcons[resolved]; !exists {
+			t.Errorf("modifier %d resolved icon %q is absent", id, resolved)
+		}
+	}
+	if got, ok := normalizeClientBuffIcon("41060200"); !ok || got != "410602" {
+		t.Fatalf("numeric modifier icon resolved to %q, %v", got, ok)
+	}
+	if _, ok := normalizeClientBuffIcon("99999900"); ok {
+		t.Fatal("unknown numeric modifier icon was accepted")
+	}
+}
+
+func TestAllPersistentGoodsHaveClientBuffVisuals(t *testing.T) {
+	if tables == nil {
+		loadDatatables("../datatable_json")
+	}
+	wantTypes := map[int32]bool{2: true, 3: true, 6: true, 7: true, 16: true, 20: true, 21: true}
+	seen := make(map[int32]int)
+	for id, goods := range tables.goodsBase {
+		effectType := int32(num(goods["EffectType"]))
+		if !wantTypes[effectType] {
+			continue
+		}
+		seen[effectType]++
+		if itemBuffCategory(effectType) == 0 {
+			t.Errorf("goods %d effect %d has no status category", id, effectType)
+		}
+		if icon, ok := normalizeClientBuffIcon(itemBuffIcon(effectType)); !ok || icon == "" {
+			t.Errorf("goods %d effect %d has invalid Skill_fui icon", id, effectType)
+		}
+		if strings.TrimSpace(itemBuffDescription(goods, int32(id))) == "" {
+			t.Errorf("goods %d has empty status description", id)
+		}
+	}
+	for effectType := range wantTypes {
+		if seen[effectType] == 0 {
+			t.Errorf("no goods covered for effect type %d", effectType)
+		}
+	}
+	// Horn ContinuedSeconds is banner display time, not a player status duration.
+	if itemBuffCategory(8) != 0 {
+		t.Fatal("horn was incorrectly classified as a player buff")
+	}
+}
+
+func TestEveryPersistentGoodsItemEmitsACompleteClientState(t *testing.T) {
+	if tables == nil {
+		loadDatatables("../datatable_json")
+	}
+	wantTypes := map[int32]bool{2: true, 3: true, 6: true, 7: true, 16: true, 20: true, 21: true}
+	server := &Server{}
+	seen := 0
+	for id, goods := range tables.goodsBase {
+		effectType := int32(num(goods["EffectType"]))
+		if !wantTypes[effectType] {
+			continue
+		}
+		seen++
+		ss := newSession()
+		ss.playerID = 9001
+		conn := &recordingConn{}
+		server.activateItemBuff(&channel{conn: conn, session: ss}, goods)
+		states := combatStatesFromFrames(t, conn.Bytes())
+		if len(states) != 1 {
+			t.Errorf("goods %d emitted %d states", id, len(states))
+			continue
+		}
+		state := states[0]
+		if state.Id != id || state.TargetUnitId != ss.playerID || state.ActorId != ss.playerID ||
+			state.Type != protocol.ChangeType_Add || !state.IsBuff {
+			t.Errorf("goods %d emitted incomplete state: %+v", id, state)
+		}
+		if state.IconId == "" || state.IconDesc != itemBuffDescription(goods, int32(id)) {
+			t.Errorf("goods %d emitted icon=%q description=%q", id, state.IconId, state.IconDesc)
+		}
+		switch effectType {
+		case 2, 3:
+			if state.Time != indefiniteClientBuffMS {
+				t.Errorf("magic ball %d duration = %d", id, state.Time)
+			}
+		default:
+			expected := int32(itemBuffDurationMS(goods, effectType))
+			if state.Time < expected-1000 || state.Time > expected {
+				t.Errorf("goods %d duration = %d, want about %d", id, state.Time, expected)
+			}
+		}
+		if buff := ss.itemBuffs[itemBuffCategory(effectType)]; buff == nil || buff.ItemID != int32(id) {
+			t.Errorf("goods %d was not retained in its status category", id)
+		}
+	}
+	if seen != 29 {
+		t.Fatalf("persistent goods count = %d, want 29", seen)
+	}
+}
+
+func TestBattleAndIdleExperienceCardsUseIndependentCategories(t *testing.T) {
+	ss := newSession()
+	ss.ensureItemBuffs()
+	now := time.Now().Add(time.Hour).UnixMilli()
+	ss.itemBuffs[itemBuffBattleExp] = &activeItemBuff{Multiplier: 1.5, ExpiresAt: now}
+	ss.itemBuffs[itemBuffIdleExp] = &activeItemBuff{Multiplier: 4, ExpiresAt: now}
+	if got := experienceAfterMultiplier(ss, 100); got != 150 {
+		t.Fatalf("battle experience = %d, want 150", got)
+	}
+	ss.idleBattle = true
+	if got := experienceAfterMultiplier(ss, 100); got != 400 {
+		t.Fatalf("idle experience = %d, want 400", got)
+	}
+}
+
+func TestCombatDefeatClearsIdleExperienceMode(t *testing.T) {
+	ss := newSession()
+	ss.playerID = 42
+	ss.idleBattle = true
+	ss.battle = &battleState{playerHP: 0, playerMaxHP: 100, playerMP: 10, playerMaxMP: 10}
+	server := &Server{}
+	if !server.settleCombatLocked(&channel{session: ss, conn: &recordingConn{}}, ss.battle) {
+		t.Fatal("defeat was not settled")
+	}
+	if ss.idleBattle || ss.battle != nil {
+		t.Fatalf("defeat left idle mode=%v battle=%v", ss.idleBattle, ss.battle)
+	}
+}
+
+func TestItemBuffAddReplaceRestoreAndPersist(t *testing.T) {
+	if tables == nil {
+		loadDatatables("../datatable_json")
+	}
+	ss := newSession()
+	ss.playerID = 77
+	firstConn := &recordingConn{}
+	ch := &channel{conn: firstConn, session: ss}
+	server := &Server{}
+
+	server.activateItemBuff(ch, tables.goodsBase[110349])
+	states := combatStatesFromFrames(t, firstConn.Bytes())
+	if len(states) != 1 || states[0].Id != 110349 || states[0].IconId != "bufficon_atkAdd" ||
+		states[0].Type != protocol.ChangeType_Add || states[0].Time < 3599000 || states[0].Time > 3600000 ||
+		!strings.Contains(states[0].IconDesc, "1.5倍") {
+		t.Fatalf("first experience state = %+v", states)
+	}
+
+	replaceConn := &recordingConn{}
+	ch.conn = replaceConn
+	server.activateItemBuff(ch, tables.goodsBase[110350])
+	states = combatStatesFromFrames(t, replaceConn.Bytes())
+	if len(states) != 2 || states[0].Id != 110349 || states[0].Type != protocol.ChangeType_Reduce || states[0].Time != 0 ||
+		states[1].Id != 110350 || states[1].Type != protocol.ChangeType_Add {
+		t.Fatalf("replacement states = %+v", states)
+	}
+
+	raw := itemBuffsToJSON(ss.itemBuffs)
+	restored := newSession()
+	restored.playerID = 77
+	restored.itemBuffs = itemBuffsFromJSON(raw)
+	restored.syncLegacyItemBuffFields()
+	restoreConn := &recordingConn{}
+	server.pushActiveItemBuffs(&channel{conn: restoreConn, session: restored})
+	states = combatStatesFromFrames(t, restoreConn.Bytes())
+	if len(states) != 1 || states[0].Id != 110350 || states[0].Time <= 0 {
+		t.Fatalf("restored states = %+v", states)
+	}
+	if restored.expMult != 2 || restored.expMultUntil <= time.Now().UnixMilli() {
+		t.Fatalf("restored multiplier = %.1f until=%d", restored.expMult, restored.expMultUntil)
+	}
+}
+
+func TestMagicBallUsesPersistentIconAndReservoir(t *testing.T) {
+	if tables == nil {
+		loadDatatables("../datatable_json")
+	}
+	ss := newSession()
+	ss.playerID = 88
+	ss.level = 1
+	ss.jobID = 1
+	ss.hp, ss.mp = 40, 5
+	conn := &recordingConn{}
+	ch := &channel{conn: conn, session: ss}
+	server := &Server{}
+
+	server.activateItemBuff(ch, tables.goodsBase[110327])
+	states := combatStatesFromFrames(t, conn.Bytes())
+	if len(states) != 1 || states[0].IconId != "bufficon_hpup" || states[0].Time != indefiniteClientBuffMS {
+		t.Fatalf("hp ball state = %+v", states)
+	}
+	before := ss.itemBuffs[itemBuffHPBall].Capacity
+	server.applyMagicBallRecover(ch)
+	if ss.battleHP() != ss.playerMaxHp() || ss.itemBuffs[itemBuffHPBall].Capacity != before-(ss.playerMaxHp()-40) {
+		t.Fatalf("hp reservoir after recover: hp=%d buff=%+v", ss.battleHP(), ss.itemBuffs[itemBuffHPBall])
+	}
+}
+
+func TestExpiredItemBuffsAreNotRestored(t *testing.T) {
+	raw := itemBuffsToJSON(map[int32]*activeItemBuff{
+		itemBuffBattleExp: {ItemID: 110349, EffectType: 6, ExpiresAt: time.Now().Add(-time.Second).UnixMilli(), Multiplier: 1.5},
+	})
+	if buffs := itemBuffsFromJSON(raw); len(buffs) != 0 {
+		t.Fatalf("expired buffs restored: %+v", buffs)
+	}
+}
